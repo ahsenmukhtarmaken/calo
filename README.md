@@ -1,3 +1,3 @@
 #CALO
-`docker build -t pentademo .`
-`docker run -it pentademo api_to_rs.py`
+`docker build -t calodemo .`
+`docker run -it calodemo dummy.py`
