@@ -1,0 +1,36 @@
+2024-01-22T23:49:09.374Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-22T23:49:10.145Z START RequestId: b2b3cc7c-733c-5f54-9350-9255720cd5b6 Version: $LATEST
+
+2024-01-22T23:49:10.317Z 2024-01-22T23:49:10.317Z	b2b3cc7c-733c-5f54-9350-9255720cd5b6	INFO	Processing message 51683b89-89e6-4c2b-a71f-de09cd2a3a26
+
+2024-01-22T23:49:10.366Z 2024-01-22T23:49:10.366Z	b2b3cc7c-733c-5f54-9350-9255720cd5b6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMSS7TVM85F3CTAACWNVK83P',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '29ab9cca-db34-4942-8a1e-d4f472e2462f',
+    paymentBalance: 560,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#29ab9cca-db34-4942-8a1e-d4f472e2462f","planType":"full","goal":"maintainWeight","eventSessionId":"da96d040-ec01-4994-a9a6-dbb08ab96966","walletSk":"8185bf46-4c24-43cd-9eec-7524d8a7042e","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-01-25","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-01-25\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 0,
+    newBalance: 160
+  }
+}
+
+2024-01-22T23:49:10.485Z 2024-01-22T23:49:10.485Z	b2b3cc7c-733c-5f54-9350-9255720cd5b6	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-22T23:49:10.525Z 2024-01-22T23:49:10.525Z	b2b3cc7c-733c-5f54-9350-9255720cd5b6	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '29ab9cca-db34-4942-8a1e-d4f472e2462f',
+  subscriptionBalance: 160,
+  paymentBalance: 560
+}
+
+2024-01-22T23:49:10.592Z END RequestId: b2b3cc7c-733c-5f54-9350-9255720cd5b6
+
+2024-01-22T23:49:10.592Z REPORT RequestId: b2b3cc7c-733c-5f54-9350-9255720cd5b6	Duration: 447.10 ms	Billed Duration: 448 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 769.13 ms	
+

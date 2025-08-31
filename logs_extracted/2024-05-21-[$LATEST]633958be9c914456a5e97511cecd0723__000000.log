@@ -1,0 +1,30 @@
+2024-05-21T08:10:09.591Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-21T08:10:10.573Z START RequestId: ff494658-7b94-5ee7-bd79-189e229a2b25 Version: $LATEST
+
+2024-05-21T08:10:10.716Z 2024-05-21T08:10:10.716Z	ff494658-7b94-5ee7-bd79-189e229a2b25	INFO	Processing message 9760bd7a-8da9-491e-8c11-f4cc8c0bf18c
+
+2024-05-21T08:10:10.765Z 2024-05-21T08:10:10.765Z	ff494658-7b94-5ee7-bd79-189e229a2b25	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HYD36PSX4ASFD360BFYN5MJB',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'f3c2d57e-6d8e-47be-9a08-af74bea1d842',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f3c2d57e-6d8e-47be-9a08-af74bea1d842","eventSessionId":"0be42b04-3ce1-46f1-8f2f-c2083d1c4747","walletSk":"f2ff5338-d6d7-44f3-ab15-a9c6dc8b6121","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-05-23T08:09:42.934Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"cardId\\":\\"card_HiVP27241429hCTA19Ag4d399\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}","planPrice":252}',
+    currency: 'BHD',
+    amount: 9.9,
+    vat: 0.9,
+    oldBalance: 243,
+    newBalance: 252
+  }
+}
+
+2024-05-21T08:10:10.912Z 2024-05-21T08:10:10.912Z	ff494658-7b94-5ee7-bd79-189e229a2b25	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-21T08:10:10.954Z END RequestId: ff494658-7b94-5ee7-bd79-189e229a2b25
+
+2024-05-21T08:10:10.954Z REPORT RequestId: ff494658-7b94-5ee7-bd79-189e229a2b25	Duration: 380.58 ms	Billed Duration: 381 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 981.17 ms	
+

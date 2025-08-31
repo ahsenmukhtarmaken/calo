@@ -1,0 +1,85 @@
+2023-12-13T15:21:33.720Z START RequestId: 9dfe0038-7670-5a31-af3f-5dcbb8593863 Version: $LATEST
+
+2023-12-13T15:21:33.774Z 2023-12-13T15:21:33.774Z	9dfe0038-7670-5a31-af3f-5dcbb8593863	INFO	Processing message 3815c86c-bbcc-4611-8a3c-4e40ec99f501
+
+2023-12-13T15:21:33.805Z {"_aws":{"Timestamp":1702480893805,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"negativeBalance","Unit":"Count"}]}]},"service":"syncBalanceSQS","negativeBalance":1,"userId":"8b293101-dfef-43ed-9095-ac05a1507d34","action":"LEAVING_THE_COUNTRY"}
+
+2023-12-13T15:21:33.806Z 2023-12-13T15:21:33.806Z	9dfe0038-7670-5a31-af3f-5dcbb8593863	INFO	{
+  message: 'Subscriber will have a negative balance due to this action, the process will terminate.',
+  data: {
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    currentBalance: 149.362,
+    transactionId: '01HHHW90WP0VF84G77E6K2EM60'
+  }
+}
+
+2023-12-13T15:21:33.807Z END RequestId: 9dfe0038-7670-5a31-af3f-5dcbb8593863
+
+2023-12-13T15:21:33.807Z REPORT RequestId: 9dfe0038-7670-5a31-af3f-5dcbb8593863	Duration: 87.20 ms	Billed Duration: 88 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+XRAY TraceId: 1-6579cbfd-db87e67d43fa60ade4981acc	SegmentId: 0c0b43ae6ffe4342	Sampled: true	
+
+2023-12-13T15:16:56.171Z START RequestId: 332a8ffe-0393-5120-acf4-d20dce9b03f5 Version: $LATEST
+
+2023-12-13T15:16:56.309Z 2023-12-13T15:16:56.309Z	332a8ffe-0393-5120-acf4-d20dce9b03f5	INFO	Processing message 6fc39b66-f6c3-47ec-a215-4968510f345f
+
+2023-12-13T15:16:56.339Z {"_aws":{"Timestamp":1702480616339,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"negativeBalance","Unit":"Count"}]}]},"service":"syncBalanceSQS","negativeBalance":1,"userId":"8b293101-dfef-43ed-9095-ac05a1507d34","action":"LEAVING_THE_COUNTRY"}
+
+2023-12-13T15:16:56.340Z 2023-12-13T15:16:56.340Z	332a8ffe-0393-5120-acf4-d20dce9b03f5	INFO	{
+  message: 'Subscriber will have a negative balance due to this action, the process will terminate.',
+  data: {
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    currentBalance: 149.362,
+    transactionId: '01HHHW0HQZ0DXXHR468JKGBVKC'
+  }
+}
+
+2023-12-13T15:16:56.342Z END RequestId: 332a8ffe-0393-5120-acf4-d20dce9b03f5
+
+2023-12-13T15:16:56.342Z REPORT RequestId: 332a8ffe-0393-5120-acf4-d20dce9b03f5	Duration: 170.24 ms	Billed Duration: 171 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+
+2023-12-13T15:12:42.009Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-13T15:12:42.883Z START RequestId: f79c2b67-4367-50d2-9276-76948f6e2cae Version: $LATEST
+
+2023-12-13T15:12:42.991Z 2023-12-13T15:12:42.991Z	f79c2b67-4367-50d2-9276-76948f6e2cae	INFO	Processing message 776001f1-34ac-4ebc-a1a8-a68c1ba5e14a
+
+2023-12-13T15:12:43.031Z 2023-12-13T15:12:43.031Z	f79c2b67-4367-50d2-9276-76948f6e2cae	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHVRSPTB4E17XMEAEVCC5HZ',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    currency: 'BHD',
+    amount: 3308.1,
+    vat: 300.736,
+    oldBalance: 3156.362,
+    newBalance: 6163.726000000001
+  }
+}
+
+2023-12-13T15:12:43.031Z 2023-12-13T15:12:43.031Z	f79c2b67-4367-50d2-9276-76948f6e2cae	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T15:12:43.073Z END RequestId: f79c2b67-4367-50d2-9276-76948f6e2cae
+
+2023-12-13T15:12:43.073Z REPORT RequestId: f79c2b67-4367-50d2-9276-76948f6e2cae	Duration: 189.81 ms	Billed Duration: 190 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 871.89 ms	
+
+2023-12-13T15:19:52.565Z START RequestId: 8bfba47d-2d0d-55de-b9d8-f98ee0b96374 Version: $LATEST
+
+2023-12-13T15:19:52.679Z 2023-12-13T15:19:52.679Z	8bfba47d-2d0d-55de-b9d8-f98ee0b96374	INFO	Processing message 0466bffb-cc82-4f17-bcee-0700f8009c37
+
+2023-12-13T15:19:52.724Z 2023-12-13T15:19:52.724Z	8bfba47d-2d0d-55de-b9d8-f98ee0b96374	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHW5Y6R5ZGVV57307S2V905',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    currency: 'BHD',
+    amount: 3333.702,
+    vat: 303.064,
+    oldBalance: 3180,
+    newBalance: 6210.638
+  }
+}
+
+2023-12-13T15:19:52.724Z 2023-12-13T15:19:52.724Z	8bfba47d-2d0d-55de-b9d8-f98ee0b96374	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T15:19:52.769Z END RequestId: 8bfba47d-2d0d-55de-b9d8-f98ee0b96374
+
+2023-12-13T15:19:52.769Z REPORT RequestId: 8bfba47d-2d0d-55de-b9d8-f98ee0b96374	Duration: 203.80 ms	Billed Duration: 204 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+

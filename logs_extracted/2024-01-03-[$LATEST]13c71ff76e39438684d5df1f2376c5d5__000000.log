@@ -1,0 +1,36 @@
+2024-01-03T16:07:31.823Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-03T16:07:32.840Z START RequestId: d2cde00a-b2bc-59ea-b417-be053acb2d72 Version: $LATEST
+
+2024-01-03T16:07:33.079Z 2024-01-03T16:07:33.079Z	d2cde00a-b2bc-59ea-b417-be053acb2d72	INFO	Processing message 384833c0-1600-41d9-9996-15f55b265a9a
+
+2024-01-03T16:07:33.178Z 2024-01-03T16:07:33.178Z	d2cde00a-b2bc-59ea-b417-be053acb2d72	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK818X1F08SJY6KG07XXPF6B',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 10647.257,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"fe58c040-babf-4483-9487-85a17bee8410","walletSk":"97605183-42eb-4c8d-8c1f-151cbd2977d0","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-02-27\\",\\"startDate\\":\\"2024-01-05\\",\\"pricePerDay\\":1.8181,\\"currency\\":\\"BHD\\"}]","subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001","version":"syncBalanceSQS"}',
+    currency: 'BHD',
+    amount: 75.997,
+    vat: 6.909,
+    oldBalance: 194.364,
+    newBalance: 263.452
+  }
+}
+
+2024-01-03T16:07:33.338Z 2024-01-03T16:07:33.338Z	d2cde00a-b2bc-59ea-b417-be053acb2d72	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-03T16:07:33.372Z 2024-01-03T16:07:33.372Z	d2cde00a-b2bc-59ea-b417-be053acb2d72	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 194.364,
+  paymentBalance: 10647.257
+}
+
+2024-01-03T16:07:33.396Z END RequestId: d2cde00a-b2bc-59ea-b417-be053acb2d72
+
+2024-01-03T16:07:33.396Z REPORT RequestId: d2cde00a-b2bc-59ea-b417-be053acb2d72	Duration: 556.05 ms	Billed Duration: 557 ms	Memory Size: 512 MB	Max Memory Used: 119 MB	Init Duration: 1015.19 ms	
+

@@ -1,0 +1,36 @@
+2024-05-18T12:11:09.555Z START RequestId: e6b7fa2b-f57f-51f9-9e42-a4e96874b244 Version: $LATEST
+
+2024-05-18T12:11:09.715Z 2024-05-18T12:11:09.715Z	e6b7fa2b-f57f-51f9-9e42-a4e96874b244	INFO	Processing message 8b7887df-c9ba-4834-9d61-01543617eb70
+
+2024-05-18T12:11:09.777Z 2024-05-18T12:11:09.777Z	e6b7fa2b-f57f-51f9-9e42-a4e96874b244	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HY5SSTK6DW3KJJYZJ4R9BTBR',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '1a9b77f5-4b26-410e-a367-75ecefaff3b3',
+    paymentBalance: 1751.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1a9b77f5-4b26-410e-a367-75ecefaff3b3","planType":"full","goal":"loseWeight","eventSessionId":"887e3fbc-6a25-4316-9c57-a27459d539a0","walletSk":"265b6178-be6f-4c65-bc09-c8b05ac43cf2","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-05-20","type":"userRenew","frequency":"monthly","subscriptionCost":180,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":180,\\"startDate\\":\\"2024-05-20\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 198,
+    vat: 18,
+    oldBalance: 5,
+    newBalance: 185
+  }
+}
+
+2024-05-18T12:11:09.929Z 2024-05-18T12:11:09.929Z	e6b7fa2b-f57f-51f9-9e42-a4e96874b244	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-18T12:11:09.987Z 2024-05-18T12:11:09.987Z	e6b7fa2b-f57f-51f9-9e42-a4e96874b244	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1a9b77f5-4b26-410e-a367-75ecefaff3b3',
+  subscriptionBalance: 185,
+  paymentBalance: 1751.5
+}
+
+2024-05-18T12:11:10.010Z END RequestId: e6b7fa2b-f57f-51f9-9e42-a4e96874b244
+
+2024-05-18T12:11:10.010Z REPORT RequestId: e6b7fa2b-f57f-51f9-9e42-a4e96874b244	Duration: 455.28 ms	Billed Duration: 456 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 992.67 ms	
+
+2024-05-18T12:11:08.560Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+

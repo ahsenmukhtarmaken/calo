@@ -1,0 +1,58 @@
+2024-03-17T23:44:57.014Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-17T23:44:58.034Z START RequestId: 77e3cfbc-170a-59a9-9988-91cd95a5b2ad Version: $LATEST
+
+2024-03-17T23:44:58.181Z 2024-03-17T23:44:58.181Z	77e3cfbc-170a-59a9-9988-91cd95a5b2ad	INFO	Processing message 44998d5c-f96e-420a-ba96-155ea22f17d8
+
+2024-03-17T23:44:58.228Z 2024-03-17T23:44:58.228Z	77e3cfbc-170a-59a9-9988-91cd95a5b2ad	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HS7CVN6GBZMDY695Z7SYJJDQ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '1fd1d3ef-382a-4cad-9a25-2bb8ccb6ab3f',
+    paymentBalance: 322.035,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1fd1d3ef-382a-4cad-9a25-2bb8ccb6ab3f","country":"BH","couponDiscount":14.183,"eventSessionId":"5f9a973e-2d5e-43d7-beed-852e4ab4e22e","walletSk":"4778e90e-61fb-40a3-bddb-7dd52d136a16","version2":true,"addonSubscriptionCosts":"{\\"CALO_KIDS\\":43.636363636363676,\\"BEVERAGES\\":32.72727272727264,\\"SWEET_TOOTH\\":32.72727272727264,\\"COFFEE_AND_TEA\\":32.72727272727264}","addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-04-16\\",\\"startDate\\":\\"2024-03-19\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-04-16\\",\\"startDate\\":\\"2024-03-19\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-04-16\\",\\"startDate\\":\\"2024-03-19\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-04-16\\",\\"startDate\\":\\"2024-03-19\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","addonDayCount":24,"subscriptionId":"1fd1d3ef-382a-4cad-9a25-2bb8ccb6ab3f","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 140.399,
+    vat: 12.764,
+    oldBalance: 194.4,
+    newBalance: 322.035
+  }
+}
+
+2024-03-17T23:44:58.323Z 2024-03-17T23:44:58.323Z	77e3cfbc-170a-59a9-9988-91cd95a5b2ad	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-17T23:44:58.362Z END RequestId: 77e3cfbc-170a-59a9-9988-91cd95a5b2ad
+
+2024-03-17T23:44:58.362Z REPORT RequestId: 77e3cfbc-170a-59a9-9988-91cd95a5b2ad	Duration: 327.65 ms	Billed Duration: 328 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1019.23 ms	
+
+2024-03-17T23:45:00.727Z START RequestId: 70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9 Version: $LATEST
+
+2024-03-17T23:45:00.756Z 2024-03-17T23:45:00.756Z	70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9	INFO	Processing message f6b928dc-e50b-43dc-8151-5630066e1db0
+
+2024-03-17T23:45:00.764Z 2024-03-17T23:45:00.764Z	70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HS7CVSH20B7N66W49ZPAR503',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '1fd1d3ef-382a-4cad-9a25-2bb8ccb6ab3f',
+    paymentBalance: 336.218,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1fd1d3ef-382a-4cad-9a25-2bb8ccb6ab3f","walletSk":"de0c21ec-4b3a-4f0d-b058-569d9d9bbd98"}',
+    currency: 'BHD',
+    amount: 14.183,
+    vat: 0,
+    oldBalance: 322.035,
+    newBalance: 336.218
+  }
+}
+
+2024-03-17T23:45:00.818Z 2024-03-17T23:45:00.818Z	70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-17T23:45:00.833Z END RequestId: 70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9
+
+2024-03-17T23:45:00.833Z REPORT RequestId: 70bdbd0b-088a-5ab0-baf6-e37a8a3f74c9	Duration: 106.24 ms	Billed Duration: 107 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+

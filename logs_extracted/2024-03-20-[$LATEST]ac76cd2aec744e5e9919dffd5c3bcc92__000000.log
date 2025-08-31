@@ -1,0 +1,50 @@
+2024-03-20T12:57:19.344Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-20T12:57:20.393Z START RequestId: 42ea7b5b-0bc6-55b2-9971-252fd4af0979 Version: $LATEST
+
+2024-03-20T12:57:20.549Z 2024-03-20T12:57:20.549Z	42ea7b5b-0bc6-55b2-9971-252fd4af0979	INFO	Processing message 26c92438-7181-4ae3-a41d-aa14e0dda0db
+
+2024-03-20T12:57:20.550Z 2024-03-20T12:57:20.550Z	42ea7b5b-0bc6-55b2-9971-252fd4af0979	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-20T12:57:20.566Z END RequestId: 42ea7b5b-0bc6-55b2-9971-252fd4af0979
+
+2024-03-20T12:57:20.566Z REPORT RequestId: 42ea7b5b-0bc6-55b2-9971-252fd4af0979	Duration: 173.38 ms	Billed Duration: 174 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 1047.97 ms	
+
+2024-03-20T12:57:32.325Z START RequestId: 8c8d80f5-edec-520c-9e30-de813282a91d Version: $LATEST
+
+2024-03-20T12:57:32.359Z 2024-03-20T12:57:32.359Z	8c8d80f5-edec-520c-9e30-de813282a91d	INFO	Processing message 667e19c7-c341-49f5-834e-5a3e839f11c5
+
+2024-03-20T12:57:32.393Z 2024-03-20T12:57:32.393Z	8c8d80f5-edec-520c-9e30-de813282a91d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSDZ0CFGPHZGCTJV084M3ABY',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '4d656d3d-b906-4b80-be7e-fb1b3d8e6959',
+    paymentBalance: 190,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4d656d3d-b906-4b80-be7e-fb1b3d8e6959","walletSk":"a199f395-ce52-44b6-aaf7-ceb156d6bd37"}',
+    currency: 'KWD',
+    amount: 19,
+    vat: 0,
+    oldBalance: 171,
+    newBalance: 190
+  }
+}
+
+2024-03-20T12:57:32.496Z 2024-03-20T12:57:32.496Z	8c8d80f5-edec-520c-9e30-de813282a91d	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-20T12:57:32.536Z END RequestId: 8c8d80f5-edec-520c-9e30-de813282a91d
+
+2024-03-20T12:57:32.536Z REPORT RequestId: 8c8d80f5-edec-520c-9e30-de813282a91d	Duration: 211.11 ms	Billed Duration: 212 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	
+
+2024-03-20T13:02:34.753Z START RequestId: c71975bd-f4c1-5f85-b611-2bc91461a2f9 Version: $LATEST
+
+2024-03-20T13:02:34.948Z 2024-03-20T13:02:34.948Z	c71975bd-f4c1-5f85-b611-2bc91461a2f9	INFO	Processing message 5dd07006-7e5b-4aff-8fc9-789f0406e680
+
+2024-03-20T13:02:34.948Z 2024-03-20T13:02:34.948Z	c71975bd-f4c1-5f85-b611-2bc91461a2f9	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-20T13:02:34.950Z END RequestId: c71975bd-f4c1-5f85-b611-2bc91461a2f9
+
+2024-03-20T13:02:34.950Z REPORT RequestId: c71975bd-f4c1-5f85-b611-2bc91461a2f9	Duration: 197.49 ms	Billed Duration: 198 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+

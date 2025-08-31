@@ -1,0 +1,36 @@
+2024-03-14T14:34:20.704Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-14T14:34:21.738Z START RequestId: 1812a82d-69de-5681-bacd-f64064c7b4a7 Version: $LATEST
+
+2024-03-14T14:34:21.879Z 2024-03-14T14:34:21.879Z	1812a82d-69de-5681-bacd-f64064c7b4a7	INFO	Processing message 075485c8-d7fa-4e34-8f22-014b65d82e1d
+
+2024-03-14T14:34:21.927Z 2024-03-14T14:34:21.927Z	1812a82d-69de-5681-bacd-f64064c7b4a7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRYP5ABVFF0CTXHQYS98NPYF',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+    paymentBalance: 1277.364,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e635a3ea-fc8b-46c4-b091-5480637486ad","eventSessionId":"5eb92643-c032-4658-89a5-dd704866cd1b","walletSk":"5a7a6ebf-9b76-44a7-ad64-bfccbb5be083","deliveryTime":"evening","deliveryDays":"[0,1,2,3,4]","nextPlan":"{\\"deliveryDays\\":[0,1,2,3,4],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"dietType\\":\\"balanced\\",\\"id\\":\\"full\\",\\"type\\":\\"DATE_RANGE\\",\\"pricePerDay\\":8,\\"planPrice\\":160,\\"startDate\\":\\"2024-03-17\\",\\"frequency\\":\\"monthly\\"}","dayAllowance":0,"retryRenewalAttempt":true,"type":"autoRenew","frequency":"monthly"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 4,
+    newBalance: 164
+  }
+}
+
+2024-03-14T14:34:22.038Z 2024-03-14T14:34:22.038Z	1812a82d-69de-5681-bacd-f64064c7b4a7	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-14T14:34:22.081Z 2024-03-14T14:34:22.081Z	1812a82d-69de-5681-bacd-f64064c7b4a7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+  subscriptionBalance: 164,
+  paymentBalance: 1277.364
+}
+
+2024-03-14T14:34:22.113Z END RequestId: 1812a82d-69de-5681-bacd-f64064c7b4a7
+
+2024-03-14T14:34:22.113Z REPORT RequestId: 1812a82d-69de-5681-bacd-f64064c7b4a7	Duration: 375.74 ms	Billed Duration: 376 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1032.24 ms	
+

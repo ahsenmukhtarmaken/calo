@@ -1,0 +1,36 @@
+2024-02-03T16:30:50.451Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-03T16:30:51.189Z START RequestId: c905698e-13e4-54a4-a96e-37b67f8ff7c4 Version: $LATEST
+
+2024-02-03T16:30:51.348Z 2024-02-03T16:30:51.348Z	c905698e-13e4-54a4-a96e-37b67f8ff7c4	INFO	Processing message f82d22aa-f92a-4512-8cad-714a3f44814a
+
+2024-02-03T16:30:51.462Z 2024-02-03T16:30:51.462Z	c905698e-13e4-54a4-a96e-37b67f8ff7c4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNQWXVJMZN0XKZKFH6MQ7MEG',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 359,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"b37af9c6-361f-4f1f-b9a0-10c716113429","eventSessionId":"99061344-9416-4a1d-9a03-8f4d6bc61735","walletSk":"151eaf85-1c0c-4147-a04c-3a91ee1af7bc","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"Calo\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"Hello world\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"abdulmalick@calo.app\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 169,
+    newBalance: 204
+  }
+}
+
+2024-02-03T16:30:51.582Z 2024-02-03T16:30:51.582Z	c905698e-13e4-54a4-a96e-37b67f8ff7c4	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-03T16:30:51.631Z 2024-02-03T16:30:51.631Z	c905698e-13e4-54a4-a96e-37b67f8ff7c4	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 204,
+  paymentBalance: 359
+}
+
+2024-02-03T16:30:51.666Z END RequestId: c905698e-13e4-54a4-a96e-37b67f8ff7c4
+
+2024-02-03T16:30:51.666Z REPORT RequestId: c905698e-13e4-54a4-a96e-37b67f8ff7c4	Duration: 476.48 ms	Billed Duration: 477 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 735.30 ms	
+

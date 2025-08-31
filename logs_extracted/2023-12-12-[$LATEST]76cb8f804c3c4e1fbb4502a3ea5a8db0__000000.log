@@ -1,0 +1,122 @@
+2023-12-12T09:22:16.708Z START RequestId: 65d116c2-6da8-58e0-a436-4b3045c5d297 Version: $LATEST
+
+2023-12-12T09:22:16.709Z 2023-12-12T09:22:16.709Z	65d116c2-6da8-58e0-a436-4b3045c5d297	INFO	Processing message be665afb-53b4-4700-a265-4cb0feae80d9
+
+2023-12-12T09:22:16.709Z 2023-12-12T09:22:16.709Z	65d116c2-6da8-58e0-a436-4b3045c5d297	INFO	transaction {"id":"01HHENAEH2F2SFMEW5A7Q9ZFSE","type":"CREDIT","source":"PAYMENT","action":"PAY_PENDING_AMOUNT","amount":55,"vat":5,"userBalance":730,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","name":"Hahahahahamanajha","email":"a.hamed+haha@calo.app","phoneNumber":"+97332581698","brand":"CALO","kitchen":"BH001","invoiceId":"ae291e18-8db7-49ea-94c7-ad78cef1826e","currency":"BHD","paymentMethod":"cc","paymentProvider":"TAP","notes":"Payment for Pay Pending Amount using cc","uniqueReferenceId":"chg_TS05A4420231221Bl3n1212113","updatePaymentBalance":true,"metadata":{"walletId":"wallet#daa2bf74-cf31-4552-9e85-acb48a7c3f90","eventSessionId":"7111e01c-e50e-4921-9487-27707de74bcd","walletSk":"47388bab-fda5-49a9-83c2-75c3c3bdd5e3","version2":true,"version":"syncBalanceSQS"},"actor":"system","createdAt":"2023-12-12T09:21:55.746Z"}
+
+2023-12-12T09:22:16.739Z 2023-12-12T09:22:16.739Z	65d116c2-6da8-58e0-a436-4b3045c5d297	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHENAEH2F2SFMEW5A7Q9ZFSE',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 263,
+    newBalance: 313
+  }
+}
+
+2023-12-12T09:22:16.814Z 2023-12-12T09:22:16.814Z	65d116c2-6da8-58e0-a436-4b3045c5d297	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-12T09:22:16.849Z END RequestId: 65d116c2-6da8-58e0-a436-4b3045c5d297
+
+2023-12-12T09:22:16.849Z REPORT RequestId: 65d116c2-6da8-58e0-a436-4b3045c5d297	Duration: 141.09 ms	Billed Duration: 142 ms	Memory Size: 1024 MB	Max Memory Used: 98 MB	
+
+2023-12-12T09:18:38.988Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-12T09:18:39.629Z START RequestId: a80f72e0-00a8-5450-8c0b-2f122724f6da Version: $LATEST
+
+2023-12-12T09:18:39.632Z 2023-12-12T09:18:39.632Z	a80f72e0-00a8-5450-8c0b-2f122724f6da	INFO	Processing message a9aa8714-0347-4265-81f2-793b411c47d0
+
+2023-12-12T09:18:39.633Z 2023-12-12T09:18:39.633Z	a80f72e0-00a8-5450-8c0b-2f122724f6da	INFO	transaction {"id":"01HHEN3SWDMJPJ0Y4YC04Z1MNA","type":"CREDIT","source":"PAYMENT","action":"REPLACE_FOOD","amount":0.55,"vat":0.05,"userBalance":120.5,"userId":"7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","name":"Ahmed","email":"A.alhibshi@calo.app","phoneNumber":"+97338387638","brand":"CALO","kitchen":"BH001","invoiceId":"41d09975-6052-451e-b11e-17179c40af9c","currency":"BHD","paymentMethod":"cc","paymentProvider":"CHECKOUT","notes":"Replace Cardamom Infused Oats with Chia Jam Parfait","uniqueReferenceId":"pay_yam5rv3k5rfe7lpen5dxrttvoa","updatePaymentBalance":true,"metadata":{"walletId":"wallet#7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","deliveryId":"a204fbca-b631-47f8-be8d-f79db80fd215","eventSessionId":"144937a8-3a97-41e0-a7e2-588cabbac4d4","walletSk":"6362e2ec-85e5-482a-b9d0-9f94d9650113","version2":true,"source":"{\"id\":\"32a05621-9fa7-4cb0-913f-63d59b965220\",\"name\":{\"ar\":\"شوفان بالهيل\",\"en\":\"Cardamom Infused Oats\"}}","target":"{\"id\":\"601f2cf3-1508-4d7d-8408-9bdfb2760084\",\"name\":{\"ar\":\"Chia Jam Parfait\",\"en\":\"Chia Jam Parfait\"}}","API_VERSION_2":true},"actor":"system","createdAt":"2023-12-12T09:18:17.996Z"}
+
+2023-12-12T09:18:39.712Z 2023-12-12T09:18:39.712Z	a80f72e0-00a8-5450-8c0b-2f122724f6da	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEN3SWDMJPJ0Y4YC04Z1MNA',
+    userId: '7ea81f9e-1a24-4664-bd94-4d88dc6fd07d',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 120.5,
+    newBalance: 121
+  }
+}
+
+2023-12-12T09:18:39.712Z 2023-12-12T09:18:39.712Z	a80f72e0-00a8-5450-8c0b-2f122724f6da	INFO	Balance is already synced from other listeners
+
+2023-12-12T09:18:39.755Z END RequestId: a80f72e0-00a8-5450-8c0b-2f122724f6da
+
+2023-12-12T09:18:39.755Z REPORT RequestId: a80f72e0-00a8-5450-8c0b-2f122724f6da	Duration: 126.70 ms	Billed Duration: 127 ms	Memory Size: 1024 MB	Max Memory Used: 95 MB	Init Duration: 640.28 ms	
+
+2023-12-12T09:19:06.486Z START RequestId: aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda Version: $LATEST
+
+2023-12-12T09:19:06.528Z 2023-12-12T09:19:06.528Z	aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda	INFO	Processing message 4147d297-13c3-4a80-a75d-c018422e0f3e
+
+2023-12-12T09:19:06.528Z 2023-12-12T09:19:06.528Z	aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda	INFO	transaction {"id":"01HHEN4MS3AN4F8P25MF0A2GEA","type":"DEBIT","source":"MANUAL_DEDUCTION","action":"DELIVERY_DEDUCTION","amount":8,"vat":0,"userBalance":112.5,"userId":"7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","name":"Ahmed","email":"A.alhibshi@calo.app","phoneNumber":"+97338387638","brand":"CALO","currency":"BHD","paymentMethod":"cc","notes":"Old Unpaid Delivery Deduction\n              ------------------------------\n              Subscription Tier: personalized\n              Subscription Plan: full\n              Subscription Frequency: monthly\n              Diet Type: balanced\n              Food Type: breakfast | lunch | dinner | snack\n              Delivery Date: 2023-11-16\n              Delivery Cost: 8\n              Has Addons Subscriptions: No\n              ","updatePaymentBalance":true,"metadata":{"walletId":"wallet#7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","deliveryId":"2e36d331-9058-4589-b6a2-f8e62d662642","walletSk":"2e36d331-9058-4589-b6a2-f8e62d662642"},"actor":"system","createdAt":"2023-12-12T09:18:45.539Z"}
+
+2023-12-12T09:19:06.591Z 2023-12-12T09:19:06.591Z	aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEN4MS3AN4F8P25MF0A2GEA',
+    userId: '7ea81f9e-1a24-4664-bd94-4d88dc6fd07d',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 96.5,
+    newBalance: 89.227
+  }
+}
+
+2023-12-12T09:19:06.591Z 2023-12-12T09:19:06.591Z	aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda	INFO	Balance is already synced from other listeners
+
+2023-12-12T09:19:06.641Z END RequestId: aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda
+
+2023-12-12T09:19:06.641Z REPORT RequestId: aaa3dc03-f6b8-53e6-a2e1-81f1d1112fda	Duration: 154.81 ms	Billed Duration: 155 ms	Memory Size: 1024 MB	Max Memory Used: 98 MB	
+
+2023-12-12T09:19:08.617Z START RequestId: df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9 Version: $LATEST
+
+2023-12-12T09:19:08.647Z 2023-12-12T09:19:08.647Z	df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9	INFO	Processing message 905238d8-d8b5-470a-806d-1adedb785ee4
+
+2023-12-12T09:19:08.647Z 2023-12-12T09:19:08.647Z	df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9	INFO	transaction {"id":"01HHEN4PVPVF2TV178YPES6CD8","type":"DEBIT","source":"MANUAL_DEDUCTION","action":"DELIVERY_DEDUCTION","amount":8,"vat":0,"userBalance":104.5,"userId":"7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","name":"Ahmed","email":"A.alhibshi@calo.app","phoneNumber":"+97338387638","brand":"CALO","currency":"BHD","paymentMethod":"cc","notes":"Old Unpaid Delivery Deduction\n              ------------------------------\n              Subscription Tier: personalized\n              Subscription Plan: full\n              Subscription Frequency: monthly\n              Diet Type: balanced\n              Food Type: breakfast | lunch | dinner | snack\n              Delivery Date: 2023-11-22\n              Delivery Cost: 8\n              Has Addons Subscriptions: No\n              ","updatePaymentBalance":true,"metadata":{"walletId":"wallet#7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","deliveryId":"0aa7afdf-a583-4a94-87e9-063335168c26","walletSk":"0aa7afdf-a583-4a94-87e9-063335168c26"},"actor":"system","createdAt":"2023-12-12T09:18:47.670Z"}
+
+2023-12-12T09:19:08.654Z 2023-12-12T09:19:08.654Z	df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEN4PVPVF2TV178YPES6CD8',
+    userId: '7ea81f9e-1a24-4664-bd94-4d88dc6fd07d',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 96.5,
+    newBalance: 89.227
+  }
+}
+
+2023-12-12T09:19:08.654Z 2023-12-12T09:19:08.654Z	df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9	INFO	Balance is already synced from other listeners
+
+2023-12-12T09:19:08.681Z END RequestId: df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9
+
+2023-12-12T09:19:08.681Z REPORT RequestId: df0ed4e6-c0d7-58a9-8ee7-8914e765c7c9	Duration: 63.45 ms	Billed Duration: 64 ms	Memory Size: 1024 MB	Max Memory Used: 98 MB	
+
+2023-12-12T09:19:10.931Z START RequestId: 01a513d9-2f54-57e8-881a-4e2b08f993cb Version: $LATEST
+
+2023-12-12T09:19:10.932Z 2023-12-12T09:19:10.932Z	01a513d9-2f54-57e8-881a-4e2b08f993cb	INFO	Processing message d1a2955e-1303-455f-a32f-c5ab54cbceb2
+
+2023-12-12T09:19:10.932Z 2023-12-12T09:19:10.932Z	01a513d9-2f54-57e8-881a-4e2b08f993cb	INFO	transaction {"id":"01HHEN4S12A5ZGTKBDCDV1SPAX","type":"DEBIT","source":"MANUAL_DEDUCTION","action":"DELIVERY_DEDUCTION","amount":8,"vat":0,"userBalance":96.5,"userId":"7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","name":"Ahmed","email":"A.alhibshi@calo.app","phoneNumber":"+97338387638","brand":"CALO","currency":"BHD","paymentMethod":"cc","notes":"Old Unpaid Delivery Deduction\n              ------------------------------\n              Subscription Tier: personalized\n              Subscription Plan: full\n              Subscription Frequency: monthly\n              Diet Type: vegetarian\n              Food Type: breakfast | lunch | dinner | snack\n              Delivery Date: 2023-12-12\n              Delivery Cost: 8\n              Has Addons Subscriptions: No\n              ","updatePaymentBalance":true,"metadata":{"walletId":"wallet#7ea81f9e-1a24-4664-bd94-4d88dc6fd07d","deliveryId":"b15580d8-1958-464a-ab6a-23b58d0da2b0","walletSk":"b15580d8-1958-464a-ab6a-23b58d0da2b0"},"actor":"system","createdAt":"2023-12-12T09:18:49.890Z"}
+
+2023-12-12T09:19:10.938Z 2023-12-12T09:19:10.938Z	01a513d9-2f54-57e8-881a-4e2b08f993cb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEN4S12A5ZGTKBDCDV1SPAX',
+    userId: '7ea81f9e-1a24-4664-bd94-4d88dc6fd07d',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 96.5,
+    newBalance: 89.227
+  }
+}
+
+2023-12-12T09:19:10.938Z 2023-12-12T09:19:10.938Z	01a513d9-2f54-57e8-881a-4e2b08f993cb	INFO	Balance is already synced from other listeners
+
+2023-12-12T09:19:10.953Z END RequestId: 01a513d9-2f54-57e8-881a-4e2b08f993cb
+
+2023-12-12T09:19:10.953Z REPORT RequestId: 01a513d9-2f54-57e8-881a-4e2b08f993cb	Duration: 22.25 ms	Billed Duration: 23 ms	Memory Size: 1024 MB	Max Memory Used: 98 MB	
+

@@ -1,0 +1,101 @@
+2023-12-27T09:41:24.191Z START RequestId: 59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f Version: $LATEST
+
+2023-12-27T09:41:24.332Z 2023-12-27T09:41:24.332Z	59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f	INFO	Processing message 72e465c8-3724-495b-8a65-63a18cf94e1b
+
+2023-12-27T09:41:24.358Z 2023-12-27T09:41:24.358Z	59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNACW60S7F2VNEFEXP5Z0CM',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'MEDICAL_CONDITION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 11740,
+    updatePaymentBalance: true,
+    metadata: '{"version":"syncBalanceSQS"}',
+    currency: 'SAR',
+    amount: 11.5,
+    vat: 1.5,
+    oldBalance: 1650,
+    newBalance: 1640
+  }
+}
+
+2023-12-27T09:41:24.435Z 2023-12-27T09:41:24.435Z	59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T09:41:24.467Z 2023-12-27T09:41:24.467Z	59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 1650,
+  paymentBalance: 11740
+}
+
+2023-12-27T09:41:24.495Z END RequestId: 59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f
+
+2023-12-27T09:41:24.495Z REPORT RequestId: 59aba7a5-ee0a-5a8a-aeff-f9a01d7b619f	Duration: 304.10 ms	Billed Duration: 305 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+XRAY TraceId: 1-658bf144-1f2ddaa50655ce9d99789fa1	SegmentId: 1cf863eb7465ec09	Sampled: true	
+
+2023-12-27T09:38:43.157Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-27T09:38:43.882Z START RequestId: 1aa3ac14-9ff8-5db6-951f-f2116d24b048 Version: $LATEST
+
+2023-12-27T09:38:43.985Z 2023-12-27T09:38:43.985Z	1aa3ac14-9ff8-5db6-951f-f2116d24b048	INFO	Processing message 0f980502-5397-4e3b-a939-cb4d01c25da2
+
+2023-12-27T09:38:44.018Z 2023-12-27T09:38:44.018Z	1aa3ac14-9ff8-5db6-951f-f2116d24b048	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNA7WSJCBYJJXYE58Z21E5Y',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'PARTIAL_REFUND',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 11750,
+    updatePaymentBalance: true,
+    metadata: '{"version":"syncBalanceSQS"}',
+    currency: 'SAR',
+    amount: 57.5,
+    vat: 7.5,
+    oldBalance: 1700,
+    newBalance: 1650
+  }
+}
+
+2023-12-27T09:38:44.101Z 2023-12-27T09:38:44.101Z	1aa3ac14-9ff8-5db6-951f-f2116d24b048	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T09:38:44.138Z END RequestId: 1aa3ac14-9ff8-5db6-951f-f2116d24b048
+
+2023-12-27T09:38:44.138Z REPORT RequestId: 1aa3ac14-9ff8-5db6-951f-f2116d24b048	Duration: 256.34 ms	Billed Duration: 257 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 723.56 ms	
+XRAY TraceId: 1-658bf0a2-85cec166d584447dd4703955	SegmentId: 52c9c6b5444942b0	Sampled: true	
+
+2023-12-27T09:42:17.979Z START RequestId: efbdb465-149b-513b-92a5-ea60e730f02d Version: $LATEST
+
+2023-12-27T09:42:18.055Z 2023-12-27T09:42:18.055Z	efbdb465-149b-513b-92a5-ea60e730f02d	INFO	Processing message ec27d3a8-90e6-42ef-a55f-127be73258a6
+
+2023-12-27T09:42:18.070Z 2023-12-27T09:42:18.070Z	efbdb465-149b-513b-92a5-ea60e730f02d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNAEGMKK74PHNKCXQ6RSNEY',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'MEDICAL_CONDITION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 11735,
+    updatePaymentBalance: true,
+    metadata: '{"version":"syncBalanceSQS"}',
+    currency: 'SAR',
+    amount: 5.75,
+    vat: 0.75,
+    oldBalance: 1640,
+    newBalance: 1635
+  }
+}
+
+2023-12-27T09:42:18.129Z 2023-12-27T09:42:18.129Z	efbdb465-149b-513b-92a5-ea60e730f02d	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T09:42:18.166Z 2023-12-27T09:42:18.166Z	efbdb465-149b-513b-92a5-ea60e730f02d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 1640,
+  paymentBalance: 11735
+}
+
+2023-12-27T09:42:18.186Z END RequestId: efbdb465-149b-513b-92a5-ea60e730f02d
+
+2023-12-27T09:42:18.186Z REPORT RequestId: efbdb465-149b-513b-92a5-ea60e730f02d	Duration: 207.19 ms	Billed Duration: 208 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+XRAY TraceId: 1-658bf179-4debf152b214d587c327941d	SegmentId: 3d9225d630de8d19	Sampled: true	
+

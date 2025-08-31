@@ -1,0 +1,30 @@
+2024-03-20T16:29:14.258Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-20T16:29:15.307Z START RequestId: 53228971-d5bd-5e24-a322-d704c4b7b92e Version: $LATEST
+
+2024-03-20T16:29:15.465Z 2024-03-20T16:29:15.465Z	53228971-d5bd-5e24-a322-d704c4b7b92e	INFO	Processing message c0e463be-23ff-4aef-89e5-c3fe077e0571
+
+2024-03-20T16:29:15.518Z 2024-03-20T16:29:15.518Z	53228971-d5bd-5e24-a322-d704c4b7b92e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSEB3ZP8XRTYCKSGX8EZF2WE',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'AUTO_RENEW_SUBSCRIPTION',
+    userId: 'd6c46650-614a-478f-afee-de5b836244fe',
+    paymentBalance: 160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d6c46650-614a-478f-afee-de5b836244fe","eventSessionId":"38c44830-dd80-47cf-a8ee-df5922f4d81b","walletSk":"a62581ff-0757-48ad-957f-5c23952d51c1","deliveryTime":"\\"evening\\"","renewalDate":"2024-04-22","type":"autoRenew","frequency":"monthly","subscriptionCost":160,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"dietType\\":\\"chef-picks\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"pricePerDay\\":8,\\"deliveryDays\\":[0,1,2,3,4],\\"planPrice\\":160,\\"startDate\\":\\"2024-04-22\\",\\"type\\":\\"DATE_RANGE\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 0,
+    newBalance: 160
+  }
+}
+
+2024-03-20T16:29:15.629Z 2024-03-20T16:29:15.629Z	53228971-d5bd-5e24-a322-d704c4b7b92e	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-20T16:29:15.682Z END RequestId: 53228971-d5bd-5e24-a322-d704c4b7b92e
+
+2024-03-20T16:29:15.682Z REPORT RequestId: 53228971-d5bd-5e24-a322-d704c4b7b92e	Duration: 374.60 ms	Billed Duration: 375 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1048.28 ms	
+

@@ -1,0 +1,36 @@
+2024-02-13T08:01:31.510Z START RequestId: 2ef7db38-d9bc-5cd7-8842-857dfdabe15f Version: $LATEST
+
+2024-02-13T08:01:31.660Z 2024-02-13T08:01:31.660Z	2ef7db38-d9bc-5cd7-8842-857dfdabe15f	INFO	Processing message d78a0d68-ea03-4afb-a52f-6f147355bb53
+
+2024-02-13T08:01:31.771Z 2024-02-13T08:01:31.771Z	2ef7db38-d9bc-5cd7-8842-857dfdabe15f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPGQRE8FFW2Q2DW2B3JJMH59',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11673.253,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","planType":"full","goal":"gainWeight","eventSessionId":"81460011-d7da-4e6b-9c44-beb07d712bfb","walletSk":"b9e07e20-8a01-45ca-afe2-3da341e9c84f","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-02-16","type":"preRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-16\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"دلع نفسك و اختار من بين انواع كثيرة بشكل يومي لو حاب شي غني بالتشوكولت كالبسكويت المغطى بالشوكولاتة او نكهة بالمكسرات ككرات الفستق و استمتع\\",\\"en\\":\\"Indulge in a variety of delicious treats that are rich in chocolate and bursting with nutty flavors. Explore a range of options you can select from on a daily basis to satisfy your cravings!\\"},\\"priceWithVat\\":1.5,\\"endDate\\":\\"2024-03-14\\",\\"description\\":{\\"ar\\":\\"حلويات لكل يوم\\",\\"en\\":\\"a special treat for every day\\"},\\"pricePerDay\\":1.36363636363636,\\"price\\":1.3636363636363,\\"name\\":{\\"ar\\":\\"الحلويات\\",\\"en\\":\\"Sweet Treats\\"},\\"isSelected\\":true,\\"autoRenew\\":false,\\"currency\\":\\"BHD\\",\\"id\\":\\"SWEET_TOOTH\\",\\"category\\":\\"SWEET_TOOTH\\",\\"startDate\\":\\"2024-02-16\\",\\"status\\":\\"available\\"}]"}',
+    currency: 'BHD',
+    amount: 206,
+    vat: 18.727,
+    oldBalance: 8,
+    newBalance: 195.273
+  }
+}
+
+2024-02-13T08:01:31.887Z 2024-02-13T08:01:31.887Z	2ef7db38-d9bc-5cd7-8842-857dfdabe15f	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T08:01:31.919Z 2024-02-13T08:01:31.919Z	2ef7db38-d9bc-5cd7-8842-857dfdabe15f	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 195.273,
+  paymentBalance: 11673.253
+}
+
+2024-02-13T08:01:31.940Z END RequestId: 2ef7db38-d9bc-5cd7-8842-857dfdabe15f
+
+2024-02-13T08:01:31.940Z REPORT RequestId: 2ef7db38-d9bc-5cd7-8842-857dfdabe15f	Duration: 429.64 ms	Billed Duration: 430 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 720.59 ms	
+
+2024-02-13T08:01:30.788Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+

@@ -1,0 +1,37 @@
+2024-03-28T12:47:54.397Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T12:47:55.446Z START RequestId: 5dba551e-92c3-559b-ac54-0b61fbf2bf91 Version: $LATEST
+
+2024-03-28T12:47:55.615Z 2024-03-28T12:47:55.615Z	5dba551e-92c3-559b-ac54-0b61fbf2bf91	INFO	Processing message c1a47278-22a1-4c15-8cd9-933a8f3ba930
+
+2024-03-28T12:47:55.662Z 2024-03-28T12:47:55.662Z	5dba551e-92c3-559b-ac54-0b61fbf2bf91	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT2HMFE9V4WBXA75BYJ10W4W',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'afdc346e-3110-4f5d-bdab-9c1ed0ac50ba',
+    paymentBalance: 340.091,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#afdc346e-3110-4f5d-bdab-9c1ed0ac50ba","planType":"businessLunch","goal":"loseWeight","eventSessionId":"ffb34501-475c-4698-8f96-ac929291de4a","walletSk":"b8bb3545-4585-46e4-b44e-7fdc6277a4a2","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-31","type":"userRenew","frequency":"monthly","subscriptionCost":80,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"businessLunch\\",\\"pricePerDay\\":4,\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":80,\\"startDate\\":\\"2024-03-31\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 88,
+    vat: 8,
+    oldBalance: 0,
+    newBalance: 80
+  }
+}
+
+2024-03-28T12:47:55.773Z 2024-03-28T12:47:55.773Z	5dba551e-92c3-559b-ac54-0b61fbf2bf91	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-28T12:47:55.887Z 2024-03-28T12:47:55.887Z	5dba551e-92c3-559b-ac54-0b61fbf2bf91	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'afdc346e-3110-4f5d-bdab-9c1ed0ac50ba',
+  subscriptionBalance: 80,
+  paymentBalance: 340.091
+}
+
+2024-03-28T12:47:55.908Z END RequestId: 5dba551e-92c3-559b-ac54-0b61fbf2bf91
+
+2024-03-28T12:47:55.908Z REPORT RequestId: 5dba551e-92c3-559b-ac54-0b61fbf2bf91	Duration: 464.69 ms	Billed Duration: 465 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1044.69 ms	
+XRAY TraceId: 1-660566fa-af5e3baee203a30df2fbc9d4	SegmentId: 18713afd62665f3b	Sampled: true	
+

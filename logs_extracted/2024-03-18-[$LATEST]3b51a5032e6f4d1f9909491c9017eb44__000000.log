@@ -1,0 +1,36 @@
+2024-03-18T09:35:21.181Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-18T09:35:22.220Z START RequestId: ef2f7e0a-4617-53f8-af1e-20784b03ab42 Version: $LATEST
+
+2024-03-18T09:35:22.351Z 2024-03-18T09:35:22.351Z	ef2f7e0a-4617-53f8-af1e-20784b03ab42	INFO	Processing message deb55624-81c7-4c5d-9cad-c295281d409a
+
+2024-03-18T09:35:22.416Z 2024-03-18T09:35:22.416Z	ef2f7e0a-4617-53f8-af1e-20784b03ab42	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HS8EMQC1ZGA79AX1GW381XSR',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1952.576,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","planType":"caloKids","goal":"loseWeight","eventSessionId":"387dc4c1-e5da-4891-9bfa-849c02364330","walletSk":"ad4c4645-36b9-47b1-b1fc-2772977f2818","deliveryTime":"morning","dietType":"chef-picks","renewalDate":"2024-03-20","type":"userRenew","frequency":"monthly","subscriptionCost":43.2,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"caloKids\\",\\"pricePerDay\\":1.8,\\"foodType\\":[\\"caloKids\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"chef-picks\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":43.2,\\"startDate\\":\\"2024-03-20\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 47.52,
+    vat: 4.32,
+    oldBalance: 0,
+    newBalance: 43.2
+  }
+}
+
+2024-03-18T09:35:22.526Z 2024-03-18T09:35:22.526Z	ef2f7e0a-4617-53f8-af1e-20784b03ab42	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-18T09:35:22.654Z 2024-03-18T09:35:22.654Z	ef2f7e0a-4617-53f8-af1e-20784b03ab42	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 43.2,
+  paymentBalance: 1952.576
+}
+
+2024-03-18T09:35:22.689Z END RequestId: ef2f7e0a-4617-53f8-af1e-20784b03ab42
+
+2024-03-18T09:35:22.689Z REPORT RequestId: ef2f7e0a-4617-53f8-af1e-20784b03ab42	Duration: 468.83 ms	Billed Duration: 469 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1037.70 ms	
+

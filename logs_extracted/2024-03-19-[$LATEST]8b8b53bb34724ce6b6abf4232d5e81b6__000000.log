@@ -1,0 +1,46 @@
+2024-03-19T13:02:48.220Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-19T13:02:49.226Z START RequestId: c59cd70b-693c-53df-a8cb-8978e6139942 Version: $LATEST
+
+2024-03-19T13:02:49.361Z 2024-03-19T13:02:49.361Z	c59cd70b-693c-53df-a8cb-8978e6139942	INFO	Processing message d83a5ba6-1973-4134-878a-0f201ac2b595
+
+2024-03-19T13:02:49.442Z 2024-03-19T13:02:49.442Z	c59cd70b-693c-53df-a8cb-8978e6139942	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSBCX98BQJN05P4F72SQP5E9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 735,
+    updatePaymentBalance: true,
+    metadata: `{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"97f3fa7b-9f7d-492e-a681-eb2922e616e0","eventSessionId":"19b48633-8e84-4a82-be43-5dbb5546d385","walletSk":"792b0dc5-30c1-4991-9877-e871a5447eef","version2":true,"addons":"[{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"Hadi\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"hope you're finding this gift helpful\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"giftcardfriendtest@calo.app\\"}}}}]","source":"APP","API_VERSION_2":true}`,
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 200,
+    newBalance: 250
+  }
+}
+
+2024-03-19T13:02:49.525Z 2024-03-19T13:02:49.525Z	c59cd70b-693c-53df-a8cb-8978e6139942	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T13:02:49.568Z 2024-03-19T13:02:49.568Z	c59cd70b-693c-53df-a8cb-8978e6139942	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 250,
+  paymentBalance: 735
+}
+
+2024-03-19T13:02:49.596Z END RequestId: c59cd70b-693c-53df-a8cb-8978e6139942
+
+2024-03-19T13:02:49.596Z REPORT RequestId: c59cd70b-693c-53df-a8cb-8978e6139942	Duration: 369.57 ms	Billed Duration: 370 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1003.62 ms	
+
+2024-03-19T13:05:52.275Z START RequestId: 3e0e74de-45f1-5fc6-85cc-2aadca2d6e60 Version: $LATEST
+
+2024-03-19T13:05:52.436Z 2024-03-19T13:05:52.436Z	3e0e74de-45f1-5fc6-85cc-2aadca2d6e60	INFO	Processing message 21635123-f148-4f72-ac13-04f7a1a1fff6
+
+2024-03-19T13:05:52.436Z 2024-03-19T13:05:52.436Z	3e0e74de-45f1-5fc6-85cc-2aadca2d6e60	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'PURCHASE_ADDONS_FOR_DELIVERY' }
+
+2024-03-19T13:05:52.438Z END RequestId: 3e0e74de-45f1-5fc6-85cc-2aadca2d6e60
+
+2024-03-19T13:05:52.438Z REPORT RequestId: 3e0e74de-45f1-5fc6-85cc-2aadca2d6e60	Duration: 162.84 ms	Billed Duration: 163 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+

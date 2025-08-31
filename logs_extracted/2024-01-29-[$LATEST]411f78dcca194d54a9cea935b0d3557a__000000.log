@@ -1,0 +1,36 @@
+2024-01-29T19:30:22.380Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-29T19:30:23.179Z START RequestId: fff5cbad-4ba5-5585-87d9-959cb4ac88c1 Version: $LATEST
+
+2024-01-29T19:30:23.333Z 2024-01-29T19:30:23.333Z	fff5cbad-4ba5-5585-87d9-959cb4ac88c1	INFO	Processing message c75d8a16-6e41-4458-a40d-341e5d54eec7
+
+2024-01-29T19:30:23.382Z 2024-01-29T19:30:23.382Z	fff5cbad-4ba5-5585-87d9-959cb4ac88c1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNBB705JCWC4D6D2PEAS5NFQ',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CALO_TEAM_PERKS',
+    userId: '8fd614d8-9638-4c66-8345-319280777aae',
+    paymentBalance: 2533.691,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8fd614d8-9638-4c66-8345-319280777aae","walletSk":"6ec398e1-7649-4975-923e-ee70504c35fd"}',
+    currency: 'BHD',
+    amount: 1000,
+    vat: 0,
+    oldBalance: 2,
+    newBalance: 1002
+  }
+}
+
+2024-01-29T19:30:23.485Z 2024-01-29T19:30:23.485Z	fff5cbad-4ba5-5585-87d9-959cb4ac88c1	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-29T19:30:23.545Z 2024-01-29T19:30:23.545Z	fff5cbad-4ba5-5585-87d9-959cb4ac88c1	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '8fd614d8-9638-4c66-8345-319280777aae',
+  subscriptionBalance: 1002,
+  paymentBalance: 2533.691
+}
+
+2024-01-29T19:30:23.594Z END RequestId: fff5cbad-4ba5-5585-87d9-959cb4ac88c1
+
+2024-01-29T19:30:23.594Z REPORT RequestId: fff5cbad-4ba5-5585-87d9-959cb4ac88c1	Duration: 415.66 ms	Billed Duration: 416 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 797.40 ms	
+

@@ -1,0 +1,36 @@
+2024-02-17T16:37:00.042Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-17T16:37:01.276Z START RequestId: 724c1e27-fa38-5906-8a67-406d18e0387d Version: $LATEST
+
+2024-02-17T16:37:01.424Z 2024-02-17T16:37:01.424Z	724c1e27-fa38-5906-8a67-406d18e0387d	INFO	Processing message 06f71dea-0a81-4626-8287-6e0b926e3ae1
+
+2024-02-17T16:37:01.484Z 2024-02-17T16:37:01.484Z	724c1e27-fa38-5906-8a67-406d18e0387d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPVYV76SD779QAC8QF5CDTM7',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '2c1fafd7-42d4-48ac-a761-4b5493eec785',
+    paymentBalance: 360,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#2c1fafd7-42d4-48ac-a761-4b5493eec785","planType":"full","goal":"loseWeight","eventSessionId":"c408bd09-4c7c-4ed6-8f18-1fce28fb77bf","walletSk":"b4636081-1d90-4d11-b5cc-70d1d182fa47","deliveryTime":"evening","dietType":"chef-picks","renewalDate":"2024-02-19","type":"userRenew","frequency":"weekly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"weekly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":10,\\"dietType\\":\\"chef-picks\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-19\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 61.6,
+    vat: 5.6,
+    oldBalance: 4,
+    newBalance: 60
+  }
+}
+
+2024-02-17T16:37:01.578Z 2024-02-17T16:37:01.578Z	724c1e27-fa38-5906-8a67-406d18e0387d	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T16:37:01.620Z 2024-02-17T16:37:01.620Z	724c1e27-fa38-5906-8a67-406d18e0387d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2c1fafd7-42d4-48ac-a761-4b5493eec785',
+  subscriptionBalance: 60,
+  paymentBalance: 360
+}
+
+2024-02-17T16:37:01.643Z END RequestId: 724c1e27-fa38-5906-8a67-406d18e0387d
+
+2024-02-17T16:37:01.643Z REPORT RequestId: 724c1e27-fa38-5906-8a67-406d18e0387d	Duration: 366.78 ms	Billed Duration: 367 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1233.90 ms	
+

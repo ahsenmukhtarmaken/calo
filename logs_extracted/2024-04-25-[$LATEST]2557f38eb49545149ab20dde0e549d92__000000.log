@@ -1,0 +1,123 @@
+2024-04-25T12:17:21.920Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-25T12:17:22.924Z START RequestId: f79c4d9b-216a-5bd1-b4c4-133f6d681f3b Version: $LATEST
+
+2024-04-25T12:17:23.098Z 2024-04-25T12:17:23.098Z	f79c4d9b-216a-5bd1-b4c4-133f6d681f3b	INFO	Processing message b0e96892-0f5e-463b-b86c-5f1d51afb74b
+
+2024-04-25T12:17:23.147Z 2024-04-25T12:17:23.147Z	f79c4d9b-216a-5bd1-b4c4-133f6d681f3b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWAK0PEB55WS1WQW8J339CPV',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    paymentBalance: 9281.817,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f50d0778-fab9-47c1-bf7d-a23e9649e127","walletSk":"38139d58-7bb4-4a36-be5f-bd6cf3ec9c34"}',
+    currency: 'BHD',
+    amount: 6.364,
+    vat: 0,
+    oldBalance: 9288.181,
+    newBalance: 9281.817
+  }
+}
+
+2024-04-25T12:17:23.211Z 2024-04-25T12:17:23.211Z	f79c4d9b-216a-5bd1-b4c4-133f6d681f3b	INFO	Transaction Lock created!!!!!!!!!!!!!!!!!!!!!!!!!!! Rr {
+  dirty: {},
+  original: {
+    id: 'trxLock#f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    sk: '01HWAK0PEB55WS1WQW8J339CPV',
+    userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    dataType: 'trxLock',
+    createdAt: '2024-04-25T12:17:23.150Z',
+    updatedAt: '2024-04-25T12:17:23.150Z',
+    ttl: 1715861843,
+    tk: '2024-04-25T12:17:23.150Z',
+    fk: '2024-04-25T12:17:23.150Z'
+  },
+  attributes: [
+    'id',        'sk',
+    'userId',    'dataType',
+    'createdAt', 'updatedAt',
+    'ttl',       'tk',
+    'fk'
+  ],
+  id: 'trxLock#f50d0778-fab9-47c1-bf7d-a23e9649e127',
+  sk: '01HWAK0PEB55WS1WQW8J339CPV',
+  userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+  dataType: 'trxLock',
+  createdAt: '2024-04-25T12:17:23.150Z',
+  updatedAt: '2024-04-25T12:17:23.150Z',
+  ttl: 1715861843,
+  tk: '2024-04-25T12:17:23.150Z',
+  fk: '2024-04-25T12:17:23.150Z',
+  newEntity: false
+}
+
+2024-04-25T12:17:23.276Z 2024-04-25T12:17:23.276Z	f79c4d9b-216a-5bd1-b4c4-133f6d681f3b	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-25T12:17:23.333Z END RequestId: f79c4d9b-216a-5bd1-b4c4-133f6d681f3b
+
+2024-04-25T12:17:23.333Z REPORT RequestId: f79c4d9b-216a-5bd1-b4c4-133f6d681f3b	Duration: 409.06 ms	Billed Duration: 410 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1003.16 ms	
+
+2024-04-25T12:20:02.123Z START RequestId: e15f4154-f55e-5fd0-af35-1ff0b9c06b3a Version: $LATEST
+
+2024-04-25T12:20:02.270Z 2024-04-25T12:20:02.270Z	e15f4154-f55e-5fd0-af35-1ff0b9c06b3a	INFO	Processing message 200aa507-3199-4696-8f5e-8d831712fc19
+
+2024-04-25T12:20:02.296Z 2024-04-25T12:20:02.296Z	e15f4154-f55e-5fd0-af35-1ff0b9c06b3a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWAK5JVPSY6JGZXFCW2ER1SW',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'MANUAL_DISCOUNT',
+    userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    paymentBalance: 9290.908,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f50d0778-fab9-47c1-bf7d-a23e9649e127","walletSk":"da685b5c-f72b-49a5-8d99-f46cc371775a"}',
+    currency: 'BHD',
+    amount: 9.091,
+    vat: 0,
+    oldBalance: 9281.817,
+    newBalance: 9290.908
+  }
+}
+
+2024-04-25T12:20:02.340Z 2024-04-25T12:20:02.340Z	e15f4154-f55e-5fd0-af35-1ff0b9c06b3a	INFO	Transaction Lock created!!!!!!!!!!!!!!!!!!!!!!!!!!! Rr {
+  dirty: {},
+  original: {
+    id: 'trxLock#f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    sk: '01HWAK5JVPSY6JGZXFCW2ER1SW',
+    userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+    dataType: 'trxLock',
+    createdAt: '2024-04-25T12:20:02.297Z',
+    updatedAt: '2024-04-25T12:20:02.297Z',
+    ttl: 1715862002,
+    tk: '2024-04-25T12:20:02.297Z',
+    fk: '2024-04-25T12:20:02.297Z'
+  },
+  attributes: [
+    'id',        'sk',
+    'userId',    'dataType',
+    'createdAt', 'updatedAt',
+    'ttl',       'tk',
+    'fk'
+  ],
+  id: 'trxLock#f50d0778-fab9-47c1-bf7d-a23e9649e127',
+  sk: '01HWAK5JVPSY6JGZXFCW2ER1SW',
+  userId: 'f50d0778-fab9-47c1-bf7d-a23e9649e127',
+  dataType: 'trxLock',
+  createdAt: '2024-04-25T12:20:02.297Z',
+  updatedAt: '2024-04-25T12:20:02.297Z',
+  ttl: 1715862002,
+  tk: '2024-04-25T12:20:02.297Z',
+  fk: '2024-04-25T12:20:02.297Z',
+  newEntity: false
+}
+
+2024-04-25T12:20:02.401Z 2024-04-25T12:20:02.401Z	e15f4154-f55e-5fd0-af35-1ff0b9c06b3a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-25T12:20:02.445Z END RequestId: e15f4154-f55e-5fd0-af35-1ff0b9c06b3a
+
+2024-04-25T12:20:02.445Z REPORT RequestId: e15f4154-f55e-5fd0-af35-1ff0b9c06b3a	Duration: 322.74 ms	Billed Duration: 323 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+XRAY TraceId: 1-662a4a72-4eb4f8de5b50bc23932a0778	SegmentId: 34ae2cab2937c327	Sampled: true	
+

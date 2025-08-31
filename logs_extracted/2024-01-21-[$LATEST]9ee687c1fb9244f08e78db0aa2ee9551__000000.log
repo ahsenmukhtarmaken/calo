@@ -1,0 +1,70 @@
+2024-01-21T14:55:21.572Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-21T14:55:22.345Z START RequestId: 4b57a8db-3e30-519f-9ecf-f6fc0cb82fab Version: $LATEST
+
+2024-01-21T14:55:22.479Z 2024-01-21T14:55:22.479Z	4b57a8db-3e30-519f-9ecf-f6fc0cb82fab	INFO	Processing message 2c06889d-a835-4430-aa4d-febc2a60e8f3
+
+2024-01-21T14:55:22.532Z 2024-01-21T14:55:22.532Z	4b57a8db-3e30-519f-9ecf-f6fc0cb82fab	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMP89PNHYQJN395EV0D377QG',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+    paymentBalance: 576.071,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#2af65ba7-48fc-4433-be65-5dca7e3094a8","country":"BH","couponDiscount":0,"eventSessionId":"a0fc38de-6088-41ab-b4ec-596c927a5c0f","walletSk":"7818456d-c4bb-4c8b-8502-ce7752ea287f","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-02-27\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"2af65ba7-48fc-4433-be65-5dca7e3094a8","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 46.5,
+    vat: 4.227,
+    oldBalance: 404.182,
+    newBalance: 446.455
+  }
+}
+
+2024-01-21T14:55:22.637Z 2024-01-21T14:55:22.637Z	4b57a8db-3e30-519f-9ecf-f6fc0cb82fab	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-21T14:55:22.707Z 2024-01-21T14:55:22.707Z	4b57a8db-3e30-519f-9ecf-f6fc0cb82fab	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+  subscriptionBalance: 446.455,
+  paymentBalance: 576.071
+}
+
+2024-01-21T14:55:22.730Z END RequestId: 4b57a8db-3e30-519f-9ecf-f6fc0cb82fab
+
+2024-01-21T14:55:22.731Z REPORT RequestId: 4b57a8db-3e30-519f-9ecf-f6fc0cb82fab	Duration: 385.36 ms	Billed Duration: 386 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 771.87 ms	
+
+2024-01-21T14:57:45.606Z START RequestId: 9fae4dab-7000-52e5-a3c0-138c43150cd1 Version: $LATEST
+
+2024-01-21T14:57:45.713Z 2024-01-21T14:57:45.713Z	9fae4dab-7000-52e5-a3c0-138c43150cd1	INFO	Processing message 4904b3b2-edca-4550-b8c4-d1ab6953be07
+
+2024-01-21T14:57:45.744Z 2024-01-21T14:57:45.744Z	9fae4dab-7000-52e5-a3c0-138c43150cd1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMP8E3DXPVF3NV0KZ4EJNB45',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+    paymentBalance: 621.071,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#2af65ba7-48fc-4433-be65-5dca7e3094a8","country":"BH","couponDiscount":0,"eventSessionId":"2fe2624d-efcd-42b2-82e7-f8efb185a043","walletSk":"9207edef-2522-497b-abfc-2900a0aeb7c5","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"2af65ba7-48fc-4433-be65-5dca7e3094a8","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 49.5,
+    vat: 4.5,
+    oldBalance: 446.455,
+    newBalance: 491.455
+  }
+}
+
+2024-01-21T14:57:45.809Z 2024-01-21T14:57:45.809Z	9fae4dab-7000-52e5-a3c0-138c43150cd1	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-21T14:57:45.842Z 2024-01-21T14:57:45.842Z	9fae4dab-7000-52e5-a3c0-138c43150cd1	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+  subscriptionBalance: 491.455,
+  paymentBalance: 621.071
+}
+
+2024-01-21T14:57:45.858Z END RequestId: 9fae4dab-7000-52e5-a3c0-138c43150cd1
+
+2024-01-21T14:57:45.858Z REPORT RequestId: 9fae4dab-7000-52e5-a3c0-138c43150cd1	Duration: 252.94 ms	Billed Duration: 253 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	
+

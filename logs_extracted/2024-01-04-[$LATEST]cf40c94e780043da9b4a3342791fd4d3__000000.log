@@ -1,0 +1,40 @@
+2024-01-04T11:47:39.691Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-04T11:47:40.672Z START RequestId: 9a39dffd-6376-5eb2-89a3-81edfe78fe69 Version: $LATEST
+
+2024-01-04T11:47:40.883Z 2024-01-04T11:47:40.883Z	9a39dffd-6376-5eb2-89a3-81edfe78fe69	INFO	Processing message 69db2542-67d5-46c0-8418-c58aeb5f1fee
+
+2024-01-04T11:47:40.884Z 2024-01-04T11:47:40.884Z	9a39dffd-6376-5eb2-89a3-81edfe78fe69	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-04T11:47:40.902Z END RequestId: 9a39dffd-6376-5eb2-89a3-81edfe78fe69
+
+2024-01-04T11:47:40.902Z REPORT RequestId: 9a39dffd-6376-5eb2-89a3-81edfe78fe69	Duration: 230.17 ms	Billed Duration: 231 ms	Memory Size: 512 MB	Max Memory Used: 121 MB	Init Duration: 979.57 ms	
+
+2024-01-04T11:47:48.391Z START RequestId: 0a13a230-02f0-58f3-b756-fc209fe12716 Version: $LATEST
+
+2024-01-04T11:47:48.422Z 2024-01-04T11:47:48.422Z	0a13a230-02f0-58f3-b756-fc209fe12716	INFO	Processing message c7e54bb0-bde3-4c5a-8a5f-c2892fec2c5a
+
+2024-01-04T11:47:48.487Z 2024-01-04T11:47:48.487Z	0a13a230-02f0-58f3-b756-fc209fe12716	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKA4T2SGZBWM1F892MEGKY0Z',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'd440c25d-e736-4655-85a2-9c0efd504a5d',
+    paymentBalance: 2160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d440c25d-e736-4655-85a2-9c0efd504a5d","walletSk":"e44d9230-5980-4e65-aaa6-d4d8739b0a33","version":"syncBalanceSQS"}',
+    currency: 'SAR',
+    amount: 216,
+    vat: 0,
+    oldBalance: 1944,
+    newBalance: 2160
+  }
+}
+
+2024-01-04T11:47:48.657Z 2024-01-04T11:47:48.657Z	0a13a230-02f0-58f3-b756-fc209fe12716	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-04T11:47:48.712Z END RequestId: 0a13a230-02f0-58f3-b756-fc209fe12716
+
+2024-01-04T11:47:48.712Z REPORT RequestId: 0a13a230-02f0-58f3-b756-fc209fe12716	Duration: 321.13 ms	Billed Duration: 322 ms	Memory Size: 512 MB	Max Memory Used: 121 MB	
+

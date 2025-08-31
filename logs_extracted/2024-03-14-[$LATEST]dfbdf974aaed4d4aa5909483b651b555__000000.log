@@ -1,0 +1,37 @@
+2024-03-14T14:22:16.307Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-14T14:22:17.386Z START RequestId: da03cc31-8b8a-5d2e-b330-925c81cee7e0 Version: $LATEST
+
+2024-03-14T14:22:17.535Z 2024-03-14T14:22:17.535Z	da03cc31-8b8a-5d2e-b330-925c81cee7e0	INFO	Processing message 4df85466-25bd-48c2-8fa7-250792365d07
+
+2024-03-14T14:22:17.596Z 2024-03-14T14:22:17.596Z	da03cc31-8b8a-5d2e-b330-925c81cee7e0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRYNF6RCN7V65QCR7QNWHN5Z',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+    paymentBalance: 1117.364,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e635a3ea-fc8b-46c4-b091-5480637486ad","couponDiscount":0,"eventSessionId":"015bed30-3384-465f-b804-df54346bbc30","walletSk":"c75abd4e-f3c6-4bdc-9d5d-c2ee5d4b2693","deliveryTime":"\\"evening\\"","version2":true,"deliveryDays":"[0,1,2,3,4]","nextPlan":"{\\"id\\":\\"full\\",\\"dietType\\":\\"balanced\\",\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"pricePerDay\\":8,\\"deliveryDays\\":[0,1,2,3,4],\\"planPrice\\":160,\\"startDate\\":\\"2024-03-17\\",\\"type\\":\\"DATE_RANGE\\"}","renewalDate":"2024-03-17","type":"autoRenew","frequency":"monthly"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 4,
+    newBalance: 164
+  }
+}
+
+2024-03-14T14:22:17.706Z 2024-03-14T14:22:17.706Z	da03cc31-8b8a-5d2e-b330-925c81cee7e0	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-14T14:22:17.742Z 2024-03-14T14:22:17.742Z	da03cc31-8b8a-5d2e-b330-925c81cee7e0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+  subscriptionBalance: 164,
+  paymentBalance: 1117.364
+}
+
+2024-03-14T14:22:17.776Z END RequestId: da03cc31-8b8a-5d2e-b330-925c81cee7e0
+
+2024-03-14T14:22:17.776Z REPORT RequestId: da03cc31-8b8a-5d2e-b330-925c81cee7e0	Duration: 391.02 ms	Billed Duration: 392 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1077.48 ms	
+XRAY TraceId: 1-65f30817-0c481fde8c0d1c21935e3e23	SegmentId: 1f9aae9d6f37ffac	Sampled: true	
+

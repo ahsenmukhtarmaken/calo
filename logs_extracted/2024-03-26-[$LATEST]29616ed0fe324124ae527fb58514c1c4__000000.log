@@ -1,0 +1,36 @@
+2024-03-26T04:19:52.389Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-26T04:19:53.440Z START RequestId: 507dc00d-7253-5c57-89d7-9e713d4fcbeb Version: $LATEST
+
+2024-03-26T04:19:53.593Z 2024-03-26T04:19:53.593Z	507dc00d-7253-5c57-89d7-9e713d4fcbeb	INFO	Processing message 89f6182b-90e0-4845-b700-8b4733f6d980
+
+2024-03-26T04:19:53.641Z 2024-03-26T04:19:53.641Z	507dc00d-7253-5c57-89d7-9e713d4fcbeb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSWFRSKV7YPT6X5C7EJRAHCC',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 791.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"f281dd61-edb5-4e69-b639-aa57314d45c1","eventSessionId":"e6e1912f-357f-42ed-9f1c-f449437d3e35","walletSk":"77e6b882-9e59-4e24-9ad3-0959290c3172","version2":true,"addons":"[{\\"id\\":\\"45f45094-f2c9-4a02-b789-05955a5d9a4f\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"Eid user\\",\\"senderName\\":\\"Abdulmalick Eid\\",\\"giftMessage\\":\\"This is eid gift message please\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"eid@calo.app\\"}}}},{\\"id\\":\\"45f45094-f2c9-4a02-b789-05955a5d9a4f\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfasdfdasdf232@asdf.asdf\\"}}}},{\\"id\\":\\"3d71aeb1-62ac-462b-8977-d637f0f9fe7e\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfasdfdasdf232@asdf.asdf\\"}}}},{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfasdfdasdf232@asdf.asdf\\"}}}},{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"expensive friend\\",\\"senderName\\":\\"Abdulmalick 50\\",\\"giftMessage\\":\\"test test\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"gift50@calo.apop\\"}}}}]","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 225.5,
+    vat: 20.5,
+    oldBalance: 101.5,
+    newBalance: 306.5
+  }
+}
+
+2024-03-26T04:19:53.754Z 2024-03-26T04:19:53.754Z	507dc00d-7253-5c57-89d7-9e713d4fcbeb	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-26T04:19:53.845Z 2024-03-26T04:19:53.845Z	507dc00d-7253-5c57-89d7-9e713d4fcbeb	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 306.5,
+  paymentBalance: 791.5
+}
+
+2024-03-26T04:19:53.877Z END RequestId: 507dc00d-7253-5c57-89d7-9e713d4fcbeb
+
+2024-03-26T04:19:53.877Z REPORT RequestId: 507dc00d-7253-5c57-89d7-9e713d4fcbeb	Duration: 436.77 ms	Billed Duration: 437 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1050.11 ms	
+

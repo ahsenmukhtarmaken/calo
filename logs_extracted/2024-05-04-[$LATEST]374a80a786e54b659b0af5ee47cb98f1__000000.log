@@ -1,0 +1,30 @@
+2024-05-04T14:51:42.187Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-04T14:51:43.218Z START RequestId: 98060370-cd0d-5648-89c0-5dc080bfe940 Version: $LATEST
+
+2024-05-04T14:51:43.388Z 2024-05-04T14:51:43.388Z	98060370-cd0d-5648-89c0-5dc080bfe940	INFO	Processing message 515577ba-f869-4cac-8a68-b58fab6f5f0a
+
+2024-05-04T14:51:43.435Z 2024-05-04T14:51:43.435Z	98060370-cd0d-5648-89c0-5dc080bfe940	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HX21DR0SWJ45WCT8R7ZTAZ0V',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '8dfe2f8c-8ed9-4fd3-b73f-51cf500578bc',
+    paymentBalance: 186,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8dfe2f8c-8ed9-4fd3-b73f-51cf500578bc","country":"BH","couponDiscount":0,"eventSessionId":"9bcd7832-7205-4d02-992f-0432499f61b2","walletSk":"117c1978-a4b6-46b0-ab80-a1306c45b1f4","version2":true,"addonSubscriptionCosts":"{\\"EXTRA_PROTEIN\\":31}","addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-06-17\\",\\"startDate\\":\\"2024-05-06\\",\\"pricePerDay\\":1,\\"currency\\":\\"BHD\\"}]","addonDayCount":31,"subscriptionId":"8dfe2f8c-8ed9-4fd3-b73f-51cf500578bc","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 34.1,
+    vat: 3.1,
+    oldBalance: 155,
+    newBalance: 186
+  }
+}
+
+2024-05-04T14:51:43.581Z 2024-05-04T14:51:43.581Z	98060370-cd0d-5648-89c0-5dc080bfe940	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-04T14:51:43.625Z END RequestId: 98060370-cd0d-5648-89c0-5dc080bfe940
+
+2024-05-04T14:51:43.625Z REPORT RequestId: 98060370-cd0d-5648-89c0-5dc080bfe940	Duration: 406.42 ms	Billed Duration: 407 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1030.38 ms	
+

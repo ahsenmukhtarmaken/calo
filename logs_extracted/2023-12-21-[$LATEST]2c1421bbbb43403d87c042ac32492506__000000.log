@@ -1,0 +1,53 @@
+2023-12-21T21:01:15.016Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-21T21:01:15.996Z START RequestId: 69de41ea-82de-5e06-9bf9-1c142b12c89f Version: $LATEST
+
+2023-12-21T21:01:16.106Z 2023-12-21T21:01:16.106Z	69de41ea-82de-5e06-9bf9-1c142b12c89f	INFO	Processing message 0d200204-e1a2-475d-acc3-4e27447f7463
+
+2023-12-21T21:01:16.142Z 2023-12-21T21:01:16.142Z	69de41ea-82de-5e06-9bf9-1c142b12c89f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJ72XB2W8SYTQ8M4QM44BAF3',
+    userId: 'd06c6f87-3821-419e-83e5-6da960f789b4',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 19,
+    newBalance: 11
+  }
+}
+
+2023-12-21T21:01:16.223Z 2023-12-21T21:01:16.223Z	69de41ea-82de-5e06-9bf9-1c142b12c89f	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-21T21:01:16.262Z END RequestId: 69de41ea-82de-5e06-9bf9-1c142b12c89f
+
+2023-12-21T21:01:16.262Z REPORT RequestId: 69de41ea-82de-5e06-9bf9-1c142b12c89f	Duration: 266.29 ms	Billed Duration: 267 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 979.52 ms	
+XRAY TraceId: 1-6584a79a-6ef6f75cba0a1ad3aa34b5cc	SegmentId: 2d94db7a2fcc402d	Sampled: true	
+
+2023-12-21T21:01:16.534Z START RequestId: 6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7 Version: $LATEST
+
+2023-12-21T21:01:16.560Z 2023-12-21T21:01:16.560Z	6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7	INFO	Processing message e903d61e-5633-4806-ba5a-f97776a13cd5
+
+2023-12-21T21:01:16.566Z 2023-12-21T21:01:16.566Z	6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJ72XEC7HVCGZ8MPNG2HRHYX',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 432.091,
+    newBalance: 423.091
+  }
+}
+
+2023-12-21T21:01:16.605Z 2023-12-21T21:01:16.605Z	6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-21T21:01:16.619Z 2023-12-21T21:01:16.619Z	6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 432.091,
+  paymentBalance: 840.091
+}
+
+2023-12-21T21:01:16.655Z END RequestId: 6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7
+
+2023-12-21T21:01:16.655Z REPORT RequestId: 6f06a073-26b2-5a6e-b1b0-fd8d8f6e4cf7	Duration: 121.11 ms	Billed Duration: 122 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+

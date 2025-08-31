@@ -1,0 +1,64 @@
+2024-02-29T11:51:41.938Z START RequestId: 52570fcb-9399-5dc0-827b-5191e262a2cd Version: $LATEST
+
+2024-02-29T11:51:42.076Z 2024-02-29T11:51:42.076Z	52570fcb-9399-5dc0-827b-5191e262a2cd	INFO	Processing message c5ab4290-7f00-4fdd-812b-90caab8e1599
+
+2024-02-29T11:51:42.136Z 2024-02-29T11:51:42.136Z	52570fcb-9399-5dc0-827b-5191e262a2cd	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQTB98WHVP3K8HB3C3YV52T4',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'ed3dc329-d66f-4fb7-8e3b-99a0034ff60f',
+    paymentBalance: 192,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#ed3dc329-d66f-4fb7-8e3b-99a0034ff60f","planType":"full","goal":"maintainWeight","eventSessionId":"4daf3dc6-5399-4456-b1ae-31edebb8a277","walletSk":"d9425571-e031-4355-a0c6-50aac5949263","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-03-10","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-03-10\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 211.2,
+    vat: 19.2,
+    oldBalance: 0,
+    newBalance: 192
+  }
+}
+
+2024-02-29T11:51:42.226Z 2024-02-29T11:51:42.226Z	52570fcb-9399-5dc0-827b-5191e262a2cd	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T11:51:42.281Z END RequestId: 52570fcb-9399-5dc0-827b-5191e262a2cd
+
+2024-02-29T11:51:42.281Z REPORT RequestId: 52570fcb-9399-5dc0-827b-5191e262a2cd	Duration: 343.65 ms	Billed Duration: 344 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	Init Duration: 1214.98 ms	
+
+2024-02-29T11:54:06.755Z START RequestId: 222ec7f8-0b52-5c5e-b742-99a279c2be7b Version: $LATEST
+
+2024-02-29T11:54:06.914Z 2024-02-29T11:54:06.914Z	222ec7f8-0b52-5c5e-b742-99a279c2be7b	INFO	Processing message fa6f8e2c-6957-4055-a01b-b1a9425f3977
+
+2024-02-29T11:54:06.944Z 2024-02-29T11:54:06.944Z	222ec7f8-0b52-5c5e-b742-99a279c2be7b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQTBDS90RRFF47V2SAWRDGT5',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e70febec-5cec-4e5d-adc1-c893aab5402c',
+    paymentBalance: 567,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#e70febec-5cec-4e5d-adc1-c893aab5402c","planType":"full","goal":"loseWeight","eventSessionId":"c64c82c3-48be-45c2-b6d2-8e34b33f9c62","walletSk":"2e0f4539-783f-4d45-9ab2-6d34876afb32","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-10","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-03-10\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 2.5,
+    newBalance: 162.5
+  }
+}
+
+2024-02-29T11:54:07.041Z 2024-02-29T11:54:07.041Z	222ec7f8-0b52-5c5e-b742-99a279c2be7b	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T11:54:07.082Z 2024-02-29T11:54:07.082Z	222ec7f8-0b52-5c5e-b742-99a279c2be7b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e70febec-5cec-4e5d-adc1-c893aab5402c',
+  subscriptionBalance: 162.5,
+  paymentBalance: 567
+}
+
+2024-02-29T11:54:07.100Z END RequestId: 222ec7f8-0b52-5c5e-b742-99a279c2be7b
+
+2024-02-29T11:54:07.100Z REPORT RequestId: 222ec7f8-0b52-5c5e-b742-99a279c2be7b	Duration: 345.25 ms	Billed Duration: 346 ms	Memory Size: 1024 MB	Max Memory Used: 129 MB	
+
+2024-02-29T11:51:40.722Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+

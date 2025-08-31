@@ -1,0 +1,30 @@
+2024-04-03T11:56:54.695Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-03T11:56:55.729Z START RequestId: fb77445c-0a32-537b-8b74-1adb4c012f1d Version: $LATEST
+
+2024-04-03T11:56:55.872Z 2024-04-03T11:56:55.872Z	fb77445c-0a32-537b-8b74-1adb4c012f1d	INFO	Processing message 156fabb6-e9e6-4a5e-95b0-575c75b21f9b
+
+2024-04-03T11:56:55.945Z 2024-04-03T11:56:55.945Z	fb77445c-0a32-537b-8b74-1adb4c012f1d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTHX3DA9XZK5RD7WBAJAGR25',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 286.821,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","planType":"full","goal":"gainWeight","eventSessionId":"5b4e32b7-f264-44c8-8061-45aa220543a1","walletSk":"60ae52ef-2504-4a7a-b005-3490aecbe600","deliveryTime":"evening","dietType":"high-protein","renewalDate":"2024-04-05","type":"userRenew","frequency":"monthly","subscriptionCost":216,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"high-protein\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":216,\\"startDate\\":\\"2024-04-05\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 237.6,
+    vat: 21.6,
+    oldBalance: 70.821,
+    newBalance: 286.821
+  }
+}
+
+2024-04-03T11:56:56.044Z 2024-04-03T11:56:56.044Z	fb77445c-0a32-537b-8b74-1adb4c012f1d	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-03T11:56:56.088Z END RequestId: fb77445c-0a32-537b-8b74-1adb4c012f1d
+
+2024-04-03T11:56:56.088Z REPORT RequestId: fb77445c-0a32-537b-8b74-1adb4c012f1d	Duration: 358.99 ms	Billed Duration: 359 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1032.50 ms	
+

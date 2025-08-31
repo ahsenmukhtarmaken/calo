@@ -1,0 +1,56 @@
+2024-03-19T13:17:16.834Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-19T13:17:17.811Z START RequestId: 3a2caa48-6df9-5a05-942e-f43bff6ad1ec Version: $LATEST
+
+2024-03-19T13:17:17.963Z 2024-03-19T13:17:17.963Z	3a2caa48-6df9-5a05-942e-f43bff6ad1ec	INFO	Processing message a6b2cef9-43a1-45a0-ab08-f45b94118cf2
+
+2024-03-19T13:17:17.964Z 2024-03-19T13:17:17.964Z	3a2caa48-6df9-5a05-942e-f43bff6ad1ec	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'PURCHASE_ADDONS_FOR_DELIVERY' }
+
+2024-03-19T13:17:17.971Z END RequestId: 3a2caa48-6df9-5a05-942e-f43bff6ad1ec
+
+2024-03-19T13:17:17.971Z REPORT RequestId: 3a2caa48-6df9-5a05-942e-f43bff6ad1ec	Duration: 160.15 ms	Billed Duration: 161 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 973.08 ms	
+
+2024-03-19T13:19:58.329Z START RequestId: 426b65b0-129d-506e-957e-3bc381b612f2 Version: $LATEST
+
+2024-03-19T13:19:58.494Z 2024-03-19T13:19:58.494Z	426b65b0-129d-506e-957e-3bc381b612f2	INFO	Processing message e0e772b8-a195-47cc-95ca-30f35205b7da
+
+2024-03-19T13:19:58.535Z 2024-03-19T13:19:58.535Z	426b65b0-129d-506e-957e-3bc381b612f2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSBDWQMKPMC0WJG7S20TR9SK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 770,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"2f01d228-b595-4def-98b4-e2b5b5dd8eab","eventSessionId":"47e4eff2-f859-402c-a3ae-44bfe9fa0822","walletSk":"3ff58de7-aeda-4f94-8ca9-8b416d3fb363","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"asdfas\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"asdfasdf\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfasdf@asdfa.sdfadf\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 250,
+    newBalance: 285
+  }
+}
+
+2024-03-19T13:19:58.635Z 2024-03-19T13:19:58.635Z	426b65b0-129d-506e-957e-3bc381b612f2	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T13:19:58.688Z 2024-03-19T13:19:58.688Z	426b65b0-129d-506e-957e-3bc381b612f2	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 285,
+  paymentBalance: 770
+}
+
+2024-03-19T13:19:58.706Z END RequestId: 426b65b0-129d-506e-957e-3bc381b612f2
+
+2024-03-19T13:19:58.706Z REPORT RequestId: 426b65b0-129d-506e-957e-3bc381b612f2	Duration: 377.96 ms	Billed Duration: 378 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	
+
+2024-03-19T13:23:25.960Z START RequestId: 193bea7e-e371-5ec9-a503-b40d77733232 Version: $LATEST
+
+2024-03-19T13:23:26.085Z 2024-03-19T13:23:26.085Z	193bea7e-e371-5ec9-a503-b40d77733232	INFO	Processing message bd6ca1ad-3688-4e23-9de5-e8495e2e8832
+
+2024-03-19T13:23:26.085Z 2024-03-19T13:23:26.085Z	193bea7e-e371-5ec9-a503-b40d77733232	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'PURCHASE_ADDONS_FOR_DELIVERY' }
+
+2024-03-19T13:23:26.087Z END RequestId: 193bea7e-e371-5ec9-a503-b40d77733232
+
+2024-03-19T13:23:26.087Z REPORT RequestId: 193bea7e-e371-5ec9-a503-b40d77733232	Duration: 126.58 ms	Billed Duration: 127 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	
+

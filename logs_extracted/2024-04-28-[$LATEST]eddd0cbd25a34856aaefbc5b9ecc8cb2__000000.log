@@ -1,0 +1,40 @@
+2024-04-28T02:35:19.996Z START RequestId: 9cb23caa-64ce-5955-b1aa-620ddcd842e5 Version: $LATEST
+
+2024-04-28T02:35:20.091Z 2024-04-28T02:35:20.091Z	9cb23caa-64ce-5955-b1aa-620ddcd842e5	INFO	Processing message 20a0c94c-f9c1-4e90-a732-aaf4d8cd3d7f
+
+2024-04-28T02:35:20.136Z 2024-04-28T02:35:20.136Z	9cb23caa-64ce-5955-b1aa-620ddcd842e5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWH8X46C7QDMBEX7SXM1EX8R',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '85ee53bd-71bd-4d35-9914-ef23ddcfe799',
+    paymentBalance: 180,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#85ee53bd-71bd-4d35-9914-ef23ddcfe799","walletSk":"218cd3a8-7b78-43a0-87f8-ae9806db5574"}',
+    currency: 'BHD',
+    amount: 90,
+    vat: 0,
+    oldBalance: 90,
+    newBalance: 180
+  }
+}
+
+2024-04-28T02:35:20.227Z 2024-04-28T02:35:20.227Z	9cb23caa-64ce-5955-b1aa-620ddcd842e5	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-28T02:35:20.279Z END RequestId: 9cb23caa-64ce-5955-b1aa-620ddcd842e5
+
+2024-04-28T02:35:20.279Z REPORT RequestId: 9cb23caa-64ce-5955-b1aa-620ddcd842e5	Duration: 283.12 ms	Billed Duration: 284 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-04-28T02:34:59.868Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-28T02:35:00.888Z START RequestId: cf5bee87-1a51-5108-a369-b020a2505ab8 Version: $LATEST
+
+2024-04-28T02:35:01.040Z 2024-04-28T02:35:01.040Z	cf5bee87-1a51-5108-a369-b020a2505ab8	INFO	Processing message b17167fb-b400-4e21-88d5-6d08d7d2e14a
+
+2024-04-28T02:35:01.042Z 2024-04-28T02:35:01.042Z	cf5bee87-1a51-5108-a369-b020a2505ab8	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-28T02:35:01.047Z END RequestId: cf5bee87-1a51-5108-a369-b020a2505ab8
+
+2024-04-28T02:35:01.047Z REPORT RequestId: cf5bee87-1a51-5108-a369-b020a2505ab8	Duration: 159.01 ms	Billed Duration: 160 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1018.72 ms	
+

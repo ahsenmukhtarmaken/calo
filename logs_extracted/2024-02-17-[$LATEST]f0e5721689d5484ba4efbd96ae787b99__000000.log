@@ -1,0 +1,40 @@
+2024-02-17T15:41:07.022Z START RequestId: c24f803f-b599-5729-a64b-de7560267db6 Version: $LATEST
+
+2024-02-17T15:41:07.166Z 2024-02-17T15:41:07.166Z	c24f803f-b599-5729-a64b-de7560267db6	INFO	Processing message 39d6d01c-7bc5-4fec-82bb-5b9b2bbda8ac
+
+2024-02-17T15:41:07.167Z 2024-02-17T15:41:07.167Z	c24f803f-b599-5729-a64b-de7560267db6	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-17T15:41:07.173Z END RequestId: c24f803f-b599-5729-a64b-de7560267db6
+
+2024-02-17T15:41:07.174Z REPORT RequestId: c24f803f-b599-5729-a64b-de7560267db6	Duration: 151.13 ms	Billed Duration: 152 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1311.73 ms	
+
+2024-02-17T15:41:42.307Z START RequestId: 0dfbd87b-90f4-5dc3-8947-8631451d275c Version: $LATEST
+
+2024-02-17T15:41:42.378Z 2024-02-17T15:41:42.378Z	0dfbd87b-90f4-5dc3-8947-8631451d275c	INFO	Processing message 03578c90-5a8f-4c68-b03e-d30dc4750a51
+
+2024-02-17T15:41:42.444Z 2024-02-17T15:41:42.444Z	0dfbd87b-90f4-5dc3-8947-8631451d275c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPVVNZVB8HDVKRR1TSCNF2XM',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '50fbe95b-009d-4396-ab46-cf6170a827ce',
+    paymentBalance: 160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#50fbe95b-009d-4396-ab46-cf6170a827ce","walletSk":"1be2bd53-d279-476d-b7e6-405db20249d0"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 150,
+    newBalance: 160
+  }
+}
+
+2024-02-17T15:41:42.538Z 2024-02-17T15:41:42.538Z	0dfbd87b-90f4-5dc3-8947-8631451d275c	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T15:41:42.584Z END RequestId: 0dfbd87b-90f4-5dc3-8947-8631451d275c
+
+2024-02-17T15:41:42.584Z REPORT RequestId: 0dfbd87b-90f4-5dc3-8947-8631451d275c	Duration: 277.67 ms	Billed Duration: 278 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-02-17T15:41:05.710Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+

@@ -1,0 +1,36 @@
+2024-04-28T18:04:20.637Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-28T18:04:21.669Z START RequestId: c95ccb37-7c95-53d2-80ed-959fed4f45d9 Version: $LATEST
+
+2024-04-28T18:04:21.834Z 2024-04-28T18:04:21.834Z	c95ccb37-7c95-53d2-80ed-959fed4f45d9	INFO	Processing message 2edff3d9-75fe-4d5a-88bb-070558239718
+
+2024-04-28T18:04:21.892Z 2024-04-28T18:04:21.892Z	c95ccb37-7c95-53d2-80ed-959fed4f45d9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWJY25BDFDX0C2QPKTY4TE2H',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43',
+    paymentBalance: 1188,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43","eventSessionId":"02694f91-7660-41cb-9802-64155af2e5bf","walletSk":"777df94e-ac7a-492e-92e3-5d97a7b473cd","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-04-30T18:03:08.856Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'BHD',
+    amount: 79.2,
+    vat: 7.2,
+    oldBalance: 180,
+    newBalance: 252
+  }
+}
+
+2024-04-28T18:04:22.038Z 2024-04-28T18:04:22.038Z	c95ccb37-7c95-53d2-80ed-959fed4f45d9	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-28T18:04:22.073Z 2024-04-28T18:04:22.073Z	c95ccb37-7c95-53d2-80ed-959fed4f45d9	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43',
+  subscriptionBalance: 252,
+  paymentBalance: 1188
+}
+
+2024-04-28T18:04:22.094Z END RequestId: c95ccb37-7c95-53d2-80ed-959fed4f45d9
+
+2024-04-28T18:04:22.094Z REPORT RequestId: c95ccb37-7c95-53d2-80ed-959fed4f45d9	Duration: 425.36 ms	Billed Duration: 426 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1030.88 ms	
+

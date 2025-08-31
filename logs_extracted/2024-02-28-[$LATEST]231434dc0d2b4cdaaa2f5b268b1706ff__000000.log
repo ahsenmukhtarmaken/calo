@@ -1,0 +1,70 @@
+2024-02-28T07:11:27.338Z START RequestId: 5e35bc37-cc9b-5867-aa1b-e26f124ac9f7 Version: $LATEST
+
+2024-02-28T07:11:27.389Z 2024-02-28T07:11:27.389Z	5e35bc37-cc9b-5867-aa1b-e26f124ac9f7	INFO	Processing message 377b3d94-b16d-4303-a159-c088a08b1888
+
+2024-02-28T07:11:27.399Z 2024-02-28T07:11:27.399Z	5e35bc37-cc9b-5867-aa1b-e26f124ac9f7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQQ8VK2KYPRJW1QG8FMYNCWF',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11923.017,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","deliveryId":"2ec70425-ddc8-4c0f-8d5e-f89c0553a636","eventSessionId":"4872fd6c-45a4-441d-a573-e6b60ea833dc","walletSk":"63c68a0b-27b4-46c7-b68b-7a8d505e5323","version2":true,"source":"{\\"id\\":\\"3709e228-cced-4550-a1af-ed80cf7d20bc\\",\\"name\\":{\\"ar\\":\\"بارفيه مربى التوت الأزرق والشيا\\",\\"en\\":\\"Blueberry Chia Jam Parfait\\"}}","target":"{\\"id\\":\\"152614bd-79af-4568-a858-a4f6b0830b08\\",\\"name\\":{\\"ar\\":\\"Shakshuka Bowl\\",\\"en\\":\\"Shakshuka Bowl\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 232.082,
+    newBalance: 232.582
+  }
+}
+
+2024-02-28T07:11:27.466Z 2024-02-28T07:11:27.466Z	5e35bc37-cc9b-5867-aa1b-e26f124ac9f7	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T07:11:27.675Z 2024-02-28T07:11:27.675Z	5e35bc37-cc9b-5867-aa1b-e26f124ac9f7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 232.582,
+  paymentBalance: 11923.017
+}
+
+2024-02-28T07:11:27.694Z END RequestId: 5e35bc37-cc9b-5867-aa1b-e26f124ac9f7
+
+2024-02-28T07:11:27.694Z REPORT RequestId: 5e35bc37-cc9b-5867-aa1b-e26f124ac9f7	Duration: 355.95 ms	Billed Duration: 356 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-02-28T07:10:49.774Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-28T07:10:50.980Z START RequestId: 0bd75ada-a83d-52ad-a5df-04827689e33d Version: $LATEST
+
+2024-02-28T07:10:51.140Z 2024-02-28T07:10:51.140Z	0bd75ada-a83d-52ad-a5df-04827689e33d	INFO	Processing message 42030335-d03c-4d2e-9e95-53c743d4d450
+
+2024-02-28T07:10:51.202Z 2024-02-28T07:10:51.202Z	0bd75ada-a83d-52ad-a5df-04827689e33d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQQ8TDSPH9AJC0BTT6DAQYSA',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11922.517,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","deliveryId":"2ec70425-ddc8-4c0f-8d5e-f89c0553a636","eventSessionId":"6b717f03-221a-479d-a9e6-203a33a047fd","walletSk":"a356c81c-bd67-4445-9f32-f01c0d9619a7","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"test054@calo.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 197.082,
+    newBalance: 232.082
+  }
+}
+
+2024-02-28T07:10:51.296Z 2024-02-28T07:10:51.296Z	0bd75ada-a83d-52ad-a5df-04827689e33d	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T07:10:51.349Z 2024-02-28T07:10:51.349Z	0bd75ada-a83d-52ad-a5df-04827689e33d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 232.082,
+  paymentBalance: 11922.517
+}
+
+2024-02-28T07:10:51.371Z END RequestId: 0bd75ada-a83d-52ad-a5df-04827689e33d
+
+2024-02-28T07:10:51.371Z REPORT RequestId: 0bd75ada-a83d-52ad-a5df-04827689e33d	Duration: 390.58 ms	Billed Duration: 391 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	Init Duration: 1205.61 ms	
+

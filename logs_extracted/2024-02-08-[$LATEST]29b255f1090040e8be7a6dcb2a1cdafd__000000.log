@@ -1,0 +1,31 @@
+2024-02-08T13:44:28.675Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-08T13:44:29.430Z START RequestId: 66021ed5-5a53-523c-b5bc-40eb86a5b1d2 Version: $LATEST
+
+2024-02-08T13:44:29.583Z 2024-02-08T13:44:29.583Z	66021ed5-5a53-523c-b5bc-40eb86a5b1d2	INFO	Processing message 1b08a759-e451-49bf-9fcc-fada3a9d8dea
+
+2024-02-08T13:44:29.703Z 2024-02-08T13:44:29.703Z	66021ed5-5a53-523c-b5bc-40eb86a5b1d2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HP4FCV8KE7GNSBTMS780JMVW',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'abf660cd-113f-4fe2-8fff-ad9e33e54df3',
+    paymentBalance: 992,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#abf660cd-113f-4fe2-8fff-ad9e33e54df3","deliveryId":"1db6aeb5-e8ec-49ee-a547-246a9a05df07","walletSk":"1db6aeb5-e8ec-49ee-a547-246a9a05df07#manual"}',
+    currency: 'BHD',
+    amount: 4,
+    vat: 0,
+    oldBalance: 996,
+    newBalance: 992
+  }
+}
+
+2024-02-08T13:44:29.824Z 2024-02-08T13:44:29.824Z	66021ed5-5a53-523c-b5bc-40eb86a5b1d2	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-08T13:44:29.875Z END RequestId: 66021ed5-5a53-523c-b5bc-40eb86a5b1d2
+
+2024-02-08T13:44:29.875Z REPORT RequestId: 66021ed5-5a53-523c-b5bc-40eb86a5b1d2	Duration: 445.22 ms	Billed Duration: 446 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	Init Duration: 754.61 ms	
+XRAY TraceId: 1-65c4dabc-c025c15dde513eade2bfd19c	SegmentId: 0f56def0614b9c2a	Sampled: true	
+

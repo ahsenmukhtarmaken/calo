@@ -1,0 +1,50 @@
+2024-05-05T07:58:42.000Z START RequestId: a09b3160-3989-590a-bb24-6fd107d65eac Version: $LATEST
+
+2024-05-05T07:58:42.141Z 2024-05-05T07:58:42.141Z	a09b3160-3989-590a-bb24-6fd107d65eac	INFO	Processing message cd0876b2-8151-41be-bd07-68892152d6ba
+
+2024-05-05T07:58:42.141Z 2024-05-05T07:58:42.141Z	a09b3160-3989-590a-bb24-6fd107d65eac	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-05T07:58:42.143Z END RequestId: a09b3160-3989-590a-bb24-6fd107d65eac
+
+2024-05-05T07:58:42.143Z REPORT RequestId: a09b3160-3989-590a-bb24-6fd107d65eac	Duration: 142.55 ms	Billed Duration: 143 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-05-05T07:56:46.417Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-05T07:56:47.400Z START RequestId: bafd6e71-b612-58c9-b0a1-30c08be28d15 Version: $LATEST
+
+2024-05-05T07:56:47.554Z 2024-05-05T07:56:47.554Z	bafd6e71-b612-58c9-b0a1-30c08be28d15	INFO	Processing message 7a2376d9-3d06-4735-9c8f-680e7416ddee
+
+2024-05-05T07:56:47.555Z 2024-05-05T07:56:47.555Z	bafd6e71-b612-58c9-b0a1-30c08be28d15	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-05T07:56:47.570Z END RequestId: bafd6e71-b612-58c9-b0a1-30c08be28d15
+
+2024-05-05T07:56:47.570Z REPORT RequestId: bafd6e71-b612-58c9-b0a1-30c08be28d15	Duration: 169.90 ms	Billed Duration: 170 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 981.00 ms	
+
+2024-05-05T07:58:51.752Z START RequestId: bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a Version: $LATEST
+
+2024-05-05T07:58:51.835Z 2024-05-05T07:58:51.835Z	bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a	INFO	Processing message 3120f557-1f2b-40da-af8a-f56981b360e8
+
+2024-05-05T07:58:51.869Z 2024-05-05T07:58:51.869Z	bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HX3W6HTT9QR41ZCRK21P4WCX',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'aaabe8c0-2173-4f8d-8a53-fa7621269750',
+    paymentBalance: 486,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#aaabe8c0-2173-4f8d-8a53-fa7621269750","walletSk":"d08b45f7-1227-4e97-800a-b67b881b5f87"}',
+    currency: 'BHD',
+    amount: 48.6,
+    vat: 0,
+    oldBalance: 437.4,
+    newBalance: 486
+  }
+}
+
+2024-05-05T07:58:52.021Z 2024-05-05T07:58:52.021Z	bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-05T07:58:52.080Z END RequestId: bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a
+
+2024-05-05T07:58:52.080Z REPORT RequestId: bd6a5e02-98ca-5cec-87d4-00b3a6b87b4a	Duration: 327.63 ms	Billed Duration: 328 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

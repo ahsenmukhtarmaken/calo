@@ -1,0 +1,30 @@
+2024-04-29T07:51:13.173Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-29T07:51:14.200Z START RequestId: 04502f40-8780-563a-a3f6-71e9d4272798 Version: $LATEST
+
+2024-04-29T07:51:14.362Z 2024-04-29T07:51:14.362Z	04502f40-8780-563a-a3f6-71e9d4272798	INFO	Processing message 7bd3abc4-fba8-4377-b03c-c802d5d6800b
+
+2024-04-29T07:51:14.422Z 2024-04-29T07:51:14.422Z	04502f40-8780-563a-a3f6-71e9d4272798	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWMDC754GE4A9R662Z18HAJF',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '32f576d4-e151-4f78-84ff-4b9681371307',
+    paymentBalance: 106.96,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#32f576d4-e151-4f78-84ff-4b9681371307","deliveryId":"9dc3d36a-75fe-4a31-a985-c241971f3c89","eventSessionId":"e4f3786a-241f-408e-b38b-c32f5283abb7","walletSk":"24dddfce-cf17-4e81-97db-7bb677b79951","version2":true,"addons":"[{\\"id\\":\\"f05e9e38-12a1-4813-97a0-f9fb7f597f9f\\",\\"quantity\\":1}]","source":"APP","API_VERSION_2":true}',
+    currency: 'SAR',
+    amount: 23,
+    vat: 3,
+    oldBalance: 86.96,
+    newBalance: 106.96
+  }
+}
+
+2024-04-29T07:51:14.573Z 2024-04-29T07:51:14.573Z	04502f40-8780-563a-a3f6-71e9d4272798	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-29T07:51:14.629Z END RequestId: 04502f40-8780-563a-a3f6-71e9d4272798
+
+2024-04-29T07:51:14.629Z REPORT RequestId: 04502f40-8780-563a-a3f6-71e9d4272798	Duration: 428.50 ms	Billed Duration: 429 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1026.20 ms	
+

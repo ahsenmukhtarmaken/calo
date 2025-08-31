@@ -1,0 +1,36 @@
+2024-05-13T14:02:24.509Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-13T14:02:25.567Z START RequestId: b0850784-eda9-5d4e-967f-5938f237c6f7 Version: $LATEST
+
+2024-05-13T14:02:25.731Z 2024-05-13T14:02:25.731Z	b0850784-eda9-5d4e-967f-5938f237c6f7	INFO	Processing message 820a8757-c6c4-46ae-9e24-3b661205f84d
+
+2024-05-13T14:02:25.789Z 2024-05-13T14:02:25.789Z	b0850784-eda9-5d4e-967f-5938f237c6f7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXS45YJTKHS5AMGSQ0F8S6V2',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '1be789f1-54d2-40d3-93f1-afac8e3d647a',
+    paymentBalance: 1908,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1be789f1-54d2-40d3-93f1-afac8e3d647a","planType":"weightLossChallenge","goal":"loseWeight","eventSessionId":"8ed12ae9-4345-4ebe-8dd8-c458a18f1f6f","walletSk":"d4c6b60d-e478-4b78-9df1-184a71a342a8","deliveryTime":"morning","dietType":"weight-loss","renewalDate":"2024-05-15","type":"userRenew","frequency":"monthly","subscriptionCost":252,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":252,\\"startDate\\":\\"2024-05-15\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 277.2,
+    vat: 25.2,
+    oldBalance: 0,
+    newBalance: 252
+  }
+}
+
+2024-05-13T14:02:25.941Z 2024-05-13T14:02:25.941Z	b0850784-eda9-5d4e-967f-5938f237c6f7	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T14:02:25.978Z 2024-05-13T14:02:25.978Z	b0850784-eda9-5d4e-967f-5938f237c6f7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1be789f1-54d2-40d3-93f1-afac8e3d647a',
+  subscriptionBalance: 252,
+  paymentBalance: 1908
+}
+
+2024-05-13T14:02:26.000Z END RequestId: b0850784-eda9-5d4e-967f-5938f237c6f7
+
+2024-05-13T14:02:26.000Z REPORT RequestId: b0850784-eda9-5d4e-967f-5938f237c6f7	Duration: 432.54 ms	Billed Duration: 433 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1057.03 ms	
+

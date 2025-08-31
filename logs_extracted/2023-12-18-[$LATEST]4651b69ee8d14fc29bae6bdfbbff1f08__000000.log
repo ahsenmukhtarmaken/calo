@@ -1,0 +1,26 @@
+2023-12-18T13:14:45.497Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-18T13:14:46.309Z START RequestId: f73e283a-a73e-5624-8254-75c0e0c9f764 Version: $LATEST
+
+2023-12-18T13:14:46.436Z 2023-12-18T13:14:46.436Z	f73e283a-a73e-5624-8254-75c0e0c9f764	INFO	Processing message 2f7548d0-d0b5-452e-9140-a6344ec36bd1
+
+2023-12-18T13:14:46.437Z 2023-12-18T13:14:46.437Z	f73e283a-a73e-5624-8254-75c0e0c9f764	INFO	record.body {"id":"01HHYH0YMM1QFA0H3Z4EC8ZG24","type":"CREDIT","source":"MANUAL_ADDITION","action":"MANUAL_DISCOUNT","amount":10,"vat":0,"userBalance":2707.85,"userId":"f8c629ff-e140-4e26-b38c-f99d237959da","name":"Delbert","email":"Susana41@yahoo.com","phoneNumber":"+97376086416","brand":"CALO","kitchen":"SA002","currency":"SAR","paymentMethod":"cash","updatePaymentBalance":true,"metadata":{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","walletSk":"073a01f6-72a9-41ca-9482-e3dd829091ea"},"actor":"Ahmad Hamed","createdAt":"2023-12-18T13:14:41.172Z"}
+
+2023-12-18T13:14:46.473Z 2023-12-18T13:14:46.473Z	f73e283a-a73e-5624-8254-75c0e0c9f764	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHYH0YMM1QFA0H3Z4EC8ZG24',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    currency: 'SAR',
+    amount: 10,
+    vat: 0,
+    oldBalance: 2707.85,
+    newBalance: 2717.85
+  }
+}
+
+2023-12-18T13:14:46.474Z 2023-12-18T13:14:46.474Z	f73e283a-a73e-5624-8254-75c0e0c9f764	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-18T13:14:46.520Z END RequestId: f73e283a-a73e-5624-8254-75c0e0c9f764
+
+2023-12-18T13:14:46.520Z REPORT RequestId: f73e283a-a73e-5624-8254-75c0e0c9f764	Duration: 210.32 ms	Billed Duration: 211 ms	Memory Size: 1024 MB	Max Memory Used: 108 MB	Init Duration: 811.93 ms	
+

@@ -1,0 +1,40 @@
+2024-05-15T07:09:01.040Z START RequestId: fc3f4617-2139-5c5e-96ff-18a940ff23d4 Version: $LATEST
+
+2024-05-15T07:09:01.127Z 2024-05-15T07:09:01.127Z	fc3f4617-2139-5c5e-96ff-18a940ff23d4	INFO	Processing message df409fc9-1be9-43a6-90d4-21fe46d2f785
+
+2024-05-15T07:09:01.187Z 2024-05-15T07:09:01.187Z	fc3f4617-2139-5c5e-96ff-18a940ff23d4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXXHAF2D73BFW573992VNBRV',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'e3d43d6d-7b07-45c8-bda5-8278df2ae92d',
+    paymentBalance: 280.8,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e3d43d6d-7b07-45c8-bda5-8278df2ae92d","walletSk":"52ee8e9a-3b37-4c2c-b2a2-edd50fce6aa0"}',
+    currency: 'BHD',
+    amount: 100.8,
+    vat: 0,
+    oldBalance: 180,
+    newBalance: 280.8
+  }
+}
+
+2024-05-15T07:09:01.353Z 2024-05-15T07:09:01.353Z	fc3f4617-2139-5c5e-96ff-18a940ff23d4	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-15T07:09:01.407Z END RequestId: fc3f4617-2139-5c5e-96ff-18a940ff23d4
+
+2024-05-15T07:09:01.407Z REPORT RequestId: fc3f4617-2139-5c5e-96ff-18a940ff23d4	Duration: 367.05 ms	Billed Duration: 368 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-05-15T07:06:35.204Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-15T07:06:36.303Z START RequestId: 516d9ae1-0da3-596b-a20c-c45f6c913e4f Version: $LATEST
+
+2024-05-15T07:06:36.460Z 2024-05-15T07:06:36.460Z	516d9ae1-0da3-596b-a20c-c45f6c913e4f	INFO	Processing message 7f4e9bcc-9539-4d95-a8c7-3bb160d1f67e
+
+2024-05-15T07:06:36.461Z 2024-05-15T07:06:36.461Z	516d9ae1-0da3-596b-a20c-c45f6c913e4f	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-15T07:06:36.499Z END RequestId: 516d9ae1-0da3-596b-a20c-c45f6c913e4f
+
+2024-05-15T07:06:36.499Z REPORT RequestId: 516d9ae1-0da3-596b-a20c-c45f6c913e4f	Duration: 195.28 ms	Billed Duration: 196 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	Init Duration: 1096.28 ms	
+

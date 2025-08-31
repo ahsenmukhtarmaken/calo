@@ -1,0 +1,59 @@
+2024-02-27T12:51:03.029Z START RequestId: ed62423f-304b-541a-9611-1c68eca4e1e7 Version: $LATEST
+
+2024-02-27T12:51:03.117Z 2024-02-27T12:51:03.117Z	ed62423f-304b-541a-9611-1c68eca4e1e7	INFO	Processing message 2e0e16df-f85d-4a4e-980b-654d5e80e516
+
+2024-02-27T12:51:03.126Z 2024-02-27T12:51:03.126Z	ed62423f-304b-541a-9611-1c68eca4e1e7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQN9WP1DM8Q71S5W7Q81BJPA',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'LEAVING_THE_COUNTRY',
+    userId: '405ac586-00fd-4cdc-8004-56ded225f446',
+    paymentBalance: 4250.5,
+    updatePaymentBalance: true,
+    metadata: undefined,
+    currency: 'SAR',
+    amount: 34.5,
+    vat: 4.5,
+    oldBalance: 4280.5,
+    newBalance: 4250.5
+  }
+}
+
+2024-02-27T12:51:03.227Z 2024-02-27T12:51:03.227Z	ed62423f-304b-541a-9611-1c68eca4e1e7	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-27T12:51:03.440Z END RequestId: ed62423f-304b-541a-9611-1c68eca4e1e7
+
+2024-02-27T12:51:03.440Z REPORT RequestId: ed62423f-304b-541a-9611-1c68eca4e1e7	Duration: 410.76 ms	Billed Duration: 411 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+XRAY TraceId: 1-65dddab7-070c897b7550e2bc8c430b50	SegmentId: 1f1301ad4b4a96b2	Sampled: true	
+
+2024-02-27T12:50:19.046Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-27T12:50:20.283Z START RequestId: 363f17cf-5c6f-5199-8724-499880d50e45 Version: $LATEST
+
+2024-02-27T12:50:20.422Z 2024-02-27T12:50:20.422Z	363f17cf-5c6f-5199-8724-499880d50e45	INFO	Processing message 486b212b-f232-48a0-8165-02395f893e7f
+
+2024-02-27T12:50:20.480Z 2024-02-27T12:50:20.480Z	363f17cf-5c6f-5199-8724-499880d50e45	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQN9VAP8QVNECBBYDBFV9NJT',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CX_GIFT',
+    userId: '405ac586-00fd-4cdc-8004-56ded225f446',
+    paymentBalance: 4280.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#405ac586-00fd-4cdc-8004-56ded225f446","walletSk":"528aa7dc-aa16-4419-a345-d4ea2d483ff2"}',
+    currency: 'SAR',
+    amount: 10,
+    vat: 0,
+    oldBalance: 4270.5,
+    newBalance: 4280.5
+  }
+}
+
+2024-02-27T12:50:20.578Z 2024-02-27T12:50:20.578Z	363f17cf-5c6f-5199-8724-499880d50e45	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-27T12:50:20.625Z END RequestId: 363f17cf-5c6f-5199-8724-499880d50e45
+
+2024-02-27T12:50:20.625Z REPORT RequestId: 363f17cf-5c6f-5199-8724-499880d50e45	Duration: 342.26 ms	Billed Duration: 343 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	Init Duration: 1233.83 ms	
+

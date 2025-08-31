@@ -1,0 +1,45 @@
+2023-12-18T13:16:11.196Z START RequestId: e612eb67-951f-5e3a-b593-b69ddd58ed3f Version: $LATEST
+
+2023-12-18T13:16:11.328Z 2023-12-18T13:16:11.328Z	e612eb67-951f-5e3a-b593-b69ddd58ed3f	INFO	Processing message fd53c6a3-cf80-48a1-8e2a-8027857e11b7
+
+2023-12-18T13:16:11.330Z 2023-12-18T13:16:11.330Z	e612eb67-951f-5e3a-b593-b69ddd58ed3f	INFO	record {
+  messageId: 'fd53c6a3-cf80-48a1-8e2a-8027857e11b7',
+  receiptHandle: 'AQEBkRoiW4eOE8nomqPDyz/Vm1y4Lqghyck3TAzKoUFryOxmC5EZg0nif0SRVbtCO/XZUMSQks8AwKLNnjg5zjsfArPjF9OTMagaAK9LS54wJwKPHr94NsA+DaYrsg1hcrL/Dn+ThDVea3cUj6E/PRKOk97k/2nthf1wYhpSkl2/SPrz01xF4mzo50Ye7VvjkZcmDI7hd1TzPPSmVFfj9cMxfiq7ztmGYnxLwUH+o5LJvhlTLv7kEARBze//trzIxDeKgWwZ1s3uj7pJqFr5U8KHSbTvx5/K9mafs/MxV/uZPPc=',
+  body: '{"id":"01HHYH3MH1QYD5XNX5CQ87E8C7","type":"CREDIT","source":"MANUAL_ADDITION","action":"MANUAL_DISCOUNT","amount":11,"vat":0,"userBalance":2718.85,"userId":"f8c629ff-e140-4e26-b38c-f99d237959da","name":"Delbert","email":"Susana41@yahoo.com","phoneNumber":"+97376086416","brand":"CALO","kitchen":"SA002","currency":"SAR","paymentMethod":"cash","updatePaymentBalance":true,"metadata":{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","walletSk":"0b23dca2-318c-488b-b042-cc68895f282c"},"actor":"Ahmad Hamed","createdAt":"2023-12-18T13:16:09.121Z"}',
+  attributes: {
+    ApproximateReceiveCount: '1',
+    AWSTraceHeader: 'Root=1-65804619-4f7fbab99c4730b08b5ec1f7;Parent=1ff9d8907267b6e9;Sampled=0',
+    SentTimestamp: '1702905369989',
+    SequenceNumber: '18882687848426735616',
+    MessageGroupId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    SenderId: 'AIDAYRRVD2ENU4DSO2WBX',
+    MessageDeduplicationId: '01HHYH3MH1QYD5XNX5CQ87E8C7',
+    ApproximateFirstReceiveTimestamp: '1702905369989'
+  },
+  messageAttributes: {},
+  md5OfBody: 'aec9d6f9a395c69992817e2617a1be74',
+  eventSource: 'aws:sqs',
+  eventSourceARN: 'arn:aws:sqs:us-east-1:488923344249:calo-sub-api-dev-sync-balance.fifo',
+  awsRegion: 'us-east-1'
+}
+
+2023-12-18T13:16:11.364Z 2023-12-18T13:16:11.364Z	e612eb67-951f-5e3a-b593-b69ddd58ed3f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHYH3MH1QYD5XNX5CQ87E8C7',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    currency: 'SAR',
+    amount: 11,
+    vat: 0,
+    oldBalance: 2718.85,
+    newBalance: 2729.85
+  }
+}
+
+2023-12-18T13:16:11.365Z 2023-12-18T13:16:11.365Z	e612eb67-951f-5e3a-b593-b69ddd58ed3f	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-18T13:16:11.402Z END RequestId: e612eb67-951f-5e3a-b593-b69ddd58ed3f
+
+2023-12-18T13:16:11.402Z REPORT RequestId: e612eb67-951f-5e3a-b593-b69ddd58ed3f	Duration: 205.70 ms	Billed Duration: 206 ms	Memory Size: 1024 MB	Max Memory Used: 110 MB	Init Duration: 971.56 ms	
+
+2023-12-18T13:16:10.223Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+

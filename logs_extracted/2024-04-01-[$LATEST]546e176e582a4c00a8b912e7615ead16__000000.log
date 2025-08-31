@@ -1,0 +1,36 @@
+2024-04-01T14:32:23.272Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-01T14:32:24.271Z START RequestId: 746208bd-b90f-5a02-bc8f-56397ea9cee6 Version: $LATEST
+
+2024-04-01T14:32:24.426Z 2024-04-01T14:32:24.426Z	746208bd-b90f-5a02-bc8f-56397ea9cee6	INFO	Processing message 7ccc186a-d1b6-4445-b181-9ac829e9e581
+
+2024-04-01T14:32:24.473Z 2024-04-01T14:32:24.473Z	746208bd-b90f-5a02-bc8f-56397ea9cee6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTD16NDQ6EXAH6GDG0PYERSD',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 1064.18,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"04b5e632-05fa-4156-90d5-181dacb73299","walletSk":"f7cde64f-8eec-4d62-9c4d-de863d7f3e7d","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-03","type":"autoRenew","frequency":"weekly","subscriptionCost":50,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"type\\":\\"DATE_RANGE\\",\\"pricePerDay\\":10,\\"planPrice\\":50,\\"startDate\\":\\"2024-04-03\\",\\"frequency\\":\\"weekly\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 0,
+    newBalance: 50
+  }
+}
+
+2024-04-01T14:32:24.572Z 2024-04-01T14:32:24.572Z	746208bd-b90f-5a02-bc8f-56397ea9cee6	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-01T14:32:24.610Z 2024-04-01T14:32:24.610Z	746208bd-b90f-5a02-bc8f-56397ea9cee6	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 50,
+  paymentBalance: 1064.18
+}
+
+2024-04-01T14:32:24.631Z END RequestId: 746208bd-b90f-5a02-bc8f-56397ea9cee6
+
+2024-04-01T14:32:24.631Z REPORT RequestId: 746208bd-b90f-5a02-bc8f-56397ea9cee6	Duration: 359.83 ms	Billed Duration: 360 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 996.90 ms	
+

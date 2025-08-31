@@ -1,0 +1,30 @@
+2024-01-30T11:09:45.527Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-30T11:09:46.250Z START RequestId: 4f80d895-130e-5571-aa56-86a7c83f6eac Version: $LATEST
+
+2024-01-30T11:09:46.387Z 2024-01-30T11:09:46.387Z	4f80d895-130e-5571-aa56-86a7c83f6eac	INFO	Processing message 44eb1d99-66d8-4f3c-8149-8a557728c5a3
+
+2024-01-30T11:09:46.436Z 2024-01-30T11:09:46.436Z	4f80d895-130e-5571-aa56-86a7c83f6eac	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HND0Z2RZVJ4J84NAYC62E0WS',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'a7c8eb51-8a21-4d1a-a947-d9c711fd67e4',
+    paymentBalance: 382.001,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#a7c8eb51-8a21-4d1a-a947-d9c711fd67e4","country":"BH","couponDiscount":0,"eventSessionId":"255dcf34-b9f3-486a-aa18-bd44658a8e99","walletSk":"0bba9162-65ea-4ac7-a92d-f3e009077484","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-03-25\\",\\"startDate\\":\\"2024-02-01\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"}]","subscriptionId":"a7c8eb51-8a21-4d1a-a947-d9c711fd67e4","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 76,
+    vat: 6.909,
+    oldBalance: 312.91,
+    newBalance: 382.001
+  }
+}
+
+2024-01-30T11:09:46.534Z 2024-01-30T11:09:46.534Z	4f80d895-130e-5571-aa56-86a7c83f6eac	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-30T11:09:46.630Z END RequestId: 4f80d895-130e-5571-aa56-86a7c83f6eac
+
+2024-01-30T11:09:46.630Z REPORT RequestId: 4f80d895-130e-5571-aa56-86a7c83f6eac	Duration: 379.41 ms	Billed Duration: 380 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 721.62 ms	
+

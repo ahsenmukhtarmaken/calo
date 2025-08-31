@@ -1,0 +1,70 @@
+2024-02-13T07:53:02.926Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-13T07:53:03.624Z START RequestId: 439e9f5a-107a-5098-ac36-c11f32627568 Version: $LATEST
+
+2024-02-13T07:53:03.777Z 2024-02-13T07:53:03.777Z	439e9f5a-107a-5098-ac36-c11f32627568	INFO	Processing message 08ba397d-8cb2-45b2-b8fb-678f146bafd3
+
+2024-02-13T07:53:03.887Z 2024-02-13T07:53:03.887Z	439e9f5a-107a-5098-ac36-c11f32627568	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPGQ8Y97V564YS2A5GD05VG2',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11493.98,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","planType":"full","goal":"gainWeight","eventSessionId":"a8b487cd-48fb-47ad-a358-fd44d3c2299b","walletSk":"c8220744-0237-4154-8f84-7cc0ce96fcbd","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-02-16","type":"preRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-16\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"دلع نفسك و اختار من بين انواع كثيرة بشكل يومي لو حاب شي غني بالتشوكولت كالبسكويت المغطى بالشوكولاتة او نكهة بالمكسرات ككرات الفستق و استمتع\\",\\"en\\":\\"Indulge in a variety of delicious treats that are rich in chocolate and bursting with nutty flavors. Explore a range of options you can select from on a daily basis to satisfy your cravings!\\"},\\"priceWithVat\\":1.5,\\"endDate\\":\\"2024-02-29\\",\\"description\\":{\\"ar\\":\\"حلويات لكل يوم\\",\\"en\\":\\"a special treat for every day\\"},\\"pricePerDay\\":1.36363636363636,\\"price\\":1.3636363636363,\\"name\\":{\\"ar\\":\\"الحلويات\\",\\"en\\":\\"Sweet Treats\\"},\\"isSelected\\":true,\\"autoRenew\\":false,\\"currency\\":\\"BHD\\",\\"id\\":\\"SWEET_TOOTH\\",\\"category\\":\\"SWEET_TOOTH\\",\\"startDate\\":\\"2024-02-01\\",\\"status\\":\\"available\\"}]"}',
+    currency: 'BHD',
+    amount: 206,
+    vat: 18.727,
+    oldBalance: 8,
+    newBalance: 195.273
+  }
+}
+
+2024-02-13T07:53:04.000Z 2024-02-13T07:53:04.000Z	439e9f5a-107a-5098-ac36-c11f32627568	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T07:53:04.049Z 2024-02-13T07:53:04.049Z	439e9f5a-107a-5098-ac36-c11f32627568	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 195.273,
+  paymentBalance: 11493.98
+}
+
+2024-02-13T07:53:04.067Z END RequestId: 439e9f5a-107a-5098-ac36-c11f32627568
+
+2024-02-13T07:53:04.067Z REPORT RequestId: 439e9f5a-107a-5098-ac36-c11f32627568	Duration: 442.61 ms	Billed Duration: 443 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 697.25 ms	
+
+2024-02-13T07:53:07.986Z START RequestId: c227b9a5-10d8-5107-a61a-e7e032c50d3b Version: $LATEST
+
+2024-02-13T07:53:08.020Z 2024-02-13T07:53:08.020Z	c227b9a5-10d8-5107-a61a-e7e032c50d3b	INFO	Processing message 787798cf-0e9f-43de-8780-bac126c17741
+
+2024-02-13T07:53:08.027Z 2024-02-13T07:53:08.027Z	c227b9a5-10d8-5107-a61a-e7e032c50d3b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPGQ9422FC7NMD0DTVBWVB3R',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11485.98,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","deliveryId":"d3829e84-efbd-4324-bcee-f948bdedb486","walletSk":"d3829e84-efbd-4324-bcee-f948bdedb486"}',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 195.273,
+    newBalance: 187.273
+  }
+}
+
+2024-02-13T07:53:08.077Z 2024-02-13T07:53:08.077Z	c227b9a5-10d8-5107-a61a-e7e032c50d3b	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T07:53:08.091Z 2024-02-13T07:53:08.091Z	c227b9a5-10d8-5107-a61a-e7e032c50d3b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 187.273,
+  paymentBalance: 11485.98
+}
+
+2024-02-13T07:53:08.110Z END RequestId: c227b9a5-10d8-5107-a61a-e7e032c50d3b
+
+2024-02-13T07:53:08.110Z REPORT RequestId: c227b9a5-10d8-5107-a61a-e7e032c50d3b	Duration: 123.61 ms	Billed Duration: 124 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	
+

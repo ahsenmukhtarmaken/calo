@@ -1,0 +1,76 @@
+2024-03-11T10:11:58.202Z START RequestId: b3c48208-2b19-526e-b39a-dc60f038f0ad Version: $LATEST
+
+2024-03-11T10:11:58.351Z 2024-03-11T10:11:58.351Z	b3c48208-2b19-526e-b39a-dc60f038f0ad	INFO	Processing message f91941dc-467d-4161-94db-e00bf69c58be
+
+2024-03-11T10:11:58.383Z 2024-03-11T10:11:58.383Z	b3c48208-2b19-526e-b39a-dc60f038f0ad	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRPFYR6DKRDZXCJM6T3XE0W8',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+    paymentBalance: 583.815,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#2af65ba7-48fc-4433-be65-5dca7e3094a8","country":"BH","couponDiscount":0,"eventSessionId":"9cbf2123-7c74-45d4-b18f-6815b08443ac","walletSk":"d06ca421-24f6-4d10-a020-d90000916992","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-03-24\\",\\"startDate\\":\\"2024-03-13\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"2af65ba7-48fc-4433-be65-5dca7e3094a8","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 15,
+    vat: 1.364,
+    oldBalance: 440.563,
+    newBalance: 454.199
+  }
+}
+
+2024-03-11T10:11:58.491Z 2024-03-11T10:11:58.491Z	b3c48208-2b19-526e-b39a-dc60f038f0ad	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-11T10:11:58.541Z 2024-03-11T10:11:58.541Z	b3c48208-2b19-526e-b39a-dc60f038f0ad	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+  subscriptionBalance: 454.199,
+  paymentBalance: 583.815
+}
+
+2024-03-11T10:11:58.561Z END RequestId: b3c48208-2b19-526e-b39a-dc60f038f0ad
+
+2024-03-11T10:11:58.561Z REPORT RequestId: b3c48208-2b19-526e-b39a-dc60f038f0ad	Duration: 358.61 ms	Billed Duration: 359 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-03-11T10:12:07.051Z START RequestId: b7db5419-d1bb-50e2-b056-0a710a9c5f3d Version: $LATEST
+
+2024-03-11T10:12:07.136Z 2024-03-11T10:12:07.136Z	b7db5419-d1bb-50e2-b056-0a710a9c5f3d	INFO	Processing message 1fe32dba-8b19-4a97-a968-40007ccddd1b
+
+2024-03-11T10:12:07.136Z 2024-03-11T10:12:07.136Z	b7db5419-d1bb-50e2-b056-0a710a9c5f3d	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-11T10:12:07.138Z END RequestId: b7db5419-d1bb-50e2-b056-0a710a9c5f3d
+
+2024-03-11T10:12:07.138Z REPORT RequestId: b7db5419-d1bb-50e2-b056-0a710a9c5f3d	Duration: 87.20 ms	Billed Duration: 88 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-03-11T10:19:29.930Z START RequestId: c79dd127-2d82-564f-853d-8f4ff160cc4a Version: $LATEST
+
+2024-03-11T10:19:29.980Z 2024-03-11T10:19:29.980Z	c79dd127-2d82-564f-853d-8f4ff160cc4a	INFO	Processing message 07a0acae-23b7-4c6e-9d93-1a839e960b69
+
+2024-03-11T10:19:29.980Z 2024-03-11T10:19:29.980Z	c79dd127-2d82-564f-853d-8f4ff160cc4a	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-11T10:19:29.982Z END RequestId: c79dd127-2d82-564f-853d-8f4ff160cc4a
+
+2024-03-11T10:19:29.982Z REPORT RequestId: c79dd127-2d82-564f-853d-8f4ff160cc4a	Duration: 51.83 ms	Billed Duration: 52 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-03-11T10:15:14.067Z START RequestId: c3a0cbe8-a815-5d42-842c-958073f60b80 Version: $LATEST
+
+2024-03-11T10:15:14.124Z 2024-03-11T10:15:14.124Z	c3a0cbe8-a815-5d42-842c-958073f60b80	INFO	Processing message 20d3a608-4958-4ffb-9eba-9ec31bc6fcd7
+
+2024-03-11T10:15:14.124Z 2024-03-11T10:15:14.124Z	c3a0cbe8-a815-5d42-842c-958073f60b80	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-11T10:15:14.126Z END RequestId: c3a0cbe8-a815-5d42-842c-958073f60b80
+
+2024-03-11T10:15:14.126Z REPORT RequestId: c3a0cbe8-a815-5d42-842c-958073f60b80	Duration: 58.88 ms	Billed Duration: 59 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-03-11T10:07:06.741Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-11T10:07:07.778Z START RequestId: a260dafc-c815-59c5-ace4-849411e9df85 Version: $LATEST
+
+2024-03-11T10:07:07.922Z 2024-03-11T10:07:07.922Z	a260dafc-c815-59c5-ace4-849411e9df85	INFO	Processing message 9db2ae79-2988-4b9f-8eb9-36b3c6467d7f
+
+2024-03-11T10:07:07.933Z 2024-03-11T10:07:07.933Z	a260dafc-c815-59c5-ace4-849411e9df85	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-11T10:07:07.937Z END RequestId: a260dafc-c815-59c5-ace4-849411e9df85
+
+2024-03-11T10:07:07.937Z REPORT RequestId: a260dafc-c815-59c5-ace4-849411e9df85	Duration: 159.50 ms	Billed Duration: 160 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	Init Duration: 1033.88 ms	
+

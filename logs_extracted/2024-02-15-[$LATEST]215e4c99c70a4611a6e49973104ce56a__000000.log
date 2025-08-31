@@ -1,0 +1,30 @@
+2024-02-15T14:24:30.141Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-15T14:24:30.937Z START RequestId: cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c Version: $LATEST
+
+2024-02-15T14:24:31.108Z 2024-02-15T14:24:31.108Z	cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c	INFO	Processing message c96f9562-3280-460f-b5b8-a41ce5ca9d40
+
+2024-02-15T14:24:31.228Z 2024-02-15T14:24:31.228Z	cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPPJF2CJ36TRYZ4XKMJ8Z0SS',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'd123f197-268b-40f2-b1fb-8c3f74ee9a19',
+    paymentBalance: 6120,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#d123f197-268b-40f2-b1fb-8c3f74ee9a19","planType":"full","goal":"maintainWeight","eventSessionId":"a94bcc3e-14bb-4523-85d2-2001cef59ac6","walletSk":"24609874-d955-4a09-a0ad-5b54f3b78808","deliveryTime":"morning","dietType":"low-carb","renewalDate":"2024-02-18","type":"userRenew","frequency":"quarterly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"quarterly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":85,\\"dietType\\":\\"low-carb\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-18\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 7038,
+    vat: 918,
+    oldBalance: 0,
+    newBalance: 6120
+  }
+}
+
+2024-02-15T14:24:31.357Z 2024-02-15T14:24:31.357Z	cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-15T14:24:31.396Z END RequestId: cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c
+
+2024-02-15T14:24:31.396Z REPORT RequestId: cca3ec5e-1b92-5b2e-953e-b2163b5cbd0c	Duration: 459.32 ms	Billed Duration: 460 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 794.72 ms	
+

@@ -1,0 +1,138 @@
+2024-03-19T11:30:03.753Z START RequestId: 70bce451-0024-5259-beae-ba227949b912 Version: $LATEST
+
+2024-03-19T11:30:03.872Z 2024-03-19T11:30:03.872Z	70bce451-0024-5259-beae-ba227949b912	INFO	Processing message 93579049-0328-46f4-b0c6-b2fb7eb44ba0
+
+2024-03-19T11:30:03.903Z 2024-03-19T11:30:03.903Z	70bce451-0024-5259-beae-ba227949b912	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSB7KFVA46N8C7CHA6KX79SK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 38449.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","planType":"skipBreakfast","goal":"loseWeight","eventSessionId":"0d7f63bb-f3c8-4761-a018-01704bcfcfa0","walletSk":"00ae8207-aad7-4314-9b88-cd7bacff4d58","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","subscriptionCost":1680,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"pricePerDay\\":70,\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1680,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 1932,
+    vat: 252,
+    oldBalance: 30,
+    newBalance: 1710
+  }
+}
+
+2024-03-19T11:30:03.977Z 2024-03-19T11:30:03.977Z	70bce451-0024-5259-beae-ba227949b912	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T11:30:04.013Z 2024-03-19T11:30:04.013Z	70bce451-0024-5259-beae-ba227949b912	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 1710,
+  paymentBalance: 38449.4
+}
+
+2024-03-19T11:30:04.035Z END RequestId: 70bce451-0024-5259-beae-ba227949b912
+
+2024-03-19T11:30:04.035Z REPORT RequestId: 70bce451-0024-5259-beae-ba227949b912	Duration: 291.53 ms	Billed Duration: 292 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-03-19T11:32:57.892Z START RequestId: cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e Version: $LATEST
+
+2024-03-19T11:32:57.999Z 2024-03-19T11:32:57.999Z	cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e	INFO	Processing message 0c509a7a-bcac-45c5-847d-56196f44c895
+
+2024-03-19T11:32:58.028Z 2024-03-19T11:32:58.028Z	cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSB7RSY0GWPETGJK3YFVGYFC',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 42769.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","planType":"custom","goal":"loseWeight","eventSessionId":"fee1653f-2503-48f6-a521-224065617dc5","walletSk":"a69c3002-c8ba-4f49-9835-4834f93f69df","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","subscriptionCost":4320,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"custom\\",\\"pricePerDay\\":180,\\"foodType\\":[\\"breakfast\\",\\"breakfast\\",\\"breakfast\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":4320,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 4968,
+    vat: 648,
+    oldBalance: 30,
+    newBalance: 4350
+  }
+}
+
+2024-03-19T11:32:58.107Z 2024-03-19T11:32:58.107Z	cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T11:32:58.152Z 2024-03-19T11:32:58.152Z	cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 4350,
+  paymentBalance: 42769.4
+}
+
+2024-03-19T11:32:58.173Z END RequestId: cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e
+
+2024-03-19T11:32:58.173Z REPORT RequestId: cf819e9e-0169-5cfc-8f9c-c0ed7b7f397e	Duration: 281.19 ms	Billed Duration: 282 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-03-19T11:36:08.883Z START RequestId: 433edb36-50ee-589d-b17f-85452a316b64 Version: $LATEST
+
+2024-03-19T11:36:08.941Z 2024-03-19T11:36:08.941Z	433edb36-50ee-589d-b17f-85452a316b64	INFO	Processing message 5ae0f7ba-f3a6-4a40-9a71-0a967ea11ca5
+
+2024-03-19T11:36:08.965Z 2024-03-19T11:36:08.965Z	433edb36-50ee-589d-b17f-85452a316b64	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSB7YMES4VMF8NENY7HYVVT5',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 44929.4,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","planType":"custom","goal":"loseWeight","eventSessionId":"47371148-b183-4cac-8709-1f802073a443","walletSk":"fa893ad8-4363-4708-8ef1-d8f9b78fdddb","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"custom\\",\\"pricePerDay\\":90,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":2160,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2484,
+    vat: 324,
+    oldBalance: 30,
+    newBalance: 2190
+  }
+}
+
+2024-03-19T11:36:09.047Z 2024-03-19T11:36:09.047Z	433edb36-50ee-589d-b17f-85452a316b64	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T11:36:09.082Z 2024-03-19T11:36:09.082Z	433edb36-50ee-589d-b17f-85452a316b64	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 2190,
+  paymentBalance: 44929.4
+}
+
+2024-03-19T11:36:09.102Z END RequestId: 433edb36-50ee-589d-b17f-85452a316b64
+
+2024-03-19T11:36:09.102Z REPORT RequestId: 433edb36-50ee-589d-b17f-85452a316b64	Duration: 219.10 ms	Billed Duration: 220 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-03-19T11:27:34.310Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-19T11:27:35.437Z START RequestId: 852e2ed8-27fd-5b53-a75d-70ab5f24ae48 Version: $LATEST
+
+2024-03-19T11:27:35.594Z 2024-03-19T11:27:35.594Z	852e2ed8-27fd-5b53-a75d-70ab5f24ae48	INFO	Processing message d94831c8-f284-4037-b8b7-b3cbbdd7365c
+
+2024-03-19T11:27:35.642Z 2024-03-19T11:27:35.642Z	852e2ed8-27fd-5b53-a75d-70ab5f24ae48	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSB7EX5RJ5WTQGQ2ZX7BG4MC',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 36769.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","planType":"skipBreakfast","goal":"loseWeight","eventSessionId":"d2ff6139-7969-405a-b0df-61788686554e","walletSk":"16e9da80-6222-4b90-a9a5-43b721833b2d","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","subscriptionCost":1680,"tier":"personalized","version2":true,"addonCosts":"{\\"undefined\\":288}","nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"pricePerDay\\":70,\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1680,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"بوكسات مليانة بالأكلات اللذيذة لبطلك الصغيرتدور على اشتراك غداء صحي و ممتع و يغنيك عن الحوسه والتجهيز. في نفس الوقت؟ اشترك معانا في باقة كالو كيدز وبنضبطك!نقدم لك ولطفلك من عمر 3 إلى 7 سنوات وجبات  مُغذية ومتوازنة والأهم من كذا لذيذة ومَرحة. يحتوي كل بوكس على طبق رئيسي، قطع خضار وفواكه ، وحلى صحي.  .مصممة عشان تكون وجبة صغيرك مُتكاملة وغنية بالقيم الغذائية. ومو بس كذا! وقت الغداء صار يحمس أكثر لأن  وجباتنا توصلك بتصاميم مَرحة ومُمتعة تجذب الأطفال وتشجعهم على الأكل.وجبات كالو كيدز خالية تمامًا من المكسرات والمنكهات والألوان الصناعية، ونقدم لطفلك خيارات نباتية أيضًا.اختر من بين خيارات الإشتراكات سواءً اليومية أو الأسبوعية أو الشهرية وخلي وقت الغداء أفضل جزء من يوم طفلك!\\",\\"en\\":\\"Looking for a healthy, fun and hassle-free lunch-box? Calo Kids got you covered! We provide deliciously balanced meals for your little ones. Each box includes a main, fruits, veggies and a healthy dessert. Our daily themes make lunchtime super exciting! To add to that, the meals are completely nut-free!\\"},\\"name\\":{\\"ar\\":\\"كالو كيدز\\",\\"en\\":\\"Calo Kids\\"},\\"description\\":{\\"ar\\":\\"بوكس مليان بالأكل اللذيذ لبطلك الصغير\\",\\"en\\":\\"A box of goodness for your little ones.\\"},\\"id\\":\\"CALO_KIDS\\",\\"price\\":20,\\"status\\":\\"available\\",\\"priceWithVat\\":23,\\"pricePerDay\\":20},{\\"longDescription\\":{\\"ar\\":\\"بوكسات مليانة بالأكلات اللذيذة لبطلك الصغيرتدور على اشتراك غداء صحي و ممتع و يغنيك عن الحوسه والتجهيز. في نفس الوقت؟ اشترك معانا في باقة كالو كيدز وبنضبطك!نقدم لك ولطفلك من عمر 3 إلى 7 سنوات وجبات  مُغذية ومتوازنة والأهم من كذا لذيذة ومَرحة. يحتوي كل بوكس على طبق رئيسي، قطع خضار وفواكه ، وحلى صحي.  .مصممة عشان تكون وجبة صغيرك مُتكاملة وغنية بالقيم الغذائية. ومو بس كذا! وقت الغداء صار يحمس أكثر لأن  وجباتنا توصلك بتصاميم مَرحة ومُمتعة تجذب الأطفال وتشجعهم على الأكل.وجبات كالو كيدز خالية تمامًا من المكسرات والمنكهات والألوان الصناعية، ونقدم لطفلك خيارات نباتية أيضًا.اختر من بين خيارات الإشتراكات سواءً اليومية أو الأسبوعية أو الشهرية وخلي وقت الغداء أفضل جزء من يوم طفلك!\\",\\"en\\":\\"Looking for a healthy, fun and hassle-free lunch-box? Calo Kids got you covered! We provide deliciously balanced meals for your little ones. Each box includes a main, fruits, veggies and a healthy dessert. Our daily themes make lunchtime super exciting! To add to that, the meals are completely nut-free!\\"},\\"name\\":{\\"ar\\":\\"كالو كيدز\\",\\"en\\":\\"Calo Kids\\"},\\"description\\":{\\"ar\\":\\"بوكس مليان بالأكل اللذيذ لبطلك الصغير\\",\\"en\\":\\"A box of goodness for your little ones.\\"},\\"id\\":\\"CALO_KIDS\\",\\"price\\":20,\\"status\\":\\"available\\",\\"priceWithVat\\":23,\\"pricePerDay\\":20},{\\"longDescription\\":{\\"ar\\":\\"تبغى شي يبرد على قلبك في هذا الجو؟ خذ لك لفه على العصاير الرهيبه الي راح تروي لك عطشك. تقدر تستمتع بنكهه مختلفة كل يوم بدون ما تحس بالذنب لانها اكيد صحية دامها في كالو. تقدر تختار من نكهات حمضية او حلوة على كيف كيفك\\",\\"en\\":\\"Cold pressed juices that are perfect for quenching your thirst. You can indulge in a different flavor each day and feel good about treating your body to a healthy, delicious drink. Whether you prefer citrusy or sweet flavors, we have a juice that is sure to satisfy your taste buds.\\"},\\"name\\":{\\"ar\\":\\"العصائر\\",\\"en\\":\\"Juices\\"},\\"description\\":{\\"ar\\":\\"برد على قلبك\\",\\"en\\":\\"For your daily dose of health\\"},\\"id\\":\\"BEVERAGES\\",\\"price\\":12,\\"status\\":\\"available\\",\\"priceWithVat\\":13.8,\\"pricePerDay\\":12},{\\"longDescription\\":{\\"ar\\":\\"تبغى شي يبرد على قلبك في هذا الجو؟ خذ لك لفه على العصاير الرهيبه الي راح تروي لك عطشك. تقدر تستمتع بنكهه مختلفة كل يوم بدون ما تحس بالذنب لانها اكيد صحية دامها في كالو. تقدر تختار من نكهات حمضية او حلوة على كيف كيفك\\",\\"en\\":\\"Cold pressed juices that are perfect for quenching your thirst. You can indulge in a different flavor each day and feel good about treating your body to a healthy, delicious drink. Whether you prefer citrusy or sweet flavors, we have a juice that is sure to satisfy your taste buds.\\"},\\"name\\":{\\"ar\\":\\"العصائر\\",\\"en\\":\\"Juices\\"},\\"description\\":{\\"ar\\":\\"برد على قلبك\\",\\"en\\":\\"For your daily dose of health\\"},\\"id\\":\\"BEVERAGES\\",\\"price\\":12,\\"status\\":\\"available\\",\\"priceWithVat\\":13.8,\\"pricePerDay\\":12},{\\"longDescription\\":{\\"ar\\":\\"روق مزاجك بقهوتنا المميزة لكل ايامك. نقدم لك انواع كثيرة نفس الكولد برو او حتى اذا خاطرك بلاتيه او دبل شوت عشان تستمتع في كل رشفة تاخذها\\",\\"en\\":\\"Options that will satisfy every coffee lover out there. Whether you’re in the mood for something rich and bold like our Cold Brew, or want to indulge in a classic drip, you can spice up your morning routine and treat yourself to a delicious cup of coffee.\\"},\\"name\\":{\\"ar\\":\\"القهوة\\",\\"en\\":\\"Coffee\\"},\\"description\\":{\\"ar\\":\\"عدل مزاجك كل يوم\\",\\"en\\":\\"We know you need that kick\\"},\\"id\\":\\"COFFEE_AND_TEA\\",\\"price\\":12,\\"status\\":\\"available\\",\\"priceWithVat\\":13.8,\\"pricePerDay\\":12}]"}',
+    currency: 'SAR',
+    amount: 3588,
+    vat: 468,
+    oldBalance: 30,
+    newBalance: 3150
+  }
+}
+
+2024-03-19T11:27:35.760Z 2024-03-19T11:27:35.760Z	852e2ed8-27fd-5b53-a75d-70ab5f24ae48	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T11:27:35.811Z 2024-03-19T11:27:35.811Z	852e2ed8-27fd-5b53-a75d-70ab5f24ae48	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 3150,
+  paymentBalance: 36769.4
+}
+
+2024-03-19T11:27:35.833Z END RequestId: 852e2ed8-27fd-5b53-a75d-70ab5f24ae48
+
+2024-03-19T11:27:35.833Z REPORT RequestId: 852e2ed8-27fd-5b53-a75d-70ab5f24ae48	Duration: 395.98 ms	Billed Duration: 396 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1125.63 ms	
+

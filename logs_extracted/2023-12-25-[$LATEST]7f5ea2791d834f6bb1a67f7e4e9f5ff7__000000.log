@@ -1,0 +1,52 @@
+2023-12-25T11:11:08.785Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-25T11:11:09.613Z START RequestId: 50345e01-db36-54d0-bba0-0002be4ceb67 Version: $LATEST
+
+2023-12-25T11:11:09.715Z 2023-12-25T11:11:09.715Z	50345e01-db36-54d0-bba0-0002be4ceb67	INFO	Processing message 77560dfb-2312-4e29-87d9-42b48fc44808
+
+2023-12-25T11:11:09.760Z 2023-12-25T11:11:09.760Z	50345e01-db36-54d0-bba0-0002be4ceb67	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJGAQPS98GM09HMJBZH7BGY4',
+    userId: 'e11c95b2-2f68-4c79-9cd1-47cd978c81b5',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 252,
+    newBalance: 243
+  }
+}
+
+2023-12-25T11:11:09.843Z 2023-12-25T11:11:09.843Z	50345e01-db36-54d0-bba0-0002be4ceb67	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-25T11:11:09.880Z 2023-12-25T11:11:09.880Z	50345e01-db36-54d0-bba0-0002be4ceb67	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e11c95b2-2f68-4c79-9cd1-47cd978c81b5',
+  subscriptionBalance: 252,
+  paymentBalance: 234
+}
+
+2023-12-25T11:11:09.914Z END RequestId: 50345e01-db36-54d0-bba0-0002be4ceb67
+
+2023-12-25T11:11:09.914Z REPORT RequestId: 50345e01-db36-54d0-bba0-0002be4ceb67	Duration: 300.37 ms	Billed Duration: 301 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 827.08 ms	
+
+2023-12-25T11:11:09.935Z START RequestId: 506ff979-9f18-5b12-9390-a77afa99bf54 Version: $LATEST
+
+2023-12-25T11:11:09.949Z 2023-12-25T11:11:09.949Z	506ff979-9f18-5b12-9390-a77afa99bf54	INFO	Processing message a471c608-6879-432c-94da-6e4e490ded7d
+
+2023-12-25T11:11:09.955Z 2023-12-25T11:11:09.955Z	506ff979-9f18-5b12-9390-a77afa99bf54	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJGAQPWE77N761XHA85656J4',
+    userId: 'e11c95b2-2f68-4c79-9cd1-47cd978c81b5',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 243,
+    newBalance: 234
+  }
+}
+
+2023-12-25T11:11:09.995Z 2023-12-25T11:11:09.995Z	506ff979-9f18-5b12-9390-a77afa99bf54	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-25T11:11:10.011Z END RequestId: 506ff979-9f18-5b12-9390-a77afa99bf54
+
+2023-12-25T11:11:10.011Z REPORT RequestId: 506ff979-9f18-5b12-9390-a77afa99bf54	Duration: 76.61 ms	Billed Duration: 77 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+

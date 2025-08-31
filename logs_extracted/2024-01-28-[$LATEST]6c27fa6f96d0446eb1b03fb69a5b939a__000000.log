@@ -1,0 +1,46 @@
+2024-01-28T14:18:44.890Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-28T14:18:45.625Z START RequestId: e4de85fe-d3eb-50a8-acf7-dbceb79e65cb Version: $LATEST
+
+2024-01-28T14:18:45.760Z 2024-01-28T14:18:45.760Z	e4de85fe-d3eb-50a8-acf7-dbceb79e65cb	INFO	Processing message 5a1af923-44ee-409c-a6c3-5a003770ecde
+
+2024-01-28T14:18:45.817Z 2024-01-28T14:18:45.817Z	e4de85fe-d3eb-50a8-acf7-dbceb79e65cb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HN86ZPEMESX7SVBG30P30MBP',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'REFERRAL_REDEEM_DISCOUNT',
+    userId: 'c39062fc-016b-4afa-bacd-db5e13ce2a2d',
+    paymentBalance: 1551.547,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#c39062fc-016b-4afa-bacd-db5e13ce2a2d","walletSk":"ebf6f7f8-e7cb-43cd-9ffc-c9a80ed5b746"}',
+    currency: 'BHD',
+    amount: 50,
+    vat: 0,
+    oldBalance: 142,
+    newBalance: 192
+  }
+}
+
+2024-01-28T14:18:45.927Z 2024-01-28T14:18:45.927Z	e4de85fe-d3eb-50a8-acf7-dbceb79e65cb	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-28T14:18:45.984Z 2024-01-28T14:18:45.984Z	e4de85fe-d3eb-50a8-acf7-dbceb79e65cb	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'c39062fc-016b-4afa-bacd-db5e13ce2a2d',
+  subscriptionBalance: 192,
+  paymentBalance: 1551.547
+}
+
+2024-01-28T14:18:46.050Z END RequestId: e4de85fe-d3eb-50a8-acf7-dbceb79e65cb
+
+2024-01-28T14:18:46.051Z REPORT RequestId: e4de85fe-d3eb-50a8-acf7-dbceb79e65cb	Duration: 425.16 ms	Billed Duration: 426 ms	Memory Size: 1024 MB	Max Memory Used: 106 MB	Init Duration: 733.68 ms	
+
+2024-01-28T14:18:54.335Z START RequestId: 03a99043-24b5-580b-bb31-ce7340cb3574 Version: $LATEST
+
+2024-01-28T14:18:54.371Z 2024-01-28T14:18:54.371Z	03a99043-24b5-580b-bb31-ce7340cb3574	INFO	Processing message ad076f6f-c919-4843-8527-156f9c684537
+
+2024-01-28T14:18:54.371Z 2024-01-28T14:18:54.371Z	03a99043-24b5-580b-bb31-ce7340cb3574	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-28T14:18:54.373Z END RequestId: 03a99043-24b5-580b-bb31-ce7340cb3574
+
+2024-01-28T14:18:54.373Z REPORT RequestId: 03a99043-24b5-580b-bb31-ce7340cb3574	Duration: 37.94 ms	Billed Duration: 38 ms	Memory Size: 1024 MB	Max Memory Used: 106 MB	
+

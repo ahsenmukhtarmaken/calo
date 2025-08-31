@@ -1,0 +1,41 @@
+2023-12-24T06:15:28.921Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-24T06:15:29.779Z START RequestId: ab8fd3c6-7cf3-59c8-8178-8dc7b240beb7 Version: $LATEST
+
+2023-12-24T06:15:29.893Z 2023-12-24T06:15:29.893Z	ab8fd3c6-7cf3-59c8-8178-8dc7b240beb7	INFO	Processing message e2d4bfb2-426c-4403-9199-75b4555746df
+
+2023-12-24T06:15:29.894Z 2023-12-24T06:15:29.894Z	ab8fd3c6-7cf3-59c8-8178-8dc7b240beb7	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2023-12-24T06:15:29.897Z END RequestId: ab8fd3c6-7cf3-59c8-8178-8dc7b240beb7
+
+2023-12-24T06:15:29.897Z REPORT RequestId: ab8fd3c6-7cf3-59c8-8178-8dc7b240beb7	Duration: 118.27 ms	Billed Duration: 119 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 856.76 ms	
+XRAY TraceId: 1-6587cc80-0ffd4246d338772ebb8ab2d7	SegmentId: 1ce0a737506d485c	Sampled: true	
+
+2023-12-24T06:15:30.372Z START RequestId: dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1 Version: $LATEST
+
+2023-12-24T06:15:30.397Z 2023-12-24T06:15:30.397Z	dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1	INFO	Processing message 8176519f-30c1-4368-a912-47161b512017
+
+2023-12-24T06:15:30.430Z 2023-12-24T06:15:30.430Z	dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJD7DPZN7FN9X17K3Y1E7N4S',
+    userId: '34d90c4b-3fc8-43e7-b9ae-e41cf4ba2127',
+    currency: 'SAR',
+    amount: 216,
+    vat: 0,
+    oldBalance: 2160,
+    newBalance: 2376
+  }
+}
+
+2023-12-24T06:15:30.431Z 2023-12-24T06:15:30.431Z	dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-24T06:15:30.468Z 2023-12-24T06:15:30.468Z	dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '34d90c4b-3fc8-43e7-b9ae-e41cf4ba2127',
+  subscriptionBalance: 2160,
+  paymentBalance: 2160
+}
+
+2023-12-24T06:15:30.509Z END RequestId: dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1
+
+2023-12-24T06:15:30.509Z REPORT RequestId: dafcddfe-7f4a-5a03-9720-83ffb1f0a6c1	Duration: 137.33 ms	Billed Duration: 138 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+

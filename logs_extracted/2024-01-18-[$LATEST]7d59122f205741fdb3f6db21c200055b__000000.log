@@ -1,0 +1,30 @@
+2024-01-18T09:51:55.119Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-18T09:51:55.848Z START RequestId: 2575c50c-897f-5997-9c23-9b2e7f986006 Version: $LATEST
+
+2024-01-18T09:51:55.995Z 2024-01-18T09:51:55.995Z	2575c50c-897f-5997-9c23-9b2e7f986006	INFO	Processing message 12a85920-fe33-4272-8f1f-9b31e3d95d03
+
+2024-01-18T09:51:56.050Z 2024-01-18T09:51:56.050Z	2575c50c-897f-5997-9c23-9b2e7f986006	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMDZQXK7QK01X2NG00K0CV1B',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CX_GIFT',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 140,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","walletSk":"bb9ed058-b956-43ee-9a0d-33e6e2017b28"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 130,
+    newBalance: 140
+  }
+}
+
+2024-01-18T09:51:56.170Z 2024-01-18T09:51:56.170Z	2575c50c-897f-5997-9c23-9b2e7f986006	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-18T09:51:56.221Z END RequestId: 2575c50c-897f-5997-9c23-9b2e7f986006
+
+2024-01-18T09:51:56.221Z REPORT RequestId: 2575c50c-897f-5997-9c23-9b2e7f986006	Duration: 373.08 ms	Billed Duration: 374 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 727.92 ms	
+

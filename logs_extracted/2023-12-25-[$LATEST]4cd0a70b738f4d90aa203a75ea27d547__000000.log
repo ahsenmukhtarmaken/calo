@@ -1,0 +1,35 @@
+2023-12-25T14:37:39.077Z START RequestId: 018ba7c2-8c45-516d-931a-f9c119ac3090 Version: $LATEST
+
+2023-12-25T14:37:39.196Z 2023-12-25T14:37:39.196Z	018ba7c2-8c45-516d-931a-f9c119ac3090	INFO	Processing message 89814e98-0e40-4250-80a2-3cfd913bcf9b
+
+2023-12-25T14:37:39.197Z 2023-12-25T14:37:39.197Z	018ba7c2-8c45-516d-931a-f9c119ac3090	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2023-12-25T14:37:39.198Z END RequestId: 018ba7c2-8c45-516d-931a-f9c119ac3090
+
+2023-12-25T14:37:39.198Z REPORT RequestId: 018ba7c2-8c45-516d-931a-f9c119ac3090	Duration: 121.35 ms	Billed Duration: 122 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 880.34 ms	
+
+2023-12-25T14:40:42.042Z START RequestId: e5ae7d21-1483-56c8-be69-23228222f343 Version: $LATEST
+
+2023-12-25T14:40:42.200Z 2023-12-25T14:40:42.200Z	e5ae7d21-1483-56c8-be69-23228222f343	INFO	Processing message 3db54532-cafa-4d2a-9016-ee6ea3696337
+
+2023-12-25T14:40:42.235Z 2023-12-25T14:40:42.235Z	e5ae7d21-1483-56c8-be69-23228222f343	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJGPQEVRS6KZ0QVCEZ5C8205',
+    userId: '7fdb17cc-8581-4dd8-9733-20698a4dbf01',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2520,
+    newBalance: 2430
+  }
+}
+
+2023-12-25T14:40:42.321Z 2023-12-25T14:40:42.321Z	e5ae7d21-1483-56c8-be69-23228222f343	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-25T14:40:42.361Z END RequestId: e5ae7d21-1483-56c8-be69-23228222f343
+
+2023-12-25T14:40:42.361Z REPORT RequestId: e5ae7d21-1483-56c8-be69-23228222f343	Duration: 319.27 ms	Billed Duration: 320 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	
+XRAY TraceId: 1-6589946a-29d9edaf9b8f9023f1934c16	SegmentId: 6f04b8495d9f0539	Sampled: true	
+
+2023-12-25T14:37:38.196Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+

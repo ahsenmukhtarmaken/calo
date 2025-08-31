@@ -1,0 +1,66 @@
+2024-04-30T13:48:34.697Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-30T13:48:35.682Z START RequestId: 779a8bfd-9833-522c-869c-d55760d1e1f1 Version: $LATEST
+
+2024-04-30T13:48:35.831Z 2024-04-30T13:48:35.831Z	779a8bfd-9833-522c-869c-d55760d1e1f1	INFO	Processing message bf8ab1f0-c240-4a5d-9599-e0182a629cbd
+
+2024-04-30T13:48:35.880Z 2024-04-30T13:48:35.880Z	779a8bfd-9833-522c-869c-d55760d1e1f1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWQM79TQ1Y1ANXZE43W9767S',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CALO_TEAM_PERKS',
+    userId: '60cddb49-50de-43ce-89fc-c6dd1ce17c41',
+    paymentBalance: 9672.39,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#60cddb49-50de-43ce-89fc-c6dd1ce17c41","walletSk":"c607eb8c-29a9-4e01-8dc0-3a9fe52c908a"}',
+    currency: 'SAR',
+    amount: 5217.39,
+    vat: 0,
+    oldBalance: 4455,
+    newBalance: 9672.39
+  }
+}
+
+2024-04-30T13:48:36.032Z 2024-04-30T13:48:36.032Z	779a8bfd-9833-522c-869c-d55760d1e1f1	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-30T13:48:36.119Z END RequestId: 779a8bfd-9833-522c-869c-d55760d1e1f1
+
+2024-04-30T13:48:36.119Z REPORT RequestId: 779a8bfd-9833-522c-869c-d55760d1e1f1	Duration: 437.83 ms	Billed Duration: 438 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 983.77 ms	
+
+2024-04-30T13:49:11.355Z START RequestId: b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f Version: $LATEST
+
+2024-04-30T13:49:11.423Z 2024-04-30T13:49:11.423Z	b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f	INFO	Processing message f15c37c7-a52d-49d1-a795-117a908a2cd1
+
+2024-04-30T13:49:11.457Z 2024-04-30T13:49:11.457Z	b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWQM8DYW9JWT6F8Y4PWSTT32',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '60cddb49-50de-43ce-89fc-c6dd1ce17c41',
+    paymentBalance: -103371.09,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#60cddb49-50de-43ce-89fc-c6dd1ce17c41","walletSk":"3befb9ca-cad8-4513-bc9e-6d3d29d05e77"}',
+    currency: 'SAR',
+    amount: 113043.48,
+    vat: 0,
+    oldBalance: 9672.39,
+    newBalance: -103371.09
+  }
+}
+
+2024-04-30T13:49:11.457Z 2024-04-30T13:49:11.457Z	b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f	INFO	{
+  message: 'Subscriber will have a negative balance due to this action, the process will terminate.',
+  data: {
+    transactionId: '01HWQM8DYW9JWT6F8Y4PWSTT32',
+    userId: '60cddb49-50de-43ce-89fc-c6dd1ce17c41',
+    currentBalance: 9672.39,
+    newBalance: -103371.09
+  }
+}
+
+2024-04-30T13:49:11.529Z END RequestId: b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f
+
+2024-04-30T13:49:11.529Z REPORT RequestId: b1aab7f1-5ffb-5d60-ba1e-e95ba6ff7a3f	Duration: 179.42 ms	Billed Duration: 180 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+

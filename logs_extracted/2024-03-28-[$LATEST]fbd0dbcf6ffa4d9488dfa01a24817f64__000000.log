@@ -1,0 +1,36 @@
+2024-03-28T15:19:11.904Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T15:19:13.002Z START RequestId: 5f7c6585-12c1-5e29-a19c-3bfa9e61a180 Version: $LATEST
+
+2024-03-28T15:19:13.161Z 2024-03-28T15:19:13.161Z	5f7c6585-12c1-5e29-a19c-3bfa9e61a180	INFO	Processing message 3148b00a-f624-406a-a59a-3f57967a4dce
+
+2024-03-28T15:19:13.208Z 2024-03-28T15:19:13.208Z	5f7c6585-12c1-5e29-a19c-3bfa9e61a180	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT2T9G60BSKCB7J0SZQYEW6D',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'afdc346e-3110-4f5d-bdab-9c1ed0ac50ba',
+    paymentBalance: 1000.091,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#afdc346e-3110-4f5d-bdab-9c1ed0ac50ba","planType":"businessLunch","goal":"loseWeight","eventSessionId":"299b0c08-ba1d-494a-8306-fc98e3a53fd1","walletSk":"31f29ee3-dfc1-4cfb-a8cf-b217194840a4","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-31","type":"userRenew","frequency":"monthly","subscriptionCost":80,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"businessLunch\\",\\"pricePerDay\\":4,\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":80,\\"startDate\\":\\"2024-03-31\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 88,
+    vat: 8,
+    oldBalance: 0,
+    newBalance: 80
+  }
+}
+
+2024-03-28T15:19:13.318Z 2024-03-28T15:19:13.318Z	5f7c6585-12c1-5e29-a19c-3bfa9e61a180	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-28T15:19:13.368Z 2024-03-28T15:19:13.368Z	5f7c6585-12c1-5e29-a19c-3bfa9e61a180	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'afdc346e-3110-4f5d-bdab-9c1ed0ac50ba',
+  subscriptionBalance: 80,
+  paymentBalance: 1000.091
+}
+
+2024-03-28T15:19:13.392Z END RequestId: 5f7c6585-12c1-5e29-a19c-3bfa9e61a180
+
+2024-03-28T15:19:13.392Z REPORT RequestId: 5f7c6585-12c1-5e29-a19c-3bfa9e61a180	Duration: 390.49 ms	Billed Duration: 391 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1097.02 ms	
+

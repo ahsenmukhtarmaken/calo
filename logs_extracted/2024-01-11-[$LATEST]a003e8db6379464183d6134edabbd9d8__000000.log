@@ -1,0 +1,30 @@
+2024-01-11T03:52:47.140Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-11T03:52:47.847Z START RequestId: ace8ef64-7800-53ae-bbce-b17d10412106 Version: $LATEST
+
+2024-01-11T03:52:47.978Z 2024-01-11T03:52:47.978Z	ace8ef64-7800-53ae-bbce-b17d10412106	INFO	Processing message d42de612-0bfa-4bf4-bb67-acc1a3ecb991
+
+2024-01-11T03:52:48.027Z 2024-01-11T03:52:48.027Z	ace8ef64-7800-53ae-bbce-b17d10412106	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKVAD9Z41X2CG397W1FFCFK9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '91749485-15ab-4fd0-93af-e118e414ab9b',
+    paymentBalance: 376.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#91749485-15ab-4fd0-93af-e118e414ab9b","deliveryId":"47470608-7219-4d16-ae37-46c7ac1a9994","eventSessionId":"a5127b3a-0baf-4301-97a8-1a884db2fe9f","walletSk":"a55d1f8f-5765-494d-91a1-4de92219edb0","version2":true,"source":"{\\"id\\":\\"7cf520c4-5bd7-4f33-b035-05024f58bc60\\",\\"name\\":{\\"ar\\":\\"شوفان بالهيل\\",\\"en\\":\\"Cardamom Infused Oats\\"}}","target":"{\\"id\\":\\"601f2cf3-1508-4d7d-8408-9bdfb2760084\\",\\"name\\":{\\"ar\\":\\"Chia Jam Parfait\\",\\"en\\":\\"Chia Jam Parfait\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 376,
+    newBalance: 376.5
+  }
+}
+
+2024-01-11T03:52:48.128Z 2024-01-11T03:52:48.128Z	ace8ef64-7800-53ae-bbce-b17d10412106	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-11T03:52:48.194Z END RequestId: ace8ef64-7800-53ae-bbce-b17d10412106
+
+2024-01-11T03:52:48.194Z REPORT RequestId: ace8ef64-7800-53ae-bbce-b17d10412106	Duration: 347.19 ms	Billed Duration: 348 ms	Memory Size: 1024 MB	Max Memory Used: 100 MB	Init Duration: 705.51 ms	
+

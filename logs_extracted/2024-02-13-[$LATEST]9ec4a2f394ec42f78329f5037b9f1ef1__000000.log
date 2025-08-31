@@ -1,0 +1,70 @@
+2024-02-13T11:36:57.272Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-13T11:36:57.994Z START RequestId: ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4 Version: $LATEST
+
+2024-02-13T11:36:58.129Z 2024-02-13T11:36:58.129Z	ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4	INFO	Processing message 212947bc-696e-4c9a-8956-5359b9df9647
+
+2024-02-13T11:36:58.199Z 2024-02-13T11:36:58.199Z	ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPH42XR0TTH76AE8S5A5E4BT',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 2000.424,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"c83f12b2-81aa-4b4d-8f76-e2d3cf669b97","eventSessionId":"a258b749-8a00-4b31-acc6-b1fbcd372c3a","walletSk":"ecc7465a-44ce-4e7f-8a26-f69199c71f10","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"shatha\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"Shatha is the best friend\\\\n\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@best.self\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 449.814,
+    newBalance: 484.814
+  }
+}
+
+2024-02-13T11:36:58.358Z 2024-02-13T11:36:58.358Z	ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T11:36:58.401Z 2024-02-13T11:36:58.401Z	ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 484.814,
+  paymentBalance: 2000.424
+}
+
+2024-02-13T11:36:58.419Z END RequestId: ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4
+
+2024-02-13T11:36:58.419Z REPORT RequestId: ff39d4eb-c5ac-5c1f-aadf-8aae9329b8c4	Duration: 425.50 ms	Billed Duration: 426 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 720.53 ms	
+
+2024-02-13T11:42:27.849Z START RequestId: 7deafb19-c7c0-524d-a766-a55c901de90d Version: $LATEST
+
+2024-02-13T11:42:27.933Z 2024-02-13T11:42:27.933Z	7deafb19-c7c0-524d-a766-a55c901de90d	INFO	Processing message a8932946-7a0d-4f74-a84a-397678175433
+
+2024-02-13T11:42:27.975Z 2024-02-13T11:42:27.975Z	7deafb19-c7c0-524d-a766-a55c901de90d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPH4D1CDPCRNX9S0GCQKF4BV',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 2035.424,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"c83f12b2-81aa-4b4d-8f76-e2d3cf669b97","eventSessionId":"eacdf0e7-04c0-4bf5-952e-dabdc9640181","walletSk":"336321f9-f4a8-49cc-b236-50e6a954de87","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 484.814,
+    newBalance: 519.814
+  }
+}
+
+2024-02-13T11:42:28.051Z 2024-02-13T11:42:28.051Z	7deafb19-c7c0-524d-a766-a55c901de90d	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T11:42:28.088Z 2024-02-13T11:42:28.088Z	7deafb19-c7c0-524d-a766-a55c901de90d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 519.814,
+  paymentBalance: 2035.424
+}
+
+2024-02-13T11:42:28.116Z END RequestId: 7deafb19-c7c0-524d-a766-a55c901de90d
+
+2024-02-13T11:42:28.116Z REPORT RequestId: 7deafb19-c7c0-524d-a766-a55c901de90d	Duration: 267.11 ms	Billed Duration: 268 ms	Memory Size: 1024 MB	Max Memory Used: 112 MB	
+

@@ -1,0 +1,40 @@
+2024-01-19T16:13:32.682Z START RequestId: e2c11030-04aa-572f-8118-4e14a54aa474 Version: $LATEST
+
+2024-01-19T16:13:32.741Z 2024-01-19T16:13:32.741Z	e2c11030-04aa-572f-8118-4e14a54aa474	INFO	Processing message 7e7a5516-9235-4acd-b638-4841aa7d6009
+
+2024-01-19T16:13:32.799Z 2024-01-19T16:13:32.799Z	e2c11030-04aa-572f-8118-4e14a54aa474	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMH7ZDZ0WAA6H9VMMPPMHKAX',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '92bad53a-ed04-4827-87ac-eba49d16e61e',
+    paymentBalance: 1800,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#92bad53a-ed04-4827-87ac-eba49d16e61e","walletSk":"ce069764-a84c-479e-b2a4-34fa38868ce3"}',
+    currency: 'SAR',
+    amount: 100,
+    vat: 0,
+    oldBalance: 1700,
+    newBalance: 1800
+  }
+}
+
+2024-01-19T16:13:32.900Z 2024-01-19T16:13:32.900Z	e2c11030-04aa-572f-8118-4e14a54aa474	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-19T16:13:32.942Z END RequestId: e2c11030-04aa-572f-8118-4e14a54aa474
+
+2024-01-19T16:13:32.942Z REPORT RequestId: e2c11030-04aa-572f-8118-4e14a54aa474	Duration: 261.09 ms	Billed Duration: 262 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	
+
+2024-01-19T16:13:19.469Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-19T16:13:20.193Z START RequestId: 288f43e7-28eb-5064-8aef-1dc38920a33f Version: $LATEST
+
+2024-01-19T16:13:20.345Z 2024-01-19T16:13:20.345Z	288f43e7-28eb-5064-8aef-1dc38920a33f	INFO	Processing message b4ca258a-52d8-4dfc-a49d-db42e24d46b2
+
+2024-01-19T16:13:20.346Z 2024-01-19T16:13:20.346Z	288f43e7-28eb-5064-8aef-1dc38920a33f	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-19T16:13:20.348Z END RequestId: 288f43e7-28eb-5064-8aef-1dc38920a33f
+
+2024-01-19T16:13:20.348Z REPORT RequestId: 288f43e7-28eb-5064-8aef-1dc38920a33f	Duration: 155.10 ms	Billed Duration: 156 ms	Memory Size: 1024 MB	Max Memory Used: 101 MB	Init Duration: 722.69 ms	
+

@@ -1,0 +1,30 @@
+2024-05-14T10:41:45.351Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-14T10:41:46.318Z START RequestId: 6558a92f-90ed-5cac-b6e0-f792d2f6467b Version: $LATEST
+
+2024-05-14T10:41:46.466Z 2024-05-14T10:41:46.466Z	6558a92f-90ed-5cac-b6e0-f792d2f6467b	INFO	Processing message 44e4b75c-bd19-4b9e-bbc5-5b66f8fdc61e
+
+2024-05-14T10:41:46.514Z 2024-05-14T10:41:46.514Z	6558a92f-90ed-5cac-b6e0-f792d2f6467b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXVB38FWN2TTXEJQPKCZCW0C',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 302.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","planType":"custom","goal":"loseWeight","eventSessionId":"22c975ee-6569-4ffb-85f0-4ffbca817d2b","walletSk":"e80b723b-0d03-434b-bdd2-167915ab3787","deliveryTime":"morning","dietType":"chef-picks","renewalDate":"2024-05-17","type":"preRenew","frequency":"monthly","subscriptionCost":280,"oldRemainingDays":2,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"custom\\",\\"pricePerDay\\":14,\\"foodType\\":[\\"breakfast\\",\\"breakfast\\",\\"breakfast\\",\\"snack\\",\\"snack\\",\\"snack\\",\\"snack\\",\\"snack\\",\\"lunch\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"chef-picks\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":280,\\"startDate\\":\\"2024-05-17\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 308,
+    vat: 28,
+    oldBalance: 22.5,
+    newBalance: 302.5
+  }
+}
+
+2024-05-14T10:41:46.651Z 2024-05-14T10:41:46.651Z	6558a92f-90ed-5cac-b6e0-f792d2f6467b	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-14T10:41:46.696Z END RequestId: 6558a92f-90ed-5cac-b6e0-f792d2f6467b
+
+2024-05-14T10:41:46.696Z REPORT RequestId: 6558a92f-90ed-5cac-b6e0-f792d2f6467b	Duration: 378.06 ms	Billed Duration: 379 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 966.51 ms	
+

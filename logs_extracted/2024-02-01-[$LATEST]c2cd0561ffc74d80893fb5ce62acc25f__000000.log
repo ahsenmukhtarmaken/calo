@@ -1,0 +1,115 @@
+2024-02-01T10:49:05.411Z START RequestId: 2c869da9-57b6-564a-8c28-c39c2eebd557 Version: $LATEST
+
+2024-02-01T10:49:05.456Z 2024-02-01T10:49:05.456Z	2c869da9-57b6-564a-8c28-c39c2eebd557	INFO	Processing message 804cc46c-1e1d-4a87-81cf-e049c6d98464
+
+2024-02-01T10:49:05.510Z 2024-02-01T10:49:05.510Z	2c869da9-57b6-564a-8c28-c39c2eebd557	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNJ4JP192ZDXZSP31W56Y9XA',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 402,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"fbf1d15b-6b2f-41f9-bedc-b85e937f51e4","eventSessionId":"445fef55-437a-495b-bc15-91106d21100c","walletSk":"a5b16bfd-b3b0-485b-851a-7f0f25baefa6","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"friend name\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"hello world\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"friend1@calo.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 212,
+    newBalance: 247
+  }
+}
+
+2024-02-01T10:49:05.574Z 2024-02-01T10:49:05.574Z	2c869da9-57b6-564a-8c28-c39c2eebd557	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-01T10:49:05.609Z 2024-02-01T10:49:05.609Z	2c869da9-57b6-564a-8c28-c39c2eebd557	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 247,
+  paymentBalance: 402
+}
+
+2024-02-01T10:49:05.630Z END RequestId: 2c869da9-57b6-564a-8c28-c39c2eebd557
+
+2024-02-01T10:49:05.630Z REPORT RequestId: 2c869da9-57b6-564a-8c28-c39c2eebd557	Duration: 219.03 ms	Billed Duration: 220 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	
+
+2024-02-01T10:48:23.336Z START RequestId: 0a1dc5b9-8f78-5b82-978b-9b8cf657b0a2 Version: $LATEST
+
+2024-02-01T10:48:23.428Z 2024-02-01T10:48:23.428Z	0a1dc5b9-8f78-5b82-978b-9b8cf657b0a2	INFO	Processing message 73b67428-5292-4e15-8064-54737bdb9471
+
+2024-02-01T10:48:23.429Z 2024-02-01T10:48:23.429Z	0a1dc5b9-8f78-5b82-978b-9b8cf657b0a2	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-01T10:48:23.430Z END RequestId: 0a1dc5b9-8f78-5b82-978b-9b8cf657b0a2
+
+2024-02-01T10:48:23.430Z REPORT RequestId: 0a1dc5b9-8f78-5b82-978b-9b8cf657b0a2	Duration: 94.43 ms	Billed Duration: 95 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	
+
+2024-02-01T10:52:09.593Z START RequestId: 938e0876-e814-5a43-8594-56439200f2c7 Version: $LATEST
+
+2024-02-01T10:52:09.641Z 2024-02-01T10:52:09.641Z	938e0876-e814-5a43-8594-56439200f2c7	INFO	Processing message f541af8b-ac5d-45ba-ba38-8d1f2bf095a0
+
+2024-02-01T10:52:09.669Z 2024-02-01T10:52:09.669Z	938e0876-e814-5a43-8594-56439200f2c7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNJ4RA8GPK30E95VEA7S3C2R',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 437,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"fbf1d15b-6b2f-41f9-bedc-b85e937f51e4","eventSessionId":"49c33f4a-0570-4d5e-81c0-bd4ed0e10bda","walletSk":"e479bc45-e011-4307-8c35-dd24c98d959d","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"sdfasdfasdf\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"sadfdas\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfsadfa\\"}}}}]","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 247,
+    newBalance: 282
+  }
+}
+
+2024-02-01T10:52:09.795Z 2024-02-01T10:52:09.795Z	938e0876-e814-5a43-8594-56439200f2c7	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-01T10:52:09.826Z 2024-02-01T10:52:09.826Z	938e0876-e814-5a43-8594-56439200f2c7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 282,
+  paymentBalance: 437
+}
+
+2024-02-01T10:52:09.848Z END RequestId: 938e0876-e814-5a43-8594-56439200f2c7
+
+2024-02-01T10:52:09.848Z REPORT RequestId: 938e0876-e814-5a43-8594-56439200f2c7	Duration: 254.91 ms	Billed Duration: 255 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	
+
+2024-02-01T10:47:37.848Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-02-01T10:47:38.608Z START RequestId: f0eb65d4-0a40-5f5b-9bd6-3be172b96c46 Version: $LATEST
+
+2024-02-01T10:47:38.772Z 2024-02-01T10:47:38.772Z	f0eb65d4-0a40-5f5b-9bd6-3be172b96c46	INFO	Processing message 1b4f4183-46a3-4825-b78a-96288b6b98c7
+
+2024-02-01T10:47:38.837Z 2024-02-01T10:47:38.837Z	f0eb65d4-0a40-5f5b-9bd6-3be172b96c46	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNJ4G03FPHESTCYN6ZXFFJFD',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 367,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"fbf1d15b-6b2f-41f9-bedc-b85e937f51e4","eventSessionId":"471abe7d-18bc-4f10-ac64-cb013aad24fc","walletSk":"c9d5cbb1-d76f-472d-81da-f802627d43ad","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"friend name\\",\\"senderName\\":\\"Abdulmalick\\",\\"giftMessage\\":\\"hello world\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"friend1@calo.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 177,
+    newBalance: 212
+  }
+}
+
+2024-02-01T10:47:39.063Z 2024-02-01T10:47:39.063Z	f0eb65d4-0a40-5f5b-9bd6-3be172b96c46	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-01T10:47:39.105Z 2024-02-01T10:47:39.105Z	f0eb65d4-0a40-5f5b-9bd6-3be172b96c46	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 212,
+  paymentBalance: 367
+}
+
+2024-02-01T10:47:39.131Z END RequestId: f0eb65d4-0a40-5f5b-9bd6-3be172b96c46
+
+2024-02-01T10:47:39.131Z REPORT RequestId: f0eb65d4-0a40-5f5b-9bd6-3be172b96c46	Duration: 523.17 ms	Billed Duration: 524 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 756.70 ms	
+XRAY TraceId: 1-65bb76c9-832efb4530a9a303b9f27c88	SegmentId: 1fd42abb25ba87de	Sampled: true	
+

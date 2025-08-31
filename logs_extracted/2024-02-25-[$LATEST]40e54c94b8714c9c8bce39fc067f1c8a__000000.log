@@ -1,0 +1,41 @@
+2024-02-25T09:58:01.002Z 2024-02-25T09:58:01.002Z	1fed4afe-9c38-5336-b746-14ab8d5d1569	INFO	Processing message 2d94a23e-e983-4f26-82de-ee1864ee2c19
+
+2024-02-25T09:58:01.003Z 2024-02-25T09:58:01.003Z	1fed4afe-9c38-5336-b746-14ab8d5d1569	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-25T09:58:01.007Z END RequestId: 1fed4afe-9c38-5336-b746-14ab8d5d1569
+
+2024-02-25T09:58:01.007Z REPORT RequestId: 1fed4afe-9c38-5336-b746-14ab8d5d1569	Duration: 149.22 ms	Billed Duration: 150 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	Init Duration: 1209.07 ms	
+
+2024-02-25T09:57:59.647Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-25T09:58:00.857Z START RequestId: 1fed4afe-9c38-5336-b746-14ab8d5d1569 Version: $LATEST
+
+2024-02-25T09:58:35.407Z START RequestId: 1e82e753-7ba5-5d4e-994a-b9066adfda96 Version: $LATEST
+
+2024-02-25T09:58:35.490Z 2024-02-25T09:58:35.490Z	1e82e753-7ba5-5d4e-994a-b9066adfda96	INFO	Processing message 7d83249c-0538-47b5-afc0-7877c7b23781
+
+2024-02-25T09:58:35.537Z 2024-02-25T09:58:35.537Z	1e82e753-7ba5-5d4e-994a-b9066adfda96	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQFV7F7V2WSXZD57AHQ1S5AY',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'a8d6dd11-eb1d-4d7e-887e-682dac43cd97',
+    paymentBalance: 160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#a8d6dd11-eb1d-4d7e-887e-682dac43cd97","walletSk":"7b1df093-94f8-4bd5-8f39-68b5cceb8908"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 150,
+    newBalance: 160
+  }
+}
+
+2024-02-25T09:58:35.640Z 2024-02-25T09:58:35.640Z	1e82e753-7ba5-5d4e-994a-b9066adfda96	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-25T09:58:35.683Z END RequestId: 1e82e753-7ba5-5d4e-994a-b9066adfda96
+
+2024-02-25T09:58:35.683Z REPORT RequestId: 1e82e753-7ba5-5d4e-994a-b9066adfda96	Duration: 276.07 ms	Billed Duration: 277 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+XRAY TraceId: 1-65db0f4b-f805e053b00c03a0b3016334	SegmentId: 70d0c7297fadea3e	Sampled: true	
+

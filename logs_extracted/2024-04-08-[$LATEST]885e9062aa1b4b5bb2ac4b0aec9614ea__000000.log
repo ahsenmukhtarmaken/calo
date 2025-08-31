@@ -1,0 +1,40 @@
+2024-04-08T10:47:47.134Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-08T10:47:48.119Z START RequestId: d1d7bf21-eb06-52a5-88fc-e1ac268a2603 Version: $LATEST
+
+2024-04-08T10:49:20.879Z START RequestId: 0d5b0eba-6348-5cd4-a1df-5037aeaa55a1 Version: $LATEST
+
+2024-04-08T10:49:20.940Z 2024-04-08T10:49:20.940Z	0d5b0eba-6348-5cd4-a1df-5037aeaa55a1	INFO	Processing message 3f263cb3-49d2-4b01-aa1e-2410081b7e46
+
+2024-04-08T10:49:20.988Z 2024-04-08T10:49:20.988Z	0d5b0eba-6348-5cd4-a1df-5037aeaa55a1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTYN7A3BEK8ZB1XJ6YS91C0Z',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'REFUNDED_MANUALLY',
+    userId: '8dfe2f8c-8ed9-4fd3-b73f-51cf500578bc',
+    paymentBalance: 7.364,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8dfe2f8c-8ed9-4fd3-b73f-51cf500578bc","walletSk":"b97f2293-c61a-4989-9af2-54eb44adedec"}',
+    currency: 'BHD',
+    amount: 163.636,
+    vat: 0,
+    oldBalance: 171,
+    newBalance: 7.364
+  }
+}
+
+2024-04-08T10:49:21.074Z 2024-04-08T10:49:21.074Z	0d5b0eba-6348-5cd4-a1df-5037aeaa55a1	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-08T10:49:21.115Z END RequestId: 0d5b0eba-6348-5cd4-a1df-5037aeaa55a1
+
+2024-04-08T10:49:21.115Z REPORT RequestId: 0d5b0eba-6348-5cd4-a1df-5037aeaa55a1	Duration: 236.15 ms	Billed Duration: 237 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-04-08T10:47:48.276Z 2024-04-08T10:47:48.276Z	d1d7bf21-eb06-52a5-88fc-e1ac268a2603	INFO	Processing message 609d66c4-363b-4bfd-93fc-7f2ded831e5e
+
+2024-04-08T10:47:48.277Z 2024-04-08T10:47:48.277Z	d1d7bf21-eb06-52a5-88fc-e1ac268a2603	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-08T10:47:48.292Z END RequestId: d1d7bf21-eb06-52a5-88fc-e1ac268a2603
+
+2024-04-08T10:47:48.292Z REPORT RequestId: d1d7bf21-eb06-52a5-88fc-e1ac268a2603	Duration: 173.09 ms	Billed Duration: 174 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 982.30 ms	
+

@@ -1,0 +1,30 @@
+2024-05-01T09:02:20.523Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-01T09:02:21.565Z START RequestId: 187d0eaf-9a4d-559d-b764-50039d1e6a5b Version: $LATEST
+
+2024-05-01T09:02:21.768Z 2024-05-01T09:02:21.768Z	187d0eaf-9a4d-559d-b764-50039d1e6a5b	INFO	Processing message 6a72c85b-0be4-4039-841b-ccc6ffb3821a
+
+2024-05-01T09:02:21.826Z 2024-05-01T09:02:21.826Z	187d0eaf-9a4d-559d-b764-50039d1e6a5b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWSP7WJ5QYWW8MW0V0KZ9A7A',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: '87f3951c-e577-4b0e-a2c3-b2ad9c43db6e',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#87f3951c-e577-4b0e-a2c3-b2ad9c43db6e","eventSessionId":"4b9099f5-7447-4b8a-ad9c-3c7ca32c696b","walletSk":"e7cbb2c5-95ac-4a0b-a640-96b94b77be6c","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-05-05T09:00:16.679Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'BHD',
+    amount: 89.1,
+    vat: 8.1,
+    oldBalance: 171,
+    newBalance: 252
+  }
+}
+
+2024-05-01T09:02:21.974Z 2024-05-01T09:02:21.974Z	187d0eaf-9a4d-559d-b764-50039d1e6a5b	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-01T09:02:22.015Z END RequestId: 187d0eaf-9a4d-559d-b764-50039d1e6a5b
+
+2024-05-01T09:02:22.015Z REPORT RequestId: 187d0eaf-9a4d-559d-b764-50039d1e6a5b	Duration: 451.94 ms	Billed Duration: 452 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 1037.65 ms	
+

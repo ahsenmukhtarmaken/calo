@@ -1,0 +1,91 @@
+2024-03-05T10:25:34.108Z START RequestId: 19b754da-fb88-5a3d-b0f2-0aba0ed971f2 Version: $LATEST
+
+2024-03-05T10:25:34.171Z 2024-03-05T10:25:34.171Z	19b754da-fb88-5a3d-b0f2-0aba0ed971f2	INFO	Processing message 7e6590c1-7653-45af-a837-6019ee7810df
+
+2024-03-05T10:25:34.186Z 2024-03-05T10:25:34.186Z	19b754da-fb88-5a3d-b0f2-0aba0ed971f2	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:25:34.188Z END RequestId: 19b754da-fb88-5a3d-b0f2-0aba0ed971f2
+
+2024-03-05T10:25:34.188Z REPORT RequestId: 19b754da-fb88-5a3d-b0f2-0aba0ed971f2	Duration: 79.91 ms	Billed Duration: 80 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-03-05T10:38:26.685Z START RequestId: a5e1fe6d-9b56-5858-9ef3-a00d63068a13 Version: $LATEST
+
+2024-03-05T10:38:26.744Z 2024-03-05T10:38:26.744Z	a5e1fe6d-9b56-5858-9ef3-a00d63068a13	INFO	Processing message 9f95cd42-0a40-4306-8463-dd66a6064aaf
+
+2024-03-05T10:38:26.744Z 2024-03-05T10:38:26.744Z	a5e1fe6d-9b56-5858-9ef3-a00d63068a13	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:38:26.745Z END RequestId: a5e1fe6d-9b56-5858-9ef3-a00d63068a13
+
+2024-03-05T10:38:26.745Z REPORT RequestId: a5e1fe6d-9b56-5858-9ef3-a00d63068a13	Duration: 60.17 ms	Billed Duration: 61 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+XRAY TraceId: 1-65e6f622-9720e3030b3933ae44b8b112	SegmentId: 5a031e8275a95b29	Sampled: true	
+
+2024-03-05T10:24:23.859Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-05T10:27:00.260Z START RequestId: af38fde4-6225-5ac8-8ae8-a384978d0ffb Version: $LATEST
+
+2024-03-05T10:27:00.328Z 2024-03-05T10:27:00.328Z	af38fde4-6225-5ac8-8ae8-a384978d0ffb	INFO	Processing message c1803370-ab83-478f-b9f0-929059406930
+
+2024-03-05T10:27:00.328Z 2024-03-05T10:27:00.328Z	af38fde4-6225-5ac8-8ae8-a384978d0ffb	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:27:00.329Z END RequestId: af38fde4-6225-5ac8-8ae8-a384978d0ffb
+
+2024-03-05T10:27:00.329Z REPORT RequestId: af38fde4-6225-5ac8-8ae8-a384978d0ffb	Duration: 69.30 ms	Billed Duration: 70 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-03-05T10:32:21.618Z START RequestId: dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f Version: $LATEST
+
+2024-03-05T10:32:21.674Z 2024-03-05T10:32:21.674Z	dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f	INFO	Processing message dd75ce4f-7435-487b-b230-8fc61fd3d35b
+
+2024-03-05T10:32:21.707Z 2024-03-05T10:32:21.707Z	dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR72QRTN3NCKFPX3RYD6487E',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '5def4009-fdba-4a02-9555-9210152eb1f4',
+    paymentBalance: 1,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#5def4009-fdba-4a02-9555-9210152eb1f4","walletSk":"19c04723-4bcb-4f9c-95bc-c21250c3972f"}',
+    currency: 'BHD',
+    amount: 847,
+    vat: 0,
+    oldBalance: 848,
+    newBalance: 1
+  }
+}
+
+2024-03-05T10:32:21.838Z 2024-03-05T10:32:21.838Z	dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-05T10:32:21.878Z END RequestId: dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f
+
+2024-03-05T10:32:21.878Z REPORT RequestId: dcceedcc-da8b-5e11-ac1c-b3ac2c65d18f	Duration: 260.54 ms	Billed Duration: 261 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-03-05T10:33:27.643Z START RequestId: 08beb21e-4d49-5b89-8f1a-ec7eba78bb35 Version: $LATEST
+
+2024-03-05T10:33:27.673Z 2024-03-05T10:33:27.673Z	08beb21e-4d49-5b89-8f1a-ec7eba78bb35	INFO	Processing message 4ee4c23a-1ac8-4cd1-8cf2-faf463120b8e
+
+2024-03-05T10:33:27.673Z 2024-03-05T10:33:27.673Z	08beb21e-4d49-5b89-8f1a-ec7eba78bb35	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:33:27.674Z END RequestId: 08beb21e-4d49-5b89-8f1a-ec7eba78bb35
+
+2024-03-05T10:33:27.674Z REPORT RequestId: 08beb21e-4d49-5b89-8f1a-ec7eba78bb35	Duration: 31.79 ms	Billed Duration: 32 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-03-05T10:24:25.108Z START RequestId: caeb34ce-fa5c-5b8e-af9d-6aae0f4cc6d6 Version: $LATEST
+
+2024-03-05T10:24:25.266Z 2024-03-05T10:24:25.266Z	caeb34ce-fa5c-5b8e-af9d-6aae0f4cc6d6	INFO	Processing message 51efeeb7-b94d-4577-b995-d7ac6da46850
+
+2024-03-05T10:24:25.267Z 2024-03-05T10:24:25.267Z	caeb34ce-fa5c-5b8e-af9d-6aae0f4cc6d6	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:24:25.291Z END RequestId: caeb34ce-fa5c-5b8e-af9d-6aae0f4cc6d6
+
+2024-03-05T10:24:25.291Z REPORT RequestId: caeb34ce-fa5c-5b8e-af9d-6aae0f4cc6d6	Duration: 182.28 ms	Billed Duration: 183 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	Init Duration: 1248.04 ms	
+
+2024-03-05T10:24:41.320Z START RequestId: 798ca5b6-e4db-53d2-8ac6-fbd611cd681d Version: $LATEST
+
+2024-03-05T10:24:41.438Z 2024-03-05T10:24:41.438Z	798ca5b6-e4db-53d2-8ac6-fbd611cd681d	INFO	Processing message 10e50929-d8ac-4d41-9eb6-d8f3804ba467
+
+2024-03-05T10:24:41.439Z 2024-03-05T10:24:41.439Z	798ca5b6-e4db-53d2-8ac6-fbd611cd681d	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-03-05T10:24:41.440Z END RequestId: 798ca5b6-e4db-53d2-8ac6-fbd611cd681d
+
+2024-03-05T10:24:41.440Z REPORT RequestId: 798ca5b6-e4db-53d2-8ac6-fbd611cd681d	Duration: 119.85 ms	Billed Duration: 120 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

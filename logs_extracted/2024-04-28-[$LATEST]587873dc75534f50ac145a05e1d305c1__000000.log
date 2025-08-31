@@ -1,0 +1,36 @@
+2024-04-28T17:34:09.850Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-28T17:34:10.869Z START RequestId: c9cea9f8-f7cd-5ec5-968d-f7507d090ec7 Version: $LATEST
+
+2024-04-28T17:34:11.018Z 2024-04-28T17:34:11.018Z	c9cea9f8-f7cd-5ec5-968d-f7507d090ec7	INFO	Processing message 0469a947-24d4-4861-bc76-4fa80b4da73c
+
+2024-04-28T17:34:11.076Z 2024-04-28T17:34:11.076Z	c9cea9f8-f7cd-5ec5-968d-f7507d090ec7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWJWAXHZWW5WPGC993GZBY36',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43',
+    paymentBalance: 1116,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43","eventSessionId":"ef99b7e0-e402-4779-9e32-0a36c56bb823","walletSk":"fc30e3e2-1575-478f-88d0-7bb62ffcd770","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-04-30T17:32:41.557Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://account?change-plan=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'BHD',
+    amount: 79.2,
+    vat: 7.2,
+    oldBalance: 180,
+    newBalance: 252
+  }
+}
+
+2024-04-28T17:34:11.183Z 2024-04-28T17:34:11.183Z	c9cea9f8-f7cd-5ec5-968d-f7507d090ec7	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-28T17:34:11.219Z 2024-04-28T17:34:11.219Z	c9cea9f8-f7cd-5ec5-968d-f7507d090ec7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f3a186d2-d38f-4c2a-ab55-9f26e0ef1e43',
+  subscriptionBalance: 252,
+  paymentBalance: 1116
+}
+
+2024-04-28T17:34:11.252Z END RequestId: c9cea9f8-f7cd-5ec5-968d-f7507d090ec7
+
+2024-04-28T17:34:11.252Z REPORT RequestId: c9cea9f8-f7cd-5ec5-968d-f7507d090ec7	Duration: 382.26 ms	Billed Duration: 383 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1018.13 ms	
+

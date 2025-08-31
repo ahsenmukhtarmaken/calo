@@ -1,0 +1,275 @@
+2024-04-17T06:59:17.397Z INIT_START Runtime Version: nodejs:20.v20	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e510d001332c5ac4354ceb185ddd6ef3def14993da7ab2533668b6a6a1ee661d
+
+2024-04-17T06:59:18.418Z START RequestId: ac164871-1263-5672-9bf3-16e8671533af Version: $LATEST
+
+2024-04-17T06:59:18.552Z 2024-04-17T06:59:18.552Z	ac164871-1263-5672-9bf3-16e8671533af	INFO	Processing message 860d73a1-05e8-43bf-8c05-95f9df575cce
+
+2024-04-17T06:59:18.616Z 2024-04-17T06:59:18.616Z	ac164871-1263-5672-9bf3-16e8671533af	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMHBPMAGJEBEF2PGRJ93G',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'ecc835ac-ecb9-423d-b41a-7c1a15ff72c3',
+    paymentBalance: 929.136,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#ecc835ac-ecb9-423d-b41a-7c1a15ff72c3","walletSk":"a408e01c-eb27-4023-b99a-a9bc0858de2d"}',
+    currency: 'BHD',
+    amount: 94.545,
+    vat: 0,
+    oldBalance: 834.591,
+    newBalance: 929.136
+  }
+}
+
+2024-04-17T06:59:18.715Z 2024-04-17T06:59:18.715Z	ac164871-1263-5672-9bf3-16e8671533af	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:18.752Z END RequestId: ac164871-1263-5672-9bf3-16e8671533af
+
+2024-04-17T06:59:18.752Z REPORT RequestId: ac164871-1263-5672-9bf3-16e8671533af	Duration: 334.12 ms	Billed Duration: 335 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1019.63 ms	
+
+2024-04-17T06:59:18.865Z START RequestId: 75298d70-1e20-5d21-ae46-d3e96ba63187 Version: $LATEST
+
+2024-04-17T06:59:18.893Z 2024-04-17T06:59:18.893Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 6a58eb54-657c-4e95-a0b5-0508ca36f8f6
+
+2024-04-17T06:59:18.902Z 2024-04-17T06:59:18.902Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMHNCQ392BT5VEKKENR4B',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '5cf444b8-09b4-4a03-b22d-f3141a817dd8',
+    paymentBalance: 96.909,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#5cf444b8-09b4-4a03-b22d-f3141a817dd8","walletSk":"9cdb5ef3-c292-4c58-9744-f14b76a9a056"}',
+    currency: 'BHD',
+    amount: 10.909,
+    vat: 0,
+    oldBalance: 94,
+    newBalance: 104.909
+  }
+}
+
+2024-04-17T06:59:18.957Z 2024-04-17T06:59:18.957Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:18.972Z 2024-04-17T06:59:18.972Z	75298d70-1e20-5d21-ae46-d3e96ba63187	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '5cf444b8-09b4-4a03-b22d-f3141a817dd8',
+  subscriptionBalance: 104.909,
+  paymentBalance: 96.909
+}
+
+2024-04-17T06:59:19.001Z 2024-04-17T06:59:19.001Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 5af06de4-2758-4a8f-8732-f15e43fe1fa8
+
+2024-04-17T06:59:19.008Z 2024-04-17T06:59:19.008Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDME2CEFKM1MCNMJRSN2RS',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'random-uuid',
+    paymentBalance: 0,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#random-uuid","walletSk":"da91a5ef-4652-4b20-8828-638a77c739bd"}',
+    currency: 'BHD',
+    amount: 0,
+    vat: 0,
+    oldBalance: 0,
+    newBalance: 0
+  }
+}
+
+2024-04-17T06:59:19.057Z 2024-04-17T06:59:19.057Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.070Z 2024-04-17T06:59:19.070Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message e3ebadeb-bf5c-4c78-b322-ab52b1e89cc2
+
+2024-04-17T06:59:19.079Z 2024-04-17T06:59:19.079Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJ3RPD4GQDZ4ZC6W6TRB',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '9e652ba2-e1f3-4c64-a256-7bc39337e0ca',
+    paymentBalance: 116.909,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#9e652ba2-e1f3-4c64-a256-7bc39337e0ca","walletSk":"cd877f51-90d0-4aba-9624-bdc422b0712c"}',
+    currency: 'BHD',
+    amount: 10.909,
+    vat: 0,
+    oldBalance: 106,
+    newBalance: 116.909
+  }
+}
+
+2024-04-17T06:59:19.132Z 2024-04-17T06:59:19.132Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.148Z 2024-04-17T06:59:19.148Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 2a141717-7b9c-43e1-b379-6207e3b4e00a
+
+2024-04-17T06:59:19.156Z 2024-04-17T06:59:19.156Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMHS695EAKXP7QZGGAKVA',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    paymentBalance: 551.818,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#813ee3cd-2349-43ae-8915-f0a2c12b4245","walletSk":"9ca364de-8a40-4ea3-b02d-cc9b7a0894d1"}',
+    currency: 'BHD',
+    amount: 21.818,
+    vat: 0,
+    oldBalance: 188,
+    newBalance: 209.818
+  }
+}
+
+2024-04-17T06:59:19.207Z 2024-04-17T06:59:19.207Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.219Z 2024-04-17T06:59:19.219Z	75298d70-1e20-5d21-ae46-d3e96ba63187	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+  subscriptionBalance: 209.818,
+  paymentBalance: 551.818
+}
+
+2024-04-17T06:59:19.237Z 2024-04-17T06:59:19.237Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 3a575754-12d2-43b5-b473-01a04f2e82d8
+
+2024-04-17T06:59:19.245Z 2024-04-17T06:59:19.245Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJA54HFNR1KWG7PEPHMK',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '3c69deb3-2d26-4954-865d-164c08a6c20c',
+    paymentBalance: 929.818,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#3c69deb3-2d26-4954-865d-164c08a6c20c","walletSk":"01e000fe-2b8c-4fb2-b5b7-059067ee0b10"}',
+    currency: 'BHD',
+    amount: 92.727,
+    vat: 0,
+    oldBalance: 837.091,
+    newBalance: 929.818
+  }
+}
+
+2024-04-17T06:59:19.296Z 2024-04-17T06:59:19.296Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.311Z 2024-04-17T06:59:19.311Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message a84109ba-121c-4c6a-a740-1b6c0dc73136
+
+2024-04-17T06:59:19.318Z 2024-04-17T06:59:19.318Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJCFBH060Q5JR03PR210',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+    paymentBalance: 148.183,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#ada642e4-bef1-4fd9-8b93-7f3f3813ae19","walletSk":"9b1d9013-edcd-4c7f-9956-d4a7b118e513"}',
+    currency: 'BHD',
+    amount: 17.273,
+    vat: 0,
+    oldBalance: 146.91,
+    newBalance: 164.183
+  }
+}
+
+2024-04-17T06:59:19.366Z 2024-04-17T06:59:19.366Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.380Z 2024-04-17T06:59:19.380Z	75298d70-1e20-5d21-ae46-d3e96ba63187	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+  subscriptionBalance: 164.183,
+  paymentBalance: 148.183
+}
+
+2024-04-17T06:59:19.397Z 2024-04-17T06:59:19.397Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message fa533485-c6db-4896-a5c6-b419a86d8aed
+
+2024-04-17T06:59:19.405Z 2024-04-17T06:59:19.405Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMHQQRP6JC1Y7TGE3NAWY',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '8330737a-1e59-450e-aeb0-e22674298030',
+    paymentBalance: 156.545,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8330737a-1e59-450e-aeb0-e22674298030","walletSk":"5843f476-cae7-419e-ba1c-a4085e2ad1dc"}',
+    currency: 'BHD',
+    amount: 14.545,
+    vat: 0,
+    oldBalance: 142,
+    newBalance: 156.545
+  }
+}
+
+2024-04-17T06:59:19.450Z 2024-04-17T06:59:19.450Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.465Z 2024-04-17T06:59:19.465Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 2a05fe47-a160-4bf0-9ce3-e6e46cdf0dbc
+
+2024-04-17T06:59:19.471Z 2024-04-17T06:59:19.471Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJKN9HA1W4PWSV1TC0KA',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'f3d4c61b-6917-4a7c-99c0-aaa26571e99e',
+    paymentBalance: 114.818,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f3d4c61b-6917-4a7c-99c0-aaa26571e99e","walletSk":"782dfb0f-f511-46aa-ba51-28d2ea686be2"}',
+    currency: 'BHD',
+    amount: 11.818,
+    vat: 0,
+    oldBalance: 103,
+    newBalance: 114.818
+  }
+}
+
+2024-04-17T06:59:19.526Z 2024-04-17T06:59:19.526Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.537Z 2024-04-17T06:59:19.537Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 6c958a66-c645-4aed-9e83-c138f2469543
+
+2024-04-17T06:59:19.543Z 2024-04-17T06:59:19.543Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJG0M1GFMKT1TAVVK7ZQ',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '74adce2a-39bc-4867-b6a8-84bbc95c7170',
+    paymentBalance: 140.636,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#74adce2a-39bc-4867-b6a8-84bbc95c7170","walletSk":"89ba83c3-b2ad-48c4-a4f6-2d9a91f065f9"}',
+    currency: 'BHD',
+    amount: 13.636,
+    vat: 0,
+    oldBalance: 127,
+    newBalance: 140.636
+  }
+}
+
+2024-04-17T06:59:19.585Z 2024-04-17T06:59:19.585Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.596Z 2024-04-17T06:59:19.596Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Processing message 5d78d9bd-6247-45a6-a7e1-f9411f309690
+
+2024-04-17T06:59:19.602Z 2024-04-17T06:59:19.602Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVNDMJPPQ761TZWBJ9ST2TNH',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '82265432-bd90-422d-8e65-9ae156f06fd7',
+    paymentBalance: 131.636,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#82265432-bd90-422d-8e65-9ae156f06fd7","walletSk":"4e6c6afe-edf7-4ce8-a772-ee91d060b8fc"}',
+    currency: 'BHD',
+    amount: 13.636,
+    vat: 0,
+    oldBalance: 118,
+    newBalance: 131.636
+  }
+}
+
+2024-04-17T06:59:19.648Z 2024-04-17T06:59:19.648Z	75298d70-1e20-5d21-ae46-d3e96ba63187	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T06:59:19.664Z END RequestId: 75298d70-1e20-5d21-ae46-d3e96ba63187
+
+2024-04-17T06:59:19.664Z REPORT RequestId: 75298d70-1e20-5d21-ae46-d3e96ba63187	Duration: 799.05 ms	Billed Duration: 800 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	
+XRAY TraceId: 1-661f7346-36e3d609db52390780e38419	SegmentId: 0dc2cc663f493030	Sampled: true	
+

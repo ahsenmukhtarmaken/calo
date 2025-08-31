@@ -1,0 +1,30 @@
+2024-02-24T14:37:29.161Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-24T14:37:30.381Z START RequestId: 00922533-d491-5775-8e49-7b67d5cf6c74 Version: $LATEST
+
+2024-02-24T14:37:30.521Z 2024-02-24T14:37:30.521Z	00922533-d491-5775-8e49-7b67d5cf6c74	INFO	Processing message 70be98f9-6537-4905-871d-05b6145fa638
+
+2024-02-24T14:37:30.578Z 2024-02-24T14:37:30.578Z	00922533-d491-5775-8e49-7b67d5cf6c74	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQDRSCZF28CNP3JPPV2R6PVG',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'REFERRAL_REDEEM_DAYS',
+    userId: '0a6f92ca-d7a2-4381-90f8-63079880b3bc',
+    paymentBalance: 190,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0a6f92ca-d7a2-4381-90f8-63079880b3bc","walletSk":"ab030aee-b3c8-4520-ace7-33fc9b8470e1"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 180,
+    newBalance: 190
+  }
+}
+
+2024-02-24T14:37:30.696Z 2024-02-24T14:37:30.696Z	00922533-d491-5775-8e49-7b67d5cf6c74	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-24T14:37:30.747Z END RequestId: 00922533-d491-5775-8e49-7b67d5cf6c74
+
+2024-02-24T14:37:30.747Z REPORT RequestId: 00922533-d491-5775-8e49-7b67d5cf6c74	Duration: 365.62 ms	Billed Duration: 366 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1218.54 ms	
+

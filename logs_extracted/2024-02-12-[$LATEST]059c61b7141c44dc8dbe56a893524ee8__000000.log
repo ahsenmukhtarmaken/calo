@@ -1,0 +1,36 @@
+2024-02-12T05:32:59.475Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-12T05:33:00.196Z START RequestId: 348c0a44-6d6e-56dd-b154-5407c2d01208 Version: $LATEST
+
+2024-02-12T05:33:00.349Z 2024-02-12T05:33:00.349Z	348c0a44-6d6e-56dd-b154-5407c2d01208	INFO	Processing message 155cc0c5-926f-4e43-8be9-41149735def2
+
+2024-02-12T05:33:00.467Z 2024-02-12T05:33:00.467Z	348c0a44-6d6e-56dd-b154-5407c2d01208	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPDWVS6P21HMGCFEWQK98T9C',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '078a520a-b504-4794-8e9b-910d86e4e96d',
+    paymentBalance: 2323.28,
+    updatePaymentBalance: true,
+    metadata: `{"referralBalanceDiscount":0,"walletId":"wallet#078a520a-b504-4794-8e9b-910d86e4e96d","planType":"businessLunch","goal":"gainWeight","eventSessionId":"34ca3c81-bcea-4c8e-a3af-8d90cd977e53","walletSk":"770211f3-0ff3-4f74-b9bf-bf0707c6ca8d","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-02-14","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"businessLunch\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":42,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-14\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"غذي جسمك بكمية كافية من البروتين. خيارات متنوعة نوفرها لك بشكل يومي و على ذوقك مثل دجاج الفول السوداني أو اللحم المسحب، و اذا كنت تفضل المأكولات البحرية، وفرنا لك أصابع السمك بالليمون و غيرها. كل خيار يقول الزود عندي!\\",\\"en\\":\\"Give your body the essential nourishment it requires by ensuring a sufficient intake of protein each day. You have a variety of protein-rich options to choose from, each one as delicious as the next. For instance, you could opt for the Peanut Chicken, but if you're more inclined towards red meat, the Pulled Beef is a fantastic choice. For seafood lovers, the Lemon Fish Sticks are a must-try, and much more to choose from!\\"},\\"priceWithVat\\":14.95,\\"endDate\\":\\"2023-10-07\\",\\"description\\":{\\"ar\\":\\"كمل احتياجاتك للبروتين كل يوم\\",\\"en\\":\\"Fulfill your protein intake for the day\\"},\\"pricePerDay\\":1.36363636363636,\\"price\\":13,\\"name\\":{\\"ar\\":\\"اشتراك البروتين\\",\\"en\\":\\"Protein Boost\\"},\\"isSelected\\":true,\\"autoRenew\\":true,\\"currency\\":\\"SAR\\",\\"id\\":\\"EXTRA_PROTEIN\\",\\"category\\":\\"EXTRA_PROTEIN\\",\\"startDate\\":\\"2023-09-13\\",\\"status\\":\\"available\\"},{\\"autoRenew\\":true,\\"currency\\":\\"SAR\\",\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2023-10-04\\",\\"pricePerDay\\":12,\\"startDate\\":\\"2023-09-20\\",\\"longDescription\\":{\\"ar\\":\\"روق مزاجك بقهوتنا المميزة لكل ايامك. نقدم لك انواع كثيرة نفس الكولد برو او حتى اذا خاطرك بلاتيه او دبل شوت عشان تستمتع في كل رشفة تاخذها\\",\\"en\\":\\"Options that will satisfy every coffee lover out there. Whether you're in the mood for something rich and bold like our Cold Brew, or want to indulge in a classic drip, you can spice up your morning routine and treat yourself to a delicious cup of coffee.\\"},\\"name\\":{\\"ar\\":\\"القهوة\\",\\"en\\":\\"Coffee\\"},\\"description\\":{\\"ar\\":\\"عدل مزاجك كل يوم\\",\\"en\\":\\"We know you need that kick\\"},\\"id\\":\\"COFFEE_AND_TEA\\",\\"price\\":12,\\"status\\":\\"available\\",\\"priceWithVat\\":13.8}]"}`,
+    currency: 'SAR',
+    amount: 1516.54,
+    vat: 197.81,
+    oldBalance: 10,
+    newBalance: 1328.73
+  }
+}
+
+2024-02-12T05:33:00.590Z 2024-02-12T05:33:00.590Z	348c0a44-6d6e-56dd-b154-5407c2d01208	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-12T05:33:00.626Z 2024-02-12T05:33:00.626Z	348c0a44-6d6e-56dd-b154-5407c2d01208	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '078a520a-b504-4794-8e9b-910d86e4e96d',
+  subscriptionBalance: 1328.73,
+  paymentBalance: 2323.28
+}
+
+2024-02-12T05:33:00.647Z END RequestId: 348c0a44-6d6e-56dd-b154-5407c2d01208
+
+2024-02-12T05:33:00.647Z REPORT RequestId: 348c0a44-6d6e-56dd-b154-5407c2d01208	Duration: 450.54 ms	Billed Duration: 451 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 720.37 ms	
+

@@ -1,0 +1,31 @@
+2024-01-08T09:09:05.794Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-08T09:09:06.796Z START RequestId: 09ffc655-98d0-568d-8de4-9840250f1961 Version: $LATEST
+
+2024-01-08T09:09:07.032Z 2024-01-08T09:09:07.032Z	09ffc655-98d0-568d-8de4-9840250f1961	INFO	Processing message 36741633-cc06-4771-8f19-c1c84f9099f9
+
+2024-01-08T09:09:07.113Z 2024-01-08T09:09:07.113Z	09ffc655-98d0-568d-8de4-9840250f1961	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKM5A9F2NCBSJFVQGY7KDZX8',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'FOREIGN_OBJECT',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 130,
+    updatePaymentBalance: true,
+    metadata: '{"version":"syncBalanceSQS"}',
+    currency: 'BHD',
+    amount: 3300,
+    vat: 300,
+    oldBalance: 3130,
+    newBalance: 130
+  }
+}
+
+2024-01-08T09:09:07.250Z 2024-01-08T09:09:07.250Z	09ffc655-98d0-568d-8de4-9840250f1961	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-08T09:09:07.307Z END RequestId: 09ffc655-98d0-568d-8de4-9840250f1961
+
+2024-01-08T09:09:07.307Z REPORT RequestId: 09ffc655-98d0-568d-8de4-9840250f1961	Duration: 511.34 ms	Billed Duration: 512 ms	Memory Size: 512 MB	Max Memory Used: 122 MB	Init Duration: 998.75 ms	
+XRAY TraceId: 1-659bbbb1-01e9a04eb2742893284e6efe	SegmentId: 6461b17e4037fd21	Sampled: true	
+

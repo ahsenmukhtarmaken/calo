@@ -1,0 +1,130 @@
+2023-12-27T12:48:44.217Z END RequestId: 7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9
+
+2023-12-27T12:48:44.217Z REPORT RequestId: 7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	Duration: 328.04 ms	Billed Duration: 329 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	
+
+2023-12-27T12:48:37.837Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-27T12:48:38.699Z START RequestId: 9e54acc5-7b3d-505e-a632-f2c3645ccb82 Version: $LATEST
+
+2023-12-27T12:48:38.806Z 2023-12-27T12:48:38.806Z	9e54acc5-7b3d-505e-a632-f2c3645ccb82	INFO	Processing message cb9e769d-5774-45b7-81bc-db4dda70e143
+
+2023-12-27T12:48:38.844Z 2023-12-27T12:48:38.844Z	9e54acc5-7b3d-505e-a632-f2c3645ccb82	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNN3NR70E6NWXAAMXT7HEZV',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    currency: 'BHD',
+    amount: 176.501,
+    vat: 16.046,
+    oldBalance: 0.99963636363636,
+    newBalance: 161.455
+  }
+}
+
+2023-12-27T12:48:38.938Z 2023-12-27T12:48:38.938Z	9e54acc5-7b3d-505e-a632-f2c3645ccb82	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T12:48:38.975Z 2023-12-27T12:48:38.975Z	9e54acc5-7b3d-505e-a632-f2c3645ccb82	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 0.99963636363636,
+  paymentBalance: 1628.755
+}
+
+2023-12-27T12:48:38.993Z END RequestId: 9e54acc5-7b3d-505e-a632-f2c3645ccb82
+
+2023-12-27T12:48:38.993Z REPORT RequestId: 9e54acc5-7b3d-505e-a632-f2c3645ccb82	Duration: 294.72 ms	Billed Duration: 295 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 860.70 ms	
+
+2023-12-27T12:48:43.764Z START RequestId: 0b416e20-6c64-56cd-9f0d-302673007195 Version: $LATEST
+
+2023-12-27T12:48:43.790Z 2023-12-27T12:48:43.790Z	0b416e20-6c64-56cd-9f0d-302673007195	INFO	Processing message 02391098-8ddd-46b5-b236-fdc7c3949462
+
+2023-12-27T12:48:43.797Z 2023-12-27T12:48:43.797Z	0b416e20-6c64-56cd-9f0d-302673007195	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNN3W0V9D03QK379XZD1JWW',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    currency: 'BHD',
+    amount: 9.364,
+    vat: 0,
+    oldBalance: 161.45463636363635,
+    newBalance: 152.091
+  }
+}
+
+2023-12-27T12:48:43.833Z 2023-12-27T12:48:43.833Z	0b416e20-6c64-56cd-9f0d-302673007195	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T12:48:43.847Z 2023-12-27T12:48:43.847Z	0b416e20-6c64-56cd-9f0d-302673007195	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 161.45463636363635,
+  paymentBalance: 1600.663
+}
+
+2023-12-27T12:48:43.866Z END RequestId: 0b416e20-6c64-56cd-9f0d-302673007195
+
+2023-12-27T12:48:43.866Z REPORT RequestId: 0b416e20-6c64-56cd-9f0d-302673007195	Duration: 101.74 ms	Billed Duration: 102 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+
+2023-12-27T12:48:43.889Z START RequestId: 7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9 Version: $LATEST
+
+2023-12-27T12:48:43.916Z 2023-12-27T12:48:43.916Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Processing message 7a1dc0dd-2d10-4e75-9528-ba24b35bc426
+
+2023-12-27T12:48:43.924Z 2023-12-27T12:48:43.924Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNN3W73WAVYE4HAW2J2KR0M',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    currency: 'BHD',
+    amount: 9.364,
+    vat: 0,
+    oldBalance: 152.09063636363635,
+    newBalance: 142.727
+  }
+}
+
+2023-12-27T12:48:43.963Z 2023-12-27T12:48:43.963Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T12:48:43.974Z 2023-12-27T12:48:43.974Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 152.09063636363635,
+  paymentBalance: 1591.299
+}
+
+2023-12-27T12:48:43.989Z 2023-12-27T12:48:43.989Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Processing message b89da7a4-6184-459a-8542-1617aa5e2d1e
+
+2023-12-27T12:48:43.995Z 2023-12-27T12:48:43.995Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNN3WABEQV480ZY7Q9ZKN50',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    currency: 'BHD',
+    amount: 9.364,
+    vat: 0,
+    oldBalance: 142.72663636363637,
+    newBalance: 133.363
+  }
+}
+
+2023-12-27T12:48:44.033Z 2023-12-27T12:48:44.033Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T12:48:44.046Z 2023-12-27T12:48:44.046Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 142.72663636363637,
+  paymentBalance: 1591.299
+}
+
+2023-12-27T12:48:44.061Z 2023-12-27T12:48:44.061Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Processing message 6383f3aa-8eea-4ab0-afbb-a0d83e8683f8
+
+2023-12-27T12:48:44.069Z 2023-12-27T12:48:44.069Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HJNN3WDCJWWNGSH8W3AJBKX4',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    currency: 'BHD',
+    amount: 9.364,
+    vat: 0,
+    oldBalance: 133.36263636363637,
+    newBalance: 123.999
+  }
+}
+
+2023-12-27T12:48:44.107Z 2023-12-27T12:48:44.107Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-27T12:48:44.118Z 2023-12-27T12:48:44.118Z	7af3bf0a-4ed2-5c25-b60b-e10c51b5a7f9	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 133.36263636363637,
+  paymentBalance: 1591.299
+}
+

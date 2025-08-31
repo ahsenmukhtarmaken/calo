@@ -1,0 +1,71 @@
+2024-04-08T14:27:47.040Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-08T14:27:48.107Z START RequestId: 73a056a9-3987-57b2-99b4-082738910b1a Version: $LATEST
+
+2024-04-08T14:27:48.236Z 2024-04-08T14:27:48.236Z	73a056a9-3987-57b2-99b4-082738910b1a	INFO	Processing message c26398ca-4421-4bae-8493-3b12317a9c2a
+
+2024-04-08T14:27:48.302Z 2024-04-08T14:27:48.302Z	73a056a9-3987-57b2-99b4-082738910b1a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTZ1Q8HV06ZQ9YE53R733W4E',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    paymentBalance: 324.8,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#813ee3cd-2349-43ae-8915-f0a2c12b4245","planType":"full","goal":"loseWeight","eventSessionId":"ddcfae96-b62b-407b-8c10-1f6254344db8","walletSk":"1bf0258e-f04b-4a07-9d0a-187f05927637","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-04-10","type":"userRenew","frequency":"monthly","subscriptionCost":192,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":8,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":192,\\"startDate\\":\\"2024-04-10\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 190.08,
+    vat: 17.28,
+    oldBalance: 0,
+    newBalance: 172.8
+  }
+}
+
+2024-04-08T14:27:48.437Z 2024-04-08T14:27:48.437Z	73a056a9-3987-57b2-99b4-082738910b1a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-08T14:27:48.485Z 2024-04-08T14:27:48.485Z	73a056a9-3987-57b2-99b4-082738910b1a	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+  subscriptionBalance: 172.8,
+  paymentBalance: 324.8
+}
+
+2024-04-08T14:27:48.519Z END RequestId: 73a056a9-3987-57b2-99b4-082738910b1a
+
+2024-04-08T14:27:48.519Z REPORT RequestId: 73a056a9-3987-57b2-99b4-082738910b1a	Duration: 411.22 ms	Billed Duration: 412 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1066.26 ms	
+
+2024-04-08T14:27:53.713Z START RequestId: e2d24f6a-511d-5bd3-a410-11e450036ca0 Version: $LATEST
+
+2024-04-08T14:27:53.744Z 2024-04-08T14:27:53.744Z	e2d24f6a-511d-5bd3-a410-11e450036ca0	INFO	Processing message c9b27a83-2c22-49db-bb71-38077f3ea5dd
+
+2024-04-08T14:27:53.754Z 2024-04-08T14:27:53.754Z	e2d24f6a-511d-5bd3-a410-11e450036ca0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTZ1QFRHZ3RX4BX19QNAW866',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    paymentBalance: 344,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#813ee3cd-2349-43ae-8915-f0a2c12b4245","walletSk":"2c8d96f9-89dd-4d7b-833c-175a1d20b184"}',
+    currency: 'BHD',
+    amount: 19.2,
+    vat: 0,
+    oldBalance: 172.8,
+    newBalance: 192
+  }
+}
+
+2024-04-08T14:27:53.805Z 2024-04-08T14:27:53.805Z	e2d24f6a-511d-5bd3-a410-11e450036ca0	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-08T14:27:53.817Z 2024-04-08T14:27:53.817Z	e2d24f6a-511d-5bd3-a410-11e450036ca0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+  subscriptionBalance: 192,
+  paymentBalance: 344
+}
+
+2024-04-08T14:27:53.836Z END RequestId: e2d24f6a-511d-5bd3-a410-11e450036ca0
+
+2024-04-08T14:27:53.837Z REPORT RequestId: e2d24f6a-511d-5bd3-a410-11e450036ca0	Duration: 123.44 ms	Billed Duration: 124 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	
+XRAY TraceId: 1-6613fee9-e13a31fec2d395127a615a0c	SegmentId: 0e95b59f74ce9cdb	Sampled: true	
+

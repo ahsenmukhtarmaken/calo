@@ -1,0 +1,69 @@
+2024-02-16T15:18:00.770Z START RequestId: efbfe678-cb08-5310-a1d7-b831b5d41cba Version: $LATEST
+
+2024-02-16T15:18:00.807Z 2024-02-16T15:18:00.807Z	efbfe678-cb08-5310-a1d7-b831b5d41cba	INFO	Processing message 94facc0e-2521-46ce-b7f5-44ac83ba4857
+
+2024-02-16T15:18:00.813Z 2024-02-16T15:18:00.813Z	efbfe678-cb08-5310-a1d7-b831b5d41cba	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPS7XWHQ0FH28H7MF2J7QDHC',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '049bb6da-aa2e-4b69-93b4-8bcf19b74875',
+    paymentBalance: 215.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#049bb6da-aa2e-4b69-93b4-8bcf19b74875","deliveryId":"288e108e-2d47-4e55-9b47-faa7ce5bfeec","walletSk":"288e108e-2d47-4e55-9b47-faa7ce5bfeec"}',
+    currency: 'BHD',
+    amount: 6.5,
+    vat: 0,
+    oldBalance: 222,
+    newBalance: 215.5
+  }
+}
+
+2024-02-16T15:18:00.867Z 2024-02-16T15:18:00.867Z	efbfe678-cb08-5310-a1d7-b831b5d41cba	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-16T15:18:00.882Z END RequestId: efbfe678-cb08-5310-a1d7-b831b5d41cba
+
+2024-02-16T15:18:00.882Z REPORT RequestId: efbfe678-cb08-5310-a1d7-b831b5d41cba	Duration: 111.69 ms	Billed Duration: 112 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-02-16T15:20:10.157Z START RequestId: c9b2765d-ccd9-5a72-8cb6-2814b386235d Version: $LATEST
+
+2024-02-16T15:20:10.391Z 2024-02-16T15:20:10.391Z	c9b2765d-ccd9-5a72-8cb6-2814b386235d	INFO	Processing message ed242e32-04a2-4f28-b37f-72b200f837b1
+
+2024-02-16T15:20:10.391Z 2024-02-16T15:20:10.391Z	c9b2765d-ccd9-5a72-8cb6-2814b386235d	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-16T15:20:10.392Z END RequestId: c9b2765d-ccd9-5a72-8cb6-2814b386235d
+
+2024-02-16T15:20:10.392Z REPORT RequestId: c9b2765d-ccd9-5a72-8cb6-2814b386235d	Duration: 235.09 ms	Billed Duration: 236 ms	Memory Size: 1024 MB	Max Memory Used: 129 MB	
+XRAY TraceId: 1-65cf7d2a-aa8eb9fa6759fcef9f9ceac2	SegmentId: 1b3ca0d5031b3d38	Sampled: true	
+
+2024-02-16T15:17:55.356Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-16T15:17:56.504Z START RequestId: 59a01e26-9f06-5903-9d59-406fe1c9702c Version: $LATEST
+
+2024-02-16T15:17:56.657Z 2024-02-16T15:17:56.657Z	59a01e26-9f06-5903-9d59-406fe1c9702c	INFO	Processing message ea5bd45b-3009-4be9-a3a5-9cf8783a7fcf
+
+2024-02-16T15:17:56.700Z 2024-02-16T15:17:56.700Z	59a01e26-9f06-5903-9d59-406fe1c9702c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPS7XPD3TH3PS05Y7VF8NKSZ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '049bb6da-aa2e-4b69-93b4-8bcf19b74875',
+    paymentBalance: 222,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#049bb6da-aa2e-4b69-93b4-8bcf19b74875","planType":"ramadan","goal":"loseWeight","eventSessionId":"7abe7488-8351-427e-8d18-5f5a4393cc66","walletSk":"8c3b592b-f7f2-4a80-ab95-24465c85c710","deliveryTime":"morning","dietType":"high-protein","renewalDate":"2024-02-18","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"ramadan\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"snack\\"],\\"pricePerDay\\":10.5,\\"dietType\\":\\"high-protein\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-18\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 231,
+    vat: 21,
+    oldBalance: 12,
+    newBalance: 222
+  }
+}
+
+2024-02-16T15:17:56.792Z 2024-02-16T15:17:56.792Z	59a01e26-9f06-5903-9d59-406fe1c9702c	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-16T15:17:56.857Z END RequestId: 59a01e26-9f06-5903-9d59-406fe1c9702c
+
+2024-02-16T15:17:56.857Z REPORT RequestId: 59a01e26-9f06-5903-9d59-406fe1c9702c	Duration: 352.22 ms	Billed Duration: 353 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1145.60 ms	
+

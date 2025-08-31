@@ -1,0 +1,36 @@
+2024-04-01T14:05:19.997Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-01T14:05:21.040Z START RequestId: f6aaacf8-6558-5dda-8429-f27ca413a627 Version: $LATEST
+
+2024-04-01T14:05:21.197Z 2024-04-01T14:05:21.197Z	f6aaacf8-6558-5dda-8429-f27ca413a627	INFO	Processing message 4d0be333-7b95-4240-a852-13766003d762
+
+2024-04-01T14:05:21.245Z 2024-04-01T14:05:21.245Z	f6aaacf8-6558-5dda-8429-f27ca413a627	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTCZN49B5WE2YFRM98HR4C94',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 964.18,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"cdfe4054-fe1f-4944-95d8-3814970f6eb1","walletSk":"15fdcfbf-8a28-4ce7-8a53-ea4cee596bd9","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-03","type":"autoRenew","frequency":"weekly","subscriptionCost":50,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"pricePerDay\\":10,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"weekly\\",\\"deliveryDays\\":[0,1,2,3,4],\\"planPrice\\":50,\\"startDate\\":\\"2024-04-03\\",\\"type\\":\\"DATE_RANGE\\",\\"tier\\":\\"personalized\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 0,
+    newBalance: 50
+  }
+}
+
+2024-04-01T14:05:21.358Z 2024-04-01T14:05:21.358Z	f6aaacf8-6558-5dda-8429-f27ca413a627	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-01T14:05:21.410Z 2024-04-01T14:05:21.410Z	f6aaacf8-6558-5dda-8429-f27ca413a627	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 50,
+  paymentBalance: 964.18
+}
+
+2024-04-01T14:05:21.435Z END RequestId: f6aaacf8-6558-5dda-8429-f27ca413a627
+
+2024-04-01T14:05:21.435Z REPORT RequestId: f6aaacf8-6558-5dda-8429-f27ca413a627	Duration: 395.08 ms	Billed Duration: 396 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1042.66 ms	
+

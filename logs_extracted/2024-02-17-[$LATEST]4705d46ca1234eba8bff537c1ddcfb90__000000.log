@@ -1,0 +1,30 @@
+2024-02-17T01:34:24.939Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-17T01:34:26.191Z START RequestId: c9fe731c-be01-5b79-98f2-2d56b15122b5 Version: $LATEST
+
+2024-02-17T01:34:26.326Z 2024-02-17T01:34:26.326Z	c9fe731c-be01-5b79-98f2-2d56b15122b5	INFO	Processing message 2752d724-2e27-4397-8c80-67f086d3bd3f
+
+2024-02-17T01:34:26.389Z 2024-02-17T01:34:26.389Z	c9fe731c-be01-5b79-98f2-2d56b15122b5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPTB6H432YKTTN78WH8TVTDK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '4a01724f-a8a6-4c2b-b6eb-83d1f258aac8',
+    paymentBalance: 161.25,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4a01724f-a8a6-4c2b-b6eb-83d1f258aac8","deliveryId":"6ed90614-aaed-4e21-8260-89ef4798e678","eventSessionId":"a1919c17-5407-49b6-a4f3-a60f5187a754","walletSk":"7ebb2241-9241-4438-9c7b-55a1c8bc8c9c","version2":true,"source":"{\\"id\\":\\"07492ced-8cd4-4b1e-ba25-32c3aa8d247f\\",\\"name\\":{\\"ar\\":\\"البصارة المصرية\\",\\"en\\":\\"Bisara\\"}}","target":"{\\"id\\":\\"f19a8a29-58e6-4ae7-82aa-f41d3e23b86b\\",\\"name\\":{\\"ar\\":\\"جوز بالشوكولاتة\\",\\"en\\":\\"Chocolate Walnuts\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 1.375,
+    vat: 0.125,
+    oldBalance: 160,
+    newBalance: 161.25
+  }
+}
+
+2024-02-17T01:34:26.487Z 2024-02-17T01:34:26.487Z	c9fe731c-be01-5b79-98f2-2d56b15122b5	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T01:34:26.536Z END RequestId: c9fe731c-be01-5b79-98f2-2d56b15122b5
+
+2024-02-17T01:34:26.536Z REPORT RequestId: c9fe731c-be01-5b79-98f2-2d56b15122b5	Duration: 345.01 ms	Billed Duration: 346 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	Init Duration: 1251.30 ms	
+

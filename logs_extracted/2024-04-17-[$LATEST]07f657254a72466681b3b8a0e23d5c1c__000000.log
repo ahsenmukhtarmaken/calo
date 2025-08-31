@@ -1,0 +1,80 @@
+2024-04-17T23:34:28.668Z START RequestId: af82a0f9-10a9-5310-8ada-fe634e1ae9f3 Version: $LATEST
+
+2024-04-17T23:34:28.855Z 2024-04-17T23:34:28.855Z	af82a0f9-10a9-5310-8ada-fe634e1ae9f3	INFO	Processing message 063d6240-cf59-4526-9065-dfcc0986b386
+
+2024-04-17T23:34:28.898Z 2024-04-17T23:34:28.898Z	af82a0f9-10a9-5310-8ada-fe634e1ae9f3	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVQ6JS1G5BEJQTW3VC9TPDVX',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '30258a94-92e8-4fe1-b8e5-0033deddc1a4',
+    paymentBalance: 3713.04,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#30258a94-92e8-4fe1-b8e5-0033deddc1a4","planType":"full","goal":"loseWeight","eventSessionId":"6dd45e3d-f0bb-4823-b92b-04f9df250e5a","walletSk":"2614b88f-59ee-4fa7-9ac6-ea07c3640dc5","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-04-25","type":"preRenew","frequency":"monthly","subscriptionCost":1913.04,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":95.65217391304348,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1913.04,\\"startDate\\":\\"2024-04-25\\",\\"tier\\":\\"pricingKSAVatInclusiveApril2024\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2200,
+    vat: 286.96,
+    oldBalance: 360,
+    newBalance: 2273.04
+  }
+}
+
+2024-04-17T23:34:29.005Z 2024-04-17T23:34:29.005Z	af82a0f9-10a9-5310-8ada-fe634e1ae9f3	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T23:34:29.048Z 2024-04-17T23:34:29.048Z	af82a0f9-10a9-5310-8ada-fe634e1ae9f3	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '30258a94-92e8-4fe1-b8e5-0033deddc1a4',
+  subscriptionBalance: 2273.04,
+  paymentBalance: 3713.04
+}
+
+2024-04-17T23:34:29.066Z END RequestId: af82a0f9-10a9-5310-8ada-fe634e1ae9f3
+
+2024-04-17T23:34:29.066Z REPORT RequestId: af82a0f9-10a9-5310-8ada-fe634e1ae9f3	Duration: 398.43 ms	Billed Duration: 399 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-04-17T23:38:42.537Z START RequestId: 8a5e282d-5bb4-5835-83fa-76b704026dd7 Version: $LATEST
+
+2024-04-17T23:38:42.652Z 2024-04-17T23:38:42.652Z	8a5e282d-5bb4-5835-83fa-76b704026dd7	INFO	Processing message 3889ed16-c0c8-45d6-a7e0-72e556522ac3
+
+2024-04-17T23:38:42.679Z 2024-04-17T23:38:42.679Z	8a5e282d-5bb4-5835-83fa-76b704026dd7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVQ6TH8KZYYZB13PZB9VNY7A',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'COMPENSATION',
+    userId: '30258a94-92e8-4fe1-b8e5-0033deddc1a4',
+    paymentBalance: 3808.69,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#30258a94-92e8-4fe1-b8e5-0033deddc1a4","walletSk":"7f868194-1212-4b7d-813d-a63d2ffd5705"}',
+    currency: 'SAR',
+    amount: 95.65,
+    vat: 0,
+    oldBalance: 2273.04,
+    newBalance: 2368.69
+  }
+}
+
+2024-04-17T23:38:42.746Z 2024-04-17T23:38:42.746Z	8a5e282d-5bb4-5835-83fa-76b704026dd7	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T23:38:42.783Z 2024-04-17T23:38:42.783Z	8a5e282d-5bb4-5835-83fa-76b704026dd7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '30258a94-92e8-4fe1-b8e5-0033deddc1a4',
+  subscriptionBalance: 2368.69,
+  paymentBalance: 3808.69
+}
+
+2024-04-17T23:38:42.814Z END RequestId: 8a5e282d-5bb4-5835-83fa-76b704026dd7
+
+2024-04-17T23:38:42.814Z REPORT RequestId: 8a5e282d-5bb4-5835-83fa-76b704026dd7	Duration: 276.36 ms	Billed Duration: 277 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	
+
+2024-04-17T23:30:06.983Z INIT_START Runtime Version: nodejs:20.v20	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e510d001332c5ac4354ceb185ddd6ef3def14993da7ab2533668b6a6a1ee661d
+
+2024-04-17T23:30:07.982Z START RequestId: ab9798bd-66a8-5995-95a4-c6273b079985 Version: $LATEST
+
+2024-04-17T23:30:08.120Z 2024-04-17T23:30:08.120Z	ab9798bd-66a8-5995-95a4-c6273b079985	INFO	Processing message 23db0b54-1058-4eef-9564-38f778ced92c
+
+2024-04-17T23:30:08.121Z 2024-04-17T23:30:08.121Z	ab9798bd-66a8-5995-95a4-c6273b079985	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-17T23:30:08.140Z END RequestId: ab9798bd-66a8-5995-95a4-c6273b079985
+
+2024-04-17T23:30:08.140Z REPORT RequestId: ab9798bd-66a8-5995-95a4-c6273b079985	Duration: 158.06 ms	Billed Duration: 159 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 998.02 ms	
+

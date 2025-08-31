@@ -1,0 +1,40 @@
+2024-02-29T07:06:58.952Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-29T07:07:00.183Z START RequestId: bea9b3b9-28f2-5580-855b-ede307b79675 Version: $LATEST
+
+2024-02-29T07:07:00.327Z 2024-02-29T07:07:00.327Z	bea9b3b9-28f2-5580-855b-ede307b79675	INFO	Processing message a58801f5-99d9-406b-a459-7095ce65d5ee
+
+2024-02-29T07:07:00.328Z 2024-02-29T07:07:00.328Z	bea9b3b9-28f2-5580-855b-ede307b79675	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-29T07:07:00.342Z END RequestId: bea9b3b9-28f2-5580-855b-ede307b79675
+
+2024-02-29T07:07:00.342Z REPORT RequestId: bea9b3b9-28f2-5580-855b-ede307b79675	Duration: 159.11 ms	Billed Duration: 160 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	Init Duration: 1230.13 ms	
+
+2024-02-29T07:09:18.471Z START RequestId: f2f91ac0-efd1-5107-9385-449ac01e9013 Version: $LATEST
+
+2024-02-29T07:09:18.628Z 2024-02-29T07:09:18.628Z	f2f91ac0-efd1-5107-9385-449ac01e9013	INFO	Processing message a411ec67-c000-460c-8cb1-2f3477ff6218
+
+2024-02-29T07:09:18.659Z 2024-02-29T07:09:18.659Z	f2f91ac0-efd1-5107-9385-449ac01e9013	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQSV4CC9SZHWSP8B6ZP3AMJQ',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: 'd8e22713-a177-4738-bdb6-e48b189eb487',
+    paymentBalance: 1,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d8e22713-a177-4738-bdb6-e48b189eb487","walletSk":"068a4651-c284-4cc5-b9e8-ea55a97e5eb8"}',
+    currency: 'KWD',
+    amount: 130,
+    vat: 0,
+    oldBalance: 131,
+    newBalance: 1
+  }
+}
+
+2024-02-29T07:09:18.772Z 2024-02-29T07:09:18.772Z	f2f91ac0-efd1-5107-9385-449ac01e9013	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T07:09:18.809Z END RequestId: f2f91ac0-efd1-5107-9385-449ac01e9013
+
+2024-02-29T07:09:18.809Z REPORT RequestId: f2f91ac0-efd1-5107-9385-449ac01e9013	Duration: 337.75 ms	Billed Duration: 338 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+

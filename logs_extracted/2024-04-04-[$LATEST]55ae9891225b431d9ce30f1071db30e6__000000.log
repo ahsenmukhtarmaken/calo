@@ -1,0 +1,70 @@
+2024-04-04T10:37:01.075Z START RequestId: 7c1b0cfd-2314-501e-a902-5275a614653d Version: $LATEST
+
+2024-04-04T10:37:01.195Z 2024-04-04T10:37:01.195Z	7c1b0cfd-2314-501e-a902-5275a614653d	INFO	Processing message 51e040a0-01bb-401f-9e4a-ecc04437bee7
+
+2024-04-04T10:37:01.223Z 2024-04-04T10:37:01.223Z	7c1b0cfd-2314-501e-a902-5275a614653d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTMAXVWR106FATB9QVE22GSD',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 1871.452,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"66ffc5e5-89bf-41c8-8024-25f04794da0c","walletSk":"aaaf8524-8562-4de2-99b3-cafd25262e90","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-07","type":"autoRenew","frequency":"monthly","subscriptionCost":160,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"type\\":\\"DATE_RANGE\\",\\"pricePerDay\\":8,\\"planPrice\\":160,\\"startDate\\":\\"2024-04-07\\",\\"frequency\\":\\"monthly\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 0,
+    newBalance: 160
+  }
+}
+
+2024-04-04T10:37:01.310Z 2024-04-04T10:37:01.310Z	7c1b0cfd-2314-501e-a902-5275a614653d	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-04T10:37:01.342Z 2024-04-04T10:37:01.342Z	7c1b0cfd-2314-501e-a902-5275a614653d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 160,
+  paymentBalance: 1871.452
+}
+
+2024-04-04T10:37:01.363Z END RequestId: 7c1b0cfd-2314-501e-a902-5275a614653d
+
+2024-04-04T10:37:01.363Z REPORT RequestId: 7c1b0cfd-2314-501e-a902-5275a614653d	Duration: 288.56 ms	Billed Duration: 289 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	
+
+2024-04-04T10:33:03.390Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-04T10:33:04.442Z START RequestId: 6240ea30-1f72-5700-8e71-b4b89b7f79e3 Version: $LATEST
+
+2024-04-04T10:33:04.600Z 2024-04-04T10:33:04.600Z	6240ea30-1f72-5700-8e71-b4b89b7f79e3	INFO	Processing message 8297338e-1c63-4576-b6e0-b25d21b3555e
+
+2024-04-04T10:33:04.646Z 2024-04-04T10:33:04.646Z	6240ea30-1f72-5700-8e71-b4b89b7f79e3	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTMAPK9E8MGZDAMR7CJZY2VA',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 1711.452,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"58f770a5-7c74-495a-a2c3-6bdda5fa57bf","walletSk":"b1b733e3-ee0d-4ba6-8ea1-14b13597b4f2","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-07","type":"autoRenew","frequency":"monthly","subscriptionCost":160,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"pricePerDay\\":8,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4],\\"planPrice\\":160,\\"startDate\\":\\"2024-04-07\\",\\"type\\":\\"DATE_RANGE\\",\\"tier\\":\\"personalized\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 176,
+    vat: 16,
+    oldBalance: 4,
+    newBalance: 164
+  }
+}
+
+2024-04-04T10:33:04.737Z 2024-04-04T10:33:04.737Z	6240ea30-1f72-5700-8e71-b4b89b7f79e3	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-04T10:33:04.784Z 2024-04-04T10:33:04.784Z	6240ea30-1f72-5700-8e71-b4b89b7f79e3	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 164,
+  paymentBalance: 1711.452
+}
+
+2024-04-04T10:33:04.809Z END RequestId: 6240ea30-1f72-5700-8e71-b4b89b7f79e3
+
+2024-04-04T10:33:04.809Z REPORT RequestId: 6240ea30-1f72-5700-8e71-b4b89b7f79e3	Duration: 367.40 ms	Billed Duration: 368 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 1048.99 ms	
+

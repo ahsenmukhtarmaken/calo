@@ -1,0 +1,36 @@
+2024-03-04T09:51:03.255Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T09:51:04.476Z START RequestId: 3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8 Version: $LATEST
+
+2024-03-04T09:51:04.615Z 2024-03-04T09:51:04.615Z	3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8	INFO	Processing message 90223154-dc85-4f07-b3b9-f05f483bb71c
+
+2024-03-04T09:51:04.670Z 2024-03-04T09:51:04.670Z	3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR4DZCVY5ZGQAX3YF2EYKTZG',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 20617.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","deliveryId":"a8805edb-2247-4fa8-9780-cc1a1ae1619e","walletSk":"a8805edb-2247-4fa8-9780-cc1a1ae1619e"}',
+    currency: 'SAR',
+    amount: 100,
+    vat: 0,
+    oldBalance: 100,
+    newBalance: 0
+  }
+}
+
+2024-03-04T09:51:04.764Z 2024-03-04T09:51:04.764Z	3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T09:51:04.868Z 2024-03-04T09:51:04.868Z	3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 0,
+  paymentBalance: 20617.4
+}
+
+2024-03-04T09:51:04.920Z END RequestId: 3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8
+
+2024-03-04T09:51:04.920Z REPORT RequestId: 3fb7ae75-14a2-5a1d-ae51-f02a8f145cf8	Duration: 444.63 ms	Billed Duration: 445 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	Init Duration: 1219.82 ms	
+

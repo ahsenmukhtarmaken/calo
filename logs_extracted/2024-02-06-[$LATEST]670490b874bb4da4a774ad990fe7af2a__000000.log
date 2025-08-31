@@ -1,0 +1,50 @@
+2024-02-06T12:17:13.489Z START RequestId: e777d228-90f5-5770-b18f-8c14b589154c Version: $LATEST
+
+2024-02-06T12:17:13.622Z 2024-02-06T12:17:13.622Z	e777d228-90f5-5770-b18f-8c14b589154c	INFO	Processing message 50a47540-6858-43d8-b2f1-cec3ae7db19f
+
+2024-02-06T12:17:13.622Z 2024-02-06T12:17:13.622Z	e777d228-90f5-5770-b18f-8c14b589154c	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-06T12:17:13.623Z END RequestId: e777d228-90f5-5770-b18f-8c14b589154c
+
+2024-02-06T12:17:13.623Z REPORT RequestId: e777d228-90f5-5770-b18f-8c14b589154c	Duration: 134.07 ms	Billed Duration: 135 ms	Memory Size: 1024 MB	Max Memory Used: 101 MB	
+
+2024-02-06T12:17:24.264Z START RequestId: 4861985e-b98e-51d1-9b32-c6629c07e3ed Version: $LATEST
+
+2024-02-06T12:17:24.294Z 2024-02-06T12:17:24.294Z	4861985e-b98e-51d1-9b32-c6629c07e3ed	INFO	Processing message 40ac9cab-9363-4e08-81c1-b1daefb1a422
+
+2024-02-06T12:17:24.328Z 2024-02-06T12:17:24.328Z	4861985e-b98e-51d1-9b32-c6629c07e3ed	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNZ5M014YBP2A3QER24WKNRP',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'e2498377-494a-4a01-b189-5b9febd136e0',
+    paymentBalance: 216,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e2498377-494a-4a01-b189-5b9febd136e0","walletSk":"0fed04b0-813a-432a-be02-72a912bd7f31"}',
+    currency: 'BHD',
+    amount: 21.6,
+    vat: 0,
+    oldBalance: 194.4,
+    newBalance: 216
+  }
+}
+
+2024-02-06T12:17:24.419Z 2024-02-06T12:17:24.419Z	4861985e-b98e-51d1-9b32-c6629c07e3ed	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-06T12:17:24.455Z END RequestId: 4861985e-b98e-51d1-9b32-c6629c07e3ed
+
+2024-02-06T12:17:24.455Z REPORT RequestId: 4861985e-b98e-51d1-9b32-c6629c07e3ed	Duration: 191.28 ms	Billed Duration: 192 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	
+
+2024-02-06T12:13:20.711Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-06T12:13:21.428Z START RequestId: f28e08e1-25f9-5f66-b9f3-56dd0174ca76 Version: $LATEST
+
+2024-02-06T12:13:21.566Z 2024-02-06T12:13:21.566Z	f28e08e1-25f9-5f66-b9f3-56dd0174ca76	INFO	Processing message cfe1be4e-72d7-4fc1-9861-ce76f9269408
+
+2024-02-06T12:13:21.568Z 2024-02-06T12:13:21.568Z	f28e08e1-25f9-5f66-b9f3-56dd0174ca76	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-06T12:13:21.586Z END RequestId: f28e08e1-25f9-5f66-b9f3-56dd0174ca76
+
+2024-02-06T12:13:21.586Z REPORT RequestId: f28e08e1-25f9-5f66-b9f3-56dd0174ca76	Duration: 157.72 ms	Billed Duration: 158 ms	Memory Size: 1024 MB	Max Memory Used: 99 MB	Init Duration: 715.57 ms	
+

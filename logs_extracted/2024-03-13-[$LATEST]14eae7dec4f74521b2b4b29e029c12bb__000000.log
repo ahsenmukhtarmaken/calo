@@ -1,0 +1,41 @@
+2024-03-13T19:55:35.037Z START RequestId: ecb687a8-ca14-5c8c-b256-d9c4ccf25efd Version: $LATEST
+
+2024-03-13T19:55:35.069Z 2024-03-13T19:55:35.069Z	ecb687a8-ca14-5c8c-b256-d9c4ccf25efd	INFO	Processing message b32a1eae-6c45-46b6-9f71-49e70e9e74ff
+
+2024-03-13T19:55:35.104Z 2024-03-13T19:55:35.104Z	ecb687a8-ca14-5c8c-b256-d9c4ccf25efd	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRWP4TADYDX5C639B18NYG0H',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '376d34f8-7a30-44ea-b240-f70b77aa942b',
+    paymentBalance: 192,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#376d34f8-7a30-44ea-b240-f70b77aa942b","walletSk":"f2ce452d-2c60-4936-bd92-da29232c3b6a"}',
+    currency: 'BHD',
+    amount: 19.2,
+    vat: 0,
+    oldBalance: 172.8,
+    newBalance: 192
+  }
+}
+
+2024-03-13T19:55:35.232Z 2024-03-13T19:55:35.232Z	ecb687a8-ca14-5c8c-b256-d9c4ccf25efd	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-13T19:55:35.283Z END RequestId: ecb687a8-ca14-5c8c-b256-d9c4ccf25efd
+
+2024-03-13T19:55:35.283Z REPORT RequestId: ecb687a8-ca14-5c8c-b256-d9c4ccf25efd	Duration: 247.40 ms	Billed Duration: 248 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	
+XRAY TraceId: 1-65f204b7-f5226fdb925ba5e7521ef6c4	SegmentId: 49237bd34198dd19	Sampled: true	
+
+2024-03-13T19:55:20.566Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-13T19:55:21.580Z START RequestId: a249378b-4f38-54b9-bfe1-69e749d85ebe Version: $LATEST
+
+2024-03-13T19:55:21.752Z 2024-03-13T19:55:21.752Z	a249378b-4f38-54b9-bfe1-69e749d85ebe	INFO	Processing message 550eec3c-0f7d-48ab-b58b-469991928e14
+
+2024-03-13T19:55:21.753Z 2024-03-13T19:55:21.753Z	a249378b-4f38-54b9-bfe1-69e749d85ebe	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-13T19:55:21.757Z END RequestId: a249378b-4f38-54b9-bfe1-69e749d85ebe
+
+2024-03-13T19:55:21.757Z REPORT RequestId: a249378b-4f38-54b9-bfe1-69e749d85ebe	Duration: 176.34 ms	Billed Duration: 177 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 1012.67 ms	
+

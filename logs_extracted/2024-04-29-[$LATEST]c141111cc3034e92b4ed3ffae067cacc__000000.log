@@ -1,0 +1,36 @@
+2024-04-29T06:44:11.668Z START RequestId: cdee36b2-f4f9-5c27-8d51-681bb712d8c5 Version: $LATEST
+
+2024-04-29T06:44:11.828Z 2024-04-29T06:44:11.828Z	cdee36b2-f4f9-5c27-8d51-681bb712d8c5	INFO	Processing message ae80a464-e1e7-454a-a627-c2afb98c06a3
+
+2024-04-29T06:44:11.872Z 2024-04-29T06:44:11.872Z	cdee36b2-f4f9-5c27-8d51-681bb712d8c5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWM9HFAMV7W2K2VK1C6V85NW',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+    paymentBalance: -278.26,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#80308098-8d24-4be6-96c2-f4c2c5e03699","planType":"skipBreakfast","goal":"loseWeight","eventSessionId":"ee70fc0d-cef2-4f27-b3c7-02f04d38e909","walletSk":"965514f8-8584-4677-b3f3-3736a2ef83b1","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-05-01","type":"userRenew","frequency":"monthly","subscriptionCost":1460.87,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"pricePerDay\\":73.04347826086956,\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1460.87,\\"startDate\\":\\"2024-05-01\\",\\"tier\\":\\"pricingKSAVatInclusiveApril2024\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 1643.46,
+    vat: 214.36,
+    oldBalance: 31.77,
+    newBalance: 1460.87
+  }
+}
+
+2024-04-29T06:44:12.017Z 2024-04-29T06:44:12.017Z	cdee36b2-f4f9-5c27-8d51-681bb712d8c5	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-29T06:44:12.051Z 2024-04-29T06:44:12.051Z	cdee36b2-f4f9-5c27-8d51-681bb712d8c5	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+  subscriptionBalance: 1460.87,
+  paymentBalance: -278.26
+}
+
+2024-04-29T06:44:12.073Z END RequestId: cdee36b2-f4f9-5c27-8d51-681bb712d8c5
+
+2024-04-29T06:44:12.073Z REPORT RequestId: cdee36b2-f4f9-5c27-8d51-681bb712d8c5	Duration: 404.58 ms	Billed Duration: 405 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1024.99 ms	
+
+2024-04-29T06:44:10.642Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+

@@ -1,0 +1,30 @@
+2024-02-14T13:10:09.331Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-14T13:10:10.052Z START RequestId: 1b8a5723-349b-5413-b986-0965897cd1b2 Version: $LATEST
+
+2024-02-14T13:10:10.187Z 2024-02-14T13:10:10.187Z	1b8a5723-349b-5413-b986-0965897cd1b2	INFO	Processing message 026317ff-6f57-4427-a535-64604e45b004
+
+2024-02-14T13:10:10.304Z 2024-02-14T13:10:10.304Z	1b8a5723-349b-5413-b986-0965897cd1b2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPKVT9WX40H86XEQ3T5FMV6S',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 76,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","deliveryId":"f024212d-cc92-4cb7-b1a6-d417aa880590","eventSessionId":"0f8ec2b4-361f-49a2-bf8f-b07f1233baf7","walletSk":"bce5d884-8233-40f8-bc92-8c9f63d253af","version2":true,"source":"{\\"id\\":\\"50b61695-7c56-46e3-9798-e1aebdf75fe4\\",\\"name\\":{\\"ar\\":\\"شوفان بالهيل\\",\\"en\\":\\"Cardamom Infused Oats\\"}}","target":"{\\"id\\":\\"a146e48f-007a-4c40-94f0-9847d21aacd6\\",\\"name\\":{\\"ar\\":\\"شوفان بالبروتين بنكهة التوتيات المشكلة\\",\\"en\\":\\"Mixed Berry Protein Oatmeal\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 75.5,
+    newBalance: 76
+  }
+}
+
+2024-02-14T13:10:10.416Z 2024-02-14T13:10:10.416Z	1b8a5723-349b-5413-b986-0965897cd1b2	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-14T13:10:10.468Z END RequestId: 1b8a5723-349b-5413-b986-0965897cd1b2
+
+2024-02-14T13:10:10.468Z REPORT RequestId: 1b8a5723-349b-5413-b986-0965897cd1b2	Duration: 415.83 ms	Billed Duration: 416 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	Init Duration: 720.36 ms	
+

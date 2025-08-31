@@ -1,0 +1,58 @@
+2024-04-28T10:51:56.256Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-28T10:51:57.257Z START RequestId: 5cc848a7-fabd-5f57-9c95-160fd6c3dfd2 Version: $LATEST
+
+2024-04-28T10:51:57.403Z 2024-04-28T10:51:57.403Z	5cc848a7-fabd-5f57-9c95-160fd6c3dfd2	INFO	Processing message b8eeade0-0cec-4834-9d5e-0d5ebf3931de
+
+2024-04-28T10:51:57.454Z 2024-04-28T10:51:57.454Z	5cc848a7-fabd-5f57-9c95-160fd6c3dfd2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWJ5ADD2W8VAX2XAAH9WC7VS',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 7.046,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","walletSk":"192ad260-f0ff-4a48-90de-9bc430811db1"}',
+    currency: 'BHD',
+    amount: 172.727,
+    vat: 0,
+    oldBalance: 179.773,
+    newBalance: 7.046
+  }
+}
+
+2024-04-28T10:51:57.561Z 2024-04-28T10:51:57.561Z	5cc848a7-fabd-5f57-9c95-160fd6c3dfd2	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-28T10:51:57.593Z END RequestId: 5cc848a7-fabd-5f57-9c95-160fd6c3dfd2
+
+2024-04-28T10:51:57.593Z REPORT RequestId: 5cc848a7-fabd-5f57-9c95-160fd6c3dfd2	Duration: 336.46 ms	Billed Duration: 337 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 998.37 ms	
+
+2024-04-28T10:52:33.202Z START RequestId: ddd096b4-77c6-5a76-9237-c81c5b589e3c Version: $LATEST
+
+2024-04-28T10:52:33.232Z 2024-04-28T10:52:33.232Z	ddd096b4-77c6-5a76-9237-c81c5b589e3c	INFO	Processing message fe1784a5-734d-4f48-a523-d50cb8236853
+
+2024-04-28T10:52:33.240Z 2024-04-28T10:52:33.240Z	ddd096b4-77c6-5a76-9237-c81c5b589e3c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWJ5BJBHZ6M9FJH16HD7DBDY',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 87.046,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","planType":"businessLunch","goal":"loseWeight","eventSessionId":"63895c8c-58ab-42bc-83de-5fd46dfb3b70","walletSk":"eaddce1f-f56e-4fd5-afe0-cd7a0d69f459","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-05-01","type":"preRenew","frequency":"monthly","subscriptionCost":80,"oldRemainingDays":2,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"businessLunch\\",\\"pricePerDay\\":4,\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":80,\\"startDate\\":\\"2024-05-01\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 88,
+    vat: 8,
+    oldBalance: 7.046,
+    newBalance: 87.046
+  }
+}
+
+2024-04-28T10:52:33.313Z 2024-04-28T10:52:33.313Z	ddd096b4-77c6-5a76-9237-c81c5b589e3c	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-28T10:52:33.352Z END RequestId: ddd096b4-77c6-5a76-9237-c81c5b589e3c
+
+2024-04-28T10:52:33.352Z REPORT RequestId: ddd096b4-77c6-5a76-9237-c81c5b589e3c	Duration: 150.10 ms	Billed Duration: 151 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

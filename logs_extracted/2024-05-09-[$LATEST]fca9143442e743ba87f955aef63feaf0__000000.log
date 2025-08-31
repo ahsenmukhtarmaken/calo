@@ -1,0 +1,70 @@
+2024-05-09T10:04:48.906Z START RequestId: 3cbd55a1-e5b1-503c-9e86-0b174441ce6e Version: $LATEST
+
+2024-05-09T10:04:49.059Z 2024-05-09T10:04:49.059Z	3cbd55a1-e5b1-503c-9e86-0b174441ce6e	INFO	Processing message 1e8b3920-1148-4fd4-9400-38416ff0a9c2
+
+2024-05-09T10:04:49.111Z 2024-05-09T10:04:49.111Z	3cbd55a1-e5b1-503c-9e86-0b174441ce6e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXED00N4S6Q9ZAJBHXHXEDR1',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: '87f3951c-e577-4b0e-a2c3-b2ad9c43db6e',
+    paymentBalance: 1609.95,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#87f3951c-e577-4b0e-a2c3-b2ad9c43db6e","eventSessionId":"45f13b7c-8a1c-4849-83db-34f9d1ed8c51","walletSk":"7ad913eb-79cb-4019-9edf-a44e6f824d96","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"coupon\\":\\"GIFTCHANGE40\\",\\"startDate\\":\\"2024-05-12T10:03:17.266Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'BHD',
+    amount: 98.12,
+    vat: 8.92,
+    oldBalance: 62,
+    newBalance: 151.2
+  }
+}
+
+2024-05-09T10:04:49.279Z 2024-05-09T10:04:49.279Z	3cbd55a1-e5b1-503c-9e86-0b174441ce6e	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T10:04:49.315Z 2024-05-09T10:04:49.315Z	3cbd55a1-e5b1-503c-9e86-0b174441ce6e	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '87f3951c-e577-4b0e-a2c3-b2ad9c43db6e',
+  subscriptionBalance: 151.2,
+  paymentBalance: 1609.95
+}
+
+2024-05-09T10:04:49.338Z END RequestId: 3cbd55a1-e5b1-503c-9e86-0b174441ce6e
+
+2024-05-09T10:04:49.339Z REPORT RequestId: 3cbd55a1-e5b1-503c-9e86-0b174441ce6e	Duration: 432.72 ms	Billed Duration: 433 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 981.16 ms	
+
+2024-05-09T10:04:52.133Z START RequestId: be5cdfbe-e16e-5425-98a7-81084090afc1 Version: $LATEST
+
+2024-05-09T10:04:52.170Z 2024-05-09T10:04:52.170Z	be5cdfbe-e16e-5425-98a7-81084090afc1	INFO	Processing message 4c762ad5-efe0-458c-98c0-06f2a7083e5c
+
+2024-05-09T10:04:52.179Z 2024-05-09T10:04:52.179Z	be5cdfbe-e16e-5425-98a7-81084090afc1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXED059Q8YR9WF7N8X4MP4JT',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '87f3951c-e577-4b0e-a2c3-b2ad9c43db6e',
+    paymentBalance: 1685.95,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#87f3951c-e577-4b0e-a2c3-b2ad9c43db6e","walletSk":"6956f90b-382f-4ddf-bd6a-3807aa955fd0"}',
+    currency: 'BHD',
+    amount: 76,
+    vat: 0,
+    oldBalance: 151.2,
+    newBalance: 227.2
+  }
+}
+
+2024-05-09T10:04:52.225Z 2024-05-09T10:04:52.225Z	be5cdfbe-e16e-5425-98a7-81084090afc1	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T10:04:52.239Z 2024-05-09T10:04:52.239Z	be5cdfbe-e16e-5425-98a7-81084090afc1	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '87f3951c-e577-4b0e-a2c3-b2ad9c43db6e',
+  subscriptionBalance: 227.2,
+  paymentBalance: 1685.95
+}
+
+2024-05-09T10:04:52.257Z END RequestId: be5cdfbe-e16e-5425-98a7-81084090afc1
+
+2024-05-09T10:04:52.257Z REPORT RequestId: be5cdfbe-e16e-5425-98a7-81084090afc1	Duration: 124.64 ms	Billed Duration: 125 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	
+
+2024-05-09T10:04:47.923Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+

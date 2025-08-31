@@ -1,0 +1,40 @@
+2024-04-21T12:10:19.308Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-21T12:10:20.309Z START RequestId: 202729e2-3812-570d-8ffc-777d3c4a4b87 Version: $LATEST
+
+2024-04-21T12:10:20.463Z 2024-04-21T12:10:20.463Z	202729e2-3812-570d-8ffc-777d3c4a4b87	INFO	Processing message 4d8df1a6-bb89-4f0f-aca3-567194c88765
+
+2024-04-21T12:10:20.466Z 2024-04-21T12:10:20.466Z	202729e2-3812-570d-8ffc-777d3c4a4b87	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-21T12:10:20.486Z END RequestId: 202729e2-3812-570d-8ffc-777d3c4a4b87
+
+2024-04-21T12:10:20.486Z REPORT RequestId: 202729e2-3812-570d-8ffc-777d3c4a4b87	Duration: 177.43 ms	Billed Duration: 178 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	Init Duration: 999.84 ms	
+
+2024-04-21T12:10:46.430Z START RequestId: a3f3c7e4-ed46-5161-838e-997be9c44deb Version: $LATEST
+
+2024-04-21T12:10:46.459Z 2024-04-21T12:10:46.459Z	a3f3c7e4-ed46-5161-838e-997be9c44deb	INFO	Processing message 87a78422-7f20-4f04-999e-d4b1145a7f00
+
+2024-04-21T12:10:46.498Z 2024-04-21T12:10:46.498Z	a3f3c7e4-ed46-5161-838e-997be9c44deb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW091R530VCG9WDDVMHX3H6R',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '1963eefb-4ac2-423c-bcd2-c113600309a6',
+    paymentBalance: 2160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1963eefb-4ac2-423c-bcd2-c113600309a6","walletSk":"7f3525f9-633e-4adb-8d36-6523f5c4d218"}',
+    currency: 'SAR',
+    amount: 216,
+    vat: 0,
+    oldBalance: 1944,
+    newBalance: 2160
+  }
+}
+
+2024-04-21T12:10:46.591Z 2024-04-21T12:10:46.591Z	a3f3c7e4-ed46-5161-838e-997be9c44deb	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-21T12:10:46.632Z END RequestId: a3f3c7e4-ed46-5161-838e-997be9c44deb
+
+2024-04-21T12:10:46.633Z REPORT RequestId: a3f3c7e4-ed46-5161-838e-997be9c44deb	Duration: 202.61 ms	Billed Duration: 203 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

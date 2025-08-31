@@ -1,0 +1,36 @@
+2024-03-17T13:31:32.088Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-17T13:31:33.063Z START RequestId: a9932703-54bf-5779-baea-7973a65df5e0 Version: $LATEST
+
+2024-03-17T13:31:33.217Z 2024-03-17T13:31:33.217Z	a9932703-54bf-5779-baea-7973a65df5e0	INFO	Processing message d30690ba-1f1c-4d68-9b8e-4391c0e67d3d
+
+2024-03-17T13:31:33.276Z 2024-03-17T13:31:33.276Z	a9932703-54bf-5779-baea-7973a65df5e0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HS69RETRH6F8X68JC99Q1HQW',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+    paymentBalance: 1557.864,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e635a3ea-fc8b-46c4-b091-5480637486ad","deliveryId":"2b63eca7-a570-48eb-b28c-d86d3df56b49","eventSessionId":"c11a542e-0ccf-4c7d-a8aa-c84486247623","walletSk":"3ede28c0-2e46-4ddd-ba92-a7f319d47ca8","version2":true,"source":"{\\"id\\":\\"ef3350f5-ba2f-44c8-bf26-41c2a50ded4e\\",\\"name\\":{\\"ar\\":\\"شوفان بيناكولادا\\",\\"en\\":\\"Pinacolada Overnight Oats\\"}}","target":"{\\"id\\":\\"601f2cf3-1508-4d7d-8408-9bdfb2760084\\",\\"name\\":{\\"ar\\":\\"Chia Jam Parfait\\",\\"en\\":\\"Chia Jam Parfait\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 20,
+    newBalance: 20.5
+  }
+}
+
+2024-03-17T13:31:33.388Z 2024-03-17T13:31:33.388Z	a9932703-54bf-5779-baea-7973a65df5e0	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-17T13:31:33.424Z 2024-03-17T13:31:33.424Z	a9932703-54bf-5779-baea-7973a65df5e0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e635a3ea-fc8b-46c4-b091-5480637486ad',
+  subscriptionBalance: 20.5,
+  paymentBalance: 1557.864
+}
+
+2024-03-17T13:31:33.457Z END RequestId: a9932703-54bf-5779-baea-7973a65df5e0
+
+2024-03-17T13:31:33.457Z REPORT RequestId: a9932703-54bf-5779-baea-7973a65df5e0	Duration: 394.29 ms	Billed Duration: 395 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 973.35 ms	
+

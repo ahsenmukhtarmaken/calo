@@ -1,0 +1,70 @@
+2024-03-04T17:15:05.111Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T17:15:06.348Z START RequestId: a7a9386e-a1e8-564f-b4cb-660ea239e09c Version: $LATEST
+
+2024-03-04T17:15:06.503Z 2024-03-04T17:15:06.503Z	a7a9386e-a1e8-564f-b4cb-660ea239e09c	INFO	Processing message 44163e43-c37e-4f54-a708-1716e8ee8e22
+
+2024-03-04T17:15:06.551Z 2024-03-04T17:15:06.551Z	a7a9386e-a1e8-564f-b4cb-660ea239e09c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR57CE7FP7C87MRDZ6JBHRMM',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'COMPENSATION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11701.562,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","walletSk":"6551e19c-e04d-4fbb-976d-510e960950ad"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 1.127,
+    newBalance: 11.127
+  }
+}
+
+2024-03-04T17:15:06.661Z 2024-03-04T17:15:06.661Z	a7a9386e-a1e8-564f-b4cb-660ea239e09c	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T17:15:06.701Z 2024-03-04T17:15:06.701Z	a7a9386e-a1e8-564f-b4cb-660ea239e09c	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 11.127,
+  paymentBalance: 11701.562
+}
+
+2024-03-04T17:15:06.734Z END RequestId: a7a9386e-a1e8-564f-b4cb-660ea239e09c
+
+2024-03-04T17:15:06.734Z REPORT RequestId: a7a9386e-a1e8-564f-b4cb-660ea239e09c	Duration: 385.41 ms	Billed Duration: 386 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1234.50 ms	
+
+2024-03-04T17:17:47.058Z START RequestId: c6291838-5b1a-5bd7-a82c-46585f730afa Version: $LATEST
+
+2024-03-04T17:17:47.245Z 2024-03-04T17:17:47.245Z	c6291838-5b1a-5bd7-a82c-46585f730afa	INFO	Processing message ca56616d-0379-4d61-8a78-18480c742ea1
+
+2024-03-04T17:17:47.271Z 2024-03-04T17:17:47.271Z	c6291838-5b1a-5bd7-a82c-46585f730afa	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR57HDBMFZPN5743A2H5ET37',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11705.653,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"4caef315-46ea-4b79-a938-22f4e3b27cfa","walletSk":"2b7905e0-10db-4165-a678-219edd862f91","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 4.5,
+    vat: 0.409,
+    oldBalance: 11.127,
+    newBalance: 15.218
+  }
+}
+
+2024-03-04T17:17:47.368Z 2024-03-04T17:17:47.368Z	c6291838-5b1a-5bd7-a82c-46585f730afa	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T17:17:47.409Z 2024-03-04T17:17:47.409Z	c6291838-5b1a-5bd7-a82c-46585f730afa	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 15.218,
+  paymentBalance: 11705.653
+}
+
+2024-03-04T17:17:47.437Z END RequestId: c6291838-5b1a-5bd7-a82c-46585f730afa
+
+2024-03-04T17:17:47.437Z REPORT RequestId: c6291838-5b1a-5bd7-a82c-46585f730afa	Duration: 379.31 ms	Billed Duration: 380 ms	Memory Size: 1024 MB	Max Memory Used: 128 MB	
+

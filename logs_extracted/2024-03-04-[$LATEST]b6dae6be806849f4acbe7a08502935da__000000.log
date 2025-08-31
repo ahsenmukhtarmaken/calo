@@ -1,0 +1,36 @@
+2024-03-04T08:00:35.048Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T08:00:36.264Z START RequestId: cebb50fb-a844-58b7-9985-0ea42995bf8c Version: $LATEST
+
+2024-03-04T08:00:36.410Z 2024-03-04T08:00:36.410Z	cebb50fb-a844-58b7-9985-0ea42995bf8c	INFO	Processing message 186d6ac8-463d-4f13-a1ae-0ef761169774
+
+2024-03-04T08:00:36.466Z 2024-03-04T08:00:36.466Z	cebb50fb-a844-58b7-9985-0ea42995bf8c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR47N421H9M7JP6NDBXKWQYK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '9a19fa44-d798-4468-b553-9db30af97ea6',
+    paymentBalance: 6840,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#9a19fa44-d798-4468-b553-9db30af97ea6","planType":"full","goal":"loseWeight","eventSessionId":"5f974b38-9b05-4886-b91e-b9a3255e613c","walletSk":"3c9d82ee-613f-4a34-8e91-9ebdb57bc26f","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-06","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":90,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-03-06\\",\\"deliveryDays\\":[0,1,2,3,4,5,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2898,
+    vat: 378,
+    oldBalance: 0,
+    newBalance: 2520
+  }
+}
+
+2024-03-04T08:00:36.567Z 2024-03-04T08:00:36.567Z	cebb50fb-a844-58b7-9985-0ea42995bf8c	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T08:00:36.614Z 2024-03-04T08:00:36.614Z	cebb50fb-a844-58b7-9985-0ea42995bf8c	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '9a19fa44-d798-4468-b553-9db30af97ea6',
+  subscriptionBalance: 2520,
+  paymentBalance: 6840
+}
+
+2024-03-04T08:00:36.635Z END RequestId: cebb50fb-a844-58b7-9985-0ea42995bf8c
+
+2024-03-04T08:00:36.635Z REPORT RequestId: cebb50fb-a844-58b7-9985-0ea42995bf8c	Duration: 370.97 ms	Billed Duration: 371 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1216.07 ms	
+

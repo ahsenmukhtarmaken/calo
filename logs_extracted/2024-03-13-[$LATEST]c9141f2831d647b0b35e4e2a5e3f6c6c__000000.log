@@ -1,0 +1,40 @@
+2024-03-13T18:50:02.084Z START RequestId: e6c817ca-88ff-5e49-9408-49a17f742e65 Version: $LATEST
+
+2024-03-13T18:50:02.118Z 2024-03-13T18:50:02.118Z	e6c817ca-88ff-5e49-9408-49a17f742e65	INFO	Processing message 32b35e6d-f9e3-43a7-91b4-c55fd970e7b9
+
+2024-03-13T18:50:02.157Z 2024-03-13T18:50:02.157Z	e6c817ca-88ff-5e49-9408-49a17f742e65	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRWJCSC1SNZ4Z5J210ZKCF06',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '9192a709-1808-49f7-a6f7-79703e605b73',
+    paymentBalance: 224,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#9192a709-1808-49f7-a6f7-79703e605b73","walletSk":"d3ab2517-41d7-403c-819a-b9fe1d56a31a"}',
+    currency: 'BHD',
+    amount: 22.400000000000002,
+    vat: 0,
+    oldBalance: 201.6,
+    newBalance: 224
+  }
+}
+
+2024-03-13T18:50:02.253Z 2024-03-13T18:50:02.253Z	e6c817ca-88ff-5e49-9408-49a17f742e65	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-13T18:50:02.312Z END RequestId: e6c817ca-88ff-5e49-9408-49a17f742e65
+
+2024-03-13T18:50:02.312Z REPORT RequestId: e6c817ca-88ff-5e49-9408-49a17f742e65	Duration: 228.09 ms	Billed Duration: 229 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	
+
+2024-03-13T18:49:49.488Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-13T18:49:50.539Z START RequestId: c0780d9e-a4f6-5ba6-bdfe-53f5538a8ce5 Version: $LATEST
+
+2024-03-13T18:49:50.693Z 2024-03-13T18:49:50.693Z	c0780d9e-a4f6-5ba6-bdfe-53f5538a8ce5	INFO	Processing message 112fc80a-bd44-4dfc-9921-7da0e89bf71f
+
+2024-03-13T18:49:50.694Z 2024-03-13T18:49:50.694Z	c0780d9e-a4f6-5ba6-bdfe-53f5538a8ce5	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-13T18:49:50.716Z END RequestId: c0780d9e-a4f6-5ba6-bdfe-53f5538a8ce5
+
+2024-03-13T18:49:50.716Z REPORT RequestId: c0780d9e-a4f6-5ba6-bdfe-53f5538a8ce5	Duration: 177.04 ms	Billed Duration: 178 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1049.57 ms	
+

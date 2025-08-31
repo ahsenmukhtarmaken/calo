@@ -1,0 +1,36 @@
+2024-02-08T05:46:53.325Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-08T05:46:54.045Z START RequestId: e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b Version: $LATEST
+
+2024-02-08T05:46:54.184Z 2024-02-08T05:46:54.184Z	e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b	INFO	Processing message 05200f61-2770-4c48-bf40-e7432f7d1b50
+
+2024-02-08T05:46:54.286Z 2024-02-08T05:46:54.286Z	e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HP3M2BHNQTA4AZ0JNF3F18XN',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1772.016,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"a5c2d548-2482-4c9f-8ec6-15cbe141bff0","eventSessionId":"37bcb925-a29c-4e83-9d63-635db55d7923","walletSk":"0327158b-1df2-42f4-af86-6c33141bfd7c","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"hhtrdf\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back,\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"jut@hytf.jutf\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 221.406,
+    newBalance: 256.406
+  }
+}
+
+2024-02-08T05:46:54.421Z 2024-02-08T05:46:54.421Z	e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-08T05:46:54.458Z 2024-02-08T05:46:54.458Z	e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 256.406,
+  paymentBalance: 1772.016
+}
+
+2024-02-08T05:46:54.481Z END RequestId: e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b
+
+2024-02-08T05:46:54.481Z REPORT RequestId: e0e6aedd-d6a1-5669-838f-f0e3ba5c2d2b	Duration: 436.39 ms	Billed Duration: 437 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 718.05 ms	
+

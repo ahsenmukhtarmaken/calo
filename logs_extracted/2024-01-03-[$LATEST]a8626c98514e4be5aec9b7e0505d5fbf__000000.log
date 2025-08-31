@@ -1,0 +1,40 @@
+2024-01-03T17:18:30.369Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-03T17:18:31.417Z START RequestId: 87f85dd4-5d8e-552d-ab49-03dbc49da0ec Version: $LATEST
+
+2024-01-03T17:18:31.645Z 2024-01-03T17:18:31.645Z	87f85dd4-5d8e-552d-ab49-03dbc49da0ec	INFO	Processing message d183a400-1049-48f9-b4f1-910b4252360d
+
+2024-01-03T17:18:31.647Z 2024-01-03T17:18:31.647Z	87f85dd4-5d8e-552d-ab49-03dbc49da0ec	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-03T17:18:31.665Z END RequestId: 87f85dd4-5d8e-552d-ab49-03dbc49da0ec
+
+2024-01-03T17:18:31.665Z REPORT RequestId: 87f85dd4-5d8e-552d-ab49-03dbc49da0ec	Duration: 248.37 ms	Billed Duration: 249 ms	Memory Size: 512 MB	Max Memory Used: 120 MB	Init Duration: 1046.55 ms	
+
+2024-01-03T17:20:19.990Z START RequestId: 59e09a74-7017-594c-8cf0-c47be99b5e98 Version: $LATEST
+
+2024-01-03T17:20:20.230Z 2024-01-03T17:20:20.230Z	59e09a74-7017-594c-8cf0-c47be99b5e98	INFO	Processing message d7237be7-d356-44f4-b16d-fe269629bb75
+
+2024-01-03T17:20:20.308Z 2024-01-03T17:20:20.308Z	59e09a74-7017-594c-8cf0-c47be99b5e98	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK85E7BY1ZHYGAFA124S5E3X',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '584d6c5a-abd1-43c1-9fc5-5aec8516d46e',
+    paymentBalance: 160.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#584d6c5a-abd1-43c1-9fc5-5aec8516d46e","deliveryId":"bfd2ee6e-c0bb-4f50-8a43-3c57d7f1d9bf","eventSessionId":"dc837b85-3665-43a8-9879-96df45990fc3","walletSk":"8d07db58-e41d-4823-8344-ece5f2a1f7da","version2":true,"source":"{\\"id\\":\\"61a41a02-49ba-4142-a82f-29529599fdfb\\",\\"name\\":{\\"ar\\":\\"بان كيك القرفة و التمر\\",\\"en\\":\\"Cinnamon Date Pancake\\"}}","version":"syncBalanceSQS","target":"{\\"id\\":\\"2ad26646-798b-457d-a3d4-d167ba3d58ad\\",\\"name\\":{\\"ar\\":\\"Almond Pancakes\\",\\"en\\":\\"Almond Pancakes\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 160,
+    newBalance: 160.5
+  }
+}
+
+2024-01-03T17:20:20.474Z 2024-01-03T17:20:20.474Z	59e09a74-7017-594c-8cf0-c47be99b5e98	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-03T17:20:20.541Z END RequestId: 59e09a74-7017-594c-8cf0-c47be99b5e98
+
+2024-01-03T17:20:20.541Z REPORT RequestId: 59e09a74-7017-594c-8cf0-c47be99b5e98	Duration: 550.87 ms	Billed Duration: 551 ms	Memory Size: 512 MB	Max Memory Used: 129 MB	
+

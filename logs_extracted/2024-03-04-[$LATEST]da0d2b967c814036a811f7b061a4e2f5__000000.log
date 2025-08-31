@@ -1,0 +1,36 @@
+2024-03-04T06:50:06.384Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T06:50:07.572Z START RequestId: 5e8558f5-901d-5003-a70b-06aae1519e62 Version: $LATEST
+
+2024-03-04T06:50:07.729Z 2024-03-04T06:50:07.729Z	5e8558f5-901d-5003-a70b-06aae1519e62	INFO	Processing message 667ca70d-349e-404c-9f12-d27bf046b8d5
+
+2024-03-04T06:50:07.788Z 2024-03-04T06:50:07.788Z	5e8558f5-901d-5003-a70b-06aae1519e62	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR43M2JDEF3PYAY7EHEE3ZY1',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11879.562,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"7d463e71-da4a-44ba-be97-53b6c394538e","walletSk":"b82a3ab0-d644-4aaa-8f57-142c3a835d7b","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-04-01\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"}]","subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 38,
+    vat: 3.455,
+    oldBalance: 154.582,
+    newBalance: 189.127
+  }
+}
+
+2024-03-04T06:50:07.898Z 2024-03-04T06:50:07.898Z	5e8558f5-901d-5003-a70b-06aae1519e62	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T06:50:07.932Z 2024-03-04T06:50:07.932Z	5e8558f5-901d-5003-a70b-06aae1519e62	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 189.127,
+  paymentBalance: 11879.562
+}
+
+2024-03-04T06:50:07.954Z END RequestId: 5e8558f5-901d-5003-a70b-06aae1519e62
+
+2024-03-04T06:50:07.954Z REPORT RequestId: 5e8558f5-901d-5003-a70b-06aae1519e62	Duration: 382.38 ms	Billed Duration: 383 ms	Memory Size: 1024 MB	Max Memory Used: 123 MB	Init Duration: 1186.85 ms	
+

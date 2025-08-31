@@ -1,0 +1,30 @@
+2024-02-29T12:54:51.290Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-29T12:54:52.542Z START RequestId: fe43105e-8903-5bf5-bdda-4e0409ca336b Version: $LATEST
+
+2024-02-29T12:54:52.688Z 2024-02-29T12:54:52.688Z	fe43105e-8903-5bf5-bdda-4e0409ca336b	INFO	Processing message a540f326-d9cb-4ae5-a546-074dac0e7ea1
+
+2024-02-29T12:54:52.732Z 2024-02-29T12:54:52.732Z	fe43105e-8903-5bf5-bdda-4e0409ca336b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQTEX2E7N2T5FQW9Y6DZM684',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'a6db30c1-5d78-471c-b1e7-007c345db06a',
+    paymentBalance: 2160,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#a6db30c1-5d78-471c-b1e7-007c345db06a","planType":"full","goal":"loseWeight","eventSessionId":"085a6199-5e36-49cd-82eb-81feeb8377b4","walletSk":"9d30cb34-5834-4673-b5a5-3896d9da899d","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-10","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":90,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-03-10\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2484,
+    vat: 324,
+    oldBalance: 0,
+    newBalance: 2160
+  }
+}
+
+2024-02-29T12:54:52.823Z 2024-02-29T12:54:52.823Z	fe43105e-8903-5bf5-bdda-4e0409ca336b	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T12:54:52.876Z END RequestId: fe43105e-8903-5bf5-bdda-4e0409ca336b
+
+2024-02-29T12:54:52.876Z REPORT RequestId: fe43105e-8903-5bf5-bdda-4e0409ca336b	Duration: 332.98 ms	Billed Duration: 333 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	Init Duration: 1251.30 ms	
+

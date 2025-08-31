@@ -1,0 +1,36 @@
+2024-03-04T17:56:48.243Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T17:56:49.558Z START RequestId: aa46d5f7-e3c0-5749-9d65-8b97ee4f9085 Version: $LATEST
+
+2024-03-04T17:56:49.736Z 2024-03-04T17:56:49.736Z	aa46d5f7-e3c0-5749-9d65-8b97ee4f9085	INFO	Processing message 5eb17a6f-b4d3-4992-a4d1-29531b292640
+
+2024-03-04T17:56:49.785Z 2024-03-04T17:56:49.785Z	aa46d5f7-e3c0-5749-9d65-8b97ee4f9085	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR59RTSBYTC2HN627J0VR18K',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11710.198,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"f58eb7cd-0ff0-426a-824f-ccbcebbe919a","walletSk":"037d0652-4781-4ce0-b644-e7fb78aca358","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-03-06\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 5,
+    vat: 0.455,
+    oldBalance: 15.218,
+    newBalance: 19.763
+  }
+}
+
+2024-03-04T17:56:49.875Z 2024-03-04T17:56:49.875Z	aa46d5f7-e3c0-5749-9d65-8b97ee4f9085	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T17:56:49.922Z 2024-03-04T17:56:49.922Z	aa46d5f7-e3c0-5749-9d65-8b97ee4f9085	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 19.763,
+  paymentBalance: 11710.198
+}
+
+2024-03-04T17:56:49.944Z END RequestId: aa46d5f7-e3c0-5749-9d65-8b97ee4f9085
+
+2024-03-04T17:56:49.944Z REPORT RequestId: aa46d5f7-e3c0-5749-9d65-8b97ee4f9085	Duration: 385.96 ms	Billed Duration: 386 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1314.29 ms	
+

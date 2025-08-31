@@ -1,0 +1,40 @@
+2024-05-10T18:01:30.983Z START RequestId: 503131a6-ee2f-5bdc-923a-6f1e8d04fb0a Version: $LATEST
+
+2024-05-10T18:01:31.163Z 2024-05-10T18:01:31.163Z	503131a6-ee2f-5bdc-923a-6f1e8d04fb0a	INFO	Processing message 632c49a7-7f2b-4670-946b-9d2c3584f3be
+
+2024-05-10T18:01:31.197Z 2024-05-10T18:01:31.197Z	503131a6-ee2f-5bdc-923a-6f1e8d04fb0a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXHTNMRYKS9C84GC4ASK6F0B',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '6c430524-4c3c-459b-bbd9-5e607626eba0',
+    paymentBalance: 280.8,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#6c430524-4c3c-459b-bbd9-5e607626eba0","walletSk":"850f0b42-afe6-42ed-bb48-3aa7510ee21e"}',
+    currency: 'BHD',
+    amount: 100.8,
+    vat: 0,
+    oldBalance: 180,
+    newBalance: 280.8
+  }
+}
+
+2024-05-10T18:01:31.350Z 2024-05-10T18:01:31.350Z	503131a6-ee2f-5bdc-923a-6f1e8d04fb0a	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-10T18:01:31.388Z END RequestId: 503131a6-ee2f-5bdc-923a-6f1e8d04fb0a
+
+2024-05-10T18:01:31.388Z REPORT RequestId: 503131a6-ee2f-5bdc-923a-6f1e8d04fb0a	Duration: 405.33 ms	Billed Duration: 406 ms	Memory Size: 1024 MB	Max Memory Used: 128 MB	
+
+2024-05-10T17:59:32.981Z START RequestId: 46d8d037-3828-5952-946a-8e8f5a9d2984 Version: $LATEST
+
+2024-05-10T17:59:33.140Z 2024-05-10T17:59:33.140Z	46d8d037-3828-5952-946a-8e8f5a9d2984	INFO	Processing message 00203812-2bd6-4828-9258-90c2490e8d25
+
+2024-05-10T17:59:33.141Z 2024-05-10T17:59:33.141Z	46d8d037-3828-5952-946a-8e8f5a9d2984	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-10T17:59:33.152Z END RequestId: 46d8d037-3828-5952-946a-8e8f5a9d2984
+
+2024-05-10T17:59:33.152Z REPORT RequestId: 46d8d037-3828-5952-946a-8e8f5a9d2984	Duration: 171.44 ms	Billed Duration: 172 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 1050.60 ms	
+
+2024-05-10T17:59:31.929Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+

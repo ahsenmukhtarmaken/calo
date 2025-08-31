@@ -1,0 +1,30 @@
+2024-05-09T15:46:53.513Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-09T15:46:54.529Z START RequestId: d263c43a-0c75-520a-bf6b-9a8cfe51ea2b Version: $LATEST
+
+2024-05-09T15:46:54.672Z 2024-05-09T15:46:54.672Z	d263c43a-0c75-520a-bf6b-9a8cfe51ea2b	INFO	Processing message 1d6754fa-04b5-4e4c-bbf1-21065015adfc
+
+2024-05-09T15:46:54.735Z 2024-05-09T15:46:54.735Z	d263c43a-0c75-520a-bf6b-9a8cfe51ea2b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXF0JCQNEP3QVQR3KBYTP0HN',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: '80160274-e912-4040-af60-1de0559350fe',
+    paymentBalance: 2520,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#80160274-e912-4040-af60-1de0559350fe","eventSessionId":"93e8cffb-1e34-4ba0-ba96-90ac50e780eb","walletSk":"0ebd8916-c8bd-4505-af3a-436f63a8f9a5","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-05-12T15:45:13.872Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":90,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}","planPrice":2520}',
+    currency: 'SAR',
+    amount: 2000,
+    vat: 260.87,
+    oldBalance: 780.87,
+    newBalance: 2520
+  }
+}
+
+2024-05-09T15:46:54.881Z 2024-05-09T15:46:54.881Z	d263c43a-0c75-520a-bf6b-9a8cfe51ea2b	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T15:46:54.923Z END RequestId: d263c43a-0c75-520a-bf6b-9a8cfe51ea2b
+
+2024-05-09T15:46:54.923Z REPORT RequestId: d263c43a-0c75-520a-bf6b-9a8cfe51ea2b	Duration: 393.24 ms	Billed Duration: 394 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 1015.19 ms	
+

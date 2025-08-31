@@ -1,0 +1,70 @@
+2024-02-07T13:28:14.213Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-07T13:28:14.979Z START RequestId: 7965a7b2-8215-5904-b3fd-f98f05b3e045 Version: $LATEST
+
+2024-02-07T13:28:15.156Z 2024-02-07T13:28:15.156Z	7965a7b2-8215-5904-b3fd-f98f05b3e045	INFO	Processing message 38b8088e-8689-47d4-9ba8-e002fccf7a2e
+
+2024-02-07T13:28:15.283Z 2024-02-07T13:28:15.283Z	7965a7b2-8215-5904-b3fd-f98f05b3e045	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HP1W2CE9T6C4PVTYM93HWFJC',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1667.016,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"a5c2d548-2482-4c9f-8ec6-15cbe141bff0","eventSessionId":"231d4945-c5ef-4904-bdb3-32f8b92280b5","walletSk":"03f9bd8e-962a-4ad7-a550-b475e83946e0","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"sms\\",\\"phoneNumber\\":\\"+97331234567\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 116.406,
+    newBalance: 151.406
+  }
+}
+
+2024-02-07T13:28:15.402Z 2024-02-07T13:28:15.402Z	7965a7b2-8215-5904-b3fd-f98f05b3e045	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-07T13:28:15.451Z 2024-02-07T13:28:15.451Z	7965a7b2-8215-5904-b3fd-f98f05b3e045	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 151.406,
+  paymentBalance: 1667.016
+}
+
+2024-02-07T13:28:15.471Z END RequestId: 7965a7b2-8215-5904-b3fd-f98f05b3e045
+
+2024-02-07T13:28:15.471Z REPORT RequestId: 7965a7b2-8215-5904-b3fd-f98f05b3e045	Duration: 492.41 ms	Billed Duration: 493 ms	Memory Size: 1024 MB	Max Memory Used: 101 MB	Init Duration: 764.24 ms	
+
+2024-02-07T13:28:49.276Z START RequestId: 63afeddc-e874-597b-b81d-b3e16fb7a03a Version: $LATEST
+
+2024-02-07T13:28:49.304Z 2024-02-07T13:28:49.304Z	63afeddc-e874-597b-b81d-b3e16fb7a03a	INFO	Processing message ad99fe79-c9c5-4dd2-bc1e-ea3c3133ce56
+
+2024-02-07T13:28:49.313Z 2024-02-07T13:28:49.313Z	63afeddc-e874-597b-b81d-b3e16fb7a03a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HP1W3FC2D6ABXF9JAN9762AR',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1702.016,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"a5c2d548-2482-4c9f-8ec6-15cbe141bff0","eventSessionId":"9c88b0ca-fdac-4e98-a8f0-f84db7c85f63","walletSk":"3ae6293c-6389-41f7-8932-2d98ca6b203a","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 151.406,
+    newBalance: 186.406
+  }
+}
+
+2024-02-07T13:28:49.388Z 2024-02-07T13:28:49.388Z	63afeddc-e874-597b-b81d-b3e16fb7a03a	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-07T13:28:49.423Z 2024-02-07T13:28:49.423Z	63afeddc-e874-597b-b81d-b3e16fb7a03a	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 186.406,
+  paymentBalance: 1702.016
+}
+
+2024-02-07T13:28:49.442Z END RequestId: 63afeddc-e874-597b-b81d-b3e16fb7a03a
+
+2024-02-07T13:28:49.442Z REPORT RequestId: 63afeddc-e874-597b-b81d-b3e16fb7a03a	Duration: 165.75 ms	Billed Duration: 166 ms	Memory Size: 1024 MB	Max Memory Used: 101 MB	
+

@@ -1,0 +1,52 @@
+2024-01-01T21:10:00.286Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-01T21:10:01.276Z START RequestId: d92c6536-6423-5376-9e6d-3b3b487979c7 Version: $LATEST
+
+2024-01-01T21:10:01.483Z 2024-01-01T21:10:01.483Z	d92c6536-6423-5376-9e6d-3b3b487979c7	INFO	Processing message 33c5fc06-6bde-4b06-a0ad-616da33c794e
+
+2024-01-01T21:10:01.560Z 2024-01-01T21:10:01.560Z	d92c6536-6423-5376-9e6d-3b3b487979c7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DSACYZJ8BAKKMFM7F8ZTT',
+    userId: 'ca4da5ef-df7d-417f-8098-80c027212092',
+    currency: 'SAR',
+    amount: 20,
+    vat: 0,
+    oldBalance: 780.62,
+    newBalance: 760.62
+  }
+}
+
+2024-01-01T21:10:01.712Z 2024-01-01T21:10:01.712Z	d92c6536-6423-5376-9e6d-3b3b487979c7	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:10:01.781Z 2024-01-01T21:10:01.781Z	d92c6536-6423-5376-9e6d-3b3b487979c7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'ca4da5ef-df7d-417f-8098-80c027212092',
+  subscriptionBalance: 780.62,
+  paymentBalance: 2230.62
+}
+
+2024-01-01T21:10:01.801Z END RequestId: d92c6536-6423-5376-9e6d-3b3b487979c7
+
+2024-01-01T21:10:01.801Z REPORT RequestId: d92c6536-6423-5376-9e6d-3b3b487979c7	Duration: 524.65 ms	Billed Duration: 525 ms	Memory Size: 512 MB	Max Memory Used: 119 MB	Init Duration: 988.88 ms	
+
+2024-01-01T21:10:02.382Z START RequestId: 872f89b7-53a1-547e-a013-d7ba7fc97f7d Version: $LATEST
+
+2024-01-01T21:10:02.405Z 2024-01-01T21:10:02.405Z	872f89b7-53a1-547e-a013-d7ba7fc97f7d	INFO	Processing message 5ef7cfe0-25d1-4bef-a7aa-104cbb7df288
+
+2024-01-01T21:10:02.411Z 2024-01-01T21:10:02.411Z	872f89b7-53a1-547e-a013-d7ba7fc97f7d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DSD0A7FRKKZHVW43PYPQG',
+    userId: 'fea429d5-4080-4d96-98b6-5bf8af8cc498',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 152,
+    newBalance: 144
+  }
+}
+
+2024-01-01T21:10:02.449Z 2024-01-01T21:10:02.449Z	872f89b7-53a1-547e-a013-d7ba7fc97f7d	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:10:02.469Z END RequestId: 872f89b7-53a1-547e-a013-d7ba7fc97f7d
+
+2024-01-01T21:10:02.469Z REPORT RequestId: 872f89b7-53a1-547e-a013-d7ba7fc97f7d	Duration: 87.03 ms	Billed Duration: 88 ms	Memory Size: 512 MB	Max Memory Used: 119 MB	
+

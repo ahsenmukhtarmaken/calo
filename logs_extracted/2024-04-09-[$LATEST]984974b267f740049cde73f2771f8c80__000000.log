@@ -1,0 +1,30 @@
+2024-04-09T10:33:19.320Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-09T10:33:20.333Z START RequestId: 51c04bc7-4eae-54a8-9f34-15485533b5f7 Version: $LATEST
+
+2024-04-09T10:33:20.466Z 2024-04-09T10:33:20.466Z	51c04bc7-4eae-54a8-9f34-15485533b5f7	INFO	Processing message 367f8399-0f5d-43ee-a19e-c325092fa21a
+
+2024-04-09T10:33:20.527Z 2024-04-09T10:33:20.527Z	51c04bc7-4eae-54a8-9f34-15485533b5f7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HV16PN6YPETM4NHYC95AWZHQ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 221,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","planType":"full","goal":"loseWeight","eventSessionId":"99e00756-fb29-4da4-8279-c593875c6f97","walletSk":"788f22ba-5c0a-4522-bf39-8c37fb5ca71a","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-04-11","type":"userRenew","frequency":"weekly","subscriptionCost":60,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":10,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"weekly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":60,\\"startDate\\":\\"2024-04-11\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 66,
+    vat: 6,
+    oldBalance: 161,
+    newBalance: 221
+  }
+}
+
+2024-04-09T10:33:20.637Z 2024-04-09T10:33:20.637Z	51c04bc7-4eae-54a8-9f34-15485533b5f7	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-09T10:33:20.678Z END RequestId: 51c04bc7-4eae-54a8-9f34-15485533b5f7
+
+2024-04-09T10:33:20.678Z REPORT RequestId: 51c04bc7-4eae-54a8-9f34-15485533b5f7	Duration: 344.62 ms	Billed Duration: 345 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1012.25 ms	
+

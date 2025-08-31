@@ -1,0 +1,36 @@
+2024-03-19T09:57:43.617Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-19T09:57:44.645Z START RequestId: 570a7239-b725-53ba-9ae2-2c4ad4e3a7c4 Version: $LATEST
+
+2024-03-19T09:57:44.799Z 2024-03-19T09:57:44.799Z	570a7239-b725-53ba-9ae2-2c4ad4e3a7c4	INFO	Processing message 1259beef-68bb-49b8-a791-dd42362adeb3
+
+2024-03-19T09:57:44.848Z 2024-03-19T09:57:44.848Z	570a7239-b725-53ba-9ae2-2c4ad4e3a7c4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSB2ACWVXTZZ9TEWDX4M2DS7',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    paymentBalance: 26017.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f8c629ff-e140-4e26-b38c-f99d237959da","planType":"skipBreakfast","goal":"loseWeight","eventSessionId":"d02463ea-f751-4037-8c0a-15c81f0eb027","walletSk":"72a347d3-2a56-42a0-b743-cdf9b5082ee2","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","subscriptionCost":1680,"tier":"personalized","version2":true,"addonCosts":"{\\"undefined\\":480}","nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"pricePerDay\\":70,\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1680,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"تبغى شي يبرد على قلبك في هذا الجو؟ خذ لك لفه على العصاير الرهيبه الي راح تروي لك عطشك. تقدر تستمتع بنكهه مختلفة كل يوم بدون ما تحس بالذنب لانها اكيد صحية دامها في كالو. تقدر تختار من نكهات حمضية او حلوة على كيف كيفك\\",\\"en\\":\\"Cold pressed juices that are perfect for quenching your thirst. You can indulge in a different flavor each day and feel good about treating your body to a healthy, delicious drink. Whether you prefer citrusy or sweet flavors, we have a juice that is sure to satisfy your taste buds.\\"},\\"name\\":{\\"ar\\":\\"العصائر\\",\\"en\\":\\"Juices\\"},\\"description\\":{\\"ar\\":\\"برد على قلبك\\",\\"en\\":\\"For your daily dose of health\\"},\\"id\\":\\"BEVERAGES\\",\\"price\\":12,\\"status\\":\\"available\\",\\"priceWithVat\\":13.8,\\"pricePerDay\\":12},{\\"longDescription\\":{\\"ar\\":\\"بوكسات مليانة بالأكلات اللذيذة لبطلك الصغيرتدور على اشتراك غداء صحي و ممتع و يغنيك عن الحوسه والتجهيز. في نفس الوقت؟ اشترك معانا في باقة كالو كيدز وبنضبطك!نقدم لك ولطفلك من عمر 3 إلى 7 سنوات وجبات  مُغذية ومتوازنة والأهم من كذا لذيذة ومَرحة. يحتوي كل بوكس على طبق رئيسي، قطع خضار وفواكه ، وحلى صحي.  .مصممة عشان تكون وجبة صغيرك مُتكاملة وغنية بالقيم الغذائية. ومو بس كذا! وقت الغداء صار يحمس أكثر لأن  وجباتنا توصلك بتصاميم مَرحة ومُمتعة تجذب الأطفال وتشجعهم على الأكل.وجبات كالو كيدز خالية تمامًا من المكسرات والمنكهات والألوان الصناعية، ونقدم لطفلك خيارات نباتية أيضًا.اختر من بين خيارات الإشتراكات سواءً اليومية أو الأسبوعية أو الشهرية وخلي وقت الغداء أفضل جزء من يوم طفلك!\\",\\"en\\":\\"Looking for a healthy, fun and hassle-free lunch-box? Calo Kids got you covered! We provide deliciously balanced meals for your little ones. Each box includes a main, fruits, veggies and a healthy dessert. Our daily themes make lunchtime super exciting! To add to that, the meals are completely nut-free!\\"},\\"name\\":{\\"ar\\":\\"كالو كيدز\\",\\"en\\":\\"Calo Kids\\"},\\"description\\":{\\"ar\\":\\"بوكس مليان بالأكل اللذيذ لبطلك الصغير\\",\\"en\\":\\"A box of goodness for your little ones.\\"},\\"id\\":\\"CALO_KIDS\\",\\"price\\":20,\\"status\\":\\"available\\",\\"priceWithVat\\":23,\\"pricePerDay\\":20}]"}',
+    currency: 'SAR',
+    amount: 3036,
+    vat: 396,
+    oldBalance: 30,
+    newBalance: 2670
+  }
+}
+
+2024-03-19T09:57:44.998Z 2024-03-19T09:57:44.998Z	570a7239-b725-53ba-9ae2-2c4ad4e3a7c4	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-19T09:57:45.037Z 2024-03-19T09:57:45.037Z	570a7239-b725-53ba-9ae2-2c4ad4e3a7c4	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 2670,
+  paymentBalance: 26017.4
+}
+
+2024-03-19T09:57:45.059Z END RequestId: 570a7239-b725-53ba-9ae2-2c4ad4e3a7c4
+
+2024-03-19T09:57:45.059Z REPORT RequestId: 570a7239-b725-53ba-9ae2-2c4ad4e3a7c4	Duration: 413.92 ms	Billed Duration: 414 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1027.75 ms	
+

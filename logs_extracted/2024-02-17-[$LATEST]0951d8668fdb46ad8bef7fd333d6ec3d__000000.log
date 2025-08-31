@@ -1,0 +1,87 @@
+2024-02-17T13:52:48.342Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-17T13:52:49.587Z START RequestId: 52dd301b-3976-505f-a02a-6e5185120376 Version: $LATEST
+
+2024-02-17T13:52:49.735Z 2024-02-17T13:52:49.735Z	52dd301b-3976-505f-a02a-6e5185120376	INFO	Processing message 689ac865-e16b-4676-8c1d-f16d390ba2c6
+
+2024-02-17T13:52:49.787Z 2024-02-17T13:52:49.787Z	52dd301b-3976-505f-a02a-6e5185120376	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPVNEJF4ZDBXJ6JR2RXP1S0Q',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: 'deedea24-a21c-4886-9657-623c064fcf5a',
+    paymentBalance: 60.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#deedea24-a21c-4886-9657-623c064fcf5a","deliveryId":"250ef8c4-9042-4fb1-a185-cc656cc35334","eventSessionId":"96404aad-6df3-4d32-9372-e36aa13b80f0","walletSk":"069fcc7e-2af5-4c5d-a606-5cdc03f3cf42","version2":true,"source":"{\\"id\\":\\"a9b82bb5-702c-4795-b6df-d410ef854e19\\",\\"name\\":{\\"ar\\":\\"شوفان بيناكولادا\\",\\"en\\":\\"Pinacolada Overnight Oats\\"}}","target":"{\\"id\\":\\"601f2cf3-1508-4d7d-8408-9bdfb2760084\\",\\"name\\":{\\"ar\\":\\"Chia Jam Parfait\\",\\"en\\":\\"Chia Jam Parfait\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 60,
+    newBalance: 60.5
+  }
+}
+
+2024-02-17T13:52:49.892Z 2024-02-17T13:52:49.892Z	52dd301b-3976-505f-a02a-6e5185120376	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T13:52:49.932Z END RequestId: 52dd301b-3976-505f-a02a-6e5185120376
+
+2024-02-17T13:52:49.932Z REPORT RequestId: 52dd301b-3976-505f-a02a-6e5185120376	Duration: 346.99 ms	Billed Duration: 347 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1241.72 ms	
+XRAY TraceId: 1-65d0ba30-5a2d91f59fdf628877e5f34e	SegmentId: 4ceba1bf27d481a4	Sampled: true	
+
+2024-02-17T13:54:16.691Z START RequestId: 10b1b5a0-0103-5ef4-9026-ebeabdbf02d6 Version: $LATEST
+
+2024-02-17T13:54:16.949Z 2024-02-17T13:54:16.949Z	10b1b5a0-0103-5ef4-9026-ebeabdbf02d6	INFO	Processing message b796ebf7-11d3-409b-b4f0-7a3f71eb5a81
+
+2024-02-17T13:54:16.982Z 2024-02-17T13:54:16.982Z	10b1b5a0-0103-5ef4-9026-ebeabdbf02d6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPVNH8X698QZ36QZGSAYZV3C',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: 'deedea24-a21c-4886-9657-623c064fcf5a',
+    paymentBalance: 61,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#deedea24-a21c-4886-9657-623c064fcf5a","deliveryId":"250ef8c4-9042-4fb1-a185-cc656cc35334","eventSessionId":"83029e88-b42e-466f-a131-f3c223ecff48","walletSk":"96fe846f-7a69-4e20-9a1d-e4b6d043732f","version2":true,"source":"{\\"id\\":\\"473fa4a9-1734-40b3-823e-be3ba6c80c84\\",\\"name\\":{\\"ar\\":\\" موس المانجو\\",\\"en\\":\\"Mango Mousse\\"}}","target":"{\\"id\\":\\"f19a8a29-58e6-4ae7-82aa-f41d3e23b86b\\",\\"name\\":{\\"ar\\":\\"جوز بالشوكولاتة\\",\\"en\\":\\"Chocolate Walnuts\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 60.5,
+    newBalance: 61
+  }
+}
+
+2024-02-17T13:54:17.073Z 2024-02-17T13:54:17.073Z	10b1b5a0-0103-5ef4-9026-ebeabdbf02d6	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T13:54:17.110Z END RequestId: 10b1b5a0-0103-5ef4-9026-ebeabdbf02d6
+
+2024-02-17T13:54:17.110Z REPORT RequestId: 10b1b5a0-0103-5ef4-9026-ebeabdbf02d6	Duration: 418.99 ms	Billed Duration: 419 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-02-17T13:56:18.913Z START RequestId: b4b99248-98bb-5af6-94ee-cc0225834ceb Version: $LATEST
+
+2024-02-17T13:56:19.063Z 2024-02-17T13:56:19.063Z	b4b99248-98bb-5af6-94ee-cc0225834ceb	INFO	Processing message d4c5267e-651e-4287-9c71-b4b2913498b8
+
+2024-02-17T13:56:19.094Z 2024-02-17T13:56:19.094Z	b4b99248-98bb-5af6-94ee-cc0225834ceb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPVNN0FJ37AFH3FWKNSHFV6T',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'deedea24-a21c-4886-9657-623c064fcf5a',
+    paymentBalance: 85,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#deedea24-a21c-4886-9657-623c064fcf5a","country":"BH","couponDiscount":0,"eventSessionId":"4f0aec48-57bf-4ab5-a12f-25ec637e6d74","walletSk":"1080d895-ec5c-4c5f-9730-dba614703675","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-02-26\\",\\"startDate\\":\\"2024-02-19\\",\\"pricePerDay\\":2,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-02-26\\",\\"startDate\\":\\"2024-02-19\\",\\"pricePerDay\\":2,\\"currency\\":\\"BHD\\"}]","subscriptionId":"deedea24-a21c-4886-9657-623c064fcf5a","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 26.4,
+    vat: 2.4,
+    oldBalance: 61,
+    newBalance: 85
+  }
+}
+
+2024-02-17T13:56:19.164Z 2024-02-17T13:56:19.164Z	b4b99248-98bb-5af6-94ee-cc0225834ceb	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-17T13:56:19.196Z END RequestId: b4b99248-98bb-5af6-94ee-cc0225834ceb
+
+2024-02-17T13:56:19.196Z REPORT RequestId: b4b99248-98bb-5af6-94ee-cc0225834ceb	Duration: 283.07 ms	Billed Duration: 284 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+

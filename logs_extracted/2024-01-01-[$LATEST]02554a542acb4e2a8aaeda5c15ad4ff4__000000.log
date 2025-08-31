@@ -1,0 +1,941 @@
+2024-01-01T21:01:01.754Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-01T21:01:02.766Z START RequestId: 0dcbfb7c-d737-5329-b5d6-a571fd7469b5 Version: $LATEST
+
+2024-01-01T21:01:02.972Z 2024-01-01T21:01:02.972Z	0dcbfb7c-d737-5329-b5d6-a571fd7469b5	INFO	Processing message f002b174-ebef-4d40-8bb9-110ce480acc6
+
+2024-01-01T21:01:03.045Z 2024-01-01T21:01:03.045Z	0dcbfb7c-d737-5329-b5d6-a571fd7469b5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8TMN3D2325X9XYR2G6WX',
+    userId: 'be98bc1b-926c-4c56-a53c-7ccb51fdd41e',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 360,
+    newBalance: 270
+  }
+}
+
+2024-01-01T21:01:03.172Z 2024-01-01T21:01:03.172Z	0dcbfb7c-d737-5329-b5d6-a571fd7469b5	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:03.228Z 2024-01-01T21:01:03.228Z	0dcbfb7c-d737-5329-b5d6-a571fd7469b5	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'be98bc1b-926c-4c56-a53c-7ccb51fdd41e',
+  subscriptionBalance: 360,
+  paymentBalance: 180
+}
+
+2024-01-01T21:01:03.257Z END RequestId: 0dcbfb7c-d737-5329-b5d6-a571fd7469b5
+
+2024-01-01T21:01:03.257Z REPORT RequestId: 0dcbfb7c-d737-5329-b5d6-a571fd7469b5	Duration: 491.21 ms	Billed Duration: 492 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	Init Duration: 1010.58 ms	
+XRAY TraceId: 1-6593280c-4db310ad5356d91388155eb4	SegmentId: 710e4db713044a73	Sampled: true	
+
+2024-01-01T21:01:04.021Z START RequestId: abcd808a-6ca9-5640-9a6d-de8746e6a971 Version: $LATEST
+
+2024-01-01T21:01:04.050Z 2024-01-01T21:01:04.050Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message 8dae990c-5fdc-4340-a441-41da7feda369
+
+2024-01-01T21:01:04.058Z 2024-01-01T21:01:04.058Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8VSH6J2BMSNVB6X0X2A0',
+    userId: 'b11a22a9-3283-4c2a-8530-5f685c1035b4',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 382,
+    newBalance: 373
+  }
+}
+
+2024-01-01T21:01:04.098Z 2024-01-01T21:01:04.098Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.113Z 2024-01-01T21:01:04.113Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'b11a22a9-3283-4c2a-8530-5f685c1035b4',
+  subscriptionBalance: 382,
+  paymentBalance: 364
+}
+
+2024-01-01T21:01:04.131Z 2024-01-01T21:01:04.131Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message e710e006-3970-4b31-904e-793233fb3b89
+
+2024-01-01T21:01:04.140Z 2024-01-01T21:01:04.140Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8V1195YK46FZ0JDFE0MC',
+    userId: '46176cfe-75b8-4dc3-aeba-64e9649f2840',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 540,
+    newBalance: 450
+  }
+}
+
+2024-01-01T21:01:04.184Z 2024-01-01T21:01:04.184Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.211Z 2024-01-01T21:01:04.211Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message 4fbbcea1-a6cd-4ea0-b7b1-b1212b986633
+
+2024-01-01T21:01:04.221Z 2024-01-01T21:01:04.221Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8WH5JEC0MVBATDY4PDEM',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 348.267,
+    newBalance: 340.267
+  }
+}
+
+2024-01-01T21:01:04.277Z 2024-01-01T21:01:04.277Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.297Z 2024-01-01T21:01:04.297Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message d82deba5-e896-4e42-9880-f11afcf2b7d4
+
+2024-01-01T21:01:04.303Z 2024-01-01T21:01:04.303Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8WR66J3C7HX2E418K7Q9',
+    userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+    currency: 'SAR',
+    amount: 100,
+    vat: 0,
+    oldBalance: 1443.93,
+    newBalance: 1343.93
+  }
+}
+
+2024-01-01T21:01:04.353Z 2024-01-01T21:01:04.353Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.366Z 2024-01-01T21:01:04.366Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f8c629ff-e140-4e26-b38c-f99d237959da',
+  subscriptionBalance: 1443.93,
+  paymentBalance: 11338.93
+}
+
+2024-01-01T21:01:04.383Z 2024-01-01T21:01:04.383Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message e2bf8f4b-d9a6-47b9-ba2a-15d8cd16fd46
+
+2024-01-01T21:01:04.389Z 2024-01-01T21:01:04.389Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8WGMYJZ8BDW8G1VBHM9B',
+    userId: 'b587e78b-1b26-40c4-9e84-eae1f97ca15e',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 1080,
+    newBalance: 990
+  }
+}
+
+2024-01-01T21:01:04.429Z 2024-01-01T21:01:04.429Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.443Z 2024-01-01T21:01:04.443Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message 7620b547-658a-4cf3-ac23-5f18e7633901
+
+2024-01-01T21:01:04.449Z 2024-01-01T21:01:04.449Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8Y01FFN6MWJR1DB6RXPG',
+    userId: '73efb41a-798e-400b-b2ff-45ab7d95d97e',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 1890,
+    newBalance: 1800
+  }
+}
+
+2024-01-01T21:01:04.485Z 2024-01-01T21:01:04.485Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.500Z 2024-01-01T21:01:04.500Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '73efb41a-798e-400b-b2ff-45ab7d95d97e',
+  subscriptionBalance: 1890,
+  paymentBalance: 1710
+}
+
+2024-01-01T21:01:04.516Z 2024-01-01T21:01:04.516Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Processing message ba9a8525-ec2c-4541-aaa2-b812714f376c
+
+2024-01-01T21:01:04.544Z 2024-01-01T21:01:04.544Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D8YQ2YEP8ZETR10TAG3F7',
+    userId: 'fb387231-a328-4c4d-8d82-dda7943af9e7',
+    currency: 'SAR',
+    amount: 100,
+    vat: 0,
+    oldBalance: 40454,
+    newBalance: 40354
+  }
+}
+
+2024-01-01T21:01:04.580Z 2024-01-01T21:01:04.580Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:04.594Z 2024-01-01T21:01:04.594Z	abcd808a-6ca9-5640-9a6d-de8746e6a971	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'fb387231-a328-4c4d-8d82-dda7943af9e7',
+  subscriptionBalance: 40454,
+  paymentBalance: 40254
+}
+
+2024-01-01T21:01:04.618Z END RequestId: abcd808a-6ca9-5640-9a6d-de8746e6a971
+
+2024-01-01T21:01:04.618Z REPORT RequestId: abcd808a-6ca9-5640-9a6d-de8746e6a971	Duration: 597.37 ms	Billed Duration: 598 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	
+
+2024-01-01T21:01:05.460Z START RequestId: b1ff9ba8-bf19-5875-b083-c5a59549a744 Version: $LATEST
+
+2024-01-01T21:01:05.492Z 2024-01-01T21:01:05.492Z	b1ff9ba8-bf19-5875-b083-c5a59549a744	INFO	Processing message 7211cb04-d810-4e4e-9b71-581c31a1204a
+
+2024-01-01T21:01:05.507Z 2024-01-01T21:01:05.507Z	b1ff9ba8-bf19-5875-b083-c5a59549a744	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D90E38RPNSD5VME7WQBXM',
+    userId: 'e2ba0d37-98ed-4a9f-a668-b8b97d667977',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 270,
+    newBalance: 180
+  }
+}
+
+2024-01-01T21:01:05.545Z 2024-01-01T21:01:05.545Z	b1ff9ba8-bf19-5875-b083-c5a59549a744	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:05.558Z END RequestId: b1ff9ba8-bf19-5875-b083-c5a59549a744
+
+2024-01-01T21:01:05.558Z REPORT RequestId: b1ff9ba8-bf19-5875-b083-c5a59549a744	Duration: 98.23 ms	Billed Duration: 99 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	
+
+2024-01-01T21:01:05.721Z START RequestId: 800ddd6d-8d71-5379-a0e9-8360a72109e5 Version: $LATEST
+
+2024-01-01T21:01:05.736Z 2024-01-01T21:01:05.736Z	800ddd6d-8d71-5379-a0e9-8360a72109e5	INFO	Processing message a51cbe15-df37-456a-a3e8-10e4c219b19c
+
+2024-01-01T21:01:05.742Z 2024-01-01T21:01:05.742Z	800ddd6d-8d71-5379-a0e9-8360a72109e5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D90XP6VWKFB6Z7585STQ5',
+    userId: 'dad65afc-5053-4bfb-bab4-c4238e52842d',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 255,
+    newBalance: 246
+  }
+}
+
+2024-01-01T21:01:05.783Z 2024-01-01T21:01:05.783Z	800ddd6d-8d71-5379-a0e9-8360a72109e5	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:05.796Z 2024-01-01T21:01:05.796Z	800ddd6d-8d71-5379-a0e9-8360a72109e5	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'dad65afc-5053-4bfb-bab4-c4238e52842d',
+  subscriptionBalance: 255,
+  paymentBalance: 237
+}
+
+2024-01-01T21:01:05.814Z END RequestId: 800ddd6d-8d71-5379-a0e9-8360a72109e5
+
+2024-01-01T21:01:05.814Z REPORT RequestId: 800ddd6d-8d71-5379-a0e9-8360a72109e5	Duration: 92.53 ms	Billed Duration: 93 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	
+
+2024-01-01T21:01:20.478Z START RequestId: eef78784-2d1b-514c-9926-d98907404e7d Version: $LATEST
+
+2024-01-01T21:01:20.517Z 2024-01-01T21:01:20.517Z	eef78784-2d1b-514c-9926-d98907404e7d	INFO	Processing message 66ce14a5-af86-41f2-8239-c74f7a48c660
+
+2024-01-01T21:01:20.562Z 2024-01-01T21:01:20.562Z	eef78784-2d1b-514c-9926-d98907404e7d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9F4FD26SAF1574P1SQXD',
+    userId: 'f6a6021a-b34d-46ee-a05e-c6247daa6cf5',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 89,
+    newBalance: 81
+  }
+}
+
+2024-01-01T21:01:20.698Z 2024-01-01T21:01:20.698Z	eef78784-2d1b-514c-9926-d98907404e7d	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:20.716Z END RequestId: eef78784-2d1b-514c-9926-d98907404e7d
+
+2024-01-01T21:01:20.716Z REPORT RequestId: eef78784-2d1b-514c-9926-d98907404e7d	Duration: 237.99 ms	Billed Duration: 238 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:23.994Z START RequestId: ae6544e9-a698-5129-8dd5-1ae48cfbbbb5 Version: $LATEST
+
+2024-01-01T21:01:24.121Z 2024-01-01T21:01:24.121Z	ae6544e9-a698-5129-8dd5-1ae48cfbbbb5	INFO	Processing message 06e69d21-730d-494e-9fac-f3d7bb3eb7f3
+
+2024-01-01T21:01:24.198Z 2024-01-01T21:01:24.198Z	ae6544e9-a698-5129-8dd5-1ae48cfbbbb5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9JH9PK70DNTYNMYA3G7M',
+    userId: 'b66d065b-3a4b-4871-9d0c-99701e74c8e9',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 24582,
+    newBalance: 24492
+  }
+}
+
+2024-01-01T21:01:24.242Z 2024-01-01T21:01:24.242Z	ae6544e9-a698-5129-8dd5-1ae48cfbbbb5	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:24.365Z 2024-01-01T21:01:24.365Z	ae6544e9-a698-5129-8dd5-1ae48cfbbbb5	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'b66d065b-3a4b-4871-9d0c-99701e74c8e9',
+  subscriptionBalance: 24582,
+  paymentBalance: 32160
+}
+
+2024-01-01T21:01:24.384Z END RequestId: ae6544e9-a698-5129-8dd5-1ae48cfbbbb5
+
+2024-01-01T21:01:24.384Z REPORT RequestId: ae6544e9-a698-5129-8dd5-1ae48cfbbbb5	Duration: 390.05 ms	Billed Duration: 391 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:24.994Z START RequestId: 9bab24b7-2051-5809-a4e8-7aba0a35c738 Version: $LATEST
+
+2024-01-01T21:01:25.022Z 2024-01-01T21:01:25.022Z	9bab24b7-2051-5809-a4e8-7aba0a35c738	INFO	Processing message 105c1720-316d-41c7-93aa-1edd780dd4af
+
+2024-01-01T21:01:25.027Z 2024-01-01T21:01:25.027Z	9bab24b7-2051-5809-a4e8-7aba0a35c738	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9KRW1ZWZST1GJMQNJSNP',
+    userId: '7c820a39-47da-469c-ac7b-7207cc4dcb4b',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 72,
+    newBalance: 64
+  }
+}
+
+2024-01-01T21:01:25.066Z 2024-01-01T21:01:25.066Z	9bab24b7-2051-5809-a4e8-7aba0a35c738	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:25.081Z END RequestId: 9bab24b7-2051-5809-a4e8-7aba0a35c738
+
+2024-01-01T21:01:25.081Z REPORT RequestId: 9bab24b7-2051-5809-a4e8-7aba0a35c738	Duration: 87.36 ms	Billed Duration: 88 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:26.260Z START RequestId: a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8 Version: $LATEST
+
+2024-01-01T21:01:26.288Z 2024-01-01T21:01:26.288Z	a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8	INFO	Processing message 23b23d51-e18c-4158-9abf-6cadc6965004
+
+2024-01-01T21:01:26.293Z 2024-01-01T21:01:26.293Z	a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9N17JF8KE9R6K5CKGDC2',
+    userId: 'b1d7d4bd-f8f6-4592-9fa3-f2275305d802',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 234,
+    newBalance: 225
+  }
+}
+
+2024-01-01T21:01:26.351Z 2024-01-01T21:01:26.351Z	a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:26.362Z 2024-01-01T21:01:26.362Z	a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'b1d7d4bd-f8f6-4592-9fa3-f2275305d802',
+  subscriptionBalance: 234,
+  paymentBalance: 216
+}
+
+2024-01-01T21:01:26.387Z END RequestId: a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8
+
+2024-01-01T21:01:26.387Z REPORT RequestId: a2e3d027-6d47-5fe9-8c8f-8e2a4722a0d8	Duration: 127.24 ms	Billed Duration: 128 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:28.001Z START RequestId: 17da470c-0319-57f2-adc0-1901297fa8c3 Version: $LATEST
+
+2024-01-01T21:01:28.031Z 2024-01-01T21:01:28.031Z	17da470c-0319-57f2-adc0-1901297fa8c3	INFO	Processing message 2ec13e5b-e8fa-412a-860f-1570f296bb44
+
+2024-01-01T21:01:28.036Z 2024-01-01T21:01:28.036Z	17da470c-0319-57f2-adc0-1901297fa8c3	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9PN231F2GM7RY63VEHC2',
+    userId: '63343c80-84bb-4ee2-9ce8-e26158580546',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 144,
+    newBalance: 136
+  }
+}
+
+2024-01-01T21:01:28.076Z 2024-01-01T21:01:28.076Z	17da470c-0319-57f2-adc0-1901297fa8c3	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:28.251Z END RequestId: 17da470c-0319-57f2-adc0-1901297fa8c3
+
+2024-01-01T21:01:28.251Z REPORT RequestId: 17da470c-0319-57f2-adc0-1901297fa8c3	Duration: 250.31 ms	Billed Duration: 251 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:29.299Z START RequestId: 381d852b-37b3-562d-8125-db261ddb091c Version: $LATEST
+
+2024-01-01T21:01:29.331Z 2024-01-01T21:01:29.331Z	381d852b-37b3-562d-8125-db261ddb091c	INFO	Processing message c28b04df-42f3-4ea4-80b9-0f108e7913df
+
+2024-01-01T21:01:29.337Z 2024-01-01T21:01:29.337Z	381d852b-37b3-562d-8125-db261ddb091c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9QQ622XY1TWSQZV4F4PY',
+    userId: 'd4fe9151-a07d-4f55-b02b-0e5197ecc4b7',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 2278.745,
+    newBalance: 2270.745
+  }
+}
+
+2024-01-01T21:01:29.379Z 2024-01-01T21:01:29.379Z	381d852b-37b3-562d-8125-db261ddb091c	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:29.394Z END RequestId: 381d852b-37b3-562d-8125-db261ddb091c
+
+2024-01-01T21:01:29.394Z REPORT RequestId: 381d852b-37b3-562d-8125-db261ddb091c	Duration: 94.84 ms	Billed Duration: 95 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:09:59.930Z START RequestId: e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6 Version: $LATEST
+
+2024-01-01T21:09:59.978Z 2024-01-01T21:09:59.978Z	e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6	INFO	Processing message f487cd32-a7fd-4ec8-b6b4-f46af0f6474d
+
+2024-01-01T21:10:00.005Z 2024-01-01T21:10:00.005Z	e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DSAB2YAZ4NYACFPF162T3',
+    userId: 'cfee18c3-4c5c-43d6-8333-459ced998886',
+    currency: 'SAR',
+    amount: 100,
+    vat: 0,
+    oldBalance: 300,
+    newBalance: 200
+  }
+}
+
+2024-01-01T21:10:00.063Z 2024-01-01T21:10:00.063Z	e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:10:00.098Z END RequestId: e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6
+
+2024-01-01T21:10:00.098Z REPORT RequestId: e2eb4a0d-2eb5-55d5-b5c6-140002ec9ed6	Duration: 167.93 ms	Billed Duration: 168 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+XRAY TraceId: 1-65932a27-612f7cf388b702df43df1755	SegmentId: 72b04a7c788ba4d2	Sampled: true	
+
+2024-01-01T21:10:00.545Z START RequestId: 76e12859-15b9-5043-8914-765439d10b40 Version: $LATEST
+
+2024-01-01T21:10:00.567Z 2024-01-01T21:10:00.567Z	76e12859-15b9-5043-8914-765439d10b40	INFO	Processing message 8d579bd6-8299-4ad8-b93b-ae18afda99c5
+
+2024-01-01T21:10:00.581Z 2024-01-01T21:10:00.581Z	76e12859-15b9-5043-8914-765439d10b40	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DSB0XS18XM4A2WR7SRV8J',
+    userId: '8c5e33e3-3618-4d09-8e79-c8d42c74731d',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 264,
+    newBalance: 255
+  }
+}
+
+2024-01-01T21:10:00.620Z 2024-01-01T21:10:00.620Z	76e12859-15b9-5043-8914-765439d10b40	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:10:00.635Z 2024-01-01T21:10:00.635Z	76e12859-15b9-5043-8914-765439d10b40	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '8c5e33e3-3618-4d09-8e79-c8d42c74731d',
+  subscriptionBalance: 264,
+  paymentBalance: 246
+}
+
+2024-01-01T21:10:00.681Z END RequestId: 76e12859-15b9-5043-8914-765439d10b40
+
+2024-01-01T21:10:00.681Z REPORT RequestId: 76e12859-15b9-5043-8914-765439d10b40	Duration: 136.51 ms	Billed Duration: 137 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:29.500Z START RequestId: fa97174c-6bf9-54cf-948b-494141912e53 Version: $LATEST
+
+2024-01-01T21:01:29.526Z 2024-01-01T21:01:29.526Z	fa97174c-6bf9-54cf-948b-494141912e53	INFO	Processing message dd9a867b-2862-4405-a017-82e16894e154
+
+2024-01-01T21:01:29.532Z 2024-01-01T21:01:29.532Z	fa97174c-6bf9-54cf-948b-494141912e53	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9R7VXJ9EJER9H7WG22Y6',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 387.091,
+    newBalance: 378.091
+  }
+}
+
+2024-01-01T21:01:29.584Z 2024-01-01T21:01:29.584Z	fa97174c-6bf9-54cf-948b-494141912e53	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:29.598Z 2024-01-01T21:01:29.598Z	fa97174c-6bf9-54cf-948b-494141912e53	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 387.091,
+  paymentBalance: 786.091
+}
+
+2024-01-01T21:01:29.617Z END RequestId: fa97174c-6bf9-54cf-948b-494141912e53
+
+2024-01-01T21:01:29.617Z REPORT RequestId: fa97174c-6bf9-54cf-948b-494141912e53	Duration: 117.06 ms	Billed Duration: 118 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:29.770Z START RequestId: ef988aa7-4e09-5fb8-95e9-d4aa64607089 Version: $LATEST
+
+2024-01-01T21:01:29.796Z 2024-01-01T21:01:29.796Z	ef988aa7-4e09-5fb8-95e9-d4aa64607089	INFO	Processing message b4be1f00-fef1-4e8c-b208-5c6105e2faa1
+
+2024-01-01T21:01:29.802Z 2024-01-01T21:01:29.802Z	ef988aa7-4e09-5fb8-95e9-d4aa64607089	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9R7730S830WXCYQ2G1BC',
+    userId: '34d90c4b-3fc8-43e7-b9ae-e41cf4ba2127',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 1620,
+    newBalance: 1530
+  }
+}
+
+2024-01-01T21:01:29.843Z 2024-01-01T21:01:29.843Z	ef988aa7-4e09-5fb8-95e9-d4aa64607089	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:29.855Z 2024-01-01T21:01:29.855Z	ef988aa7-4e09-5fb8-95e9-d4aa64607089	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '34d90c4b-3fc8-43e7-b9ae-e41cf4ba2127',
+  subscriptionBalance: 1620,
+  paymentBalance: 1440
+}
+
+2024-01-01T21:01:29.872Z END RequestId: ef988aa7-4e09-5fb8-95e9-d4aa64607089
+
+2024-01-01T21:01:29.872Z REPORT RequestId: ef988aa7-4e09-5fb8-95e9-d4aa64607089	Duration: 102.40 ms	Billed Duration: 103 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:32.275Z START RequestId: 3b85d998-da3f-5c7c-9fcf-8795f056e34d Version: $LATEST
+
+2024-01-01T21:01:32.305Z 2024-01-01T21:01:32.305Z	3b85d998-da3f-5c7c-9fcf-8795f056e34d	INFO	Processing message 034ede57-cce0-4d6f-923a-857dad29431e
+
+2024-01-01T21:01:32.311Z 2024-01-01T21:01:32.311Z	3b85d998-da3f-5c7c-9fcf-8795f056e34d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9RAGC2BE2APAQWW41KX0',
+    userId: 'e6e32af4-13ec-4de2-8953-7da6e5e355c6',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 144,
+    newBalance: 136
+  }
+}
+
+2024-01-01T21:01:32.357Z 2024-01-01T21:01:32.357Z	3b85d998-da3f-5c7c-9fcf-8795f056e34d	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:32.376Z END RequestId: 3b85d998-da3f-5c7c-9fcf-8795f056e34d
+
+2024-01-01T21:01:32.376Z REPORT RequestId: 3b85d998-da3f-5c7c-9fcf-8795f056e34d	Duration: 101.17 ms	Billed Duration: 102 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:32.497Z START RequestId: 4fe8f217-8df7-51a4-80a9-ac1aa79deb38 Version: $LATEST
+
+2024-01-01T21:01:32.523Z 2024-01-01T21:01:32.523Z	4fe8f217-8df7-51a4-80a9-ac1aa79deb38	INFO	Processing message 8c423cc5-bb08-4e84-8da8-96ce90969f21
+
+2024-01-01T21:01:32.528Z 2024-01-01T21:01:32.528Z	4fe8f217-8df7-51a4-80a9-ac1aa79deb38	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9V53PSY0PMQ890720BZQ',
+    userId: '4e9fc563-f427-44bc-974e-75b89833018f',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 273,
+    newBalance: 264
+  }
+}
+
+2024-01-01T21:01:32.576Z 2024-01-01T21:01:32.576Z	4fe8f217-8df7-51a4-80a9-ac1aa79deb38	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:32.667Z 2024-01-01T21:01:32.667Z	4fe8f217-8df7-51a4-80a9-ac1aa79deb38	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4e9fc563-f427-44bc-974e-75b89833018f',
+  subscriptionBalance: 273,
+  paymentBalance: 255
+}
+
+2024-01-01T21:01:32.687Z END RequestId: 4fe8f217-8df7-51a4-80a9-ac1aa79deb38
+
+2024-01-01T21:01:32.687Z REPORT RequestId: 4fe8f217-8df7-51a4-80a9-ac1aa79deb38	Duration: 189.73 ms	Billed Duration: 190 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:35.011Z START RequestId: 9f7f966f-1ca0-5cc7-be91-c86236ccd3f6 Version: $LATEST
+
+2024-01-01T21:01:35.029Z 2024-01-01T21:01:35.029Z	9f7f966f-1ca0-5cc7-be91-c86236ccd3f6	INFO	Processing message d7ec27d6-cf75-4c88-9d83-bb140d4a1831
+
+2024-01-01T21:01:35.035Z 2024-01-01T21:01:35.035Z	9f7f966f-1ca0-5cc7-be91-c86236ccd3f6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9XP98AFPAGSR65M20TH9',
+    userId: 'd7ce460e-e3fa-41f1-9bd7-1151e0cd9e9f',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 900,
+    newBalance: 810
+  }
+}
+
+2024-01-01T21:01:35.073Z 2024-01-01T21:01:35.073Z	9f7f966f-1ca0-5cc7-be91-c86236ccd3f6	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:35.322Z END RequestId: 9f7f966f-1ca0-5cc7-be91-c86236ccd3f6
+
+2024-01-01T21:01:35.322Z REPORT RequestId: 9f7f966f-1ca0-5cc7-be91-c86236ccd3f6	Duration: 310.68 ms	Billed Duration: 311 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:35.331Z START RequestId: 763d9728-7497-5ee8-8c17-c9255ef85474 Version: $LATEST
+
+2024-01-01T21:01:35.358Z 2024-01-01T21:01:35.358Z	763d9728-7497-5ee8-8c17-c9255ef85474	INFO	Processing message 173a58f7-75b1-47a6-bf7b-5d4b75f50452
+
+2024-01-01T21:01:35.377Z 2024-01-01T21:01:35.377Z	763d9728-7497-5ee8-8c17-c9255ef85474	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9XVW4VGJ05GVH168AE1Z',
+    userId: '9d69ccbd-7096-4594-bfc6-08442200f760',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 16,
+    newBalance: 8
+  }
+}
+
+2024-01-01T21:01:35.429Z 2024-01-01T21:01:35.429Z	763d9728-7497-5ee8-8c17-c9255ef85474	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:35.447Z END RequestId: 763d9728-7497-5ee8-8c17-c9255ef85474
+
+2024-01-01T21:01:35.447Z REPORT RequestId: 763d9728-7497-5ee8-8c17-c9255ef85474	Duration: 116.61 ms	Billed Duration: 117 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:36.513Z START RequestId: abed9b5b-7046-5c74-9992-c5565a295345 Version: $LATEST
+
+2024-01-01T21:01:36.544Z 2024-01-01T21:01:36.544Z	abed9b5b-7046-5c74-9992-c5565a295345	INFO	Processing message bb3c3aba-51b6-404c-8cf9-77bdced489d4
+
+2024-01-01T21:01:36.549Z 2024-01-01T21:01:36.549Z	abed9b5b-7046-5c74-9992-c5565a295345	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9Z335HJGNEANSHJM6F3R',
+    userId: 'a10fe6c3-67ff-490a-be6c-17ab2332ca1f',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 152,
+    newBalance: 144
+  }
+}
+
+2024-01-01T21:01:36.586Z 2024-01-01T21:01:36.586Z	abed9b5b-7046-5c74-9992-c5565a295345	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:36.603Z END RequestId: abed9b5b-7046-5c74-9992-c5565a295345
+
+2024-01-01T21:01:36.603Z REPORT RequestId: abed9b5b-7046-5c74-9992-c5565a295345	Duration: 89.97 ms	Billed Duration: 90 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:06.711Z START RequestId: fc561720-2456-5c7a-a6ff-492d0e07234b Version: $LATEST
+
+2024-01-01T21:01:06.744Z 2024-01-01T21:01:06.744Z	fc561720-2456-5c7a-a6ff-492d0e07234b	INFO	Processing message dc852e2d-c6b1-47df-88bb-d08e7c9cc225
+
+2024-01-01T21:01:06.750Z 2024-01-01T21:01:06.750Z	fc561720-2456-5c7a-a6ff-492d0e07234b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D91PX6X6V5JDQ6QV7K8Y8',
+    userId: 'b851dd0c-b4b0-41d4-814a-172752d504d9',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 216,
+    newBalance: 207
+  }
+}
+
+2024-01-01T21:01:06.794Z 2024-01-01T21:01:06.794Z	fc561720-2456-5c7a-a6ff-492d0e07234b	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:06.809Z 2024-01-01T21:01:06.809Z	fc561720-2456-5c7a-a6ff-492d0e07234b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'b851dd0c-b4b0-41d4-814a-172752d504d9',
+  subscriptionBalance: 216,
+  paymentBalance: 198
+}
+
+2024-01-01T21:01:06.826Z END RequestId: fc561720-2456-5c7a-a6ff-492d0e07234b
+
+2024-01-01T21:01:06.826Z REPORT RequestId: fc561720-2456-5c7a-a6ff-492d0e07234b	Duration: 115.92 ms	Billed Duration: 116 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	
+
+2024-01-01T21:01:07.076Z START RequestId: 1fec69c5-28b3-5242-8baa-37c802e1cd73 Version: $LATEST
+
+2024-01-01T21:01:07.091Z 2024-01-01T21:01:07.091Z	1fec69c5-28b3-5242-8baa-37c802e1cd73	INFO	Processing message 16a2703a-6596-48f2-8e37-8600299df375
+
+2024-01-01T21:01:07.097Z 2024-01-01T21:01:07.097Z	1fec69c5-28b3-5242-8baa-37c802e1cd73	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D924PG8SA7S50T2MM6WEP',
+    userId: '91886874-40ec-4324-87ea-10bcee9904f5',
+    currency: 'BHD',
+    amount: 1.8,
+    vat: 0,
+    oldBalance: 182.85,
+    newBalance: 181.05
+  }
+}
+
+2024-01-01T21:01:07.131Z 2024-01-01T21:01:07.131Z	1fec69c5-28b3-5242-8baa-37c802e1cd73	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:07.148Z END RequestId: 1fec69c5-28b3-5242-8baa-37c802e1cd73
+
+2024-01-01T21:01:07.148Z REPORT RequestId: 1fec69c5-28b3-5242-8baa-37c802e1cd73	Duration: 71.56 ms	Billed Duration: 72 ms	Memory Size: 512 MB	Max Memory Used: 118 MB	
+
+2024-01-01T21:01:07.951Z START RequestId: 1431870e-f987-5d64-9ebd-d903d3d4b255 Version: $LATEST
+
+2024-01-01T21:01:07.978Z 2024-01-01T21:01:07.978Z	1431870e-f987-5d64-9ebd-d903d3d4b255	INFO	Processing message 37f5686f-6414-4aec-b339-18e568dba97e
+
+2024-01-01T21:01:07.987Z 2024-01-01T21:01:07.987Z	1431870e-f987-5d64-9ebd-d903d3d4b255	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D93BWT2HDKREH4CH69MNA',
+    userId: '2c77a724-b701-4868-b804-c96855a3e9d8',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 1681.3,
+    newBalance: 1673.3
+  }
+}
+
+2024-01-01T21:01:08.023Z 2024-01-01T21:01:08.023Z	1431870e-f987-5d64-9ebd-d903d3d4b255	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:08.040Z END RequestId: 1431870e-f987-5d64-9ebd-d903d3d4b255
+
+2024-01-01T21:01:08.040Z REPORT RequestId: 1431870e-f987-5d64-9ebd-d903d3d4b255	Duration: 88.70 ms	Billed Duration: 89 ms	Memory Size: 512 MB	Max Memory Used: 119 MB	
+
+2024-01-01T21:01:10.731Z START RequestId: 0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2 Version: $LATEST
+
+2024-01-01T21:01:10.758Z 2024-01-01T21:01:10.758Z	0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2	INFO	Processing message daa5d742-4ef5-4777-b979-4c5a4451e1a2
+
+2024-01-01T21:01:10.764Z 2024-01-01T21:01:10.764Z	0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D95RQ24N5QX09ZFEX594C',
+    userId: '4e84f0ec-7629-49dc-b110-27a6eb9b4d9c',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 255,
+    newBalance: 246
+  }
+}
+
+2024-01-01T21:01:10.817Z 2024-01-01T21:01:10.817Z	0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:10.831Z 2024-01-01T21:01:10.831Z	0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4e84f0ec-7629-49dc-b110-27a6eb9b4d9c',
+  subscriptionBalance: 255,
+  paymentBalance: 573
+}
+
+2024-01-01T21:01:10.864Z END RequestId: 0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2
+
+2024-01-01T21:01:10.864Z REPORT RequestId: 0079fee9-b6cf-5c7e-b47d-a0e49c99c6e2	Duration: 132.58 ms	Billed Duration: 133 ms	Memory Size: 512 MB	Max Memory Used: 120 MB	
+
+2024-01-01T21:01:11.981Z START RequestId: 821cffc4-17bb-5c80-a742-a1c93ded261c Version: $LATEST
+
+2024-01-01T21:01:12.011Z 2024-01-01T21:01:12.011Z	821cffc4-17bb-5c80-a742-a1c93ded261c	INFO	Processing message fae85f10-d240-434a-855a-2bdba646e755
+
+2024-01-01T21:01:12.018Z 2024-01-01T21:01:12.018Z	821cffc4-17bb-5c80-a742-a1c93ded261c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D95WH0Z1100H0J4VMZ0FA',
+    userId: '26d31238-b7a4-4e7b-a52e-faa96846333c',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 237,
+    newBalance: 228
+  }
+}
+
+2024-01-01T21:01:12.057Z 2024-01-01T21:01:12.057Z	821cffc4-17bb-5c80-a742-a1c93ded261c	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:12.075Z 2024-01-01T21:01:12.075Z	821cffc4-17bb-5c80-a742-a1c93ded261c	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '26d31238-b7a4-4e7b-a52e-faa96846333c',
+  subscriptionBalance: 237,
+  paymentBalance: 219
+}
+
+2024-01-01T21:01:12.094Z END RequestId: 821cffc4-17bb-5c80-a742-a1c93ded261c
+
+2024-01-01T21:01:12.094Z REPORT RequestId: 821cffc4-17bb-5c80-a742-a1c93ded261c	Duration: 113.37 ms	Billed Duration: 114 ms	Memory Size: 512 MB	Max Memory Used: 121 MB	
+
+2024-01-01T21:01:13.969Z START RequestId: 62896caf-c67d-505a-905c-32a2ec2bdf6b Version: $LATEST
+
+2024-01-01T21:01:13.999Z 2024-01-01T21:01:13.999Z	62896caf-c67d-505a-905c-32a2ec2bdf6b	INFO	Processing message c9eeea6f-1f15-450e-850e-53835f805d88
+
+2024-01-01T21:01:14.006Z 2024-01-01T21:01:14.006Z	62896caf-c67d-505a-905c-32a2ec2bdf6b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D98RD9A8NRCDV3HZHGD7Q',
+    userId: '582f1b94-4c13-41e6-81ec-6203bb0f2a06',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 261.5,
+    newBalance: 252.5
+  }
+}
+
+2024-01-01T21:01:14.045Z 2024-01-01T21:01:14.045Z	62896caf-c67d-505a-905c-32a2ec2bdf6b	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:14.061Z 2024-01-01T21:01:14.061Z	62896caf-c67d-505a-905c-32a2ec2bdf6b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '582f1b94-4c13-41e6-81ec-6203bb0f2a06',
+  subscriptionBalance: 261.5,
+  paymentBalance: 243.5
+}
+
+2024-01-01T21:01:14.080Z END RequestId: 62896caf-c67d-505a-905c-32a2ec2bdf6b
+
+2024-01-01T21:01:14.080Z REPORT RequestId: 62896caf-c67d-505a-905c-32a2ec2bdf6b	Duration: 111.60 ms	Billed Duration: 112 ms	Memory Size: 512 MB	Max Memory Used: 122 MB	
+
+2024-01-01T21:01:14.735Z START RequestId: f2ed0c27-6037-5744-8723-522a4a6d0dd8 Version: $LATEST
+
+2024-01-01T21:01:14.763Z 2024-01-01T21:01:14.763Z	f2ed0c27-6037-5744-8723-522a4a6d0dd8	INFO	Processing message c3cb6b53-856e-4c8e-b52b-19505476ba9c
+
+2024-01-01T21:01:14.781Z 2024-01-01T21:01:14.781Z	f2ed0c27-6037-5744-8723-522a4a6d0dd8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D99XC00YC44Y9NYV9AG25',
+    userId: 'af4ac79b-a55e-4367-b86d-19818ff3e944',
+    currency: 'BHD',
+    amount: 6.5,
+    vat: 0,
+    oldBalance: 6.5,
+    newBalance: 0
+  }
+}
+
+2024-01-01T21:01:14.831Z 2024-01-01T21:01:14.831Z	f2ed0c27-6037-5744-8723-522a4a6d0dd8	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:14.897Z END RequestId: f2ed0c27-6037-5744-8723-522a4a6d0dd8
+
+2024-01-01T21:01:14.897Z REPORT RequestId: f2ed0c27-6037-5744-8723-522a4a6d0dd8	Duration: 161.29 ms	Billed Duration: 162 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:14.981Z START RequestId: 384eac4f-8c55-5f17-9996-f242a60fb58b Version: $LATEST
+
+2024-01-01T21:01:15.011Z 2024-01-01T21:01:15.011Z	384eac4f-8c55-5f17-9996-f242a60fb58b	INFO	Processing message 001a87ba-4ed7-4f0a-831a-03ad817d90c6
+
+2024-01-01T21:01:15.017Z 2024-01-01T21:01:15.017Z	384eac4f-8c55-5f17-9996-f242a60fb58b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9A1MVXY86WVTMPSM2W5M',
+    userId: 'b7a2c1ee-9a46-4e58-aa9e-b5844eb18752',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2539,
+    newBalance: 2449
+  }
+}
+
+2024-01-01T21:01:15.057Z 2024-01-01T21:01:15.057Z	384eac4f-8c55-5f17-9996-f242a60fb58b	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:15.070Z END RequestId: 384eac4f-8c55-5f17-9996-f242a60fb58b
+
+2024-01-01T21:01:15.070Z REPORT RequestId: 384eac4f-8c55-5f17-9996-f242a60fb58b	Duration: 88.92 ms	Billed Duration: 89 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:15.257Z START RequestId: 5359828f-f38b-5f89-af67-dc82d9d19515 Version: $LATEST
+
+2024-01-01T21:01:15.282Z 2024-01-01T21:01:15.282Z	5359828f-f38b-5f89-af67-dc82d9d19515	INFO	Processing message 82bc210e-67cc-426b-83b0-e5386b12026c
+
+2024-01-01T21:01:15.287Z 2024-01-01T21:01:15.287Z	5359828f-f38b-5f89-af67-dc82d9d19515	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9A00QBHH6F1VBFX2WSSE',
+    userId: '997c613f-2ac3-4720-b3c4-4196c51c620c',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 152,
+    newBalance: 144
+  }
+}
+
+2024-01-01T21:01:15.327Z 2024-01-01T21:01:15.327Z	5359828f-f38b-5f89-af67-dc82d9d19515	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:15.341Z END RequestId: 5359828f-f38b-5f89-af67-dc82d9d19515
+
+2024-01-01T21:01:15.341Z REPORT RequestId: 5359828f-f38b-5f89-af67-dc82d9d19515	Duration: 83.84 ms	Billed Duration: 84 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:15.366Z START RequestId: c9586cc4-f084-5b12-8275-32c9dade018e Version: $LATEST
+
+2024-01-01T21:01:15.391Z 2024-01-01T21:01:15.391Z	c9586cc4-f084-5b12-8275-32c9dade018e	INFO	Processing message 9ece0908-0128-4d33-8d7d-a54ddfe8edb6
+
+2024-01-01T21:01:15.396Z 2024-01-01T21:01:15.396Z	c9586cc4-f084-5b12-8275-32c9dade018e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D99WRRC4S1RRHFYDZQWRB',
+    userId: 'd9e8cfc2-2de6-4ea9-976c-f7fcd4e44b13',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2010,
+    newBalance: 1920
+  }
+}
+
+2024-01-01T21:01:15.439Z 2024-01-01T21:01:15.439Z	c9586cc4-f084-5b12-8275-32c9dade018e	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:15.451Z 2024-01-01T21:01:15.451Z	c9586cc4-f084-5b12-8275-32c9dade018e	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'd9e8cfc2-2de6-4ea9-976c-f7fcd4e44b13',
+  subscriptionBalance: 2010,
+  paymentBalance: 1830
+}
+
+2024-01-01T21:01:15.469Z END RequestId: c9586cc4-f084-5b12-8275-32c9dade018e
+
+2024-01-01T21:01:15.469Z REPORT RequestId: c9586cc4-f084-5b12-8275-32c9dade018e	Duration: 102.58 ms	Billed Duration: 103 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:15.534Z START RequestId: 9650cb51-2e18-5147-acd7-955c0443dbdb Version: $LATEST
+
+2024-01-01T21:01:15.549Z 2024-01-01T21:01:15.549Z	9650cb51-2e18-5147-acd7-955c0443dbdb	INFO	Processing message b29c7bad-0ff8-4da0-9eb4-414602b41a19
+
+2024-01-01T21:01:15.555Z 2024-01-01T21:01:15.555Z	9650cb51-2e18-5147-acd7-955c0443dbdb	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3D9A79GDYVY53C93QZCT9N',
+    userId: 'e55755fa-20dd-410d-af94-d4ced92039be',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 264,
+    newBalance: 255
+  }
+}
+
+2024-01-01T21:01:15.593Z 2024-01-01T21:01:15.593Z	9650cb51-2e18-5147-acd7-955c0443dbdb	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:15.609Z 2024-01-01T21:01:15.609Z	9650cb51-2e18-5147-acd7-955c0443dbdb	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e55755fa-20dd-410d-af94-d4ced92039be',
+  subscriptionBalance: 264,
+  paymentBalance: 246
+}
+
+2024-01-01T21:01:15.626Z END RequestId: 9650cb51-2e18-5147-acd7-955c0443dbdb
+
+2024-01-01T21:01:15.626Z REPORT RequestId: 9650cb51-2e18-5147-acd7-955c0443dbdb	Duration: 91.95 ms	Billed Duration: 92 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:44.298Z START RequestId: 6c5ccebf-bc0c-5850-86ea-90b2967b32cc Version: $LATEST
+
+2024-01-01T21:01:44.325Z 2024-01-01T21:01:44.325Z	6c5ccebf-bc0c-5850-86ea-90b2967b32cc	INFO	Processing message 17516dd6-3476-4a03-ad5a-2aa5480ab2d0
+
+2024-01-01T21:01:44.331Z 2024-01-01T21:01:44.331Z	6c5ccebf-bc0c-5850-86ea-90b2967b32cc	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DA6QE38Y4SDHYYMD67XVW',
+    userId: 'ffc1ae9d-3ae0-4160-94af-31a93bf4bcf4',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 228,
+    newBalance: 220
+  }
+}
+
+2024-01-01T21:01:44.384Z 2024-01-01T21:01:44.384Z	6c5ccebf-bc0c-5850-86ea-90b2967b32cc	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:44.417Z END RequestId: 6c5ccebf-bc0c-5850-86ea-90b2967b32cc
+
+2024-01-01T21:01:44.417Z REPORT RequestId: 6c5ccebf-bc0c-5850-86ea-90b2967b32cc	Duration: 119.38 ms	Billed Duration: 120 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:44.531Z START RequestId: 6420d9d6-eb06-5447-bf5a-87dbc17e0b76 Version: $LATEST
+
+2024-01-01T21:01:44.553Z 2024-01-01T21:01:44.553Z	6420d9d6-eb06-5447-bf5a-87dbc17e0b76	INFO	Processing message a6b87db4-942d-41c4-9272-bb03d69d1a6d
+
+2024-01-01T21:01:44.558Z 2024-01-01T21:01:44.558Z	6420d9d6-eb06-5447-bf5a-87dbc17e0b76	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DA6WRK0YJ41TS7FHVZ33D',
+    userId: '35d743f6-af7e-4adc-b4f6-6220fe00c596',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 144,
+    newBalance: 136
+  }
+}
+
+2024-01-01T21:01:44.599Z 2024-01-01T21:01:44.599Z	6420d9d6-eb06-5447-bf5a-87dbc17e0b76	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:44.615Z END RequestId: 6420d9d6-eb06-5447-bf5a-87dbc17e0b76
+
+2024-01-01T21:01:44.615Z REPORT RequestId: 6420d9d6-eb06-5447-bf5a-87dbc17e0b76	Duration: 84.02 ms	Billed Duration: 85 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+
+2024-01-01T21:01:45.540Z START RequestId: 54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab Version: $LATEST
+
+2024-01-01T21:01:45.571Z 2024-01-01T21:01:45.571Z	54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab	INFO	Processing message bcd1d1a2-0765-4531-afdd-3572671d4b3e
+
+2024-01-01T21:01:45.576Z 2024-01-01T21:01:45.576Z	54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HK3DA7YHCFT171W5H9DKS3HV',
+    userId: '66a734f3-a86b-477a-929e-50e078195a91',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 237,
+    newBalance: 228
+  }
+}
+
+2024-01-01T21:01:45.616Z 2024-01-01T21:01:45.616Z	54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-01T21:01:45.768Z 2024-01-01T21:01:45.768Z	54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '66a734f3-a86b-477a-929e-50e078195a91',
+  subscriptionBalance: 237,
+  paymentBalance: 219
+}
+
+2024-01-01T21:01:45.786Z END RequestId: 54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab
+
+2024-01-01T21:01:45.786Z REPORT RequestId: 54ebf4f6-ced5-5637-bdb8-aafbe4ad9cab	Duration: 245.99 ms	Billed Duration: 246 ms	Memory Size: 512 MB	Max Memory Used: 127 MB	
+XRAY TraceId: 1-65932839-309f4c3dccae385d66d66ae7	SegmentId: 1494fd306904257d	Sampled: true	
+

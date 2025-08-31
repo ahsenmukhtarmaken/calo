@@ -1,0 +1,36 @@
+2024-01-31T09:23:15.771Z START RequestId: 943e383e-8065-5616-9a8d-660a93dd5af0 Version: $LATEST
+
+2024-01-31T09:23:15.920Z 2024-01-31T09:23:15.920Z	943e383e-8065-5616-9a8d-660a93dd5af0	INFO	Processing message 53fa1d8a-9c1a-4526-90ee-bca32a1dc476
+
+2024-01-31T09:23:15.968Z 2024-01-31T09:23:15.968Z	943e383e-8065-5616-9a8d-660a93dd5af0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNFD8RX1KTE7PJ6C2PE2E917',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '28db71f6-5c75-4e1e-9222-3076936b4daf',
+    paymentBalance: 504,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#28db71f6-5c75-4e1e-9222-3076936b4daf","planType":"weightLossChallenge","goal":"loseWeight","eventSessionId":"29eee9f3-1ef3-418a-a086-a80282313836","walletSk":"788082fb-3df4-4a2e-b0ba-99096b699cb0","deliveryTime":"morning","dietType":"weight-loss","renewalDate":"2024-02-02","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"weightLossChallenge\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"pricePerDay\\":9,\\"dietType\\":\\"weight-loss\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-02\\",\\"deliveryDays\\":[0,1,2,3,4,5,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 277.2,
+    vat: 25.2,
+    oldBalance: 0,
+    newBalance: 252
+  }
+}
+
+2024-01-31T09:23:16.068Z 2024-01-31T09:23:16.068Z	943e383e-8065-5616-9a8d-660a93dd5af0	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-31T09:23:16.104Z 2024-01-31T09:23:16.104Z	943e383e-8065-5616-9a8d-660a93dd5af0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '28db71f6-5c75-4e1e-9222-3076936b4daf',
+  subscriptionBalance: 252,
+  paymentBalance: 504
+}
+
+2024-01-31T09:23:16.158Z END RequestId: 943e383e-8065-5616-9a8d-660a93dd5af0
+
+2024-01-31T09:23:16.158Z REPORT RequestId: 943e383e-8065-5616-9a8d-660a93dd5af0	Duration: 386.96 ms	Billed Duration: 387 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 699.28 ms	
+
+2024-01-31T09:23:15.071Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+

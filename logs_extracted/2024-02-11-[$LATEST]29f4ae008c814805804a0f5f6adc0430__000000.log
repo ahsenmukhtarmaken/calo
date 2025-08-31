@@ -1,0 +1,36 @@
+2024-02-11T10:36:32.571Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-11T10:36:33.297Z START RequestId: ff713b74-6b62-5466-876f-6536ce002521 Version: $LATEST
+
+2024-02-11T10:36:33.434Z 2024-02-11T10:36:33.434Z	ff713b74-6b62-5466-876f-6536ce002521	INFO	Processing message c68ce155-902c-433f-9c32-a0905cc5197f
+
+2024-02-11T10:36:33.556Z 2024-02-11T10:36:33.556Z	ff713b74-6b62-5466-876f-6536ce002521	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPBVTWDDGGX4KWZ212CP92RZ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1711.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"72675db3-fdc8-49c0-8c0f-5636dd3b6d82","eventSessionId":"f23ddf3b-895f-41e0-a25c-d0c875ecec7e","walletSk":"0de4e29f-a7b5-41cf-8774-2113a36ca2c3","version2":true,"addons":"[{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"vhyrdgy\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"Ghyf\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"guyf@gyjj.com\\"}}}},{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"sms\\",\\"phoneNumber\\":\\"+97331234567\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 110,
+    vat: 10,
+    oldBalance: 95.678,
+    newBalance: 195.678
+  }
+}
+
+2024-02-11T10:36:33.669Z 2024-02-11T10:36:33.669Z	ff713b74-6b62-5466-876f-6536ce002521	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T10:36:33.706Z 2024-02-11T10:36:33.706Z	ff713b74-6b62-5466-876f-6536ce002521	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 195.678,
+  paymentBalance: 1711.288
+}
+
+2024-02-11T10:36:33.725Z END RequestId: ff713b74-6b62-5466-876f-6536ce002521
+
+2024-02-11T10:36:33.725Z REPORT RequestId: ff713b74-6b62-5466-876f-6536ce002521	Duration: 428.03 ms	Billed Duration: 429 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 724.98 ms	
+

@@ -1,0 +1,36 @@
+2024-03-21T11:02:16.574Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-21T11:02:17.589Z START RequestId: a0d0c801-04a4-58a3-a7d2-967711509033 Version: $LATEST
+
+2024-03-21T11:02:17.747Z 2024-03-21T11:02:17.747Z	a0d0c801-04a4-58a3-a7d2-967711509033	INFO	Processing message 38fc8d32-f3bc-4827-a26e-7444d3657b98
+
+2024-03-21T11:02:17.792Z 2024-03-21T11:02:17.792Z	a0d0c801-04a4-58a3-a7d2-967711509033	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSGASX3NF6270WDFZP8V8VFP',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e5819179-8a4e-46cf-9e28-43787eb39b2c',
+    paymentBalance: 736.364,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e5819179-8a4e-46cf-9e28-43787eb39b2c","planType":"full","goal":"maintainWeight","eventSessionId":"1561b4e6-a397-4727-b2fd-894fd0edc8b1","walletSk":"b917d2d4-9992-4625-bc65-76e5e0a59705","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-24","type":"userRenew","frequency":"monthly","subscriptionCost":160,"tier":"personalized","version2":true,"addonCosts":"{\\"undefined\\":36.364}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":8,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":160,\\"startDate\\":\\"2024-03-24\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"بوكسات مليانة بالأكلات اللذيذة لبطلك الصغيرتدور على اشتراك غداء صحي و ممتع و يغنيك عن الحوسه والتجهيز. في نفس الوقت؟ اشترك معانا في باقة كالو كيدز وبنضبطك!نقدم لك ولطفلك من عمر 3 إلى 7 سنوات وجبات  مُغذية ومتوازنة والأهم من كذا لذيذة ومَرحة. يحتوي كل بوكس على طبق رئيسي، قطع خضار وفواكه ، وحلى صحي.  .مصممة عشان تكون وجبة صغيرك مُتكاملة وغنية بالقيم الغذائية. ومو بس كذا! وقت الغداء صار يحمس أكثر لأن  وجباتنا توصلك بتصاميم مَرحة ومُمتعة تجذب الأطفال وتشجعهم على الأكل.وجبات كالو كيدز خالية تمامًا من المكسرات والمنكهات والألوان الصناعية، ونقدم لطفلك خيارات نباتية أيضًا.اختر من بين خيارات الإشتراكات سواءً اليومية أو الأسبوعية أو الشهرية وخلي وقت الغداء أفضل جزء من يوم طفلك!\\",\\"en\\":\\"Looking for a healthy, fun and hassle-free lunch-box? Calo Kids got you covered! We provide deliciously balanced meals for your little ones. Each box includes a main, fruits, veggies and a healthy dessert. Our daily themes make lunchtime super exciting! To add to that, the meals are completely nut-free!\\"},\\"name\\":{\\"ar\\":\\"كالو كيدز\\",\\"en\\":\\"Calo Kids\\"},\\"description\\":{\\"ar\\":\\"بوكس مليان بالأكل اللذيذ لبطلك الصغير\\",\\"en\\":\\"A box of goodness for your little ones.\\"},\\"id\\":\\"CALO_KIDS\\",\\"price\\":1.81818181818182,\\"status\\":\\"available\\",\\"priceWithVat\\":2,\\"pricePerDay\\":1.81818181818182}]"}',
+    currency: 'BHD',
+    amount: 213.36,
+    vat: 19.396,
+    oldBalance: 2.4,
+    newBalance: 196.364
+  }
+}
+
+2024-03-21T11:02:17.907Z 2024-03-21T11:02:17.907Z	a0d0c801-04a4-58a3-a7d2-967711509033	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-21T11:02:17.952Z 2024-03-21T11:02:17.952Z	a0d0c801-04a4-58a3-a7d2-967711509033	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e5819179-8a4e-46cf-9e28-43787eb39b2c',
+  subscriptionBalance: 196.364,
+  paymentBalance: 736.364
+}
+
+2024-03-21T11:02:17.974Z END RequestId: a0d0c801-04a4-58a3-a7d2-967711509033
+
+2024-03-21T11:02:17.974Z REPORT RequestId: a0d0c801-04a4-58a3-a7d2-967711509033	Duration: 384.45 ms	Billed Duration: 385 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1015.03 ms	
+

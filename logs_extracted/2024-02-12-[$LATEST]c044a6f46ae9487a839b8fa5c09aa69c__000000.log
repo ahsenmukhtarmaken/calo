@@ -1,0 +1,105 @@
+2024-02-12T04:44:28.341Z START RequestId: 872fe3da-aea7-516a-9e3a-bd990ac6d560 Version: $LATEST
+
+2024-02-12T04:44:28.455Z 2024-02-12T04:44:28.455Z	872fe3da-aea7-516a-9e3a-bd990ac6d560	INFO	Processing message ec7c781a-b4f9-4338-8a12-9e37038a4b76
+
+2024-02-12T04:44:28.482Z 2024-02-12T04:44:28.482Z	872fe3da-aea7-516a-9e3a-bd990ac6d560	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPDT2YZ1V95P4BY553CRT75F',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1895.424,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"944a4cff-1d05-4113-a34b-66023dfe5b7b","eventSessionId":"e7874780-0c27-482e-af43-75acbcf7052b","walletSk":"4bd56dc3-d9c1-45a4-a029-b065a7ed550c","version2":true,"addons":"[{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"jslkdjfs\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"sjdklfjskldjfkslfsdf\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"sms\\",\\"phoneNumber\\":\\"+9733234834\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 329.814,
+    newBalance: 379.814
+  }
+}
+
+2024-02-12T04:44:28.545Z 2024-02-12T04:44:28.545Z	872fe3da-aea7-516a-9e3a-bd990ac6d560	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-12T04:44:28.586Z 2024-02-12T04:44:28.586Z	872fe3da-aea7-516a-9e3a-bd990ac6d560	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 379.814,
+  paymentBalance: 1895.424
+}
+
+2024-02-12T04:44:28.605Z END RequestId: 872fe3da-aea7-516a-9e3a-bd990ac6d560
+
+2024-02-12T04:44:28.605Z REPORT RequestId: 872fe3da-aea7-516a-9e3a-bd990ac6d560	Duration: 263.97 ms	Billed Duration: 264 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	
+
+2024-02-12T04:39:41.330Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-12T04:39:42.060Z START RequestId: 969ffbbc-6d1b-5775-b152-a5ffce5c44c0 Version: $LATEST
+
+2024-02-12T04:39:42.213Z 2024-02-12T04:39:42.213Z	969ffbbc-6d1b-5775-b152-a5ffce5c44c0	INFO	Processing message 2ee6ecf4-95c9-45fe-b8c3-f8cbe0c2eaef
+
+2024-02-12T04:39:42.321Z 2024-02-12T04:39:42.321Z	969ffbbc-6d1b-5775-b152-a5ffce5c44c0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPDST5RMA4R60GHNKPJRCQ3A',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1845.424,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"944a4cff-1d05-4113-a34b-66023dfe5b7b","eventSessionId":"b767bd69-6dd4-4a54-80cb-e2f2e6d727ec","walletSk":"d45e6da4-d827-4b60-8ca7-9df32980a74e","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"jskdl\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"jskdl\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"sjdkl\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 294.814,
+    newBalance: 329.814
+  }
+}
+
+2024-02-12T04:39:42.470Z 2024-02-12T04:39:42.470Z	969ffbbc-6d1b-5775-b152-a5ffce5c44c0	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-12T04:39:42.507Z 2024-02-12T04:39:42.507Z	969ffbbc-6d1b-5775-b152-a5ffce5c44c0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 329.814,
+  paymentBalance: 1845.424
+}
+
+2024-02-12T04:39:42.537Z END RequestId: 969ffbbc-6d1b-5775-b152-a5ffce5c44c0
+
+2024-02-12T04:39:42.537Z REPORT RequestId: 969ffbbc-6d1b-5775-b152-a5ffce5c44c0	Duration: 478.83 ms	Billed Duration: 479 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 726.74 ms	
+XRAY TraceId: 1-65c9a10c-858a107ac586bbb4b2d67d50	SegmentId: 0d669e46120909fa	Sampled: true	
+
+2024-02-12T04:46:43.268Z START RequestId: 179bcc73-76b8-5b1f-8a6c-9230d259ce12 Version: $LATEST
+
+2024-02-12T04:46:43.366Z 2024-02-12T04:46:43.366Z	179bcc73-76b8-5b1f-8a6c-9230d259ce12	INFO	Processing message 45d90b13-9886-45a4-9b1b-79931b613e56
+
+2024-02-12T04:46:43.400Z 2024-02-12T04:46:43.400Z	179bcc73-76b8-5b1f-8a6c-9230d259ce12	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPDT72M6J8P1K2HNRHQTQW97',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1965.424,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"944a4cff-1d05-4113-a34b-66023dfe5b7b","eventSessionId":"ac871362-9f0e-4bd2-9545-5a85dc8600d1","walletSk":"6098dd52-b026-4e0c-94ad-215d28908497","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"jksldjf\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"jskdlfjkdf\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"skjldfjl@jkl.jdkf\\"}}}},{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"sdjfkls\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"jkdfjk\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"sjlkf@jkl.djkf\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 77,
+    vat: 7,
+    oldBalance: 379.814,
+    newBalance: 449.814
+  }
+}
+
+2024-02-12T04:46:43.460Z 2024-02-12T04:46:43.460Z	179bcc73-76b8-5b1f-8a6c-9230d259ce12	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-12T04:46:43.499Z 2024-02-12T04:46:43.499Z	179bcc73-76b8-5b1f-8a6c-9230d259ce12	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 449.814,
+  paymentBalance: 1965.424
+}
+
+2024-02-12T04:46:43.517Z END RequestId: 179bcc73-76b8-5b1f-8a6c-9230d259ce12
+
+2024-02-12T04:46:43.517Z REPORT RequestId: 179bcc73-76b8-5b1f-8a6c-9230d259ce12	Duration: 248.67 ms	Billed Duration: 249 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	
+

@@ -1,0 +1,40 @@
+2024-02-01T13:12:03.160Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-01T13:12:03.903Z START RequestId: 7f6bb38a-28e1-514b-aded-edbfb239b549 Version: $LATEST
+
+2024-02-01T13:12:04.050Z 2024-02-01T13:12:04.050Z	7f6bb38a-28e1-514b-aded-edbfb239b549	INFO	Processing message 2096a132-bfa0-4059-b38f-062c43d6facb
+
+2024-02-01T13:12:04.051Z 2024-02-01T13:12:04.051Z	7f6bb38a-28e1-514b-aded-edbfb239b549	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-01T13:12:04.054Z END RequestId: 7f6bb38a-28e1-514b-aded-edbfb239b549
+
+2024-02-01T13:12:04.054Z REPORT RequestId: 7f6bb38a-28e1-514b-aded-edbfb239b549	Duration: 151.10 ms	Billed Duration: 152 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 741.92 ms	
+
+2024-02-01T13:12:12.781Z START RequestId: db2b1896-81b1-596f-8f52-46a31b6c9173 Version: $LATEST
+
+2024-02-01T13:12:12.862Z 2024-02-01T13:12:12.862Z	db2b1896-81b1-596f-8f52-46a31b6c9173	INFO	Processing message abe4ee76-c0cd-48e9-a708-3c1da7d44466
+
+2024-02-01T13:12:12.895Z 2024-02-01T13:12:12.895Z	db2b1896-81b1-596f-8f52-46a31b6c9173	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNJCRRA07SGSASF24Y7F4GDK',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'f45ce8d2-f578-48ab-b022-28bcee0b1e8f',
+    paymentBalance: 160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f45ce8d2-f578-48ab-b022-28bcee0b1e8f","walletSk":"f7eea178-5868-481d-84a4-6ea27675f61c"}',
+    currency: 'BHD',
+    amount: 80,
+    vat: 0,
+    oldBalance: 80,
+    newBalance: 160
+  }
+}
+
+2024-02-01T13:12:13.147Z 2024-02-01T13:12:13.147Z	db2b1896-81b1-596f-8f52-46a31b6c9173	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-01T13:12:13.354Z END RequestId: db2b1896-81b1-596f-8f52-46a31b6c9173
+
+2024-02-01T13:12:13.354Z REPORT RequestId: db2b1896-81b1-596f-8f52-46a31b6c9173	Duration: 573.28 ms	Billed Duration: 574 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	
+

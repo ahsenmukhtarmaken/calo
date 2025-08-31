@@ -1,0 +1,36 @@
+2024-03-18T22:27:11.342Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-18T22:27:12.388Z START RequestId: d9249cdf-5c97-53d5-896b-c2ad9d6b70f4 Version: $LATEST
+
+2024-03-18T22:27:12.550Z 2024-03-18T22:27:12.550Z	d9249cdf-5c97-53d5-896b-c2ad9d6b70f4	INFO	Processing message 96a43471-8bdf-465a-a908-92a88ccea535
+
+2024-03-18T22:27:12.609Z 2024-03-18T22:27:12.609Z	d9249cdf-5c97-53d5-896b-c2ad9d6b70f4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HS9TT03T349TNVQRQGN1Q27K',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '89fba58b-ef23-44dd-b796-0695d1cde481',
+    paymentBalance: 927.638,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#89fba58b-ef23-44dd-b796-0695d1cde481","planType":"full","goal":"loseWeight","eventSessionId":"241fa775-d490-4972-a8e5-aaba70fec297","walletSk":"7ac0344d-c441-4239-985d-07d9b8e9520d","deliveryTime":"morning","dietType":"vegetarian","renewalDate":"2024-03-21","type":"userRenew","frequency":"monthly","subscriptionCost":160,"tier":"personalized","version2":true,"addonCosts":"{\\"undefined\\":27.273}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":8,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"vegetarian\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":160,\\"startDate\\":\\"2024-03-21\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"تبغى شي يبرد على قلبك في هذا الجو؟ خذ لك لفه على العصاير الرهيبه الي راح تروي لك عطشك. تقدر تستمتع بنكهه مختلفة كل يوم بدون ما تحس بالذنب لانها اكيد صحية دامها في كالو. تقدر تختار من نكهات حمضية او حلوة على كيف كيفك\\",\\"en\\":\\"Cold pressed juices that are perfect for quenching your thirst. You can indulge in a different flavor each day and feel good about treating your body to a healthy, delicious drink. Whether you prefer citrusy or sweet flavors, we have a juice that is sure to satisfy your taste buds.\\"},\\"name\\":{\\"ar\\":\\"العصائر\\",\\"en\\":\\"Juices\\"},\\"description\\":{\\"ar\\":\\"برد على قلبك\\",\\"en\\":\\"For your daily dose of health\\"},\\"id\\":\\"BEVERAGES\\",\\"price\\":1.36363636363636,\\"status\\":\\"available\\",\\"priceWithVat\\":1.5,\\"pricePerDay\\":1.36363636363636}]"}',
+    currency: 'BHD',
+    amount: 204.9,
+    vat: 18.627,
+    oldBalance: 1,
+    newBalance: 187.273
+  }
+}
+
+2024-03-18T22:27:12.726Z 2024-03-18T22:27:12.726Z	d9249cdf-5c97-53d5-896b-c2ad9d6b70f4	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-18T22:27:12.765Z 2024-03-18T22:27:12.765Z	d9249cdf-5c97-53d5-896b-c2ad9d6b70f4	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '89fba58b-ef23-44dd-b796-0695d1cde481',
+  subscriptionBalance: 187.273,
+  paymentBalance: 927.638
+}
+
+2024-03-18T22:27:12.787Z END RequestId: d9249cdf-5c97-53d5-896b-c2ad9d6b70f4
+
+2024-03-18T22:27:12.787Z REPORT RequestId: d9249cdf-5c97-53d5-896b-c2ad9d6b70f4	Duration: 399.19 ms	Billed Duration: 400 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1045.54 ms	
+

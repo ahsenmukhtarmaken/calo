@@ -1,0 +1,30 @@
+2024-05-13T10:22:47.820Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-13T10:22:48.826Z START RequestId: 509741b3-0bd9-57b0-9350-1f08e7fc9305 Version: $LATEST
+
+2024-05-13T10:22:48.983Z 2024-05-13T10:22:48.983Z	509741b3-0bd9-57b0-9350-1f08e7fc9305	INFO	Processing message e2faad4c-2e90-4356-87a1-0f812b59e4a8
+
+2024-05-13T10:22:49.030Z 2024-05-13T10:22:49.030Z	509741b3-0bd9-57b0-9350-1f08e7fc9305	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXRQKV1AEJYA10DDN27WP3VE',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '4863bf2e-4248-4eed-888e-2e6aa4372295',
+    paymentBalance: 55.455,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4863bf2e-4248-4eed-888e-2e6aa4372295","country":"BH","couponDiscount":0,"eventSessionId":"1da5a3f9-3aaf-4d9c-bc7d-7894fa658149","walletSk":"71268660-8154-4736-ad47-ded4252d4e6c","version2":true,"addonSubscriptionCosts":"{\\"BEVERAGES\\":5.45454545454544}","addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-05-20\\",\\"startDate\\":\\"2024-05-15\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","addonDayCount":4,"subscriptionId":"4863bf2e-4248-4eed-888e-2e6aa4372295","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 6,
+    vat: 0.545,
+    oldBalance: 50,
+    newBalance: 55.455
+  }
+}
+
+2024-05-13T10:22:49.175Z 2024-05-13T10:22:49.175Z	509741b3-0bd9-57b0-9350-1f08e7fc9305	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T10:22:49.220Z END RequestId: 509741b3-0bd9-57b0-9350-1f08e7fc9305
+
+2024-05-13T10:22:49.220Z REPORT RequestId: 509741b3-0bd9-57b0-9350-1f08e7fc9305	Duration: 393.80 ms	Billed Duration: 394 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1005.18 ms	
+

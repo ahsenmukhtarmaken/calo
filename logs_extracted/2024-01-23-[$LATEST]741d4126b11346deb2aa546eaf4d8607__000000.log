@@ -1,0 +1,36 @@
+2024-01-23T08:41:14.073Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-23T08:41:14.835Z START RequestId: 1edf6215-4e66-51b5-9460-3c3c33be6908 Version: $LATEST
+
+2024-01-23T08:41:14.988Z 2024-01-23T08:41:14.988Z	1edf6215-4e66-51b5-9460-3c3c33be6908	INFO	Processing message 25114b5c-a235-4cb3-b9da-b3ce89bc3171
+
+2024-01-23T08:41:15.043Z 2024-01-23T08:41:15.043Z	1edf6215-4e66-51b5-9460-3c3c33be6908	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMTQP2XBSQ8V6TKRMB212DKX',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1623.61,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","planType":"businessLunch","goal":"loseWeight","eventSessionId":"f8760dbb-bcfb-4719-9932-ee42ba711d7b","walletSk":"5b9f992a-2a95-4051-abe5-2424ed8b6625","deliveryTime":"morning","dietType":"low-carb","renewalDate":"2024-01-25","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"businessLunch\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":4.5,\\"dietType\\":\\"low-carb\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-01-25\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 118.8,
+    vat: 10.8,
+    oldBalance: 0,
+    newBalance: 108
+  }
+}
+
+2024-01-23T08:41:15.149Z 2024-01-23T08:41:15.149Z	1edf6215-4e66-51b5-9460-3c3c33be6908	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-23T08:41:15.200Z 2024-01-23T08:41:15.200Z	1edf6215-4e66-51b5-9460-3c3c33be6908	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 108,
+  paymentBalance: 1623.61
+}
+
+2024-01-23T08:41:15.232Z END RequestId: 1edf6215-4e66-51b5-9460-3c3c33be6908
+
+2024-01-23T08:41:15.232Z REPORT RequestId: 1edf6215-4e66-51b5-9460-3c3c33be6908	Duration: 396.85 ms	Billed Duration: 397 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 760.78 ms	
+

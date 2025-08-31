@@ -1,0 +1,30 @@
+2024-04-16T22:21:56.547Z START RequestId: 5610449a-6d09-567c-bbbc-1a029138d7db Version: $LATEST
+
+2024-04-16T22:21:56.713Z 2024-04-16T22:21:56.713Z	5610449a-6d09-567c-bbbc-1a029138d7db	INFO	Processing message 94d80bfb-70a8-44ef-ae4d-96ca9cacdd6e
+
+2024-04-16T22:21:56.784Z 2024-04-16T22:21:56.784Z	5610449a-6d09-567c-bbbc-1a029138d7db	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVMG16DWBNJ67C692D2ZWH00',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 180,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","planType":"full","goal":"loseWeight","eventSessionId":"e234b4f0-5103-4ede-868d-6096df82e78d","walletSk":"4b821000-2849-42ad-b66b-3af576066b92","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-04-21","type":"userRenew","frequency":"monthly","subscriptionCost":180,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":180,\\"startDate\\":\\"2024-04-21\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 193.9,
+    vat: 17.627,
+    oldBalance: 3.727,
+    newBalance: 180
+  }
+}
+
+2024-04-16T22:21:56.885Z 2024-04-16T22:21:56.885Z	5610449a-6d09-567c-bbbc-1a029138d7db	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-16T22:21:56.925Z END RequestId: 5610449a-6d09-567c-bbbc-1a029138d7db
+
+2024-04-16T22:21:56.925Z REPORT RequestId: 5610449a-6d09-567c-bbbc-1a029138d7db	Duration: 377.87 ms	Billed Duration: 378 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1089.11 ms	
+
+2024-04-16T22:21:55.456Z INIT_START Runtime Version: nodejs:20.v20	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e510d001332c5ac4354ceb185ddd6ef3def14993da7ab2533668b6a6a1ee661d
+

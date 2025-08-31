@@ -1,0 +1,75 @@
+2024-05-15T09:01:50.791Z START RequestId: fb8b8869-f41d-4fe4-954e-97388471422e Version: $LATEST
+
+2024-05-15T09:01:51.051Z 2024-05-15T09:01:51.051Z	fb8b8869-f41d-4fe4-954e-97388471422e	ERROR	Invoke Error 	{"errorType":"TypeError","errorMessage":"e is not iterable","stack":["TypeError: e is not iterable","    at lambdaHandler (/src/syncBalance/listener.ts:24:24)","    at mA (/node_modules/@middy/core/index.js:166:9)","    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"]}
+
+2024-05-15T09:01:51.072Z END RequestId: fb8b8869-f41d-4fe4-954e-97388471422e
+
+2024-05-15T09:01:51.072Z REPORT RequestId: fb8b8869-f41d-4fe4-954e-97388471422e	Duration: 280.61 ms	Billed Duration: 281 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+XRAY TraceId: 1-664479fe-0925ba5154151e7a705d9e1f	SegmentId: 04fb9690781218a8	Sampled: true	
+
+2024-05-15T09:05:23.993Z START RequestId: 3b718a7c-aae1-57ef-bb63-d4c2d7e3c421 Version: $LATEST
+
+2024-05-15T09:05:24.049Z 2024-05-15T09:05:24.049Z	3b718a7c-aae1-57ef-bb63-d4c2d7e3c421	INFO	Processing message c6b32dec-d6e8-44e5-8a7b-85e2d7452099
+
+2024-05-15T09:05:24.049Z 2024-05-15T09:05:24.049Z	3b718a7c-aae1-57ef-bb63-d4c2d7e3c421	INFO	Skipping the balance sync for create web subscription, it will be synced from create web subscription payment listener
+
+2024-05-15T09:05:24.050Z END RequestId: 3b718a7c-aae1-57ef-bb63-d4c2d7e3c421
+
+2024-05-15T09:05:24.050Z REPORT RequestId: 3b718a7c-aae1-57ef-bb63-d4c2d7e3c421	Duration: 57.40 ms	Billed Duration: 58 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-05-15T08:58:21.337Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-15T08:58:22.398Z START RequestId: 8eb8a086-6a0f-5e2f-96a3-fe38116d7cda Version: $LATEST
+
+2024-05-15T08:58:22.543Z 2024-05-15T08:58:22.543Z	8eb8a086-6a0f-5e2f-96a3-fe38116d7cda	INFO	Processing message a3d5b6e7-d6ed-4977-8ff8-83ffea0f4200
+
+2024-05-15T08:58:22.596Z 2024-05-15T08:58:22.596Z	8eb8a086-6a0f-5e2f-96a3-fe38116d7cda	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXXQJMSWASB6WGXREC10AC47',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'a662ffb7-a7ab-437f-a29c-a60bf6a694fe',
+    paymentBalance: 3703.04,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#a662ffb7-a7ab-437f-a29c-a60bf6a694fe","planType":"full","goal":"loseWeight","eventSessionId":"be789961-dfbe-4594-a774-9ff8ea82a07d","walletSk":"b7fc7a0e-c216-4d59-8963-aadb6eb55aea","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-05-19","type":"userRenew","frequency":"monthly","subscriptionCost":1913.04,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":95.65217391304348,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1913.04,\\"startDate\\":\\"2024-05-19\\",\\"tier\\":\\"pricingKSAVatInclusiveApril2024\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2188.5,
+    vat: 285.46,
+    oldBalance: 10,
+    newBalance: 1913.04
+  }
+}
+
+2024-05-15T08:58:22.744Z 2024-05-15T08:58:22.744Z	8eb8a086-6a0f-5e2f-96a3-fe38116d7cda	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-15T08:58:22.801Z 2024-05-15T08:58:22.801Z	8eb8a086-6a0f-5e2f-96a3-fe38116d7cda	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'a662ffb7-a7ab-437f-a29c-a60bf6a694fe',
+  subscriptionBalance: 1913.04,
+  paymentBalance: 3703.04
+}
+
+2024-05-15T08:58:22.826Z END RequestId: 8eb8a086-6a0f-5e2f-96a3-fe38116d7cda
+
+2024-05-15T08:58:22.826Z REPORT RequestId: 8eb8a086-6a0f-5e2f-96a3-fe38116d7cda	Duration: 427.61 ms	Billed Duration: 428 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	Init Duration: 1060.80 ms	
+
+2024-05-15T08:58:48.388Z START RequestId: 3a9555c0-9146-52cc-ad0a-0b7eea3df1a4 Version: $LATEST
+
+2024-05-15T08:58:48.454Z 2024-05-15T08:58:48.454Z	3a9555c0-9146-52cc-ad0a-0b7eea3df1a4	INFO	Processing message 92000ba2-2ccf-4612-8d54-8b9167dc1c07
+
+2024-05-15T08:58:48.468Z 2024-05-15T08:58:48.468Z	3a9555c0-9146-52cc-ad0a-0b7eea3df1a4	INFO	Skipping the balance sync for create web subscription, it will be synced from create web subscription payment listener
+
+2024-05-15T08:58:48.470Z END RequestId: 3a9555c0-9146-52cc-ad0a-0b7eea3df1a4
+
+2024-05-15T08:58:48.470Z REPORT RequestId: 3a9555c0-9146-52cc-ad0a-0b7eea3df1a4	Duration: 81.97 ms	Billed Duration: 82 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-05-15T09:03:26.350Z START RequestId: 58ff706a-6a6b-5994-aa29-2ed416e66cf5 Version: $LATEST
+
+2024-05-15T09:03:26.559Z 2024-05-15T09:03:26.559Z	58ff706a-6a6b-5994-aa29-2ed416e66cf5	INFO	Processing message b46b37a7-9354-45af-994c-e349e997ee4b
+
+2024-05-15T09:03:26.559Z 2024-05-15T09:03:26.559Z	58ff706a-6a6b-5994-aa29-2ed416e66cf5	INFO	Skipping the balance sync for create web subscription, it will be synced from create web subscription payment listener
+
+2024-05-15T09:03:26.561Z END RequestId: 58ff706a-6a6b-5994-aa29-2ed416e66cf5
+
+2024-05-15T09:03:26.561Z REPORT RequestId: 58ff706a-6a6b-5994-aa29-2ed416e66cf5	Duration: 210.70 ms	Billed Duration: 211 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+

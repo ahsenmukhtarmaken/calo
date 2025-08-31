@@ -1,0 +1,30 @@
+2024-02-29T08:47:14.570Z START RequestId: e5e8f9bd-e121-5b18-aceb-a7e7a7edb742 Version: $LATEST
+
+2024-02-29T08:47:14.718Z 2024-02-29T08:47:14.718Z	e5e8f9bd-e121-5b18-aceb-a7e7a7edb742	INFO	Processing message a042efbc-8dcc-4d29-9b69-920bd9981b8e
+
+2024-02-29T08:47:14.766Z 2024-02-29T08:47:14.766Z	e5e8f9bd-e121-5b18-aceb-a7e7a7edb742	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQT0QMF6N7G9QZNY6S0GVNJ9',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '05404993-634a-45ef-b268-693403f1dfff',
+    paymentBalance: 10,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#05404993-634a-45ef-b268-693403f1dfff","walletSk":"e73e8c16-7509-4c21-948e-e6d98903ece3"}',
+    currency: 'KWD',
+    amount: 40,
+    vat: 0,
+    oldBalance: 50,
+    newBalance: 10
+  }
+}
+
+2024-02-29T08:47:14.877Z 2024-02-29T08:47:14.877Z	e5e8f9bd-e121-5b18-aceb-a7e7a7edb742	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T08:47:14.979Z END RequestId: e5e8f9bd-e121-5b18-aceb-a7e7a7edb742
+
+2024-02-29T08:47:14.979Z REPORT RequestId: e5e8f9bd-e121-5b18-aceb-a7e7a7edb742	Duration: 408.76 ms	Billed Duration: 409 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1297.63 ms	
+
+2024-02-29T08:47:13.271Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+

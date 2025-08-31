@@ -1,0 +1,40 @@
+2024-02-29T10:04:55.481Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-29T10:04:56.704Z START RequestId: 57352518-89b0-5aa3-a5a8-7b42d144357c Version: $LATEST
+
+2024-02-29T10:04:56.904Z 2024-02-29T10:04:56.904Z	57352518-89b0-5aa3-a5a8-7b42d144357c	INFO	Processing message 8035262f-f8ec-406c-bd14-08bbf651afda
+
+2024-02-29T10:04:56.905Z 2024-02-29T10:04:56.905Z	57352518-89b0-5aa3-a5a8-7b42d144357c	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-29T10:04:56.911Z END RequestId: 57352518-89b0-5aa3-a5a8-7b42d144357c
+
+2024-02-29T10:04:56.911Z REPORT RequestId: 57352518-89b0-5aa3-a5a8-7b42d144357c	Duration: 206.74 ms	Billed Duration: 207 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1222.17 ms	
+
+2024-02-29T10:08:01.203Z START RequestId: 81d45208-e3b1-54ad-8e6f-0c52ba0336c9 Version: $LATEST
+
+2024-02-29T10:08:01.364Z 2024-02-29T10:08:01.364Z	81d45208-e3b1-54ad-8e6f-0c52ba0336c9	INFO	Processing message 41b1dcb4-81a5-4b46-adc5-adec637b5b15
+
+2024-02-29T10:08:01.396Z 2024-02-29T10:08:01.396Z	81d45208-e3b1-54ad-8e6f-0c52ba0336c9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQT5BKT6KT7BP5YJRP5ZA77J',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'REFUNDED_MANUALLY',
+    userId: '4b274b0d-2a38-4629-aeec-b511e680230c',
+    paymentBalance: 5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4b274b0d-2a38-4629-aeec-b511e680230c","walletSk":"576a7b6f-5845-4a6f-bb54-f75ac05c6b80"}',
+    currency: 'BHD',
+    amount: 75,
+    vat: 0,
+    oldBalance: 80,
+    newBalance: 5
+  }
+}
+
+2024-02-29T10:08:01.513Z 2024-02-29T10:08:01.513Z	81d45208-e3b1-54ad-8e6f-0c52ba0336c9	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-29T10:08:01.549Z END RequestId: 81d45208-e3b1-54ad-8e6f-0c52ba0336c9
+
+2024-02-29T10:08:01.549Z REPORT RequestId: 81d45208-e3b1-54ad-8e6f-0c52ba0336c9	Duration: 345.08 ms	Billed Duration: 346 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

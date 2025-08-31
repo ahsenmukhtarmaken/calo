@@ -1,0 +1,30 @@
+2024-03-04T12:53:06.846Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-04T12:53:08.122Z START RequestId: 95ca180e-ab6d-5ca8-91d2-46516d327fcd Version: $LATEST
+
+2024-03-04T12:53:08.263Z 2024-03-04T12:53:08.263Z	95ca180e-ab6d-5ca8-91d2-46516d327fcd	INFO	Processing message 19c5bc6e-b068-4292-9d03-21ee29e158a1
+
+2024-03-04T12:53:08.327Z 2024-03-04T12:53:08.327Z	95ca180e-ab6d-5ca8-91d2-46516d327fcd	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR4RCRG9T06SWN00R486EVH9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '460733e0-3f51-4cb4-b870-9f1a50ffd1a9',
+    paymentBalance: 104.091,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#460733e0-3f51-4cb4-b870-9f1a50ffd1a9","country":"BH","couponDiscount":0,"eventSessionId":"56294e54-5247-4e33-80bb-667af210b0fd","walletSk":"7489b1f9-837c-46bb-b2bb-93c14d9edfbb","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"FRUITS_AND_VEGGIES\\",\\"endDate\\":\\"2024-03-20\\",\\"startDate\\":\\"2024-03-06\\",\\"pricePerDay\\":1.09090909090909,\\"currency\\":\\"BHD\\"}]","subscriptionId":"460733e0-3f51-4cb4-b870-9f1a50ffd1a9","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 13.2,
+    vat: 1.2,
+    oldBalance: 92.091,
+    newBalance: 104.091
+  }
+}
+
+2024-03-04T12:53:08.445Z 2024-03-04T12:53:08.445Z	95ca180e-ab6d-5ca8-91d2-46516d327fcd	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-04T12:53:08.492Z END RequestId: 95ca180e-ab6d-5ca8-91d2-46516d327fcd
+
+2024-03-04T12:53:08.492Z REPORT RequestId: 95ca180e-ab6d-5ca8-91d2-46516d327fcd	Duration: 370.73 ms	Billed Duration: 371 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1273.83 ms	
+

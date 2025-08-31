@@ -1,0 +1,50 @@
+2024-04-15T07:29:34.710Z START RequestId: c1d7e0d0-17c2-56bb-8c50-be46ce529779 Version: $LATEST
+
+2024-04-15T07:29:34.854Z 2024-04-15T07:29:34.854Z	c1d7e0d0-17c2-56bb-8c50-be46ce529779	INFO	Processing message 7f8f2447-fff0-412a-86fd-5dd354d4d6f1
+
+2024-04-15T07:29:34.880Z 2024-04-15T07:29:34.880Z	c1d7e0d0-17c2-56bb-8c50-be46ce529779	ERROR	An error occured while syncing the balance TypeError: Cannot read properties of null (reading 'getBalance')
+    at Zi.exec (/src/syncBalance/useCase.ts:55:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at rF (/src/syncBalance/listener.ts:30:7)
+    at X0 (/node_modules/@middy/core/index.js:192:26)
+
+2024-04-15T07:29:34.881Z {"_aws":{"Timestamp":1713166174881,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2024-04-15T07:29:34.883Z END RequestId: c1d7e0d0-17c2-56bb-8c50-be46ce529779
+
+2024-04-15T07:29:34.883Z REPORT RequestId: c1d7e0d0-17c2-56bb-8c50-be46ce529779	Duration: 172.87 ms	Billed Duration: 173 ms	Memory Size: 1024 MB	Max Memory Used: 148 MB	
+
+2024-04-15T07:31:04.730Z START RequestId: a5b96a96-f291-5f8f-88d7-34002b784b14 Version: $LATEST
+
+2024-04-15T07:31:04.862Z 2024-04-15T07:31:04.862Z	a5b96a96-f291-5f8f-88d7-34002b784b14	INFO	Processing message 7f8f2447-fff0-412a-86fd-5dd354d4d6f1
+
+2024-04-15T07:31:04.868Z 2024-04-15T07:31:04.868Z	a5b96a96-f291-5f8f-88d7-34002b784b14	ERROR	An error occured while syncing the balance TypeError: Cannot read properties of null (reading 'getBalance')
+    at Zi.exec (/src/syncBalance/useCase.ts:55:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at rF (/src/syncBalance/listener.ts:30:7)
+    at X0 (/node_modules/@middy/core/index.js:192:26)
+
+2024-04-15T07:31:04.869Z {"_aws":{"Timestamp":1713166264869,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2024-04-15T07:31:04.870Z END RequestId: a5b96a96-f291-5f8f-88d7-34002b784b14
+
+2024-04-15T07:31:04.870Z REPORT RequestId: a5b96a96-f291-5f8f-88d7-34002b784b14	Duration: 140.28 ms	Billed Duration: 141 ms	Memory Size: 1024 MB	Max Memory Used: 148 MB	
+
+2024-04-15T07:28:05.060Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-15T07:28:06.049Z START RequestId: 179f8a4c-78b8-5171-93ef-d4daa1867d97 Version: $LATEST
+
+2024-04-15T07:28:06.197Z 2024-04-15T07:28:06.197Z	179f8a4c-78b8-5171-93ef-d4daa1867d97	INFO	Processing message 7f8f2447-fff0-412a-86fd-5dd354d4d6f1
+
+2024-04-15T07:28:06.241Z 2024-04-15T07:28:06.241Z	179f8a4c-78b8-5171-93ef-d4daa1867d97	ERROR	An error occured while syncing the balance TypeError: Cannot read properties of null (reading 'getBalance')
+    at Zi.exec (/src/syncBalance/useCase.ts:55:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at rF (/src/syncBalance/listener.ts:30:7)
+    at X0 (/node_modules/@middy/core/index.js:192:26)
+
+2024-04-15T07:28:06.417Z {"_aws":{"Timestamp":1713166086406,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2024-04-15T07:28:06.422Z END RequestId: 179f8a4c-78b8-5171-93ef-d4daa1867d97
+
+2024-04-15T07:28:06.422Z REPORT RequestId: 179f8a4c-78b8-5171-93ef-d4daa1867d97	Duration: 372.81 ms	Billed Duration: 373 ms	Memory Size: 1024 MB	Max Memory Used: 130 MB	Init Duration: 987.76 ms	
+

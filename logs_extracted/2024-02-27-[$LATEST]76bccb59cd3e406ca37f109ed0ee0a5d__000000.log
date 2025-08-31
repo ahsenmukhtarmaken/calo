@@ -1,0 +1,40 @@
+2024-02-27T12:25:53.404Z START RequestId: e04b5945-c44a-5d51-a774-071212b4a78a Version: $LATEST
+
+2024-02-27T12:25:53.442Z 2024-02-27T12:25:53.442Z	e04b5945-c44a-5d51-a774-071212b4a78a	INFO	Processing message 981c81bf-b70c-479e-b118-22cba12c23fd
+
+2024-02-27T12:25:53.476Z 2024-02-27T12:25:53.476Z	e04b5945-c44a-5d51-a774-071212b4a78a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQN8EKX2P9TYV28PA4S8R76E',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '76b5101c-400d-45d2-9392-ee6d94c113db',
+    paymentBalance: 160,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#76b5101c-400d-45d2-9392-ee6d94c113db","walletSk":"f511c184-024d-4990-9cb1-830e127ae2ea"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 150,
+    newBalance: 160
+  }
+}
+
+2024-02-27T12:25:53.579Z 2024-02-27T12:25:53.579Z	e04b5945-c44a-5d51-a774-071212b4a78a	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-27T12:25:53.632Z END RequestId: e04b5945-c44a-5d51-a774-071212b4a78a
+
+2024-02-27T12:25:53.632Z REPORT RequestId: e04b5945-c44a-5d51-a774-071212b4a78a	Duration: 228.29 ms	Billed Duration: 229 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-02-27T12:25:17.165Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-27T12:25:18.462Z START RequestId: 87ee4ea8-3017-5f71-8720-10ffe6f5b6a6 Version: $LATEST
+
+2024-02-27T12:25:18.615Z 2024-02-27T12:25:18.615Z	87ee4ea8-3017-5f71-8720-10ffe6f5b6a6	INFO	Processing message ec50605c-18cb-4e4c-aa95-cb4538626dc7
+
+2024-02-27T12:25:18.617Z 2024-02-27T12:25:18.617Z	87ee4ea8-3017-5f71-8720-10ffe6f5b6a6	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-27T12:25:18.636Z END RequestId: 87ee4ea8-3017-5f71-8720-10ffe6f5b6a6
+
+2024-02-27T12:25:18.636Z REPORT RequestId: 87ee4ea8-3017-5f71-8720-10ffe6f5b6a6	Duration: 174.59 ms	Billed Duration: 175 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	Init Duration: 1295.78 ms	
+

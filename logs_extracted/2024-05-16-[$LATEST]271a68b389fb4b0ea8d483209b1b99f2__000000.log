@@ -1,0 +1,30 @@
+2024-05-16T17:20:36.492Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-16T17:20:37.511Z START RequestId: db32f897-1366-59df-a796-a65751f5cf5e Version: $LATEST
+
+2024-05-16T17:20:37.672Z 2024-05-16T17:20:37.672Z	db32f897-1366-59df-a796-a65751f5cf5e	INFO	Processing message 43849c6b-7673-478f-bb38-29251d2b52ca
+
+2024-05-16T17:20:37.737Z 2024-05-16T17:20:37.737Z	db32f897-1366-59df-a796-a65751f5cf5e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HY16Q17TEGSVNDSHFDWBEH7G',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '68c3122c-7318-4e51-aee3-37ce3f855c6a',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#68c3122c-7318-4e51-aee3-37ce3f855c6a","planType":"weightLossChallenge","goal":"loseWeight","eventSessionId":"09a378fb-88ea-42a5-8aae-e4e59096e8fc","walletSk":"290ae153-0d7e-487f-84f1-58d280ce3f00","deliveryTime":"evening","dietType":"weight-loss","renewalDate":"2024-05-19","type":"userRenew","frequency":"monthly","subscriptionCost":252,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":252,\\"startDate\\":\\"2024-05-19\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5,6]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 269.2,
+    vat: 24.473,
+    oldBalance: 7.273,
+    newBalance: 252
+  }
+}
+
+2024-05-16T17:20:37.880Z 2024-05-16T17:20:37.880Z	db32f897-1366-59df-a796-a65751f5cf5e	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-16T17:20:37.920Z END RequestId: db32f897-1366-59df-a796-a65751f5cf5e
+
+2024-05-16T17:20:37.920Z REPORT RequestId: db32f897-1366-59df-a796-a65751f5cf5e	Duration: 408.91 ms	Billed Duration: 409 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	Init Duration: 1017.84 ms	
+

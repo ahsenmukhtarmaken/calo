@@ -1,0 +1,36 @@
+2024-01-21T14:40:59.464Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-21T14:41:00.197Z START RequestId: 32313be3-a069-5bb3-9eaf-65c48f479a5d Version: $LATEST
+
+2024-01-21T14:41:00.350Z 2024-01-21T14:41:00.350Z	32313be3-a069-5bb3-9eaf-65c48f479a5d	INFO	Processing message 3f8e654b-8103-4473-8010-5a7b0d3fdcaa
+
+2024-01-21T14:41:00.386Z 2024-01-21T14:41:00.386Z	32313be3-a069-5bb3-9eaf-65c48f479a5d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMP7FCAE5RXAPY1K5E929QWZ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+    paymentBalance: 533.798,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#2af65ba7-48fc-4433-be65-5dca7e3094a8","country":"BH","couponDiscount":0,"eventSessionId":"3fc51a57-1d87-4f69-b7b1-4cc0565eccac","walletSk":"5aa43389-622e-4832-aa01-91ebf2ff3042","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-02-17\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-02-17\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-02-17\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-02-17\\",\\"startDate\\":\\"2024-01-23\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"2af65ba7-48fc-4433-be65-5dca7e3094a8","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 123.2,
+    vat: 11.2,
+    oldBalance: 292.182,
+    newBalance: 404.182
+  }
+}
+
+2024-01-21T14:41:00.501Z 2024-01-21T14:41:00.501Z	32313be3-a069-5bb3-9eaf-65c48f479a5d	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-21T14:41:00.549Z 2024-01-21T14:41:00.549Z	32313be3-a069-5bb3-9eaf-65c48f479a5d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2af65ba7-48fc-4433-be65-5dca7e3094a8',
+  subscriptionBalance: 404.182,
+  paymentBalance: 533.798
+}
+
+2024-01-21T14:41:00.581Z END RequestId: 32313be3-a069-5bb3-9eaf-65c48f479a5d
+
+2024-01-21T14:41:00.581Z REPORT RequestId: 32313be3-a069-5bb3-9eaf-65c48f479a5d	Duration: 383.36 ms	Billed Duration: 384 ms	Memory Size: 1024 MB	Max Memory Used: 106 MB	Init Duration: 732.11 ms	
+

@@ -1,0 +1,173 @@
+2024-02-11T12:41:42.217Z START RequestId: 1fc577ef-5820-537b-b338-29ad9a959d82 Version: $LATEST
+
+2024-02-11T12:41:42.318Z 2024-02-11T12:41:42.318Z	1fc577ef-5820-537b-b338-29ad9a959d82	INFO	Processing message 61cd9532-f62e-488d-b7f5-35c22695222d
+
+2024-02-11T12:41:42.348Z 2024-02-11T12:41:42.348Z	1fc577ef-5820-537b-b338-29ad9a959d82	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC302V2P7S7PCRV8XJ68HHE',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1991.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"eea31a96-6897-4a37-a2bd-3f7e510fa8a2","eventSessionId":"74217428-a032-4277-a061-104d3e6c5d59","walletSk":"a968162f-c901-42ef-8ddf-00b73df393c2","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 440.678,
+    newBalance: 475.678
+  }
+}
+
+2024-02-11T12:41:42.417Z 2024-02-11T12:41:42.417Z	1fc577ef-5820-537b-b338-29ad9a959d82	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:41:42.641Z 2024-02-11T12:41:42.641Z	1fc577ef-5820-537b-b338-29ad9a959d82	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 475.678,
+  paymentBalance: 1991.288
+}
+
+2024-02-11T12:41:42.662Z END RequestId: 1fc577ef-5820-537b-b338-29ad9a959d82
+
+2024-02-11T12:41:42.662Z REPORT RequestId: 1fc577ef-5820-537b-b338-29ad9a959d82	Duration: 445.01 ms	Billed Duration: 446 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+
+2024-02-11T12:36:20.542Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-11T12:36:21.267Z START RequestId: b4809829-c3bd-53b2-8cbd-c66b02c5ab58 Version: $LATEST
+
+2024-02-11T12:36:21.420Z 2024-02-11T12:36:21.420Z	b4809829-c3bd-53b2-8cbd-c66b02c5ab58	INFO	Processing message a923b314-522d-4788-b967-be63f0a862af
+
+2024-02-11T12:36:21.526Z 2024-02-11T12:36:21.526Z	b4809829-c3bd-53b2-8cbd-c66b02c5ab58	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC2P82KM99ZPW5Q88DM8Y62',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1921.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"eea31a96-6897-4a37-a2bd-3f7e510fa8a2","eventSessionId":"757a4e3a-ca98-4554-8939-43fb2e452cbe","walletSk":"c6e2740e-21f3-498d-9775-3de3420db3b3","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 370.678,
+    newBalance: 405.678
+  }
+}
+
+2024-02-11T12:36:21.648Z 2024-02-11T12:36:21.648Z	b4809829-c3bd-53b2-8cbd-c66b02c5ab58	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:36:21.689Z 2024-02-11T12:36:21.689Z	b4809829-c3bd-53b2-8cbd-c66b02c5ab58	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 405.678,
+  paymentBalance: 1921.288
+}
+
+2024-02-11T12:36:21.714Z END RequestId: b4809829-c3bd-53b2-8cbd-c66b02c5ab58
+
+2024-02-11T12:36:21.714Z REPORT RequestId: b4809829-c3bd-53b2-8cbd-c66b02c5ab58	Duration: 446.22 ms	Billed Duration: 447 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 723.50 ms	
+
+2024-02-11T12:45:13.990Z START RequestId: 78af16f5-4668-5794-8478-48b785e1c3cc Version: $LATEST
+
+2024-02-11T12:45:14.043Z 2024-02-11T12:45:14.043Z	78af16f5-4668-5794-8478-48b785e1c3cc	INFO	Processing message 70f0bd86-3412-402a-bc85-fdca4a8aa0f8
+
+2024-02-11T12:45:14.071Z 2024-02-11T12:45:14.071Z	78af16f5-4668-5794-8478-48b785e1c3cc	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC36HGGB3PFVB9DQVTK3DGC',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 2061.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"eea31a96-6897-4a37-a2bd-3f7e510fa8a2","eventSessionId":"2fc0e590-4b64-4fcb-8941-be949521611e","walletSk":"9363a72d-03bd-413d-9066-ca3d9c0fc9c6","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 510.678,
+    newBalance: 545.678
+  }
+}
+
+2024-02-11T12:45:14.145Z 2024-02-11T12:45:14.145Z	78af16f5-4668-5794-8478-48b785e1c3cc	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:45:14.191Z 2024-02-11T12:45:14.191Z	78af16f5-4668-5794-8478-48b785e1c3cc	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 545.678,
+  paymentBalance: 2061.288
+}
+
+2024-02-11T12:45:14.216Z END RequestId: 78af16f5-4668-5794-8478-48b785e1c3cc
+
+2024-02-11T12:45:14.216Z REPORT RequestId: 78af16f5-4668-5794-8478-48b785e1c3cc	Duration: 226.30 ms	Billed Duration: 227 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+XRAY TraceId: 1-65c8c159-efa1f25cf5766eda0348faef	SegmentId: 4a257798437128b6	Sampled: true	
+
+2024-02-11T12:42:36.561Z START RequestId: 0103f700-7ed3-518f-85aa-a942bc3965d7 Version: $LATEST
+
+2024-02-11T12:42:36.589Z 2024-02-11T12:42:36.589Z	0103f700-7ed3-518f-85aa-a942bc3965d7	INFO	Processing message a2bdcbf0-d540-43f7-a289-7213b333de84
+
+2024-02-11T12:42:36.596Z 2024-02-11T12:42:36.596Z	0103f700-7ed3-518f-85aa-a942bc3965d7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC31QVNV37ZTNCGBWH7292T',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 2026.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"eea31a96-6897-4a37-a2bd-3f7e510fa8a2","eventSessionId":"51278220-c3ae-4c4b-b091-958109ed9372","walletSk":"9f5fc41e-ea3f-4046-9077-e886f504abb5","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 475.678,
+    newBalance: 510.678
+  }
+}
+
+2024-02-11T12:42:36.665Z 2024-02-11T12:42:36.665Z	0103f700-7ed3-518f-85aa-a942bc3965d7	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:42:36.695Z 2024-02-11T12:42:36.695Z	0103f700-7ed3-518f-85aa-a942bc3965d7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 510.678,
+  paymentBalance: 2026.288
+}
+
+2024-02-11T12:42:36.713Z END RequestId: 0103f700-7ed3-518f-85aa-a942bc3965d7
+
+2024-02-11T12:42:36.713Z REPORT RequestId: 0103f700-7ed3-518f-85aa-a942bc3965d7	Duration: 151.98 ms	Billed Duration: 152 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+
+2024-02-11T12:38:24.923Z START RequestId: 28002513-704b-5a9c-9448-7b51b1a74276 Version: $LATEST
+
+2024-02-11T12:38:25.038Z 2024-02-11T12:38:25.038Z	28002513-704b-5a9c-9448-7b51b1a74276	INFO	Processing message 8ab92f73-a620-4806-a507-76721344b41c
+
+2024-02-11T12:38:25.068Z 2024-02-11T12:38:25.068Z	28002513-704b-5a9c-9448-7b51b1a74276	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC2T1NSRFTC5C0HZF0QRNK2',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1956.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"eea31a96-6897-4a37-a2bd-3f7e510fa8a2","eventSessionId":"1f03659a-4e28-4ff6-95a2-1027295373bf","walletSk":"8cc71cbf-d86a-4ad6-b01a-7a8cc347f4e0","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 405.678,
+    newBalance: 440.678
+  }
+}
+
+2024-02-11T12:38:25.152Z 2024-02-11T12:38:25.152Z	28002513-704b-5a9c-9448-7b51b1a74276	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:38:25.186Z 2024-02-11T12:38:25.186Z	28002513-704b-5a9c-9448-7b51b1a74276	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 440.678,
+  paymentBalance: 1956.288
+}
+
+2024-02-11T12:38:25.210Z END RequestId: 28002513-704b-5a9c-9448-7b51b1a74276
+
+2024-02-11T12:38:25.210Z REPORT RequestId: 28002513-704b-5a9c-9448-7b51b1a74276	Duration: 286.41 ms	Billed Duration: 287 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+

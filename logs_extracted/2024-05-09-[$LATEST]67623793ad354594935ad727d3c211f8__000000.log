@@ -1,0 +1,72 @@
+2024-05-09T12:26:32.091Z START RequestId: 4a037b3d-ad67-55cf-94f1-258b6e494653 Version: $LATEST
+
+2024-05-09T12:26:32.245Z 2024-05-09T12:26:32.245Z	4a037b3d-ad67-55cf-94f1-258b6e494653	INFO	Processing message a2831548-5a2a-41d4-a5c5-771b2d943894
+
+2024-05-09T12:26:32.298Z 2024-05-09T12:26:32.298Z	4a037b3d-ad67-55cf-94f1-258b6e494653	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXEN3FY5NC2YNSN4XP7P54QG',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    paymentBalance: 1538.681,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#813ee3cd-2349-43ae-8915-f0a2c12b4245","walletSk":"4e638c32-6632-40b3-9168-b7139570f209"}',
+    currency: 'BHD',
+    amount: 9.091,
+    vat: 0,
+    oldBalance: 1,
+    newBalance: -8.091
+  }
+}
+
+2024-05-09T12:26:32.300Z 2024-05-09T12:26:32.300Z	4a037b3d-ad67-55cf-94f1-258b6e494653	INFO	{
+  message: 'Subscriber will have a negative balance due to this action, the process will terminate.',
+  data: {
+    transactionId: '01HXEN3FY5NC2YNSN4XP7P54QG',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    currentBalance: 1,
+    newBalance: -8.091
+  }
+}
+
+2024-05-09T12:26:32.358Z END RequestId: 4a037b3d-ad67-55cf-94f1-258b6e494653
+
+2024-05-09T12:26:32.358Z REPORT RequestId: 4a037b3d-ad67-55cf-94f1-258b6e494653	Duration: 267.61 ms	Billed Duration: 268 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 988.11 ms	
+
+2024-05-09T12:26:48.072Z START RequestId: c7a82110-b745-5bdf-af27-7fa6747ce39d Version: $LATEST
+
+2024-05-09T12:26:48.111Z 2024-05-09T12:26:48.111Z	c7a82110-b745-5bdf-af27-7fa6747ce39d	INFO	Processing message 02b207f2-f103-4de4-a920-b3b113237158
+
+2024-05-09T12:26:48.191Z 2024-05-09T12:26:48.191Z	c7a82110-b745-5bdf-af27-7fa6747ce39d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXEN41GCAH7QTK2NGD37FR53',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CALO_TEAM_PERKS',
+    userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+    paymentBalance: 1629.59,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#813ee3cd-2349-43ae-8915-f0a2c12b4245","walletSk":"d3b701db-bcfe-48c1-b354-9f5a5b96d69e"}',
+    currency: 'BHD',
+    amount: 90.909,
+    vat: 0,
+    oldBalance: 1,
+    newBalance: 91.909
+  }
+}
+
+2024-05-09T12:26:48.310Z 2024-05-09T12:26:48.310Z	c7a82110-b745-5bdf-af27-7fa6747ce39d	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T12:26:48.354Z 2024-05-09T12:26:48.354Z	c7a82110-b745-5bdf-af27-7fa6747ce39d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '813ee3cd-2349-43ae-8915-f0a2c12b4245',
+  subscriptionBalance: 91.909,
+  paymentBalance: 1629.59
+}
+
+2024-05-09T12:26:48.374Z END RequestId: c7a82110-b745-5bdf-af27-7fa6747ce39d
+
+2024-05-09T12:26:48.374Z REPORT RequestId: c7a82110-b745-5bdf-af27-7fa6747ce39d	Duration: 301.86 ms	Billed Duration: 302 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	
+
+2024-05-09T12:26:31.102Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+

@@ -1,0 +1,30 @@
+2024-01-12T12:16:25.216Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-12T12:16:25.977Z START RequestId: a7fcec63-4d85-5969-8b45-b2786240258f Version: $LATEST
+
+2024-01-12T12:16:26.133Z 2024-01-12T12:16:26.133Z	a7fcec63-4d85-5969-8b45-b2786240258f	INFO	Processing message e1c18b69-6236-4997-82d7-d65614acc4d2
+
+2024-01-12T12:16:26.182Z 2024-01-12T12:16:26.182Z	a7fcec63-4d85-5969-8b45-b2786240258f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKYSM679VANX0MG9AK6JWA4G',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '39c207b4-99aa-4e4e-95f8-9fd67e3aaca7',
+    paymentBalance: 2336.96,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#39c207b4-99aa-4e4e-95f8-9fd67e3aaca7","walletSk":"91fca855-d356-44c4-8b8c-daa0d12ecf4d","version":"syncBalanceSQS"}',
+    currency: 'SAR',
+    amount: 100,
+    vat: 13.04,
+    oldBalance: 2250,
+    newBalance: 2336.96
+  }
+}
+
+2024-01-12T12:16:26.297Z 2024-01-12T12:16:26.297Z	a7fcec63-4d85-5969-8b45-b2786240258f	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-12T12:16:26.400Z END RequestId: a7fcec63-4d85-5969-8b45-b2786240258f
+
+2024-01-12T12:16:26.400Z REPORT RequestId: a7fcec63-4d85-5969-8b45-b2786240258f	Duration: 423.16 ms	Billed Duration: 424 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 760.10 ms	
+

@@ -1,0 +1,41 @@
+2024-02-24T13:43:56.486Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-24T13:43:57.724Z START RequestId: 80fce1a1-81ef-5c72-9350-bff275274672 Version: $LATEST
+
+2024-02-24T13:43:57.869Z 2024-02-24T13:43:57.869Z	80fce1a1-81ef-5c72-9350-bff275274672	INFO	Processing message 6f195484-5710-4ef2-b282-aa78dcfd4e7c
+
+2024-02-24T13:43:57.874Z 2024-02-24T13:43:57.874Z	80fce1a1-81ef-5c72-9350-bff275274672	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-24T13:43:57.877Z END RequestId: 80fce1a1-81ef-5c72-9350-bff275274672
+
+2024-02-24T13:43:57.877Z REPORT RequestId: 80fce1a1-81ef-5c72-9350-bff275274672	Duration: 153.25 ms	Billed Duration: 154 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1236.39 ms	
+XRAY TraceId: 1-65d9f29c-f6f6232133f024403521999c	SegmentId: 40d05e0a2a93f911	Sampled: true	
+
+2024-02-24T13:44:34.823Z START RequestId: 7c556ad8-5081-5f9d-931b-348ba475459d Version: $LATEST
+
+2024-02-24T13:44:34.856Z 2024-02-24T13:44:34.856Z	7c556ad8-5081-5f9d-931b-348ba475459d	INFO	Processing message cf2fc0c4-0afe-40a0-975f-de032fe6ab79
+
+2024-02-24T13:44:34.941Z 2024-02-24T13:44:34.941Z	7c556ad8-5081-5f9d-931b-348ba475459d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQDNRHMN7F4DAE3DH1PWH5Z7',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '6b33684f-ce10-4ca9-8319-cabaa76aee28',
+    paymentBalance: 180,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#6b33684f-ce10-4ca9-8319-cabaa76aee28","walletSk":"f53f9827-d61f-44fb-9433-40cb3003b28e"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 170,
+    newBalance: 180
+  }
+}
+
+2024-02-24T13:44:35.053Z 2024-02-24T13:44:35.053Z	7c556ad8-5081-5f9d-931b-348ba475459d	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-24T13:44:35.106Z END RequestId: 7c556ad8-5081-5f9d-931b-348ba475459d
+
+2024-02-24T13:44:35.106Z REPORT RequestId: 7c556ad8-5081-5f9d-931b-348ba475459d	Duration: 282.82 ms	Billed Duration: 283 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+

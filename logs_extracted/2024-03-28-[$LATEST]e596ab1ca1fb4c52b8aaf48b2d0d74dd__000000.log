@@ -1,0 +1,36 @@
+2024-03-28T12:29:37.325Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T12:29:38.391Z START RequestId: 41672fbd-53df-5c04-b69f-71c2373abb19 Version: $LATEST
+
+2024-03-28T12:29:38.537Z 2024-03-28T12:29:38.537Z	41672fbd-53df-5c04-b69f-71c2373abb19	INFO	Processing message 29fcc7c5-b6ee-479b-a454-870f9ad3de44
+
+2024-03-28T12:29:38.601Z 2024-03-28T12:29:38.601Z	41672fbd-53df-5c04-b69f-71c2373abb19	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT2GJZW96XHPMATKXARKRRBT',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11851.708,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"f7950826-922b-4d65-9960-d9a4e56bb2d2","walletSk":"55ee1097-aadb-4136-90b8-7b978cd0e1a3","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-04-21\\",\\"startDate\\":\\"2024-03-30\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"}]","addonDayCount":15,"subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 30,
+    vat: 2.727,
+    oldBalance: 134,
+    newBalance: 161.273
+  }
+}
+
+2024-03-28T12:29:38.714Z 2024-03-28T12:29:38.714Z	41672fbd-53df-5c04-b69f-71c2373abb19	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-28T12:29:38.753Z 2024-03-28T12:29:38.753Z	41672fbd-53df-5c04-b69f-71c2373abb19	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 161.273,
+  paymentBalance: 11851.708
+}
+
+2024-03-28T12:29:38.787Z END RequestId: 41672fbd-53df-5c04-b69f-71c2373abb19
+
+2024-03-28T12:29:38.787Z REPORT RequestId: 41672fbd-53df-5c04-b69f-71c2373abb19	Duration: 395.99 ms	Billed Duration: 396 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1064.81 ms	
+

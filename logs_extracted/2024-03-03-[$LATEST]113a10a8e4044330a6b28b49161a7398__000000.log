@@ -1,0 +1,30 @@
+2024-03-03T14:29:03.604Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-03T14:29:04.800Z START RequestId: e105b45f-3f10-5f18-99ec-ea01b44cdfc7 Version: $LATEST
+
+2024-03-03T14:29:04.931Z 2024-03-03T14:29:04.931Z	e105b45f-3f10-5f18-99ec-ea01b44cdfc7	INFO	Processing message f66776c9-7b9a-4aff-954a-278f8332008b
+
+2024-03-03T14:29:04.983Z 2024-03-03T14:29:04.983Z	e105b45f-3f10-5f18-99ec-ea01b44cdfc7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR2BFQG91QHRXKYCNAZ5CMTZ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'd8e22713-a177-4738-bdb6-e48b189eb487',
+    paymentBalance: 240,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#d8e22713-a177-4738-bdb6-e48b189eb487","planType":"custom","goal":"loseWeight","eventSessionId":"49d888da-a166-4b78-aab1-7a2ca79332b5","walletSk":"f9926caf-4875-4316-b650-6060d4142632","deliveryTime":"morning","dietType":"low-carb","renewalDate":"2024-03-05","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"custom\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\"],\\"pricePerDay\\":10,\\"dietType\\":\\"low-carb\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-03-05\\",\\"deliveryDays\\":[0,1,2,3,4,6]}","addonSubscription":"[]"}',
+    currency: 'KWD',
+    amount: 239,
+    vat: 0,
+    oldBalance: 1,
+    newBalance: 240
+  }
+}
+
+2024-03-03T14:29:05.072Z 2024-03-03T14:29:05.072Z	e105b45f-3f10-5f18-99ec-ea01b44cdfc7	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-03T14:29:05.127Z END RequestId: e105b45f-3f10-5f18-99ec-ea01b44cdfc7
+
+2024-03-03T14:29:05.127Z REPORT RequestId: e105b45f-3f10-5f18-99ec-ea01b44cdfc7	Duration: 326.63 ms	Billed Duration: 327 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1194.64 ms	
+

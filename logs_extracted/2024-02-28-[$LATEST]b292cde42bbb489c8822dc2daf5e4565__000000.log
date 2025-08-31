@@ -1,0 +1,36 @@
+2024-02-28T11:56:40.186Z START RequestId: cdacab10-0907-5807-bad3-f54928a1f5d0 Version: $LATEST
+
+2024-02-28T11:56:40.331Z 2024-02-28T11:56:40.331Z	cdacab10-0907-5807-bad3-f54928a1f5d0	INFO	Processing message 6972f6b0-ced2-47bc-ac52-358867227bf4
+
+2024-02-28T11:56:40.389Z 2024-02-28T11:56:40.389Z	cdacab10-0907-5807-bad3-f54928a1f5d0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQQS5RQF96QEA5863ZWJWBJB',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 362,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","eventSessionId":"7fc2bac1-e5ec-4cfe-bc64-c307108661b9","walletSk":"b3a3298c-6b49-46e8-9164-04333a49df68","version2":true}',
+    currency: 'BHD',
+    amount: 11,
+    vat: 1,
+    oldBalance: 197,
+    newBalance: 207
+  }
+}
+
+2024-02-28T11:56:40.498Z 2024-02-28T11:56:40.498Z	cdacab10-0907-5807-bad3-f54928a1f5d0	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T11:56:40.535Z 2024-02-28T11:56:40.535Z	cdacab10-0907-5807-bad3-f54928a1f5d0	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 207,
+  paymentBalance: 362
+}
+
+2024-02-28T11:56:40.560Z END RequestId: cdacab10-0907-5807-bad3-f54928a1f5d0
+
+2024-02-28T11:56:40.560Z REPORT RequestId: cdacab10-0907-5807-bad3-f54928a1f5d0	Duration: 373.75 ms	Billed Duration: 374 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	Init Duration: 1201.90 ms	
+
+2024-02-28T11:56:38.982Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+

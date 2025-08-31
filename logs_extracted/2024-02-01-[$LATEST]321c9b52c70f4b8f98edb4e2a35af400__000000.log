@@ -1,0 +1,30 @@
+2024-02-01T08:41:45.640Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-02-01T08:41:46.369Z START RequestId: 71095738-4e6c-5843-b26f-090d151099de Version: $LATEST
+
+2024-02-01T08:41:46.534Z 2024-02-01T08:41:46.534Z	71095738-4e6c-5843-b26f-090d151099de	INFO	Processing message 726dc488-c5bd-4429-923f-66f4a4eadd34
+
+2024-02-01T08:41:46.582Z 2024-02-01T08:41:46.582Z	71095738-4e6c-5843-b26f-090d151099de	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNHX9GK9WV621GQ47TCE44DF',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '7cbe3797-c6a1-492c-9c31-8bd1c8c38d90',
+    paymentBalance: 370.909,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#7cbe3797-c6a1-492c-9c31-8bd1c8c38d90","country":"BH","couponDiscount":0,"eventSessionId":"51bede91-515f-415f-ae39-4b838b0c0ada","walletSk":"9d0a369e-8e60-4b25-8d84-637b8792a620","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"FRUITS_AND_VEGGIES\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.09090909090909,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"FRUITS_AND_VEGGIES\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.09090909090909,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"FRUITS_AND_VEGGIES\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.09090909090909,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":true,\\"category\\":\\"FRUITS_AND_VEGGIES\\",\\"endDate\\":\\"2024-02-29\\",\\"startDate\\":\\"2024-02-03\\",\\"pricePerDay\\":1.09090909090909,\\"currency\\":\\"BHD\\"}]","subscriptionId":"7cbe3797-c6a1-492c-9c31-8bd1c8c38d90","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 232,
+    vat: 21.091,
+    oldBalance: 160,
+    newBalance: 370.909
+  }
+}
+
+2024-02-01T08:41:46.690Z 2024-02-01T08:41:46.690Z	71095738-4e6c-5843-b26f-090d151099de	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-01T08:41:46.732Z END RequestId: 71095738-4e6c-5843-b26f-090d151099de
+
+2024-02-01T08:41:46.732Z REPORT RequestId: 71095738-4e6c-5843-b26f-090d151099de	Duration: 362.79 ms	Billed Duration: 363 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 727.22 ms	
+

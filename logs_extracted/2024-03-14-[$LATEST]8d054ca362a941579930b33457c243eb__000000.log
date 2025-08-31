@@ -1,0 +1,30 @@
+2024-03-14T13:58:58.608Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-14T13:58:59.668Z START RequestId: fbda98a5-3424-5dfc-9695-c6c830f9c9bf Version: $LATEST
+
+2024-03-14T13:58:59.848Z 2024-03-14T13:58:59.848Z	fbda98a5-3424-5dfc-9695-c6c830f9c9bf	INFO	Processing message d256f4c1-ef44-4377-970c-9973694f75d7
+
+2024-03-14T13:58:59.898Z 2024-03-14T13:58:59.898Z	fbda98a5-3424-5dfc-9695-c6c830f9c9bf	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRYM4HP9S63J9RWA4MQ9C7DK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'db6f61ad-2c50-447e-b22a-69cbdefd1b93',
+    paymentBalance: 2040,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#db6f61ad-2c50-447e-b22a-69cbdefd1b93","country":"SA","couponDiscount":0,"eventSessionId":"13a00382-959d-4f1f-a1dc-a6b119466392","walletSk":"d66160cc-0ec3-41e7-a247-c86382384d6b","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-04-11\\",\\"startDate\\":\\"2024-03-16\\",\\"pricePerDay\\":12,\\"currency\\":\\"SAR\\"}]","addonDayCount":20,"subscriptionId":"db6f61ad-2c50-447e-b22a-69cbdefd1b93","kitchen":"SA001"}',
+    currency: 'SAR',
+    amount: 276,
+    vat: 36,
+    oldBalance: 1800,
+    newBalance: 2040
+  }
+}
+
+2024-03-14T13:58:59.997Z 2024-03-14T13:58:59.997Z	fbda98a5-3424-5dfc-9695-c6c830f9c9bf	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-14T13:59:00.040Z END RequestId: fbda98a5-3424-5dfc-9695-c6c830f9c9bf
+
+2024-03-14T13:59:00.040Z REPORT RequestId: fbda98a5-3424-5dfc-9695-c6c830f9c9bf	Duration: 371.91 ms	Billed Duration: 372 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 1059.26 ms	
+

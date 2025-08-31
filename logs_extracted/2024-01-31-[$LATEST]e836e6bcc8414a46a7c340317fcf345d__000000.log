@@ -1,0 +1,70 @@
+2024-01-31T07:58:01.329Z START RequestId: 4926c266-5a33-5fb0-affb-9c55a585edf7 Version: $LATEST
+
+2024-01-31T07:58:01.449Z 2024-01-31T07:58:01.449Z	4926c266-5a33-5fb0-affb-9c55a585edf7	INFO	Processing message d25c2072-5bef-467a-b05b-521191d2d471
+
+2024-01-31T07:58:01.482Z 2024-01-31T07:58:01.482Z	4926c266-5a33-5fb0-affb-9c55a585edf7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNF8CQT925N80JVXZFMY5F4W',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '8fd614d8-9638-4c66-8345-319280777aae',
+    paymentBalance: 2586.691,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8fd614d8-9638-4c66-8345-319280777aae","deliveryId":"139f7bfd-ef36-4f46-bf29-7c2842b419c9","eventSessionId":"57af50cf-f7c2-4418-a7fa-b4e901d7b7cc","walletSk":"5052d376-0e48-4db2-abfe-eaa3435e54b9","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":[\\"GIFT_CARDS\\"]}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 1020,
+    newBalance: 1055
+  }
+}
+
+2024-01-31T07:58:01.551Z 2024-01-31T07:58:01.551Z	4926c266-5a33-5fb0-affb-9c55a585edf7	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-31T07:58:01.593Z 2024-01-31T07:58:01.593Z	4926c266-5a33-5fb0-affb-9c55a585edf7	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '8fd614d8-9638-4c66-8345-319280777aae',
+  subscriptionBalance: 1055,
+  paymentBalance: 2586.691
+}
+
+2024-01-31T07:58:01.610Z END RequestId: 4926c266-5a33-5fb0-affb-9c55a585edf7
+
+2024-01-31T07:58:01.611Z REPORT RequestId: 4926c266-5a33-5fb0-affb-9c55a585edf7	Duration: 281.37 ms	Billed Duration: 282 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	
+
+2024-01-31T07:55:00.561Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-31T07:55:01.268Z START RequestId: 65c8a2fc-c958-527f-a25e-fccf3648d038 Version: $LATEST
+
+2024-01-31T07:55:01.401Z 2024-01-31T07:55:01.401Z	65c8a2fc-c958-527f-a25e-fccf3648d038	INFO	Processing message c0bd23f8-1243-400b-98d8-cf799ca0062f
+
+2024-01-31T07:55:01.449Z 2024-01-31T07:55:01.449Z	65c8a2fc-c958-527f-a25e-fccf3648d038	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNF8769HW9409808C0YR9ZC7',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '8fd614d8-9638-4c66-8345-319280777aae',
+    paymentBalance: 2551.691,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8fd614d8-9638-4c66-8345-319280777aae","deliveryId":"139f7bfd-ef36-4f46-bf29-7c2842b419c9","eventSessionId":"98ff297a-1508-4dbb-955f-d3f90a56f1b3","walletSk":"58d57569-0c31-45b6-a2cf-de410c2e4bcf","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 985,
+    newBalance: 1020
+  }
+}
+
+2024-01-31T07:55:01.551Z 2024-01-31T07:55:01.551Z	65c8a2fc-c958-527f-a25e-fccf3648d038	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-31T07:55:01.589Z 2024-01-31T07:55:01.589Z	65c8a2fc-c958-527f-a25e-fccf3648d038	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '8fd614d8-9638-4c66-8345-319280777aae',
+  subscriptionBalance: 1020,
+  paymentBalance: 2551.691
+}
+
+2024-01-31T07:55:01.611Z END RequestId: 65c8a2fc-c958-527f-a25e-fccf3648d038
+
+2024-01-31T07:55:01.611Z REPORT RequestId: 65c8a2fc-c958-527f-a25e-fccf3648d038	Duration: 342.45 ms	Billed Duration: 343 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 706.14 ms	
+

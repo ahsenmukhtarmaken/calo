@@ -1,0 +1,30 @@
+2024-03-14T01:13:54.373Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-14T01:13:55.439Z START RequestId: b0341bae-c5da-518f-811d-45c2945af449 Version: $LATEST
+
+2024-03-14T01:13:55.602Z 2024-03-14T01:13:55.602Z	b0341bae-c5da-518f-811d-45c2945af449	INFO	Processing message f8f051ba-2581-4006-bb5a-f5c4881e650e
+
+2024-03-14T01:13:55.665Z 2024-03-14T01:13:55.665Z	b0341bae-c5da-518f-811d-45c2945af449	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRX8BNBK1H68R58SR0GC1CV9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: 'eb6a1409-5026-4d2f-8124-bc37006fb11a',
+    paymentBalance: 1810,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6a1409-5026-4d2f-8124-bc37006fb11a","eventSessionId":"97094e14-ddb8-4d09-860f-5be328ee4e79","walletSk":"58c71f4c-b9d1-4922-a785-f4c2c72adafe","version2":true}',
+    currency: 'SAR',
+    amount: 11.5,
+    vat: 1.5,
+    oldBalance: 1800,
+    newBalance: 1810
+  }
+}
+
+2024-03-14T01:13:55.770Z 2024-03-14T01:13:55.770Z	b0341bae-c5da-518f-811d-45c2945af449	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-14T01:13:55.812Z END RequestId: b0341bae-c5da-518f-811d-45c2945af449
+
+2024-03-14T01:13:55.812Z REPORT RequestId: b0341bae-c5da-518f-811d-45c2945af449	Duration: 373.54 ms	Billed Duration: 374 ms	Memory Size: 1024 MB	Max Memory Used: 114 MB	Init Duration: 1065.00 ms	
+

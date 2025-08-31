@@ -1,0 +1,557 @@
+2024-04-22T21:01:01.878Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-22T21:01:02.884Z START RequestId: e4625b08-6d42-578a-839f-05a8bf7bb640 Version: $LATEST
+
+2024-04-22T21:01:03.083Z 2024-04-22T21:01:03.083Z	e4625b08-6d42-578a-839f-05a8bf7bb640	INFO	Processing message 94a0b732-43b6-4fb4-ae88-bef60b1d6dd6
+
+2024-04-22T21:01:03.135Z 2024-04-22T21:01:03.135Z	e4625b08-6d42-578a-839f-05a8bf7bb640	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSCJBN4CKWT5N8VT80MC6',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '6f19e21c-ef6b-4f56-9d4d-9f17262be110',
+    paymentBalance: 2392.932,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#6f19e21c-ef6b-4f56-9d4d-9f17262be110","deliveryId":"cb0d338f-567a-41fd-87e9-1b6482493cac","walletSk":"cb0d338f-567a-41fd-87e9-1b6482493cac"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 91,
+    newBalance: 82
+  }
+}
+
+2024-04-22T21:01:03.246Z 2024-04-22T21:01:03.246Z	e4625b08-6d42-578a-839f-05a8bf7bb640	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.296Z 2024-04-22T21:01:03.296Z	e4625b08-6d42-578a-839f-05a8bf7bb640	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '6f19e21c-ef6b-4f56-9d4d-9f17262be110',
+  subscriptionBalance: 82,
+  paymentBalance: 2392.932
+}
+
+2024-04-22T21:01:03.321Z END RequestId: e4625b08-6d42-578a-839f-05a8bf7bb640
+
+2024-04-22T21:01:03.321Z REPORT RequestId: e4625b08-6d42-578a-839f-05a8bf7bb640	Duration: 439.25 ms	Billed Duration: 440 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1002.11 ms	
+XRAY TraceId: 1-6626d00d-3621fbd27c81122ed3b5822d	SegmentId: 22e33aa07ebe2c4b	Sampled: true	
+
+2024-04-22T21:01:03.445Z START RequestId: da53f0f3-fee2-52a8-ab0b-ae532cad9e00 Version: $LATEST
+
+2024-04-22T21:01:03.472Z 2024-04-22T21:01:03.472Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Processing message 9b6f3943-fd1c-4d23-bd8b-4b02eb77132d
+
+2024-04-22T21:01:03.481Z 2024-04-22T21:01:03.481Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSD4XRDAFG934N5VKS8FT',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '63d937b3-2d87-4d4b-99e2-863c1dc9b27e',
+    paymentBalance: 1980,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#63d937b3-2d87-4d4b-99e2-863c1dc9b27e","deliveryId":"5df78270-e7af-4772-9666-5f3a9149fc02","walletSk":"5df78270-e7af-4772-9666-5f3a9149fc02"}',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2070,
+    newBalance: 1980
+  }
+}
+
+2024-04-22T21:01:03.535Z 2024-04-22T21:01:03.535Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.551Z 2024-04-22T21:01:03.551Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Processing message 5b945ec8-b0be-4f1e-927c-c911ec65dd07
+
+2024-04-22T21:01:03.559Z 2024-04-22T21:01:03.559Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSDCFTNRNJGX42DVSW2YD',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'b6e8cafc-c00f-4c97-8791-1fcf03973615',
+    paymentBalance: 2070,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#b6e8cafc-c00f-4c97-8791-1fcf03973615","deliveryId":"520884b7-c375-4f9f-aad4-6bb7c2576ace","walletSk":"520884b7-c375-4f9f-aad4-6bb7c2576ace"}',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2160,
+    newBalance: 2070
+  }
+}
+
+2024-04-22T21:01:03.610Z 2024-04-22T21:01:03.610Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.626Z 2024-04-22T21:01:03.626Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Processing message e34e8899-4145-4dff-84a3-a39a092068f0
+
+2024-04-22T21:01:03.632Z 2024-04-22T21:01:03.632Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSDYTCCE2AABR5DM11AB8',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+    paymentBalance: 191.292,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#ada642e4-bef1-4fd9-8b93-7f3f3813ae19","deliveryId":"966317b0-9164-4f60-bffb-da3a7429f029","walletSk":"966317b0-9164-4f60-bffb-da3a7429f029"}',
+    currency: 'BHD',
+    amount: 10.8,
+    vat: 0,
+    oldBalance: 218.092,
+    newBalance: 207.292
+  }
+}
+
+2024-04-22T21:01:03.677Z 2024-04-22T21:01:03.677Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.690Z 2024-04-22T21:01:03.690Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+  subscriptionBalance: 207.292,
+  paymentBalance: 191.292
+}
+
+2024-04-22T21:01:03.707Z 2024-04-22T21:01:03.707Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Processing message 79f817cc-1c5a-46cf-bdbb-c52caf580827
+
+2024-04-22T21:01:03.714Z 2024-04-22T21:01:03.714Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSE59PZH03FCPCFHDSBXM',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '9e652ba2-e1f3-4c64-a256-7bc39337e0ca',
+    paymentBalance: 126.908,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#9e652ba2-e1f3-4c64-a256-7bc39337e0ca","deliveryId":"0866cb9c-6b0e-439d-9afa-d9b4b60bf545","walletSk":"0866cb9c-6b0e-439d-9afa-d9b4b60bf545"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 136.908,
+    newBalance: 126.908
+  }
+}
+
+2024-04-22T21:01:03.759Z 2024-04-22T21:01:03.759Z	da53f0f3-fee2-52a8-ab0b-ae532cad9e00	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.773Z END RequestId: da53f0f3-fee2-52a8-ab0b-ae532cad9e00
+
+2024-04-22T21:01:03.773Z REPORT RequestId: da53f0f3-fee2-52a8-ab0b-ae532cad9e00	Duration: 328.42 ms	Billed Duration: 329 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	
+XRAY TraceId: 1-6626d00f-4bdb5ee8b198391d459bac2e	SegmentId: 1b13c11a313502b2	Sampled: true	
+
+2024-04-22T21:01:03.821Z START RequestId: e978c9c0-7af2-587f-96c9-9760a8bda4d7 Version: $LATEST
+
+2024-04-22T21:01:03.851Z 2024-04-22T21:01:03.851Z	e978c9c0-7af2-587f-96c9-9760a8bda4d7	INFO	Processing message 19422f66-d4ce-4224-aa88-49b80b434539
+
+2024-04-22T21:01:03.857Z 2024-04-22T21:01:03.857Z	e978c9c0-7af2-587f-96c9-9760a8bda4d7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSF9NS203Z7N1EEXS3E52',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'face7bee-4afe-4d4e-932f-778190df3e54',
+    paymentBalance: 15,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#face7bee-4afe-4d4e-932f-778190df3e54","deliveryId":"5f3ed3d5-5d17-4711-95dc-e987f486a587","walletSk":"5f3ed3d5-5d17-4711-95dc-e987f486a587"}',
+    currency: 'BHD',
+    amount: 5,
+    vat: 0,
+    oldBalance: 20,
+    newBalance: 15
+  }
+}
+
+2024-04-22T21:01:03.905Z 2024-04-22T21:01:03.905Z	e978c9c0-7af2-587f-96c9-9760a8bda4d7	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:03.921Z END RequestId: e978c9c0-7af2-587f-96c9-9760a8bda4d7
+
+2024-04-22T21:01:03.921Z REPORT RequestId: e978c9c0-7af2-587f-96c9-9760a8bda4d7	Duration: 100.32 ms	Billed Duration: 101 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	
+
+2024-04-22T21:01:04.061Z START RequestId: e04b9683-e4a9-5c02-a4d4-c82336e620aa Version: $LATEST
+
+2024-04-22T21:01:04.112Z 2024-04-22T21:01:04.112Z	e04b9683-e4a9-5c02-a4d4-c82336e620aa	INFO	Processing message c5ad2a72-3177-42e0-bffe-9f718df34f89
+
+2024-04-22T21:01:04.121Z 2024-04-22T21:01:04.121Z	e04b9683-e4a9-5c02-a4d4-c82336e620aa	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFBV0560A7XA03QYA6QW',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'd5aae41c-e806-48f6-a980-25f322899a4a',
+    paymentBalance: 3240.44,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d5aae41c-e806-48f6-a980-25f322899a4a","deliveryId":"38fbe9b2-d9e9-4ae1-96a3-66e2a9b544f3","walletSk":"38fbe9b2-d9e9-4ae1-96a3-66e2a9b544f3"}',
+    currency: 'SAR',
+    amount: 95.65,
+    vat: 0,
+    oldBalance: 1626.09,
+    newBalance: 1530.44
+  }
+}
+
+2024-04-22T21:01:04.167Z 2024-04-22T21:01:04.167Z	e04b9683-e4a9-5c02-a4d4-c82336e620aa	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.264Z 2024-04-22T21:01:04.264Z	e04b9683-e4a9-5c02-a4d4-c82336e620aa	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'd5aae41c-e806-48f6-a980-25f322899a4a',
+  subscriptionBalance: 1530.44,
+  paymentBalance: 3240.44
+}
+
+2024-04-22T21:01:04.283Z END RequestId: e04b9683-e4a9-5c02-a4d4-c82336e620aa
+
+2024-04-22T21:01:04.283Z REPORT RequestId: e04b9683-e4a9-5c02-a4d4-c82336e620aa	Duration: 221.67 ms	Billed Duration: 222 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	
+
+2024-04-22T21:01:04.459Z START RequestId: b6dcf4f3-dcc7-5004-99cf-aa530e97ecac Version: $LATEST
+
+2024-04-22T21:01:04.488Z 2024-04-22T21:01:04.488Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	Processing message 868e9df3-d665-4d68-b890-9d4355a83a4c
+
+2024-04-22T21:01:04.494Z 2024-04-22T21:01:04.494Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSF3S0Z93C7PZDCD7KVHY',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '60cddb49-50de-43ce-89fc-c6dd1ce17c41',
+    paymentBalance: 4779,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#60cddb49-50de-43ce-89fc-c6dd1ce17c41","deliveryId":"309c3168-1db2-44f7-b817-cf539d5df72f","walletSk":"309c3168-1db2-44f7-b817-cf539d5df72f"}',
+    currency: 'SAR',
+    amount: 81,
+    vat: 0,
+    oldBalance: 4860,
+    newBalance: 4779
+  }
+}
+
+2024-04-22T21:01:04.544Z 2024-04-22T21:01:04.544Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.557Z 2024-04-22T21:01:04.557Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	Processing message c5ccb486-6f13-4d03-85af-6b7343b9801a
+
+2024-04-22T21:01:04.562Z 2024-04-22T21:01:04.562Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSF6H1QQM6XY70E58SQJ8',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '5cf444b8-09b4-4a03-b22d-f3141a817dd8',
+    paymentBalance: 112.726,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#5cf444b8-09b4-4a03-b22d-f3141a817dd8","deliveryId":"abbd245f-2f10-4c00-ac16-eea00eef5e3d","walletSk":"abbd245f-2f10-4c00-ac16-eea00eef5e3d"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 129.726,
+    newBalance: 120.726
+  }
+}
+
+2024-04-22T21:01:04.612Z 2024-04-22T21:01:04.612Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.628Z 2024-04-22T21:01:04.628Z	b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '5cf444b8-09b4-4a03-b22d-f3141a817dd8',
+  subscriptionBalance: 120.726,
+  paymentBalance: 112.726
+}
+
+2024-04-22T21:01:04.648Z END RequestId: b6dcf4f3-dcc7-5004-99cf-aa530e97ecac
+
+2024-04-22T21:01:04.648Z REPORT RequestId: b6dcf4f3-dcc7-5004-99cf-aa530e97ecac	Duration: 188.45 ms	Billed Duration: 189 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	
+
+2024-04-22T21:01:04.673Z START RequestId: fd9d45cd-4b1d-5950-82e3-1b6d994d089a Version: $LATEST
+
+2024-04-22T21:01:04.702Z 2024-04-22T21:01:04.702Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message 402a7f45-1427-498e-bd5d-d56b43026638
+
+2024-04-22T21:01:04.722Z 2024-04-22T21:01:04.722Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFDZDDH81QXPPSW30TVT',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'f3d4c61b-6917-4a7c-99c0-aaa26571e99e',
+    paymentBalance: 136.09,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f3d4c61b-6917-4a7c-99c0-aaa26571e99e","deliveryId":"0a0404b9-52a9-4e2e-aaf3-a18c812e829b","walletSk":"0a0404b9-52a9-4e2e-aaf3-a18c812e829b"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 145.09,
+    newBalance: 136.09
+  }
+}
+
+2024-04-22T21:01:04.769Z 2024-04-22T21:01:04.769Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.783Z 2024-04-22T21:01:04.783Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message e51ff60a-32be-45be-98b8-4d8fd252658b
+
+2024-04-22T21:01:04.790Z 2024-04-22T21:01:04.790Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFH0BNDG2M7RB1B1VN3Q',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '47fd738e-3867-4098-aeff-2476c299d464',
+    paymentBalance: 245.636,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#47fd738e-3867-4098-aeff-2476c299d464","deliveryId":"b6f54cbd-3016-46ee-aa58-2617dff865ae","walletSk":"b6f54cbd-3016-46ee-aa58-2617dff865ae"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 254.636,
+    newBalance: 245.636
+  }
+}
+
+2024-04-22T21:01:04.843Z 2024-04-22T21:01:04.843Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.855Z 2024-04-22T21:01:04.855Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message d13ea55b-9bc6-4638-a67f-40cd9382c5c3
+
+2024-04-22T21:01:04.862Z 2024-04-22T21:01:04.862Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFP97CHDPBMTMTR63QP3',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '61445a84-78c0-43a8-894f-77137ba2279e',
+    paymentBalance: 318.545,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#61445a84-78c0-43a8-894f-77137ba2279e","deliveryId":"da6fbf5f-03ec-4e41-bc8f-f1846c064bb3","walletSk":"da6fbf5f-03ec-4e41-bc8f-f1846c064bb3"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 327.545,
+    newBalance: 318.545
+  }
+}
+
+2024-04-22T21:01:04.907Z 2024-04-22T21:01:04.907Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:04.921Z 2024-04-22T21:01:04.921Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message a70fb0f4-fe5f-4308-b013-3cf9b5692153
+
+2024-04-22T21:01:04.928Z 2024-04-22T21:01:04.928Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFK4Q2JRWPCJ55XHGKKH',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71',
+    paymentBalance: 16.546,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#0c2fd1eb-2c53-4fe5-83f3-e75d2cedab71","deliveryId":"75906396-e1f3-4395-9625-ceab287c6c44","walletSk":"75906396-e1f3-4395-9625-ceab287c6c44"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 25.546,
+    newBalance: 16.546
+  }
+}
+
+2024-04-22T21:01:04.990Z 2024-04-22T21:01:04.990Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:05.006Z 2024-04-22T21:01:05.006Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message b028c7c1-14fd-4625-bbad-b6aba8fde407
+
+2024-04-22T21:01:05.012Z 2024-04-22T21:01:05.012Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFQZAP0MRWQQ03KTAA4H',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '1963eefb-4ac2-423c-bcd2-c113600309a6',
+    paymentBalance: 1980,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1963eefb-4ac2-423c-bcd2-c113600309a6","deliveryId":"16047b69-d1c3-49bc-b197-90f06661377c","walletSk":"16047b69-d1c3-49bc-b197-90f06661377c"}',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2070,
+    newBalance: 1980
+  }
+}
+
+2024-04-22T21:01:05.056Z 2024-04-22T21:01:05.056Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:05.069Z 2024-04-22T21:01:05.069Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message e28abec3-65f9-4c06-80d6-81108a28b205
+
+2024-04-22T21:01:05.076Z 2024-04-22T21:01:05.076Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFXBJZY40TZCEV88JGX5',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '3c8cc622-c7bf-4e77-bbc0-a11d28bb978e',
+    paymentBalance: 656,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#3c8cc622-c7bf-4e77-bbc0-a11d28bb978e","deliveryId":"7135f89e-7ad3-4db8-bf7a-d0dc743853c6","walletSk":"7135f89e-7ad3-4db8-bf7a-d0dc743853c6"}',
+    currency: 'AED',
+    amount: 82,
+    vat: 0,
+    oldBalance: 738,
+    newBalance: 656
+  }
+}
+
+2024-04-22T21:01:05.126Z 2024-04-22T21:01:05.126Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:05.142Z 2024-04-22T21:01:05.142Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message 8c5bddd6-ac7f-453b-a288-4e5191c5a75a
+
+2024-04-22T21:01:05.148Z 2024-04-22T21:01:05.148Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFXJED03M1CBVZRP2T4G',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '74adce2a-39bc-4867-b6a8-84bbc95c7170',
+    paymentBalance: 162.454,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#74adce2a-39bc-4867-b6a8-84bbc95c7170","deliveryId":"fb5aadb8-150f-42c0-b03e-8f29123f1b68","walletSk":"fb5aadb8-150f-42c0-b03e-8f29123f1b68"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 172.454,
+    newBalance: 162.454
+  }
+}
+
+2024-04-22T21:01:05.193Z 2024-04-22T21:01:05.193Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:05.214Z 2024-04-22T21:01:05.214Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Processing message 206c9a94-ca71-4d63-9b0d-e8b69d8ea2ec
+
+2024-04-22T21:01:05.220Z 2024-04-22T21:01:05.220Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSFZRGQGSMV6VWDTTZ1T3',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '3c69deb3-2d26-4954-865d-164c08a6c20c',
+    paymentBalance: 1378.363,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#3c69deb3-2d26-4954-865d-164c08a6c20c","deliveryId":"1111ad5d-49f7-4255-88a6-8d12499ad30b","walletSk":"1111ad5d-49f7-4255-88a6-8d12499ad30b"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 1387.363,
+    newBalance: 1378.363
+  }
+}
+
+2024-04-22T21:01:05.300Z 2024-04-22T21:01:05.300Z	fd9d45cd-4b1d-5950-82e3-1b6d994d089a	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:05.315Z END RequestId: fd9d45cd-4b1d-5950-82e3-1b6d994d089a
+
+2024-04-22T21:01:05.315Z REPORT RequestId: fd9d45cd-4b1d-5950-82e3-1b6d994d089a	Duration: 641.97 ms	Billed Duration: 642 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+XRAY TraceId: 1-6626d010-bf2a7d38f98231611a533c0b	SegmentId: 4ee6ae840d6954ab	Sampled: true	
+
+2024-04-22T21:01:14.098Z START RequestId: 06788de8-0fe3-518f-a0ee-d348ddb3dd27 Version: $LATEST
+
+2024-04-22T21:01:14.130Z 2024-04-22T21:01:14.130Z	06788de8-0fe3-518f-a0ee-d348ddb3dd27	INFO	Processing message 60dd12ed-d03e-4a48-8c47-5d7004e3e7e4
+
+2024-04-22T21:01:14.161Z 2024-04-22T21:01:14.161Z	06788de8-0fe3-518f-a0ee-d348ddb3dd27	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSS4GQEY24MJG10JMVSHZ',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'f54e6dc7-f49b-424d-9e1f-61c85a1fedbd',
+    paymentBalance: 2070,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f54e6dc7-f49b-424d-9e1f-61c85a1fedbd","deliveryId":"ebf3b277-602b-4fa9-80eb-5fdbb5fdb832","walletSk":"ebf3b277-602b-4fa9-80eb-5fdbb5fdb832"}',
+    currency: 'SAR',
+    amount: 90,
+    vat: 0,
+    oldBalance: 2160,
+    newBalance: 2070
+  }
+}
+
+2024-04-22T21:01:14.226Z 2024-04-22T21:01:14.226Z	06788de8-0fe3-518f-a0ee-d348ddb3dd27	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:14.259Z END RequestId: 06788de8-0fe3-518f-a0ee-d348ddb3dd27
+
+2024-04-22T21:01:14.259Z REPORT RequestId: 06788de8-0fe3-518f-a0ee-d348ddb3dd27	Duration: 161.81 ms	Billed Duration: 162 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-04-22T21:01:14.290Z START RequestId: 3c7c0644-ad2d-59fb-9465-58e47f77b553 Version: $LATEST
+
+2024-04-22T21:01:14.320Z 2024-04-22T21:01:14.320Z	3c7c0644-ad2d-59fb-9465-58e47f77b553	INFO	Processing message 7a8edf1c-8515-4c60-a034-ca9dbdef2ea5
+
+2024-04-22T21:01:14.326Z 2024-04-22T21:01:14.326Z	3c7c0644-ad2d-59fb-9465-58e47f77b553	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSS47TH37B82N2480GSNR',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'f380b5b2-4e39-49d3-a51a-47b9b9445222',
+    paymentBalance: 160.182,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f380b5b2-4e39-49d3-a51a-47b9b9445222","deliveryId":"15f812de-0716-44d3-933d-2f102fec4037","walletSk":"15f812de-0716-44d3-933d-2f102fec4037"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 169.182,
+    newBalance: 160.182
+  }
+}
+
+2024-04-22T21:01:14.384Z 2024-04-22T21:01:14.384Z	3c7c0644-ad2d-59fb-9465-58e47f77b553	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:14.399Z END RequestId: 3c7c0644-ad2d-59fb-9465-58e47f77b553
+
+2024-04-22T21:01:14.399Z REPORT RequestId: 3c7c0644-ad2d-59fb-9465-58e47f77b553	Duration: 109.09 ms	Billed Duration: 110 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-04-22T21:01:14.813Z START RequestId: dfb1bae0-d536-522e-87fc-e440076cee86 Version: $LATEST
+
+2024-04-22T21:01:14.841Z 2024-04-22T21:01:14.841Z	dfb1bae0-d536-522e-87fc-e440076cee86	INFO	Processing message 9feb1a93-0e98-4519-bd99-c1c3f879aa22
+
+2024-04-22T21:01:14.848Z 2024-04-22T21:01:14.848Z	dfb1bae0-d536-522e-87fc-e440076cee86	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SST05PTKVFPFR3MR2MMX3',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+    paymentBalance: -306.07,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#80308098-8d24-4be6-96c2-f4c2c5e03699","deliveryId":"439ebfe9-1e4d-4f12-ad8f-8d9169b93fc9","walletSk":"439ebfe9-1e4d-4f12-ad8f-8d9169b93fc9"}',
+    currency: 'SAR',
+    amount: 70,
+    vat: 0,
+    oldBalance: 1503.06,
+    newBalance: 1433.06
+  }
+}
+
+2024-04-22T21:01:14.893Z 2024-04-22T21:01:14.893Z	dfb1bae0-d536-522e-87fc-e440076cee86	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:14.904Z 2024-04-22T21:01:14.904Z	dfb1bae0-d536-522e-87fc-e440076cee86	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+  subscriptionBalance: 1433.06,
+  paymentBalance: -306.07
+}
+
+2024-04-22T21:01:14.925Z END RequestId: dfb1bae0-d536-522e-87fc-e440076cee86
+
+2024-04-22T21:01:14.925Z REPORT RequestId: dfb1bae0-d536-522e-87fc-e440076cee86	Duration: 111.98 ms	Billed Duration: 112 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-04-22T21:01:15.575Z START RequestId: c7dd610a-8812-5b99-a82b-3faa5a48d731 Version: $LATEST
+
+2024-04-22T21:01:15.604Z 2024-04-22T21:01:15.604Z	c7dd610a-8812-5b99-a82b-3faa5a48d731	INFO	Processing message 68c3d775-98bb-49ff-97c5-ddf0a9dacfab
+
+2024-04-22T21:01:15.610Z 2024-04-22T21:01:15.610Z	c7dd610a-8812-5b99-a82b-3faa5a48d731	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HW3SSTP277TH2GZYXCDC6B0M',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '3b59834f-caa4-4506-8402-e312a7c6ef5f',
+    paymentBalance: 171,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#3b59834f-caa4-4506-8402-e312a7c6ef5f","deliveryId":"6f122177-1c47-4ec9-9532-0b8a68a8310e","walletSk":"6f122177-1c47-4ec9-9532-0b8a68a8310e"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 180,
+    newBalance: 171
+  }
+}
+
+2024-04-22T21:01:15.653Z 2024-04-22T21:01:15.653Z	c7dd610a-8812-5b99-a82b-3faa5a48d731	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-22T21:01:15.682Z END RequestId: c7dd610a-8812-5b99-a82b-3faa5a48d731
+
+2024-04-22T21:01:15.682Z REPORT RequestId: c7dd610a-8812-5b99-a82b-3faa5a48d731	Duration: 107.72 ms	Billed Duration: 108 ms	Memory Size: 1024 MB	Max Memory Used: 128 MB	
+

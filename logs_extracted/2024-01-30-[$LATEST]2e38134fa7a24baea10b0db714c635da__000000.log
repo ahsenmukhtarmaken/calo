@@ -1,0 +1,30 @@
+2024-01-30T10:59:12.923Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-30T10:59:13.654Z START RequestId: 7005791e-d1c8-5664-9498-272c096526cf Version: $LATEST
+
+2024-01-30T10:59:13.803Z 2024-01-30T10:59:13.803Z	7005791e-d1c8-5664-9498-272c096526cf	INFO	Processing message 47762cc3-2e7c-4831-b65a-016b061a3c96
+
+2024-01-30T10:59:13.863Z 2024-01-30T10:59:13.863Z	7005791e-d1c8-5664-9498-272c096526cf	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HND0BRYHGBJ4MJ1SBS460RG8',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'a7c8eb51-8a21-4d1a-a947-d9c711fd67e4',
+    paymentBalance: 312.91,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#a7c8eb51-8a21-4d1a-a947-d9c711fd67e4","country":"BH","couponDiscount":0,"eventSessionId":"3eab2f38-e295-40bf-b141-de7d944df52c","walletSk":"62aca0ba-53d4-431a-bd00-51397f7c5005","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-03-14\\",\\"startDate\\":\\"2024-02-01\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"}]","subscriptionId":"a7c8eb51-8a21-4d1a-a947-d9c711fd67e4","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 62,
+    vat: 5.636,
+    oldBalance: 256.546,
+    newBalance: 312.91
+  }
+}
+
+2024-01-30T10:59:13.968Z 2024-01-30T10:59:13.968Z	7005791e-d1c8-5664-9498-272c096526cf	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-30T10:59:14.021Z END RequestId: 7005791e-d1c8-5664-9498-272c096526cf
+
+2024-01-30T10:59:14.021Z REPORT RequestId: 7005791e-d1c8-5664-9498-272c096526cf	Duration: 366.93 ms	Billed Duration: 367 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 729.20 ms	
+

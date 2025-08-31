@@ -1,0 +1,30 @@
+2024-03-28T12:21:07.539Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T12:21:08.593Z START RequestId: 8349ff09-5114-5789-ab86-a17633f5d5d9 Version: $LATEST
+
+2024-03-28T12:21:08.734Z 2024-03-28T12:21:08.734Z	8349ff09-5114-5789-ab86-a17633f5d5d9	INFO	Processing message e0a38c62-db7d-48bd-9eaa-7e86e4c03305
+
+2024-03-28T12:21:08.806Z 2024-03-28T12:21:08.806Z	8349ff09-5114-5789-ab86-a17633f5d5d9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT2G3DRKJG8TA6MMZK35E1P9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'afdc346e-3110-4f5d-bdab-9c1ed0ac50ba',
+    paymentBalance: 120.091,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#afdc346e-3110-4f5d-bdab-9c1ed0ac50ba","planType":"businessLunch","goal":"loseWeight","eventSessionId":"63f692ee-3e78-4f76-a529-83688beffbb4","walletSk":"01540eb9-4c0a-4622-bb8f-c76c3020e07e","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-04-05","type":"preRenew","frequency":"monthly","subscriptionCost":80,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"businessLunch\\",\\"pricePerDay\\":4,\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":80,\\"startDate\\":\\"2024-04-05\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 88,
+    vat: 8,
+    oldBalance: 40.091,
+    newBalance: 120.091
+  }
+}
+
+2024-03-28T12:21:08.932Z 2024-03-28T12:21:08.932Z	8349ff09-5114-5789-ab86-a17633f5d5d9	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-28T12:21:09.012Z END RequestId: 8349ff09-5114-5789-ab86-a17633f5d5d9
+
+2024-03-28T12:21:09.012Z REPORT RequestId: 8349ff09-5114-5789-ab86-a17633f5d5d9	Duration: 419.13 ms	Billed Duration: 420 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1052.31 ms	
+

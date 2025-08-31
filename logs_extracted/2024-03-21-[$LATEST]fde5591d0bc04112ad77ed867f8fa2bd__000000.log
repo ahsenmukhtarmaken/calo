@@ -1,0 +1,40 @@
+2024-03-21T18:52:54.143Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-21T18:52:55.145Z START RequestId: 70e4544f-6003-57ef-b6ac-0a39e438e3e0 Version: $LATEST
+
+2024-03-21T18:52:55.301Z 2024-03-21T18:52:55.301Z	70e4544f-6003-57ef-b6ac-0a39e438e3e0	INFO	Processing message b92c5fde-b75c-4de9-b17a-3ec8b3fab29a
+
+2024-03-21T18:52:55.347Z 2024-03-21T18:52:55.347Z	70e4544f-6003-57ef-b6ac-0a39e438e3e0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSH5QN8ABFX7DWDCJM866M7D',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'cc2e92e8-63ac-4882-aa93-83d1e99b6d82',
+    paymentBalance: 5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#cc2e92e8-63ac-4882-aa93-83d1e99b6d82","walletSk":"2d92049e-df92-499c-95ea-1677fcd232da"}',
+    currency: 'BHD',
+    amount: 5,
+    vat: 0,
+    oldBalance: 0,
+    newBalance: 5
+  }
+}
+
+2024-03-21T18:52:55.459Z 2024-03-21T18:52:55.459Z	70e4544f-6003-57ef-b6ac-0a39e438e3e0	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-21T18:52:55.512Z END RequestId: 70e4544f-6003-57ef-b6ac-0a39e438e3e0
+
+2024-03-21T18:52:55.512Z REPORT RequestId: 70e4544f-6003-57ef-b6ac-0a39e438e3e0	Duration: 366.81 ms	Billed Duration: 367 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1000.65 ms	
+
+2024-03-21T18:58:06.629Z START RequestId: c22a7b35-86bf-52b9-a006-254303cec3b2 Version: $LATEST
+
+2024-03-21T18:58:06.759Z 2024-03-21T18:58:06.759Z	c22a7b35-86bf-52b9-a006-254303cec3b2	INFO	Processing message a2d468b8-1f61-40f6-897f-c3d0f43c5800
+
+2024-03-21T18:58:06.759Z 2024-03-21T18:58:06.759Z	c22a7b35-86bf-52b9-a006-254303cec3b2	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-03-21T18:58:06.761Z END RequestId: c22a7b35-86bf-52b9-a006-254303cec3b2
+
+2024-03-21T18:58:06.761Z REPORT RequestId: c22a7b35-86bf-52b9-a006-254303cec3b2	Duration: 131.98 ms	Billed Duration: 132 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+

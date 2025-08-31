@@ -1,0 +1,36 @@
+2024-04-17T14:49:45.669Z INIT_START Runtime Version: nodejs:20.v20	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e510d001332c5ac4354ceb185ddd6ef3def14993da7ab2533668b6a6a1ee661d
+
+2024-04-17T14:49:46.731Z START RequestId: 80b4e051-d861-5b3e-94d5-bec83bd64483 Version: $LATEST
+
+2024-04-17T14:49:46.883Z 2024-04-17T14:49:46.883Z	80b4e051-d861-5b3e-94d5-bec83bd64483	INFO	Processing message 77e198a9-ebfd-4ea0-80ea-0a3729e40aff
+
+2024-04-17T14:49:46.934Z 2024-04-17T14:49:46.934Z	80b4e051-d861-5b3e-94d5-bec83bd64483	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVP8HZ655X4ZB08DZAWC7JCD',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'd5aae41c-e806-48f6-a980-25f322899a4a',
+    paymentBalance: 3623.04,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d5aae41c-e806-48f6-a980-25f322899a4a","planType":"full","goal":"loseWeight","eventSessionId":"f8e601d6-df99-44ed-9c0e-31a38c83c8eb","walletSk":"65032247-fd43-4506-9b4e-7d603577c768","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-04-21","type":"userRenew","frequency":"monthly","subscriptionCost":1913.04,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":95.65217391304348,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":1913.04,\\"startDate\\":\\"2024-04-21\\",\\"tier\\":\\"pricingKSAVatInclusiveApril2024\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2200,
+    vat: 286.96,
+    oldBalance: 0,
+    newBalance: 1913.04
+  }
+}
+
+2024-04-17T14:49:47.041Z 2024-04-17T14:49:47.041Z	80b4e051-d861-5b3e-94d5-bec83bd64483	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-17T14:49:47.091Z 2024-04-17T14:49:47.091Z	80b4e051-d861-5b3e-94d5-bec83bd64483	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'd5aae41c-e806-48f6-a980-25f322899a4a',
+  subscriptionBalance: 1913.04,
+  paymentBalance: 3623.04
+}
+
+2024-04-17T14:49:47.114Z END RequestId: 80b4e051-d861-5b3e-94d5-bec83bd64483
+
+2024-04-17T14:49:47.114Z REPORT RequestId: 80b4e051-d861-5b3e-94d5-bec83bd64483	Duration: 383.12 ms	Billed Duration: 384 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1060.54 ms	
+

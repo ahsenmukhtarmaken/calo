@@ -1,0 +1,36 @@
+2024-05-12T04:34:36.098Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-12T04:34:37.151Z START RequestId: 0cff1cf9-a699-5e3d-a715-4243ef96a479 Version: $LATEST
+
+2024-05-12T04:34:37.302Z 2024-05-12T04:34:37.302Z	0cff1cf9-a699-5e3d-a715-4243ef96a479	INFO	Processing message 05b239c9-d7be-4eb6-9b82-69c4a8171181
+
+2024-05-12T04:34:37.376Z 2024-05-12T04:34:37.376Z	0cff1cf9-a699-5e3d-a715-4243ef96a479	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXNH9HQ1VPRS68R9YQYPNZZN',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+    paymentBalance: 194.219,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#ada642e4-bef1-4fd9-8b93-7f3f3813ae19","country":"BH","couponDiscount":0,"eventSessionId":"f301af57-75f3-4bed-bf02-e2f14ccb789c","walletSk":"f29a7345-e442-48f2-b72a-edd7ad43db01","version2":true,"addonSubscriptionCosts":"{\\"CALO_KIDS\\":32.727272727272755}","addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-06-11\\",\\"startDate\\":\\"2024-05-14\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"}]","addonDayCount":18,"subscriptionId":"ada642e4-bef1-4fd9-8b93-7f3f3813ae19","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 36,
+    vat: 3.273,
+    oldBalance: 177.492,
+    newBalance: 210.219
+  }
+}
+
+2024-05-12T04:34:37.513Z 2024-05-12T04:34:37.513Z	0cff1cf9-a699-5e3d-a715-4243ef96a479	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-12T04:34:37.565Z 2024-05-12T04:34:37.565Z	0cff1cf9-a699-5e3d-a715-4243ef96a479	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'ada642e4-bef1-4fd9-8b93-7f3f3813ae19',
+  subscriptionBalance: 210.219,
+  paymentBalance: 194.219
+}
+
+2024-05-12T04:34:37.586Z END RequestId: 0cff1cf9-a699-5e3d-a715-4243ef96a479
+
+2024-05-12T04:34:37.586Z REPORT RequestId: 0cff1cf9-a699-5e3d-a715-4243ef96a479	Duration: 435.33 ms	Billed Duration: 436 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	Init Duration: 1051.59 ms	
+

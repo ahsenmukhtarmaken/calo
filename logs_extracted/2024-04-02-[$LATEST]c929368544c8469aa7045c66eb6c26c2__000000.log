@@ -1,0 +1,36 @@
+2024-04-02T20:30:05.655Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-02T20:30:06.788Z START RequestId: f43407bd-028d-5578-b294-593b6e738523 Version: $LATEST
+
+2024-04-02T20:30:06.935Z 2024-04-02T20:30:06.935Z	f43407bd-028d-5578-b294-593b6e738523	INFO	Processing message f79020af-ad2e-4f22-a78a-6f165fe521c7
+
+2024-04-02T20:30:07.007Z 2024-04-02T20:30:07.007Z	f43407bd-028d-5578-b294-593b6e738523	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTG82C0HCZJH3NSC39FHDBVS',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11986.799,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"a98139e3-892e-4029-8634-cc46b829a760","walletSk":"ffd214d4-ac26-44d1-9c0c-4b90d75c8fde","version2":true,"addonSubscriptionCosts":"{\\"CALO_KIDS\\":36.363636363636395,\\"BEVERAGES\\":27.2727272727272}","addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-05-01\\",\\"startDate\\":\\"2024-04-04\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-05-01\\",\\"startDate\\":\\"2024-04-04\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-05-01\\",\\"startDate\\":\\"2024-04-04\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-05-01\\",\\"startDate\\":\\"2024-04-04\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","addonDayCount":20,"subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 150,
+    vat: 13.636,
+    oldBalance: 160,
+    newBalance: 296.364
+  }
+}
+
+2024-04-02T20:30:07.126Z 2024-04-02T20:30:07.126Z	f43407bd-028d-5578-b294-593b6e738523	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-02T20:30:07.179Z 2024-04-02T20:30:07.179Z	f43407bd-028d-5578-b294-593b6e738523	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 296.364,
+  paymentBalance: 11986.799
+}
+
+2024-04-02T20:30:07.208Z END RequestId: f43407bd-028d-5578-b294-593b6e738523
+
+2024-04-02T20:30:07.208Z REPORT RequestId: f43407bd-028d-5578-b294-593b6e738523	Duration: 419.40 ms	Billed Duration: 420 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1131.71 ms	
+

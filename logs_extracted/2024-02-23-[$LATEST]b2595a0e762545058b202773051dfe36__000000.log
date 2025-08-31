@@ -1,0 +1,36 @@
+2024-02-23T08:35:36.582Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-23T08:35:37.820Z START RequestId: af4f2112-6395-59af-965e-7f4038862808 Version: $LATEST
+
+2024-02-23T08:35:37.985Z 2024-02-23T08:35:37.985Z	af4f2112-6395-59af-965e-7f4038862808	INFO	Processing message 9b89b09c-cd9a-48fb-9e23-dad9b9e05b69
+
+2024-02-23T08:35:38.044Z 2024-02-23T08:35:38.044Z	af4f2112-6395-59af-965e-7f4038862808	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQAHP26QF5MB04NZ99EMN4RW',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '53e1b2ec-386f-46e5-8992-77254abee927',
+    paymentBalance: 8009.4,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#53e1b2ec-386f-46e5-8992-77254abee927","planType":"ramadan","goal":"lifeStyle","eventSessionId":"406d8903-9cbe-4c7f-9c4e-d931db994681","walletSk":"82581b04-b65a-4269-a7a0-915c076d8129","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-02-25","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"ramadan\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"snack\\"],\\"pricePerDay\\":90,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-25\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 2070,
+    vat: 270,
+    oldBalance: 15,
+    newBalance: 1815
+  }
+}
+
+2024-02-23T08:35:38.136Z 2024-02-23T08:35:38.136Z	af4f2112-6395-59af-965e-7f4038862808	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-23T08:35:38.171Z 2024-02-23T08:35:38.171Z	af4f2112-6395-59af-965e-7f4038862808	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '53e1b2ec-386f-46e5-8992-77254abee927',
+  subscriptionBalance: 1815,
+  paymentBalance: 8009.4
+}
+
+2024-02-23T08:35:38.194Z END RequestId: af4f2112-6395-59af-965e-7f4038862808
+
+2024-02-23T08:35:38.195Z REPORT RequestId: af4f2112-6395-59af-965e-7f4038862808	Duration: 374.52 ms	Billed Duration: 375 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1236.41 ms	
+

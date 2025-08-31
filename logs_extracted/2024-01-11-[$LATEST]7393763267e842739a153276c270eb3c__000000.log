@@ -1,0 +1,58 @@
+2024-01-11T17:47:49.903Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-11T17:47:50.662Z START RequestId: 47284d2c-84d6-55c2-b333-1336af2ed000 Version: $LATEST
+
+2024-01-11T17:47:50.807Z 2024-01-11T17:47:50.807Z	47284d2c-84d6-55c2-b333-1336af2ed000	INFO	Processing message 11e0f361-c4db-4ba4-8a70-e1f789560a70
+
+2024-01-11T17:47:50.849Z 2024-01-11T17:47:50.849Z	47284d2c-84d6-55c2-b333-1336af2ed000	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKWT69VDJH0RC0QQQ6JYP9CH',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'f434d164-8656-429c-a7c9-fc4ab238f377',
+    paymentBalance: 173.954,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f434d164-8656-429c-a7c9-fc4ab238f377","country":"BH","couponDiscount":12.955,"eventSessionId":"14e4cec8-bb57-4b46-9d88-3576688b1e93","walletSk":"bb29e12a-1f5a-4a6f-b535-6f04c75fdb6c","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"COFFEE_AND_TEA\\",\\"endDate\\":\\"2024-02-08\\",\\"startDate\\":\\"2024-01-13\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"f434d164-8656-429c-a7c9-fc4ab238f377","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 14.249,
+    vat: 1.295,
+    oldBalance: 161,
+    newBalance: 173.954
+  }
+}
+
+2024-01-11T17:47:50.993Z 2024-01-11T17:47:50.993Z	47284d2c-84d6-55c2-b333-1336af2ed000	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-11T17:47:51.040Z END RequestId: 47284d2c-84d6-55c2-b333-1336af2ed000
+
+2024-01-11T17:47:51.040Z REPORT RequestId: 47284d2c-84d6-55c2-b333-1336af2ed000	Duration: 378.55 ms	Billed Duration: 379 ms	Memory Size: 1024 MB	Max Memory Used: 107 MB	Init Duration: 757.84 ms	
+
+2024-01-11T17:47:51.599Z START RequestId: feb1c582-20a3-547e-b623-9b980b5af802 Version: $LATEST
+
+2024-01-11T17:47:51.626Z 2024-01-11T17:47:51.626Z	feb1c582-20a3-547e-b623-9b980b5af802	INFO	Processing message a2105920-8fbb-4fe6-8ab4-f3745780d126
+
+2024-01-11T17:47:51.634Z 2024-01-11T17:47:51.634Z	feb1c582-20a3-547e-b623-9b980b5af802	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKWT6C5AMN7W0PYEBV63P2QQ',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'f434d164-8656-429c-a7c9-fc4ab238f377',
+    paymentBalance: 186.909,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f434d164-8656-429c-a7c9-fc4ab238f377","walletSk":"f2ce644c-df24-4933-8c37-b017a39bfe11"}',
+    currency: 'BHD',
+    amount: 12.955,
+    vat: 0,
+    oldBalance: 173.954,
+    newBalance: 186.909
+  }
+}
+
+2024-01-11T17:47:51.687Z 2024-01-11T17:47:51.687Z	feb1c582-20a3-547e-b623-9b980b5af802	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-11T17:47:51.704Z END RequestId: feb1c582-20a3-547e-b623-9b980b5af802
+
+2024-01-11T17:47:51.704Z REPORT RequestId: feb1c582-20a3-547e-b623-9b980b5af802	Duration: 105.86 ms	Billed Duration: 106 ms	Memory Size: 1024 MB	Max Memory Used: 107 MB	
+

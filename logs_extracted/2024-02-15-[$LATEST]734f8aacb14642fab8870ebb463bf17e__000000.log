@@ -1,0 +1,66 @@
+2024-02-15T13:47:39.747Z START RequestId: 03d97fab-29da-5eb6-8214-21e331f6b490 Version: $LATEST
+
+2024-02-15T13:47:39.874Z 2024-02-15T13:47:39.874Z	03d97fab-29da-5eb6-8214-21e331f6b490	INFO	Processing message e44b3205-a5a8-46c6-92bd-03caa894f5d8
+
+2024-02-15T13:47:39.875Z 2024-02-15T13:47:39.875Z	03d97fab-29da-5eb6-8214-21e331f6b490	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-02-15T13:47:39.876Z END RequestId: 03d97fab-29da-5eb6-8214-21e331f6b490
+
+2024-02-15T13:47:39.876Z REPORT RequestId: 03d97fab-29da-5eb6-8214-21e331f6b490	Duration: 129.00 ms	Billed Duration: 130 ms	Memory Size: 1024 MB	Max Memory Used: 112 MB	
+
+2024-02-15T13:48:32.100Z START RequestId: 1c29cdfe-a93d-5fcb-80cc-93b6b15940b4 Version: $LATEST
+
+2024-02-15T13:48:32.131Z 2024-02-15T13:48:32.131Z	1c29cdfe-a93d-5fcb-80cc-93b6b15940b4	INFO	Processing message 85939251-48c3-44f4-8e2b-2586cbbccaa7
+
+2024-02-15T13:48:32.131Z 2024-02-15T13:48:32.131Z	1c29cdfe-a93d-5fcb-80cc-93b6b15940b4	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-02-15T13:48:32.133Z END RequestId: 1c29cdfe-a93d-5fcb-80cc-93b6b15940b4
+
+2024-02-15T13:48:32.133Z REPORT RequestId: 1c29cdfe-a93d-5fcb-80cc-93b6b15940b4	Duration: 32.90 ms	Billed Duration: 33 ms	Memory Size: 1024 MB	Max Memory Used: 112 MB	
+
+2024-02-15T13:43:19.473Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-15T13:43:20.247Z START RequestId: c9f58d93-2d2b-5039-b6c8-d3db3a014d01 Version: $LATEST
+
+2024-02-15T13:43:20.391Z 2024-02-15T13:43:20.391Z	c9f58d93-2d2b-5039-b6c8-d3db3a014d01	INFO	Processing message b89e1f71-8468-4555-962f-e667a1044979
+
+2024-02-15T13:43:20.486Z 2024-02-15T13:43:20.486Z	c9f58d93-2d2b-5039-b6c8-d3db3a014d01	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPPG3RPS2N0KK1X3XPT3R666',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '7ca066ee-df49-42d5-b522-54f8abe08388',
+    paymentBalance: 421.25,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#7ca066ee-df49-42d5-b522-54f8abe08388","planType":"skipBreakfast","goal":"lifeStyle","eventSessionId":"e282bb98-a9a9-41cb-9693-4c3580d245ed","walletSk":"ab22ec43-c09c-4820-9af7-7ad9cb10b6e3","deliveryTime":"evening","dietType":"chef-picks","renewalDate":"2024-02-18","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":7,\\"dietType\\":\\"chef-picks\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-18\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 154,
+    vat: 14,
+    oldBalance: 0,
+    newBalance: 140
+  }
+}
+
+2024-02-15T13:43:20.599Z 2024-02-15T13:43:20.599Z	c9f58d93-2d2b-5039-b6c8-d3db3a014d01	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-15T13:43:20.646Z 2024-02-15T13:43:20.646Z	c9f58d93-2d2b-5039-b6c8-d3db3a014d01	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '7ca066ee-df49-42d5-b522-54f8abe08388',
+  subscriptionBalance: 140,
+  paymentBalance: 421.25
+}
+
+2024-02-15T13:43:20.674Z END RequestId: c9f58d93-2d2b-5039-b6c8-d3db3a014d01
+
+2024-02-15T13:43:20.674Z REPORT RequestId: c9f58d93-2d2b-5039-b6c8-d3db3a014d01	Duration: 427.63 ms	Billed Duration: 428 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 770.61 ms	
+
+2024-02-15T13:48:04.990Z START RequestId: e0d35b9b-563d-5083-a615-05d34e781fc4 Version: $LATEST
+
+2024-02-15T13:48:05.048Z 2024-02-15T13:48:05.048Z	e0d35b9b-563d-5083-a615-05d34e781fc4	INFO	Processing message 7c39e8e6-3d96-45b2-aff6-2c755c827677
+
+2024-02-15T13:48:05.050Z 2024-02-15T13:48:05.050Z	e0d35b9b-563d-5083-a615-05d34e781fc4	INFO	Skipping the process, Update Payment Balance Flag is set to false { transactionAction: 'DONATE_RAMADAN_MEAL' }
+
+2024-02-15T13:48:05.052Z END RequestId: e0d35b9b-563d-5083-a615-05d34e781fc4
+
+2024-02-15T13:48:05.052Z REPORT RequestId: e0d35b9b-563d-5083-a615-05d34e781fc4	Duration: 61.48 ms	Billed Duration: 62 ms	Memory Size: 1024 MB	Max Memory Used: 112 MB	
+

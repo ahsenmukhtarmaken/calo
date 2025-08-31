@@ -1,0 +1,46 @@
+2024-05-15T10:03:39.048Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-15T10:03:40.058Z START RequestId: cabd086a-530c-542a-a160-56d4d9be206b Version: $LATEST
+
+2024-05-15T10:03:40.193Z 2024-05-15T10:03:40.193Z	cabd086a-530c-542a-a160-56d4d9be206b	INFO	Processing message 8e624ae5-9006-42cd-870d-0553c9281464
+
+2024-05-15T10:03:40.255Z 2024-05-15T10:03:40.255Z	cabd086a-530c-542a-a160-56d4d9be206b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXXVA76F7JMHDGDQ34H66P19',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'fde9d0f2-bc2f-4bc2-962d-ed61c80d9760',
+    paymentBalance: 404,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#fde9d0f2-bc2f-4bc2-962d-ed61c80d9760","eventSessionId":"3663abc0-9063-4af9-9f54-8197505f217f","walletSk":"477a7123-cfd1-4538-a868-70b5d2e982d6","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-05-19T10:03:09.101Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"cardId\\":\\"card_Xuay0246490Zmt15lR4H103\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}","planPrice":252}',
+    currency: 'BHD',
+    amount: 167.2,
+    vat: 15.2,
+    oldBalance: 100,
+    newBalance: 252
+  }
+}
+
+2024-05-15T10:03:40.396Z 2024-05-15T10:03:40.396Z	cabd086a-530c-542a-a160-56d4d9be206b	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-15T10:03:40.440Z 2024-05-15T10:03:40.440Z	cabd086a-530c-542a-a160-56d4d9be206b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'fde9d0f2-bc2f-4bc2-962d-ed61c80d9760',
+  subscriptionBalance: 252,
+  paymentBalance: 404
+}
+
+2024-05-15T10:03:40.479Z END RequestId: cabd086a-530c-542a-a160-56d4d9be206b
+
+2024-05-15T10:03:40.479Z REPORT RequestId: cabd086a-530c-542a-a160-56d4d9be206b	Duration: 420.63 ms	Billed Duration: 421 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1008.70 ms	
+
+2024-05-15T10:08:44.165Z START RequestId: 43a95ed7-b0c8-5673-afc4-00693b2a3890 Version: $LATEST
+
+2024-05-15T10:08:44.252Z 2024-05-15T10:08:44.252Z	43a95ed7-b0c8-5673-afc4-00693b2a3890	INFO	Processing message 93d43354-ad81-4bfd-b32e-132dda72af97
+
+2024-05-15T10:08:44.252Z 2024-05-15T10:08:44.252Z	43a95ed7-b0c8-5673-afc4-00693b2a3890	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-15T10:08:44.265Z END RequestId: 43a95ed7-b0c8-5673-afc4-00693b2a3890
+
+2024-05-15T10:08:44.265Z REPORT RequestId: 43a95ed7-b0c8-5673-afc4-00693b2a3890	Duration: 100.47 ms	Billed Duration: 101 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+

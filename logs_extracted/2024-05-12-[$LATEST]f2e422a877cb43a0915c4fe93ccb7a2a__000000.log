@@ -1,0 +1,52 @@
+2024-05-12T11:37:33.522Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-12T11:37:34.526Z START RequestId: 1ec0ffad-b3c2-5d2f-bca3-a1171fee0155 Version: $LATEST
+
+2024-05-12T11:37:34.680Z 2024-05-12T11:37:34.680Z	1ec0ffad-b3c2-5d2f-bca3-a1171fee0155	INFO	Processing message c8ab81be-93d8-45c6-a770-f122f4b6b0e0
+
+2024-05-12T11:37:34.726Z 2024-05-12T11:37:34.726Z	1ec0ffad-b3c2-5d2f-bca3-a1171fee0155	ERROR	An error occured while syncing the balance TypeError: Cannot read properties of null (reading 'getBalance')
+    at Zi.exec (/src/syncBalance/useCase.ts:55:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at JU (/src/syncBalance/listener.ts:30:7)
+    at K0 (/node_modules/@middy/core/index.js:192:26)
+
+2024-05-12T11:37:34.905Z {"_aws":{"Timestamp":1715513854905,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2024-05-12T11:37:34.909Z END RequestId: 1ec0ffad-b3c2-5d2f-bca3-a1171fee0155
+
+2024-05-12T11:37:34.909Z REPORT RequestId: 1ec0ffad-b3c2-5d2f-bca3-a1171fee0155	Duration: 383.11 ms	Billed Duration: 384 ms	Memory Size: 1024 MB	Max Memory Used: 131 MB	Init Duration: 1002.71 ms	
+
+2024-05-12T11:39:03.247Z START RequestId: 4d7f444e-5ab9-579d-84a3-1af4f6325011 Version: $LATEST
+
+2024-05-12T11:39:03.398Z 2024-05-12T11:39:03.398Z	4d7f444e-5ab9-579d-84a3-1af4f6325011	INFO	Processing message c8ab81be-93d8-45c6-a770-f122f4b6b0e0
+
+2024-05-12T11:39:03.410Z 2024-05-12T11:39:03.410Z	4d7f444e-5ab9-579d-84a3-1af4f6325011	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXP9FXRYWWEPDREKNNH1HMQG',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CREATE_SUBSCRIPTION_WEB',
+    userId: '2f4e1f0d-2cd3-4baf-83df-28b52498b061',
+    paymentBalance: 1800,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#2f4e1f0d-2cd3-4baf-83df-28b52498b061","eventSessionId":"9b7ed94e-7c1f-4f49-a1df-6fc48dcb7dcb","walletSk":"aa6b6f5e-e6bd-4257-8f6f-1edaf7407186","version2":true}',
+    currency: 'SAR',
+    amount: 2070,
+    vat: 270,
+    oldBalance: 1800,
+    newBalance: 3600
+  }
+}
+
+2024-05-12T11:39:03.530Z 2024-05-12T11:39:03.530Z	4d7f444e-5ab9-579d-84a3-1af4f6325011	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-12T11:39:03.578Z 2024-05-12T11:39:03.578Z	4d7f444e-5ab9-579d-84a3-1af4f6325011	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '2f4e1f0d-2cd3-4baf-83df-28b52498b061',
+  subscriptionBalance: 3600,
+  paymentBalance: 1800
+}
+
+2024-05-12T11:39:03.652Z END RequestId: 4d7f444e-5ab9-579d-84a3-1af4f6325011
+
+2024-05-12T11:39:03.652Z REPORT RequestId: 4d7f444e-5ab9-579d-84a3-1af4f6325011	Duration: 405.25 ms	Billed Duration: 406 ms	Memory Size: 1024 MB	Max Memory Used: 148 MB	
+

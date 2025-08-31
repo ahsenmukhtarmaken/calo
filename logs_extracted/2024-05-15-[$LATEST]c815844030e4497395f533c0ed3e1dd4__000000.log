@@ -1,0 +1,82 @@
+2024-05-15T19:39:39.333Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-15T19:39:40.377Z START RequestId: fbc46d4b-9d43-5fc5-940e-33f48cec2cce Version: $LATEST
+
+2024-05-15T19:39:40.549Z 2024-05-15T19:39:40.549Z	fbc46d4b-9d43-5fc5-940e-33f48cec2cce	INFO	Processing message 729ea247-c7f1-466b-8f67-d2a5cfd3e516
+
+2024-05-15T19:39:40.598Z 2024-05-15T19:39:40.598Z	fbc46d4b-9d43-5fc5-940e-33f48cec2cce	ERROR	An error occured while syncing the balance TypeError: Cannot read properties of null (reading 'getBalance')
+    at es.exec (/src/syncBalance/useCase.ts:55:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at JU (/src/syncBalance/listener.ts:30:7)
+    at mA (/node_modules/@middy/core/index.js:192:26)
+
+2024-05-15T19:39:40.774Z {"_aws":{"Timestamp":1715801980774,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2024-05-15T19:39:40.789Z END RequestId: fbc46d4b-9d43-5fc5-940e-33f48cec2cce
+
+2024-05-15T19:39:40.789Z REPORT RequestId: fbc46d4b-9d43-5fc5-940e-33f48cec2cce	Duration: 411.67 ms	Billed Duration: 412 ms	Memory Size: 1024 MB	Max Memory Used: 132 MB	Init Duration: 1042.98 ms	
+XRAY TraceId: 1-66450f7a-7624318e4a123a9753441515	SegmentId: 2d6dbc7b3552fe38	Sampled: true	
+
+2024-05-15T19:41:08.897Z START RequestId: 5617a931-dcf2-5147-9a02-f78ecef7b68f Version: $LATEST
+
+2024-05-15T19:41:09.087Z 2024-05-15T19:41:09.087Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	Processing message 729ea247-c7f1-466b-8f67-d2a5cfd3e516
+
+2024-05-15T19:41:09.097Z 2024-05-15T19:41:09.097Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXYW8TD0F5C6CCRE62AVHVBV',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CREATE_SUBSCRIPTION_WEB',
+    userId: 'c293fe25-0331-4aa2-9eb3-376b6471436c',
+    paymentBalance: 2268,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#c293fe25-0331-4aa2-9eb3-376b6471436c","planType":"full","goal":"maintainWeight","eventSessionId":"55d4063f-04cc-4d77-8f2a-7afb26ffa574","walletSk":"fdebfbf1-5135-449c-b5ad-03735afe9992","deliveryTime":"morning","subscriptionPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":90,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\"}","dietType":"balanced","subscriptionEmail":"hopefullyNoDiscrepancy@hotmail.com","language":"en","subscriptionPhoneNumber":"+966500501608","subscriptionCurrentBalance":0,"trialSubscription":false,"frequency":"monthly","couponDiscount":252,"tier":"personalized","version2":true,"deliveryDays":"[0,1,2,3,4,5,6]","subscriptionName":"Your Name 😊","kitchen":"SA001","startDate":"2024-05-17"}',
+    currency: 'SAR',
+    amount: 2608.2,
+    vat: 340.2,
+    oldBalance: 2268,
+    newBalance: 4536
+  }
+}
+
+2024-05-15T19:41:09.268Z 2024-05-15T19:41:09.268Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-15T19:41:09.326Z 2024-05-15T19:41:09.326Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'c293fe25-0331-4aa2-9eb3-376b6471436c',
+  subscriptionBalance: 4536,
+  paymentBalance: 2268
+}
+
+2024-05-15T19:41:09.354Z 2024-05-15T19:41:09.354Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	Processing message 8033d83d-0791-424e-9c6d-8f3e157b9f2e
+
+2024-05-15T19:41:09.362Z 2024-05-15T19:41:09.362Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXYW9QJQJFZPEN60KK5EM657',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'c293fe25-0331-4aa2-9eb3-376b6471436c',
+    paymentBalance: 2520,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#c293fe25-0331-4aa2-9eb3-376b6471436c","walletSk":"5774a8c8-5a54-4969-947b-e1a03bafce81"}',
+    currency: 'SAR',
+    amount: 252,
+    vat: 0,
+    oldBalance: 4536,
+    newBalance: 4788
+  }
+}
+
+2024-05-15T19:41:09.429Z 2024-05-15T19:41:09.429Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-15T19:41:09.445Z 2024-05-15T19:41:09.445Z	5617a931-dcf2-5147-9a02-f78ecef7b68f	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'c293fe25-0331-4aa2-9eb3-376b6471436c',
+  subscriptionBalance: 4788,
+  paymentBalance: 2520
+}
+
+2024-05-15T19:41:09.464Z END RequestId: 5617a931-dcf2-5147-9a02-f78ecef7b68f
+
+2024-05-15T19:41:09.464Z REPORT RequestId: 5617a931-dcf2-5147-9a02-f78ecef7b68f	Duration: 567.31 ms	Billed Duration: 568 ms	Memory Size: 1024 MB	Max Memory Used: 149 MB	
+XRAY TraceId: 1-66450fd4-77035144b79ab116056ad1d7	SegmentId: 1961269f1010aaed	Sampled: true	
+

@@ -1,0 +1,30 @@
+2024-04-18T10:00:56.998Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-18T10:00:58.108Z START RequestId: 7a7a3584-1918-56c9-8a8b-6b1ee892122d Version: $LATEST
+
+2024-04-18T10:00:58.268Z 2024-04-18T10:00:58.268Z	7a7a3584-1918-56c9-8a8b-6b1ee892122d	INFO	Processing message b2d63e04-1fca-41a8-b4ad-0b324fc702aa
+
+2024-04-18T10:00:58.336Z 2024-04-18T10:00:58.336Z	7a7a3584-1918-56c9-8a8b-6b1ee892122d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HVRADPFKPBMWAQWE784922W5',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '4787a521-a05e-470c-9d2c-c6fc373670da',
+    paymentBalance: 5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4787a521-a05e-470c-9d2c-c6fc373670da","walletSk":"e79257c3-ea2c-4ec4-ac89-aa1ed6344cd2"}',
+    currency: 'BHD',
+    amount: 5,
+    vat: 0,
+    oldBalance: 0,
+    newBalance: 5
+  }
+}
+
+2024-04-18T10:00:58.427Z 2024-04-18T10:00:58.427Z	7a7a3584-1918-56c9-8a8b-6b1ee892122d	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-18T10:00:58.469Z END RequestId: 7a7a3584-1918-56c9-8a8b-6b1ee892122d
+
+2024-04-18T10:00:58.469Z REPORT RequestId: 7a7a3584-1918-56c9-8a8b-6b1ee892122d	Duration: 361.12 ms	Billed Duration: 362 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1109.29 ms	
+

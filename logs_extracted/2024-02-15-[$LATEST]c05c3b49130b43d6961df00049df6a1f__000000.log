@@ -1,0 +1,40 @@
+2024-02-15T12:22:41.035Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-15T12:22:41.761Z START RequestId: 3201cf70-9db0-5431-94ca-913899f3c1d9 Version: $LATEST
+
+2024-02-15T12:22:41.906Z 2024-02-15T12:22:41.906Z	3201cf70-9db0-5431-94ca-913899f3c1d9	INFO	Processing message 2394205c-1635-4837-97a3-5883492adc47
+
+2024-02-15T12:22:42.019Z 2024-02-15T12:22:42.019Z	3201cf70-9db0-5431-94ca-913899f3c1d9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPPBG3ERTJP43HKESS8F9JKJ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '7ca066ee-df49-42d5-b522-54f8abe08388',
+    paymentBalance: 141.25,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#7ca066ee-df49-42d5-b522-54f8abe08388","deliveryId":"b1eb163f-ab1e-447f-9dc1-2b8baa6b92d6","eventSessionId":"e786d511-aa56-40ef-b91e-1a9fe75a6582","walletSk":"c162f598-034c-4ccd-9191-1e1a0d031b7d","version2":true,"source":"{\\"id\\":\\"07492ced-8cd4-4b1e-ba25-32c3aa8d247f\\",\\"name\\":{\\"ar\\":\\"البصارة المصرية\\",\\"en\\":\\"Bisara\\"}}","target":"{\\"id\\":\\"f19a8a29-58e6-4ae7-82aa-f41d3e23b86b\\",\\"name\\":{\\"ar\\":\\"جوز بالشوكولاتة\\",\\"en\\":\\"Chocolate Walnuts\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 1.375,
+    vat: 0.125,
+    oldBalance: 140,
+    newBalance: 141.25
+  }
+}
+
+2024-02-15T12:22:42.132Z 2024-02-15T12:22:42.132Z	3201cf70-9db0-5431-94ca-913899f3c1d9	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-15T12:22:42.171Z END RequestId: 3201cf70-9db0-5431-94ca-913899f3c1d9
+
+2024-02-15T12:22:42.171Z REPORT RequestId: 3201cf70-9db0-5431-94ca-913899f3c1d9	Duration: 409.50 ms	Billed Duration: 410 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 725.51 ms	
+
+2024-02-15T12:26:21.054Z START RequestId: 11328d73-15bb-5e6e-b5f9-d33b10a6eeb5 Version: $LATEST
+
+2024-02-15T12:26:21.151Z 2024-02-15T12:26:21.151Z	11328d73-15bb-5e6e-b5f9-d33b10a6eeb5	INFO	Processing message e3052115-ca8d-4ac1-af49-b21da5d198ba
+
+2024-02-15T12:26:21.151Z 2024-02-15T12:26:21.151Z	11328d73-15bb-5e6e-b5f9-d33b10a6eeb5	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-15T12:26:21.153Z END RequestId: 11328d73-15bb-5e6e-b5f9-d33b10a6eeb5
+
+2024-02-15T12:26:21.153Z REPORT RequestId: 11328d73-15bb-5e6e-b5f9-d33b10a6eeb5	Duration: 98.92 ms	Billed Duration: 99 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+

@@ -1,0 +1,36 @@
+2024-02-05T07:23:31.449Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-05T07:23:32.177Z START RequestId: 7b02e075-6c2e-54dc-856e-be4fe305d52b Version: $LATEST
+
+2024-02-05T07:23:32.311Z 2024-02-05T07:23:32.311Z	7b02e075-6c2e-54dc-856e-be4fe305d52b	INFO	Processing message f7695442-cf31-4bb8-85de-49ecca8148b2
+
+2024-02-05T07:23:32.430Z 2024-02-05T07:23:32.430Z	7b02e075-6c2e-54dc-856e-be4fe305d52b	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNW2D4J42G7XT849V19SAKC1',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'c39062fc-016b-4afa-bacd-db5e13ce2a2d',
+    paymentBalance: 1530.547,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#c39062fc-016b-4afa-bacd-db5e13ce2a2d","deliveryId":"557b1939-9b89-448d-a415-65dfa49b4c0b","eventSessionId":"fcec6385-7b91-4763-8d4d-3344ecfc63b7","walletSk":"65d30275-4799-4da8-b156-8314443d1806","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"Qasim Albaqali\\",\\"senderName\\":\\"asd\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"q.albaqali@student.fontys.nl\\"}}}}]","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 136,
+    newBalance: 171
+  }
+}
+
+2024-02-05T07:23:32.531Z 2024-02-05T07:23:32.531Z	7b02e075-6c2e-54dc-856e-be4fe305d52b	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-05T07:23:32.567Z 2024-02-05T07:23:32.567Z	7b02e075-6c2e-54dc-856e-be4fe305d52b	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'c39062fc-016b-4afa-bacd-db5e13ce2a2d',
+  subscriptionBalance: 171,
+  paymentBalance: 1530.547
+}
+
+2024-02-05T07:23:32.591Z END RequestId: 7b02e075-6c2e-54dc-856e-be4fe305d52b
+
+2024-02-05T07:23:32.592Z REPORT RequestId: 7b02e075-6c2e-54dc-856e-be4fe305d52b	Duration: 414.87 ms	Billed Duration: 415 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	Init Duration: 726.97 ms	
+

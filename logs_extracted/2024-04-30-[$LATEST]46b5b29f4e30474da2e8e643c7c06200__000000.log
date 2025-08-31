@@ -1,0 +1,37 @@
+2024-04-30T20:46:15.015Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-30T20:46:16.085Z START RequestId: 4ecc6caf-067d-5657-9b66-32045cbea045 Version: $LATEST
+
+2024-04-30T20:46:16.244Z 2024-04-30T20:46:16.244Z	4ecc6caf-067d-5657-9b66-32045cbea045	INFO	Processing message 5e1b9eb3-f666-4c7a-9aa3-fddd7468222a
+
+2024-04-30T20:46:16.307Z 2024-04-30T20:46:16.307Z	4ecc6caf-067d-5657-9b66-32045cbea045	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWRC41YKKREX8JPZDYJ6G9JG',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+    paymentBalance: -78.26,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#80308098-8d24-4be6-96c2-f4c2c5e03699","country":"SA","couponDiscount":0,"eventSessionId":"81919b19-70e2-46bf-b5c2-9f52a7afc9d1","walletSk":"38470a07-7e72-4b63-960b-c6d63eee2f35","version2":true,"addonSubscriptionCosts":"{\\"EXTRA_PROTEIN\\":200}","addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"EXTRA_PROTEIN\\",\\"endDate\\":\\"2024-05-29\\",\\"startDate\\":\\"2024-05-02\\",\\"pricePerDay\\":10,\\"currency\\":\\"SAR\\"}]","addonDayCount":20,"subscriptionId":"80308098-8d24-4be6-96c2-f4c2c5e03699","kitchen":"SA001"}',
+    currency: 'SAR',
+    amount: 230,
+    vat: 30,
+    oldBalance: 1460.87,
+    newBalance: 1660.87
+  }
+}
+
+2024-04-30T20:46:16.457Z 2024-04-30T20:46:16.457Z	4ecc6caf-067d-5657-9b66-32045cbea045	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-30T20:46:16.508Z 2024-04-30T20:46:16.508Z	4ecc6caf-067d-5657-9b66-32045cbea045	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '80308098-8d24-4be6-96c2-f4c2c5e03699',
+  subscriptionBalance: 1660.87,
+  paymentBalance: -78.26
+}
+
+2024-04-30T20:46:16.536Z END RequestId: 4ecc6caf-067d-5657-9b66-32045cbea045
+
+2024-04-30T20:46:16.536Z REPORT RequestId: 4ecc6caf-067d-5657-9b66-32045cbea045	Duration: 453.72 ms	Billed Duration: 454 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1066.83 ms	
+XRAY TraceId: 1-66315896-f66f810ad57faddbfc8d7b91	SegmentId: 0bf280d9060ce5e0	Sampled: true	
+

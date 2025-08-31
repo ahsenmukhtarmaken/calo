@@ -1,0 +1,36 @@
+2024-02-08T05:37:13.164Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-08T05:37:13.896Z START RequestId: a6d55c98-3eb7-59e6-aad4-02a6540f0d1a Version: $LATEST
+
+2024-02-08T05:37:14.039Z 2024-02-08T05:37:14.039Z	a6d55c98-3eb7-59e6-aad4-02a6540f0d1a	INFO	Processing message 04ffb8b5-2bb5-45f7-aec3-ad2e15cb5c9b
+
+2024-02-08T05:37:14.129Z 2024-02-08T05:37:14.129Z	a6d55c98-3eb7-59e6-aad4-02a6540f0d1a	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HP3KGMXH9KMRGZYT802A16X0',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1737.016,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"a5c2d548-2482-4c9f-8ec6-15cbe141bff0","eventSessionId":"91f46325-2420-449d-a4fb-ae2befac3de2","walletSk":"431887fd-4464-46db-9b81-419a3b2005b5","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shatha@mailinator.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 186.406,
+    newBalance: 221.406
+  }
+}
+
+2024-02-08T05:37:14.245Z 2024-02-08T05:37:14.245Z	a6d55c98-3eb7-59e6-aad4-02a6540f0d1a	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-08T05:37:14.285Z 2024-02-08T05:37:14.285Z	a6d55c98-3eb7-59e6-aad4-02a6540f0d1a	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 221.406,
+  paymentBalance: 1737.016
+}
+
+2024-02-08T05:37:14.305Z END RequestId: a6d55c98-3eb7-59e6-aad4-02a6540f0d1a
+
+2024-02-08T05:37:14.305Z REPORT RequestId: a6d55c98-3eb7-59e6-aad4-02a6540f0d1a	Duration: 408.42 ms	Billed Duration: 409 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	Init Duration: 730.98 ms	
+

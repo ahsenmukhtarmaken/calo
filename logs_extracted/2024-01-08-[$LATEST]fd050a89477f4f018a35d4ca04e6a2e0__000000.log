@@ -1,0 +1,30 @@
+2024-01-08T08:59:25.890Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-08T08:59:26.876Z START RequestId: cb37705e-0850-5206-a7c0-2e4bb3f61d80 Version: $LATEST
+
+2024-01-08T08:59:27.095Z 2024-01-08T08:59:27.095Z	cb37705e-0850-5206-a7c0-2e4bb3f61d80	INFO	Processing message a85c20e9-ca6d-4858-b604-5062f719380c
+
+2024-01-08T08:59:27.190Z 2024-01-08T08:59:27.190Z	cb37705e-0850-5206-a7c0-2e4bb3f61d80	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKM4RM5XKFKKRJSDQ4DPNSS0',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 3130,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","planType":"custom","goal":"gainWeight","eventSessionId":"c9926431-db50-453d-9c66-84d8dda56dd8","walletSk":"cb69e1e2-980f-4519-b0fc-fd99b74da546","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-01-10","type":"userRenew","version":"syncBalanceSQS","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"custom\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\"],\\"pricePerDay\\":150,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-01-10\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 3300,
+    vat: 300,
+    oldBalance: 130,
+    newBalance: 3130
+  }
+}
+
+2024-01-08T08:59:27.333Z 2024-01-08T08:59:27.333Z	cb37705e-0850-5206-a7c0-2e4bb3f61d80	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-08T08:59:27.406Z END RequestId: cb37705e-0850-5206-a7c0-2e4bb3f61d80
+
+2024-01-08T08:59:27.406Z REPORT RequestId: cb37705e-0850-5206-a7c0-2e4bb3f61d80	Duration: 530.18 ms	Billed Duration: 531 ms	Memory Size: 512 MB	Max Memory Used: 121 MB	Init Duration: 985.14 ms	
+

@@ -1,0 +1,41 @@
+2024-05-13T18:06:22.453Z START RequestId: 6b648116-6e9d-5bb1-b80f-dfaa36505a06 Version: $LATEST
+
+2024-05-13T18:06:22.556Z 2024-05-13T18:06:22.556Z	6b648116-6e9d-5bb1-b80f-dfaa36505a06	INFO	Processing message 4d057bf7-88a5-4573-a505-09a811cce743
+
+2024-05-13T18:06:22.600Z 2024-05-13T18:06:22.600Z	6b648116-6e9d-5bb1-b80f-dfaa36505a06	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXSJ4PCJW511NK0NTNC3VQZ6',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'dee58d08-6e60-427d-aecc-a41400c5af10',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#dee58d08-6e60-427d-aecc-a41400c5af10","walletSk":"79379905-e810-4150-972c-2644343f1772"}',
+    currency: 'BHD',
+    amount: 100.8,
+    vat: 0,
+    oldBalance: 151.2,
+    newBalance: 252
+  }
+}
+
+2024-05-13T18:06:22.760Z 2024-05-13T18:06:22.760Z	6b648116-6e9d-5bb1-b80f-dfaa36505a06	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T18:06:22.805Z END RequestId: 6b648116-6e9d-5bb1-b80f-dfaa36505a06
+
+2024-05-13T18:06:22.805Z REPORT RequestId: 6b648116-6e9d-5bb1-b80f-dfaa36505a06	Duration: 351.75 ms	Billed Duration: 352 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	
+XRAY TraceId: 1-6642569e-c32b0a2858646c748e8fa68a	SegmentId: 7eae8d797a8d347a	Sampled: true	
+
+2024-05-13T18:06:03.248Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-13T18:06:04.498Z START RequestId: 9654d48a-6f4c-5104-bea7-8a3637f610b3 Version: $LATEST
+
+2024-05-13T18:06:04.661Z 2024-05-13T18:06:04.661Z	9654d48a-6f4c-5104-bea7-8a3637f610b3	INFO	Processing message 7d991017-2f51-48c0-992a-14b68e779c16
+
+2024-05-13T18:06:04.662Z 2024-05-13T18:06:04.662Z	9654d48a-6f4c-5104-bea7-8a3637f610b3	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-13T18:06:04.667Z END RequestId: 9654d48a-6f4c-5104-bea7-8a3637f610b3
+
+2024-05-13T18:06:04.667Z REPORT RequestId: 9654d48a-6f4c-5104-bea7-8a3637f610b3	Duration: 169.38 ms	Billed Duration: 170 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1248.97 ms	
+

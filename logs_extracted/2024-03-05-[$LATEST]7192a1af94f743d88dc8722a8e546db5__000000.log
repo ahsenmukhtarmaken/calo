@@ -1,0 +1,36 @@
+2024-03-05T18:55:17.976Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-03-05T18:55:19.172Z START RequestId: 3272f15f-e9a5-5935-b3b8-af3e85607481 Version: $LATEST
+
+2024-03-05T18:55:19.343Z 2024-03-05T18:55:19.343Z	3272f15f-e9a5-5935-b3b8-af3e85607481	INFO	Processing message 498b9941-82dd-4582-9d32-732ab7bb3ddc
+
+2024-03-05T18:55:19.392Z 2024-03-05T18:55:19.392Z	3272f15f-e9a5-5935-b3b8-af3e85607481	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HR7ZGN8VM9JAKTQWE2PTH14A',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11709.016,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","country":"BH","couponDiscount":0,"eventSessionId":"cf3ab668-e73b-4864-9548-84c525fd88de","walletSk":"db1cb689-a18c-4515-95bb-622c1a8b921a","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":false,\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-03-07\\",\\"startDate\\":\\"2024-03-07\\",\\"pricePerDay\\":1.81818181818182,\\"currency\\":\\"BHD\\"},{\\"autoRenew\\":false,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-03-07\\",\\"startDate\\":\\"2024-03-07\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"eb6875d4-8663-4dc5-8838-1148a2425c13","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 3.5,
+    vat: 0.318,
+    oldBalance: 15.399,
+    newBalance: 18.581
+  }
+}
+
+2024-03-05T18:55:19.502Z 2024-03-05T18:55:19.502Z	3272f15f-e9a5-5935-b3b8-af3e85607481	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-05T18:55:19.550Z 2024-03-05T18:55:19.550Z	3272f15f-e9a5-5935-b3b8-af3e85607481	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 18.581,
+  paymentBalance: 11709.016
+}
+
+2024-03-05T18:55:19.572Z END RequestId: 3272f15f-e9a5-5935-b3b8-af3e85607481
+
+2024-03-05T18:55:19.572Z REPORT RequestId: 3272f15f-e9a5-5935-b3b8-af3e85607481	Duration: 400.52 ms	Billed Duration: 401 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	Init Duration: 1194.79 ms	
+

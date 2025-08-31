@@ -1,0 +1,36 @@
+2024-04-02T14:37:16.589Z 2024-04-02T14:37:16.589Z	b176d684-b8bc-5a9e-a67b-8802a2f020c4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTFKW9MG1V853CZ0XKJWCTXK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 1257.816,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"1258a421-ea49-4444-9148-e4533e8288bb","walletSk":"ea5824fb-a2a4-4824-868f-8ec0c1e462e0","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-04","type":"autoRenew","frequency":"weekly","subscriptionCost":50,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"type\\":\\"DATE_RANGE\\",\\"pricePerDay\\":10,\\"planPrice\\":50,\\"startDate\\":\\"2024-04-04\\",\\"frequency\\":\\"weekly\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 0,
+    newBalance: 50
+  }
+}
+
+2024-04-02T14:37:16.676Z 2024-04-02T14:37:16.676Z	b176d684-b8bc-5a9e-a67b-8802a2f020c4	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-02T14:37:16.722Z 2024-04-02T14:37:16.722Z	b176d684-b8bc-5a9e-a67b-8802a2f020c4	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 50,
+  paymentBalance: 1257.816
+}
+
+2024-04-02T14:37:16.745Z END RequestId: b176d684-b8bc-5a9e-a67b-8802a2f020c4
+
+2024-04-02T14:37:16.745Z REPORT RequestId: b176d684-b8bc-5a9e-a67b-8802a2f020c4	Duration: 392.67 ms	Billed Duration: 393 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 1042.13 ms	
+
+2024-04-02T14:37:15.310Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-02T14:37:16.353Z START RequestId: b176d684-b8bc-5a9e-a67b-8802a2f020c4 Version: $LATEST
+
+2024-04-02T14:37:16.529Z 2024-04-02T14:37:16.529Z	b176d684-b8bc-5a9e-a67b-8802a2f020c4	INFO	Processing message 3a7dc88b-968a-4d64-840d-778924c0f3c9
+

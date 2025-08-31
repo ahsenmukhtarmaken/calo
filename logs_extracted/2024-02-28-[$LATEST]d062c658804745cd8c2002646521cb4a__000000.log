@@ -1,0 +1,120 @@
+2024-02-28T16:01:17.173Z START RequestId: 5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff Version: $LATEST
+
+2024-02-28T16:01:17.297Z 2024-02-28T16:01:17.297Z	5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff	INFO	Processing message a8520481-d9a0-42b6-80be-4543372c1882
+
+2024-02-28T16:01:17.325Z 2024-02-28T16:01:17.325Z	5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQR75QW4KM2TBNZSKCTJV4Z4',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: 'f899dcef-1bc0-479f-833d-82c3351e403b',
+    paymentBalance: 1960,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f899dcef-1bc0-479f-833d-82c3351e403b","eventSessionId":"a0bb5f25-6975-443b-928f-985e93992293","walletSk":"d22d28d5-c06d-4c25-a603-592566adc7cf","version2":true}',
+    currency: 'SAR',
+    amount: 11.5,
+    vat: 1.5,
+    oldBalance: 1950,
+    newBalance: 1960
+  }
+}
+
+2024-02-28T16:01:17.393Z 2024-02-28T16:01:17.393Z	5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T16:01:17.429Z END RequestId: 5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff
+
+2024-02-28T16:01:17.429Z REPORT RequestId: 5eaf542d-aa4b-51d5-8ff0-0a74f0b712ff	Duration: 256.15 ms	Billed Duration: 257 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-02-28T16:02:51.420Z START RequestId: cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac Version: $LATEST
+
+2024-02-28T16:02:51.468Z 2024-02-28T16:02:51.468Z	cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac	INFO	Processing message 55f0c894-b407-48d3-8e7c-0c5ed05a7a18
+
+2024-02-28T16:02:51.495Z 2024-02-28T16:02:51.495Z	cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQR78M17447EFJ87HFBJ0GND',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 454,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","deliveryId":"228051d7-1201-4c7d-aa13-fa87aa930818","eventSessionId":"9115cfb0-2c4e-486e-9ec3-2e853bed9b23","walletSk":"ee0f3a69-a6d7-43b5-9127-8f5bcbf742ac","version2":true,"addons":"[{\\"id\\":\\"2213c921-e694-4372-b15a-754349bd1876\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"asdfasdfdasdf232@asdf.asdf\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 249,
+    newBalance: 299
+  }
+}
+
+2024-02-28T16:02:51.560Z 2024-02-28T16:02:51.560Z	cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T16:02:51.867Z 2024-02-28T16:02:51.867Z	cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 299,
+  paymentBalance: 454
+}
+
+2024-02-28T16:02:51.896Z END RequestId: cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac
+
+2024-02-28T16:02:51.896Z REPORT RequestId: cab8aaf9-ea48-5b86-9aa2-f4a0b11688ac	Duration: 476.41 ms	Billed Duration: 477 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-02-28T15:53:42.618Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-28T15:53:43.885Z START RequestId: 957c331f-8774-5813-97e0-6d46de4d5f69 Version: $LATEST
+
+2024-02-28T15:53:44.032Z 2024-02-28T15:53:44.032Z	957c331f-8774-5813-97e0-6d46de4d5f69	INFO	Processing message 9364f9ae-e9b8-47fc-b525-b5cedefffa32
+
+2024-02-28T15:53:44.084Z 2024-02-28T15:53:44.084Z	957c331f-8774-5813-97e0-6d46de4d5f69	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQR6QV4P3B5CVJQJS6CSGEXD',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: 'f899dcef-1bc0-479f-833d-82c3351e403b',
+    paymentBalance: 1940,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f899dcef-1bc0-479f-833d-82c3351e403b","eventSessionId":"26935f2e-5fe5-4801-a9c6-14138a8cd844","walletSk":"071fbcbd-70e0-4bd7-9086-fca88be0df73","version2":true}',
+    currency: 'SAR',
+    amount: 11.5,
+    vat: 1.5,
+    oldBalance: 1930,
+    newBalance: 1940
+  }
+}
+
+2024-02-28T15:53:44.180Z 2024-02-28T15:53:44.180Z	957c331f-8774-5813-97e0-6d46de4d5f69	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T15:53:44.231Z END RequestId: 957c331f-8774-5813-97e0-6d46de4d5f69
+
+2024-02-28T15:53:44.231Z REPORT RequestId: 957c331f-8774-5813-97e0-6d46de4d5f69	Duration: 346.02 ms	Billed Duration: 347 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1265.91 ms	
+
+2024-02-28T15:58:01.379Z START RequestId: ddbe83d8-a835-52d3-9a10-dd81f20f9fe0 Version: $LATEST
+
+2024-02-28T15:58:01.525Z 2024-02-28T15:58:01.525Z	ddbe83d8-a835-52d3-9a10-dd81f20f9fe0	INFO	Processing message b9f30529-bef4-4678-a4bc-0e51de88af67
+
+2024-02-28T15:58:01.564Z 2024-02-28T15:58:01.564Z	ddbe83d8-a835-52d3-9a10-dd81f20f9fe0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQR6ZRPDP9PXT7TP77MVNCX0',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: 'f899dcef-1bc0-479f-833d-82c3351e403b',
+    paymentBalance: 1950,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f899dcef-1bc0-479f-833d-82c3351e403b","eventSessionId":"8d89cd08-fcd8-47c8-ae6c-1c9c2db5cd30","walletSk":"1cdcc4c0-323b-4c7b-8070-26f43e234b9e","version2":true}',
+    currency: 'SAR',
+    amount: 11.5,
+    vat: 1.5,
+    oldBalance: 1940,
+    newBalance: 1950
+  }
+}
+
+2024-02-28T15:58:01.641Z 2024-02-28T15:58:01.641Z	ddbe83d8-a835-52d3-9a10-dd81f20f9fe0	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T15:58:01.679Z END RequestId: ddbe83d8-a835-52d3-9a10-dd81f20f9fe0
+
+2024-02-28T15:58:01.680Z REPORT RequestId: ddbe83d8-a835-52d3-9a10-dd81f20f9fe0	Duration: 300.85 ms	Billed Duration: 301 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+

@@ -1,0 +1,83 @@
+2024-04-25T12:45:00.098Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-04-25T12:45:01.055Z START RequestId: 7dafdd7f-0f79-5cd3-9281-83db5d04b376 Version: $LATEST
+
+2024-04-25T12:45:01.197Z 2024-04-25T12:45:01.197Z	7dafdd7f-0f79-5cd3-9281-83db5d04b376	INFO	Processing message a5d98e97-8bc1-4bda-a220-f9edc2aabdd8
+
+2024-04-25T12:45:01.198Z 2024-04-25T12:45:01.198Z	7dafdd7f-0f79-5cd3-9281-83db5d04b376	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-25T12:45:01.210Z END RequestId: 7dafdd7f-0f79-5cd3-9281-83db5d04b376
+
+2024-04-25T12:45:01.210Z REPORT RequestId: 7dafdd7f-0f79-5cd3-9281-83db5d04b376	Duration: 154.24 ms	Billed Duration: 155 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	Init Duration: 956.50 ms	
+
+2024-04-25T12:52:30.422Z START RequestId: 2362b644-41a1-587d-9ea1-e8e0159a18e1 Version: $LATEST
+
+2024-04-25T12:52:30.552Z 2024-04-25T12:52:30.552Z	2362b644-41a1-587d-9ea1-e8e0159a18e1	INFO	Processing message 785b4b33-88c2-441b-991a-7cada429ab6e
+
+2024-04-25T12:52:30.594Z 2024-04-25T12:52:30.594Z	2362b644-41a1-587d-9ea1-e8e0159a18e1	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HWAN11N7ZG7QPGVQ8BP3QT2F',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: '9b462ea5-f561-409a-a637-2f559858813f',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#9b462ea5-f561-409a-a637-2f559858813f","eventSessionId":"a811a2b6-454d-4403-a065-b1bf698eb709","walletSk":"af885151-eae6-481d-ae06-900d5f8ad387","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-04-28T12:50:53.215Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://account?change-plan=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'BHD',
+    amount: 79.2,
+    vat: 7.2,
+    oldBalance: 180,
+    newBalance: 252
+  }
+}
+
+2024-04-25T12:52:30.675Z 2024-04-25T12:52:30.675Z	2362b644-41a1-587d-9ea1-e8e0159a18e1	INFO	Transaction Lock created!!!!!!!!!!!!!!!!!!!!!!!!!!! Rr {
+  dirty: {},
+  original: {
+    id: 'trxLock#9b462ea5-f561-409a-a637-2f559858813f',
+    sk: '01HWAN11N7ZG7QPGVQ8BP3QT2F',
+    userId: '9b462ea5-f561-409a-a637-2f559858813f',
+    dataType: 'trxLock',
+    createdAt: '2024-04-25T12:52:30.597Z',
+    updatedAt: '2024-04-25T12:52:30.597Z',
+    ttl: 1715863950,
+    tk: '2024-04-25T12:52:30.597Z',
+    fk: '2024-04-25T12:52:30.597Z'
+  },
+  attributes: [
+    'id',        'sk',
+    'userId',    'dataType',
+    'createdAt', 'updatedAt',
+    'ttl',       'tk',
+    'fk'
+  ],
+  id: 'trxLock#9b462ea5-f561-409a-a637-2f559858813f',
+  sk: '01HWAN11N7ZG7QPGVQ8BP3QT2F',
+  userId: '9b462ea5-f561-409a-a637-2f559858813f',
+  dataType: 'trxLock',
+  createdAt: '2024-04-25T12:52:30.597Z',
+  updatedAt: '2024-04-25T12:52:30.597Z',
+  ttl: 1715863950,
+  tk: '2024-04-25T12:52:30.597Z',
+  fk: '2024-04-25T12:52:30.597Z',
+  newEntity: false
+}
+
+2024-04-25T12:52:30.744Z 2024-04-25T12:52:30.744Z	2362b644-41a1-587d-9ea1-e8e0159a18e1	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-25T12:52:30.789Z END RequestId: 2362b644-41a1-587d-9ea1-e8e0159a18e1
+
+2024-04-25T12:52:30.789Z REPORT RequestId: 2362b644-41a1-587d-9ea1-e8e0159a18e1	Duration: 367.03 ms	Billed Duration: 368 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+XRAY TraceId: 1-662a520e-e7ba577ebe6a7d477ca165a4	SegmentId: 46d9b89c100f8873	Sampled: true	
+
+2024-04-25T12:48:30.465Z START RequestId: 7aaa68c9-0055-508f-abda-366d531a1d4f Version: $LATEST
+
+2024-04-25T12:48:30.607Z 2024-04-25T12:48:30.607Z	7aaa68c9-0055-508f-abda-366d531a1d4f	INFO	Processing message 03c9f038-7ac1-410c-b412-23cec9ffe55e
+
+2024-04-25T12:48:30.607Z 2024-04-25T12:48:30.607Z	7aaa68c9-0055-508f-abda-366d531a1d4f	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-04-25T12:48:30.608Z END RequestId: 7aaa68c9-0055-508f-abda-366d531a1d4f
+
+2024-04-25T12:48:30.608Z REPORT RequestId: 7aaa68c9-0055-508f-abda-366d531a1d4f	Duration: 143.46 ms	Billed Duration: 144 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+

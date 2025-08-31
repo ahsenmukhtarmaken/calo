@@ -1,0 +1,121 @@
+2024-01-09T22:10:40.574Z START RequestId: 1b07f49c-72e3-5f3f-94fd-aa8bb46c681f Version: $LATEST
+
+2024-01-09T22:10:40.645Z 2024-01-09T22:10:40.645Z	1b07f49c-72e3-5f3f-94fd-aa8bb46c681f	INFO	Processing message 33515e7b-d8ce-4f11-9b9a-157f9c0ca27e
+
+2024-01-09T22:10:40.654Z 2024-01-09T22:10:40.654Z	1b07f49c-72e3-5f3f-94fd-aa8bb46c681f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKR4E5VPGNYWH470MEHGR635',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: 'df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02',
+    paymentBalance: 1.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02","walletSk":"4c402187-7120-4b71-9729-061e01169df4","version":"syncBalanceSQS"}',
+    currency: 'BHD',
+    amount: 534,
+    vat: 0,
+    oldBalance: 535.4000000000001,
+    newBalance: 1.4
+  }
+}
+
+2024-01-09T22:10:40.719Z 2024-01-09T22:10:40.719Z	1b07f49c-72e3-5f3f-94fd-aa8bb46c681f	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-09T22:10:40.758Z END RequestId: 1b07f49c-72e3-5f3f-94fd-aa8bb46c681f
+
+2024-01-09T22:10:40.758Z REPORT RequestId: 1b07f49c-72e3-5f3f-94fd-aa8bb46c681f	Duration: 184.19 ms	Billed Duration: 185 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+XRAY TraceId: 1-659dc460-f09be4f695b63a0ccfdb9ea2	SegmentId: 2f309b537d106143	Sampled: true	
+
+2024-01-09T22:09:40.440Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-09T22:09:41.167Z START RequestId: 35f621d7-717d-5ac6-8b91-7fc0b72eebbf Version: $LATEST
+
+2024-01-09T22:09:41.318Z 2024-01-09T22:09:41.318Z	35f621d7-717d-5ac6-8b91-7fc0b72eebbf	INFO	Processing message 6d26a1c8-08e5-4eae-8240-35097a454618
+
+2024-01-09T22:09:41.373Z 2024-01-09T22:09:41.373Z	35f621d7-717d-5ac6-8b91-7fc0b72eebbf	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKR4CA091BBSNFNAY9K2XHCT',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: 'df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02',
+    paymentBalance: 535.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02","walletSk":"18b9d455-67eb-4023-9f1f-f0b33c032244","version":"syncBalanceSQS"}',
+    currency: 'BHD',
+    amount: 3185,
+    vat: 0,
+    oldBalance: 3186,
+    newBalance: 1
+  }
+}
+
+2024-01-09T22:09:41.465Z 2024-01-09T22:09:41.465Z	35f621d7-717d-5ac6-8b91-7fc0b72eebbf	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-09T22:09:41.515Z 2024-01-09T22:09:41.515Z	35f621d7-717d-5ac6-8b91-7fc0b72eebbf	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02',
+  subscriptionBalance: 1,
+  paymentBalance: 535.4
+}
+
+2024-01-09T22:09:41.586Z END RequestId: 35f621d7-717d-5ac6-8b91-7fc0b72eebbf
+
+2024-01-09T22:09:41.586Z REPORT RequestId: 35f621d7-717d-5ac6-8b91-7fc0b72eebbf	Duration: 418.50 ms	Billed Duration: 419 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 726.63 ms	
+
+2024-01-09T22:14:10.706Z START RequestId: 7a563fcf-0136-5603-b03e-61d8c65f8760 Version: $LATEST
+
+2024-01-09T22:14:10.794Z 2024-01-09T22:14:10.794Z	7a563fcf-0136-5603-b03e-61d8c65f8760	INFO	Processing message e220b815-cb26-4c22-9b40-415d9a083281
+
+2024-01-09T22:14:10.826Z 2024-01-09T22:14:10.826Z	7a563fcf-0136-5603-b03e-61d8c65f8760	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKR4MJSYYVFFFK99BKA4FE1S',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02',
+    paymentBalance: 129.4,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02","planType":"full","goal":"loseWeight","eventSessionId":"6fd32f92-91a5-4084-8b4c-ad0291296fb0","walletSk":"73d7ee28-65a9-4c37-8fcc-0caee56c5379","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-01-14","type":"userRenew","version":"syncBalanceSQS","frequency":"monthly","couponDiscount":32,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-01-14\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 140.8,
+    vat: 12.8,
+    oldBalance: 1.40000000000005,
+    newBalance: 129.4
+  }
+}
+
+2024-01-09T22:14:10.894Z 2024-01-09T22:14:10.894Z	7a563fcf-0136-5603-b03e-61d8c65f8760	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-09T22:14:10.935Z END RequestId: 7a563fcf-0136-5603-b03e-61d8c65f8760
+
+2024-01-09T22:14:10.935Z REPORT RequestId: 7a563fcf-0136-5603-b03e-61d8c65f8760	Duration: 228.79 ms	Billed Duration: 229 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+
+2024-01-09T22:14:13.386Z START RequestId: 44c7da82-b07a-5a58-8125-849577177a86 Version: $LATEST
+
+2024-01-09T22:14:13.415Z 2024-01-09T22:14:13.415Z	44c7da82-b07a-5a58-8125-849577177a86	INFO	Processing message e3bb6b1b-674c-4a37-9f1f-186196675f85
+
+2024-01-09T22:14:13.422Z 2024-01-09T22:14:13.422Z	44c7da82-b07a-5a58-8125-849577177a86	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKR4MNME9V8MCK2AR94NVNXA',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02',
+    paymentBalance: 161.4,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#df06a87e-a8bd-4aa4-b6f0-c16c1be9bb02","walletSk":"f3479cf5-9476-49eb-85ea-6d9839be7848","version":"syncBalanceSQS"}',
+    currency: 'BHD',
+    amount: 32,
+    vat: 0,
+    oldBalance: 129.40000000000006,
+    newBalance: 161.4
+  }
+}
+
+2024-01-09T22:14:13.467Z 2024-01-09T22:14:13.467Z	44c7da82-b07a-5a58-8125-849577177a86	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-09T22:14:13.485Z END RequestId: 44c7da82-b07a-5a58-8125-849577177a86
+
+2024-01-09T22:14:13.485Z REPORT RequestId: 44c7da82-b07a-5a58-8125-849577177a86	Duration: 99.22 ms	Billed Duration: 100 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	
+

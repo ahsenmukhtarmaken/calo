@@ -1,0 +1,117 @@
+2023-12-13T11:04:37.779Z START RequestId: 94084a98-529c-5f39-94a4-176bc36d1263 Version: $LATEST
+
+2023-12-13T11:04:37.937Z 2023-12-13T11:04:37.937Z	94084a98-529c-5f39-94a4-176bc36d1263	INFO	Processing message 9516926a-9023-437c-aa48-641541be36ed
+
+2023-12-13T11:04:37.966Z 2023-12-13T11:04:37.966Z	94084a98-529c-5f39-94a4-176bc36d1263	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHDJJQM7RT83ZRRDDXBM49E',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    currency: 'BHD',
+    amount: 102,
+    vat: 9.273,
+    oldBalance: 366.5455727272725,
+    newBalance: 459.2725727272725
+  }
+}
+
+2023-12-13T11:04:37.966Z 2023-12-13T11:04:37.966Z	94084a98-529c-5f39-94a4-176bc36d1263	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:04:37.997Z END RequestId: 94084a98-529c-5f39-94a4-176bc36d1263
+
+2023-12-13T11:04:37.997Z REPORT RequestId: 94084a98-529c-5f39-94a4-176bc36d1263	Duration: 218.62 ms	Billed Duration: 219 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+
+2023-12-13T11:08:13.688Z START RequestId: 57790018-5135-52b1-aa0c-5debc38c6027 Version: $LATEST
+
+2023-12-13T11:08:13.741Z 2023-12-13T11:08:13.741Z	57790018-5135-52b1-aa0c-5debc38c6027	INFO	Processing message 886f424d-3549-4eb4-8680-293a237a2970
+
+2023-12-13T11:08:13.769Z 2023-12-13T11:08:13.769Z	57790018-5135-52b1-aa0c-5debc38c6027	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHDRTRM4N5Z1S2YJKDKH6F1',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 1.1,
+    vat: 0.1,
+    oldBalance: 480.091,
+    newBalance: 479.091
+  }
+}
+
+2023-12-13T11:08:13.769Z 2023-12-13T11:08:13.769Z	57790018-5135-52b1-aa0c-5debc38c6027	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:08:13.810Z 2023-12-13T11:08:13.810Z	57790018-5135-52b1-aa0c-5debc38c6027	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 480.091,
+  paymentBalance: 897.091
+}
+
+2023-12-13T11:08:13.810Z {"_aws":{"Timestamp":1702465693810,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"PARTIAL_REFUND"}
+
+2023-12-13T11:08:13.853Z END RequestId: 57790018-5135-52b1-aa0c-5debc38c6027
+
+2023-12-13T11:08:13.853Z REPORT RequestId: 57790018-5135-52b1-aa0c-5debc38c6027	Duration: 164.13 ms	Billed Duration: 165 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+XRAY TraceId: 1-6579909d-d66cb50b25ff8b5dea9624a0	SegmentId: 5353116641ebb45c	Sampled: true	
+
+2023-12-13T11:06:57.074Z START RequestId: 275a1013-42df-58be-a47a-4de0d0b38680 Version: $LATEST
+
+2023-12-13T11:06:57.201Z 2023-12-13T11:06:57.201Z	275a1013-42df-58be-a47a-4de0d0b38680	INFO	Processing message 4be34ee0-8a28-4431-90ff-1e9ac1279c8f
+
+2023-12-13T11:06:57.229Z 2023-12-13T11:06:57.229Z	275a1013-42df-58be-a47a-4de0d0b38680	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHDPTRGD7Z6R48FERA7Q2A4',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 1.1,
+    vat: 0.1,
+    oldBalance: 481.091,
+    newBalance: 480.091
+  }
+}
+
+2023-12-13T11:06:57.229Z 2023-12-13T11:06:57.229Z	275a1013-42df-58be-a47a-4de0d0b38680	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:06:57.272Z 2023-12-13T11:06:57.272Z	275a1013-42df-58be-a47a-4de0d0b38680	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 481.091,
+  paymentBalance: 898.091
+}
+
+2023-12-13T11:06:57.272Z {"_aws":{"Timestamp":1702465617272,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"ALLERGIC_CONDITIONS"}
+
+2023-12-13T11:06:57.309Z END RequestId: 275a1013-42df-58be-a47a-4de0d0b38680
+
+2023-12-13T11:06:57.309Z REPORT RequestId: 275a1013-42df-58be-a47a-4de0d0b38680	Duration: 235.23 ms	Billed Duration: 236 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	
+XRAY TraceId: 1-65799051-f01600d8a318f211f32f6455	SegmentId: 1b17c90563bdfde9	Sampled: true	
+
+2023-12-13T11:02:15.596Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-13T11:02:16.472Z START RequestId: 2ec16c1c-c791-5bac-927c-31ef56cfe1ad Version: $LATEST
+
+2023-12-13T11:02:16.586Z 2023-12-13T11:02:16.586Z	2ec16c1c-c791-5bac-927c-31ef56cfe1ad	INFO	Processing message 1a328795-e560-4ec8-b046-bae8936ab032
+
+2023-12-13T11:02:16.621Z 2023-12-13T11:02:16.621Z	2ec16c1c-c791-5bac-927c-31ef56cfe1ad	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHDE5Z7GYRTZVGDFBA2JVYE',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 2.2,
+    vat: 0.2,
+    oldBalance: 482.091,
+    newBalance: 480.091
+  }
+}
+
+2023-12-13T11:02:16.621Z 2023-12-13T11:02:16.621Z	2ec16c1c-c791-5bac-927c-31ef56cfe1ad	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:02:16.669Z 2023-12-13T11:02:16.669Z	2ec16c1c-c791-5bac-927c-31ef56cfe1ad	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 482.091,
+  paymentBalance: 899.091
+}
+
+2023-12-13T11:02:16.670Z {"_aws":{"Timestamp":1702465336670,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"PERSONAL_PREFERENCE"}
+
+2023-12-13T11:02:16.706Z END RequestId: 2ec16c1c-c791-5bac-927c-31ef56cfe1ad
+
+2023-12-13T11:02:16.706Z REPORT RequestId: 2ec16c1c-c791-5bac-927c-31ef56cfe1ad	Duration: 233.81 ms	Billed Duration: 234 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 874.96 ms	
+XRAY TraceId: 1-65798f37-f8392c9fd66ad11d6d614f17	SegmentId: 784c86101a8203c9	Sampled: true	
+

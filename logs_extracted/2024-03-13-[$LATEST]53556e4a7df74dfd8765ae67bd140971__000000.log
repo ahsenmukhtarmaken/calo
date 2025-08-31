@@ -1,0 +1,87 @@
+2024-03-13T16:18:35.543Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-13T16:18:36.567Z START RequestId: 8d4d8375-c921-5d29-9c9f-dd1e1d33654d Version: $LATEST
+
+2024-03-13T16:18:36.725Z 2024-03-13T16:18:36.725Z	8d4d8375-c921-5d29-9c9f-dd1e1d33654d	INFO	Processing message 08dc1f25-68bf-442f-9241-e2f87259d054
+
+2024-03-13T16:18:36.787Z 2024-03-13T16:18:36.787Z	8d4d8375-c921-5d29-9c9f-dd1e1d33654d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRW9QF8CAK8NZHBMDPT1EQRA',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'DELIVERY_CANCELLATION',
+    userId: 'd5ac8cce-d4db-4222-9b79-0bc3d112861e',
+    paymentBalance: 90,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d5ac8cce-d4db-4222-9b79-0bc3d112861e","deliveryId":"43550109-315f-4000-ab6d-7b35f319ea31","walletSk":"4a62c7e0-dc62-4db8-b717-c3da7fa7a79d"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 81,
+    newBalance: 90
+  }
+}
+
+2024-03-13T16:18:36.903Z 2024-03-13T16:18:36.903Z	8d4d8375-c921-5d29-9c9f-dd1e1d33654d	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-13T16:18:36.955Z END RequestId: 8d4d8375-c921-5d29-9c9f-dd1e1d33654d
+
+2024-03-13T16:18:36.955Z REPORT RequestId: 8d4d8375-c921-5d29-9c9f-dd1e1d33654d	Duration: 388.24 ms	Billed Duration: 389 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1022.24 ms	
+
+2024-03-13T16:25:03.113Z START RequestId: 94499478-55ec-5163-9c00-ca138061c3a0 Version: $LATEST
+
+2024-03-13T16:25:03.237Z 2024-03-13T16:25:03.237Z	94499478-55ec-5163-9c00-ca138061c3a0	INFO	Processing message 32fa8dfe-3308-4a5f-b8c8-a56c80530ad5
+
+2024-03-13T16:25:03.268Z 2024-03-13T16:25:03.268Z	94499478-55ec-5163-9c00-ca138061c3a0	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRWA3AB0M6EJ9EPSVEZNMJM4',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'd5ac8cce-d4db-4222-9b79-0bc3d112861e',
+    paymentBalance: 73,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d5ac8cce-d4db-4222-9b79-0bc3d112861e","deliveryId":"42dbe5cd-a3ce-4560-982c-6a2ee03bfeba","walletSk":"42dbe5cd-a3ce-4560-982c-6a2ee03bfeba#manual"}',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 81,
+    newBalance: 73
+  }
+}
+
+2024-03-13T16:25:03.347Z 2024-03-13T16:25:03.347Z	94499478-55ec-5163-9c00-ca138061c3a0	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-13T16:25:03.389Z END RequestId: 94499478-55ec-5163-9c00-ca138061c3a0
+
+2024-03-13T16:25:03.389Z REPORT RequestId: 94499478-55ec-5163-9c00-ca138061c3a0	Duration: 276.08 ms	Billed Duration: 277 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-03-13T16:21:44.021Z START RequestId: 96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75 Version: $LATEST
+
+2024-03-13T16:21:44.138Z 2024-03-13T16:21:44.138Z	96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75	INFO	Processing message 7556e5f6-9b45-4084-b9db-4f6084eb547d
+
+2024-03-13T16:21:44.167Z 2024-03-13T16:21:44.167Z	96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HRW9X7YK833WY9Z8F3NEVXP8',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: 'd5ac8cce-d4db-4222-9b79-0bc3d112861e',
+    paymentBalance: 81,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d5ac8cce-d4db-4222-9b79-0bc3d112861e","deliveryId":"43550109-315f-4000-ab6d-7b35f319ea31","walletSk":"43550109-315f-4000-ab6d-7b35f319ea31#manual"}',
+    currency: 'BHD',
+    amount: 9,
+    vat: 0,
+    oldBalance: 90,
+    newBalance: 81
+  }
+}
+
+2024-03-13T16:21:44.249Z 2024-03-13T16:21:44.249Z	96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-13T16:21:44.288Z END RequestId: 96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75
+
+2024-03-13T16:21:44.288Z REPORT RequestId: 96bc2ea2-1aa5-5ad8-bf22-70c9ce6e3d75	Duration: 267.56 ms	Billed Duration: 268 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+XRAY TraceId: 1-65f1d297-c149d9f2ef20d87598443fd4	SegmentId: 53c320b521b8feea	Sampled: true	
+

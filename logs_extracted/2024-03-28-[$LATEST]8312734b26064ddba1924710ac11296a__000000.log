@@ -1,0 +1,38 @@
+2024-03-28T16:32:46.053Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T16:32:47.098Z START RequestId: fe42ff57-e29f-5367-8935-a1287f7cba0f Version: $LATEST
+
+2024-03-28T16:32:47.257Z 2024-03-28T16:32:47.257Z	fe42ff57-e29f-5367-8935-a1287f7cba0f	INFO	Processing message a1aa75b0-e01e-4fd6-8d72-b2a6aba6b5a1
+
+2024-03-28T16:32:47.304Z 2024-03-28T16:32:47.304Z	fe42ff57-e29f-5367-8935-a1287f7cba0f	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT2YG6WVRXKNJ8QWKWHZ14AR',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DOUBLE_ENTRY',
+    userId: '073d8401-e882-4dc0-a104-c212f6019ebd',
+    paymentBalance: -234.78,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#073d8401-e882-4dc0-a104-c212f6019ebd","walletSk":"343d4eac-8c51-496b-b7e1-538d63a69c39"}',
+    currency: 'SAR',
+    amount: 744.78,
+    vat: 0,
+    oldBalance: 510,
+    newBalance: -234.78
+  }
+}
+
+2024-03-28T16:32:47.306Z 2024-03-28T16:32:47.306Z	fe42ff57-e29f-5367-8935-a1287f7cba0f	INFO	{
+  message: 'Subscriber will have a negative balance due to this action, the process will terminate.',
+  data: {
+    transactionId: '01HT2YG6WVRXKNJ8QWKWHZ14AR',
+    userId: '073d8401-e882-4dc0-a104-c212f6019ebd',
+    currentBalance: 510,
+    newBalance: -234.78
+  }
+}
+
+2024-03-28T16:32:47.364Z END RequestId: fe42ff57-e29f-5367-8935-a1287f7cba0f
+
+2024-03-28T16:32:47.364Z REPORT RequestId: fe42ff57-e29f-5367-8935-a1287f7cba0f	Duration: 265.25 ms	Billed Duration: 266 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1044.22 ms	
+

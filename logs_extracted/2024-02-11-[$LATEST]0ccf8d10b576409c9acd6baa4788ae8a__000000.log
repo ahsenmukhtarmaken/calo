@@ -1,0 +1,36 @@
+2024-02-11T12:34:23.889Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-11T12:34:24.723Z START RequestId: 77ce9c5e-fde6-572b-b4b8-c21c3ce551d6 Version: $LATEST
+
+2024-02-11T12:34:24.901Z 2024-02-11T12:34:24.901Z	77ce9c5e-fde6-572b-b4b8-c21c3ce551d6	INFO	Processing message 6167f056-fcf7-4f89-ba63-5a9017ff0c9d
+
+2024-02-11T12:34:25.044Z 2024-02-11T12:34:25.044Z	77ce9c5e-fde6-572b-b4b8-c21c3ce551d6	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPC2JNPNRM4QJFHTWM92QEEB',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1886.288,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","deliveryId":"97e8af20-0bc8-44f3-accb-afc0fa3d32a4","eventSessionId":"af382e97-67bf-40bc-98e8-b2d2d934c13c","walletSk":"1055493b-802c-4b0e-876f-5d9ac6f3e109","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"jskldf\\",\\"senderName\\":\\"Shatha Abuhashem\\",\\"giftMessage\\":\\"fjsldkf\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"aymancds@gmail.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 335.678,
+    newBalance: 370.678
+  }
+}
+
+2024-02-11T12:34:25.197Z 2024-02-11T12:34:25.197Z	77ce9c5e-fde6-572b-b4b8-c21c3ce551d6	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-11T12:34:25.254Z 2024-02-11T12:34:25.254Z	77ce9c5e-fde6-572b-b4b8-c21c3ce551d6	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 370.678,
+  paymentBalance: 1886.288
+}
+
+2024-02-11T12:34:25.275Z END RequestId: 77ce9c5e-fde6-572b-b4b8-c21c3ce551d6
+
+2024-02-11T12:34:25.275Z REPORT RequestId: 77ce9c5e-fde6-572b-b4b8-c21c3ce551d6	Duration: 552.21 ms	Billed Duration: 553 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 831.07 ms	
+

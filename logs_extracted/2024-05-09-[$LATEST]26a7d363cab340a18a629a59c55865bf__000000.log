@@ -1,0 +1,70 @@
+2024-05-09T12:03:19.631Z START RequestId: 79a12bf6-e3de-57e5-aee9-75405e1dc5d8 Version: $LATEST
+
+2024-05-09T12:03:19.664Z 2024-05-09T12:03:19.664Z	79a12bf6-e3de-57e5-aee9-75405e1dc5d8	INFO	Processing message a570bac9-9230-48de-bc67-b76be39d4e2a
+
+2024-05-09T12:03:19.674Z 2024-05-09T12:03:19.674Z	79a12bf6-e3de-57e5-aee9-75405e1dc5d8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXEKS28T88SX0X7WM8RHZ569',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'f692968c-c330-47d5-bfcc-c2782ff294bd',
+    paymentBalance: 6320,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f692968c-c330-47d5-bfcc-c2782ff294bd","walletSk":"d0f8e856-9a14-449f-b764-1c634cc593fa"}',
+    currency: 'SAR',
+    amount: 688,
+    vat: 0,
+    oldBalance: 1512,
+    newBalance: 2200
+  }
+}
+
+2024-05-09T12:03:19.726Z 2024-05-09T12:03:19.726Z	79a12bf6-e3de-57e5-aee9-75405e1dc5d8	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T12:03:19.769Z 2024-05-09T12:03:19.769Z	79a12bf6-e3de-57e5-aee9-75405e1dc5d8	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f692968c-c330-47d5-bfcc-c2782ff294bd',
+  subscriptionBalance: 2200,
+  paymentBalance: 6320
+}
+
+2024-05-09T12:03:19.791Z END RequestId: 79a12bf6-e3de-57e5-aee9-75405e1dc5d8
+
+2024-05-09T12:03:19.791Z REPORT RequestId: 79a12bf6-e3de-57e5-aee9-75405e1dc5d8	Duration: 159.64 ms	Billed Duration: 160 ms	Memory Size: 1024 MB	Max Memory Used: 120 MB	
+
+2024-05-09T12:03:15.894Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-09T12:03:16.934Z START RequestId: ccdf3765-b705-52a6-87fc-69d30aba389d Version: $LATEST
+
+2024-05-09T12:03:17.079Z 2024-05-09T12:03:17.079Z	ccdf3765-b705-52a6-87fc-69d30aba389d	INFO	Processing message 65b03119-12f9-4569-9be3-18c73643cc1f
+
+2024-05-09T12:03:17.138Z 2024-05-09T12:03:17.138Z	ccdf3765-b705-52a6-87fc-69d30aba389d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXEKRXJKSFCARETHT8T6B5E3',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'f692968c-c330-47d5-bfcc-c2782ff294bd',
+    paymentBalance: 5632,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#f692968c-c330-47d5-bfcc-c2782ff294bd","eventSessionId":"6ae324ae-58c2-46e5-8592-17ba50c5ef87","walletSk":"ef344062-a9c4-46e9-904e-ddcf88109c85","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"coupon\\":\\"GIFTCHANGE40\\",\\"startDate\\":\\"2024-05-12T12:02:17.518Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":90,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}"}',
+    currency: 'SAR',
+    amount: 818.8,
+    vat: 106.8,
+    oldBalance: 800,
+    newBalance: 1512
+  }
+}
+
+2024-05-09T12:03:17.287Z 2024-05-09T12:03:17.287Z	ccdf3765-b705-52a6-87fc-69d30aba389d	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-09T12:03:17.339Z 2024-05-09T12:03:17.339Z	ccdf3765-b705-52a6-87fc-69d30aba389d	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'f692968c-c330-47d5-bfcc-c2782ff294bd',
+  subscriptionBalance: 1512,
+  paymentBalance: 5632
+}
+
+2024-05-09T12:03:17.376Z END RequestId: ccdf3765-b705-52a6-87fc-69d30aba389d
+
+2024-05-09T12:03:17.376Z REPORT RequestId: ccdf3765-b705-52a6-87fc-69d30aba389d	Duration: 442.19 ms	Billed Duration: 443 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1038.95 ms	
+

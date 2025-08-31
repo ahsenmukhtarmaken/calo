@@ -1,0 +1,26 @@
+2023-12-12T09:09:40.100Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-12T09:09:40.737Z START RequestId: bca8cadb-8e54-542e-8bd7-9729ab2f4266 Version: $LATEST
+
+2023-12-12T09:09:40.743Z 2023-12-12T09:09:40.743Z	bca8cadb-8e54-542e-8bd7-9729ab2f4266	INFO	Processing message f411f67c-f6e6-4307-b3f8-bc8cb43678ba
+
+2023-12-12T09:09:40.745Z {"_aws":{"Timestamp":1702372180744,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"synBalanceError","Unit":"Count"}]}]},"service":"syncBalanceSQS","synBalanceError":1}
+
+2023-12-12T09:09:40.832Z 2023-12-12T09:09:40.832Z	bca8cadb-8e54-542e-8bd7-9729ab2f4266	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEMKB7SBERYGPMTWFT7BXTK',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 213,
+    newBalance: 263
+  }
+}
+
+2023-12-12T09:09:40.832Z 2023-12-12T09:09:40.832Z	bca8cadb-8e54-542e-8bd7-9729ab2f4266	INFO	Balance is already synced from other listeners
+
+2023-12-12T09:09:40.881Z END RequestId: bca8cadb-8e54-542e-8bd7-9729ab2f4266
+
+2023-12-12T09:09:40.881Z REPORT RequestId: bca8cadb-8e54-542e-8bd7-9729ab2f4266	Duration: 144.19 ms	Billed Duration: 145 ms	Memory Size: 1024 MB	Max Memory Used: 95 MB	Init Duration: 635.75 ms	
+

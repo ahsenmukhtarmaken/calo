@@ -1,0 +1,96 @@
+2024-05-13T09:10:08.550Z START RequestId: 2b3d29b0-b4ee-527b-b455-770b6fcdbe2e Version: $LATEST
+
+2024-05-13T09:10:08.663Z 2024-05-13T09:10:08.663Z	2b3d29b0-b4ee-527b-b455-770b6fcdbe2e	INFO	Processing message 98b2a415-8607-4c48-aace-909e4d2efcb5
+
+2024-05-13T09:10:08.701Z 2024-05-13T09:10:08.701Z	2b3d29b0-b4ee-527b-b455-770b6fcdbe2e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXRKET7H5XKJARQCDQRJV73S',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: '4863bf2e-4248-4eed-888e-2e6aa4372295',
+    paymentBalance: 187.273,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4863bf2e-4248-4eed-888e-2e6aa4372295","deliveryId":"a5adeaa7-cfe6-453a-b5a4-95b5fbc3374f","eventSessionId":"e33f01a9-9e09-4e23-b592-5a84f6498c6b","walletSk":"e5882cbc-ee2d-4ff9-a615-cd6a87700de4","version2":true,"addons":"[{\\"id\\":\\"ac7b3afd-eb84-4b58-a280-0229e6231c7f\\",\\"quantity\\":1}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0.727,
+    oldBalance: 180,
+    newBalance: 187.273
+  }
+}
+
+2024-05-13T09:10:08.852Z 2024-05-13T09:10:08.852Z	2b3d29b0-b4ee-527b-b455-770b6fcdbe2e	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T09:10:08.890Z END RequestId: 2b3d29b0-b4ee-527b-b455-770b6fcdbe2e
+
+2024-05-13T09:10:08.890Z REPORT RequestId: 2b3d29b0-b4ee-527b-b455-770b6fcdbe2e	Duration: 340.33 ms	Billed Duration: 341 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-05-13T09:13:47.499Z START RequestId: 8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd Version: $LATEST
+
+2024-05-13T09:13:47.564Z 2024-05-13T09:13:47.564Z	8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd	INFO	Processing message 186e2f4e-7789-461f-959b-e9296c9bd949
+
+2024-05-13T09:13:47.592Z 2024-05-13T09:13:47.592Z	8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXRKNGAMFWNFWCSD2B3XFGDH',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'INVAILID_ENTRY',
+    userId: '4863bf2e-4248-4eed-888e-2e6aa4372295',
+    paymentBalance: 0,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4863bf2e-4248-4eed-888e-2e6aa4372295","walletSk":"17a90726-7755-449f-bee6-60c2f2491efe"}',
+    currency: 'BHD',
+    amount: 187.773,
+    vat: 0,
+    oldBalance: 187.773,
+    newBalance: 0
+  }
+}
+
+2024-05-13T09:13:47.676Z 2024-05-13T09:13:47.676Z	8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T09:13:47.713Z END RequestId: 8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd
+
+2024-05-13T09:13:47.713Z REPORT RequestId: 8b14b71c-3212-5b86-94eb-e9a7e9eb2ecd	Duration: 214.15 ms	Billed Duration: 215 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+
+2024-05-13T09:07:02.902Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-13T09:07:03.917Z START RequestId: 3b61b61e-5be1-572f-b214-e8a5818868aa Version: $LATEST
+
+2024-05-13T09:07:04.079Z 2024-05-13T09:07:04.079Z	3b61b61e-5be1-572f-b214-e8a5818868aa	INFO	Processing message d9fd0008-022a-4317-9038-bc2d5e4214d5
+
+2024-05-13T09:07:04.095Z 2024-05-13T09:07:04.095Z	3b61b61e-5be1-572f-b214-e8a5818868aa	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-13T09:07:04.101Z END RequestId: 3b61b61e-5be1-572f-b214-e8a5818868aa
+
+2024-05-13T09:07:04.101Z REPORT RequestId: 3b61b61e-5be1-572f-b214-e8a5818868aa	Duration: 184.58 ms	Billed Duration: 185 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	Init Duration: 1013.59 ms	
+
+2024-05-13T09:11:20.915Z START RequestId: dadc6c9e-1750-59e4-94d1-3225cc388172 Version: $LATEST
+
+2024-05-13T09:11:21.045Z 2024-05-13T09:11:21.045Z	dadc6c9e-1750-59e4-94d1-3225cc388172	INFO	Processing message e25653cd-6c6d-4180-86f2-4129a77a504a
+
+2024-05-13T09:11:21.071Z 2024-05-13T09:11:21.071Z	dadc6c9e-1750-59e4-94d1-3225cc388172	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXRKH0ZG1VYZ4DQ36P3NTTGQ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '4863bf2e-4248-4eed-888e-2e6aa4372295',
+    paymentBalance: 187.773,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4863bf2e-4248-4eed-888e-2e6aa4372295","deliveryId":"a5adeaa7-cfe6-453a-b5a4-95b5fbc3374f","eventSessionId":"6ce401f8-b33b-4d6c-9052-5f5a71359d78","walletSk":"7f9c68cb-ae2c-462c-850f-f725371e6d6b","version2":true,"source":"{\\"id\\":\\"3709e228-cced-4550-a1af-ed80cf7d20bc\\",\\"name\\":{\\"ar\\":\\"بارفيه مربى التوت الأزرق والشيا\\",\\"en\\":\\"Blueberry Chia Jam Parfait\\"}}","target":"{\\"id\\":\\"fef716fa-1fb7-4284-89b4-8ec208c91248\\",\\"name\\":{\\"ar\\":\\"Three Cheese Quesadilla\\",\\"en\\":\\"Three Cheese Quesadilla\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 187.273,
+    newBalance: 187.773
+  }
+}
+
+2024-05-13T09:11:21.151Z 2024-05-13T09:11:21.151Z	dadc6c9e-1750-59e4-94d1-3225cc388172	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T09:11:21.184Z END RequestId: dadc6c9e-1750-59e4-94d1-3225cc388172
+
+2024-05-13T09:11:21.184Z REPORT RequestId: dadc6c9e-1750-59e4-94d1-3225cc388172	Duration: 267.99 ms	Billed Duration: 268 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	
+

@@ -1,0 +1,36 @@
+2024-02-13T11:08:32.850Z 2024-02-13T11:08:32.850Z	c4a01d91-203e-5993-9487-43d46fe1e137	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPH2EWKW3T6M8Q9AY2G3J2CV',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+    paymentBalance: 11708.253,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eb6875d4-8663-4dc5-8838-1148a2425c13","deliveryId":"643d35c1-dfe8-478c-9464-d4c5bb20eb2e","eventSessionId":"deea5515-541c-4149-b5e3-b58f2f1d50eb","walletSk":"84c5bd11-1a95-4097-836b-214383332556","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"friend\\",\\"receiverName\\":\\"hshsh\\",\\"senderName\\":\\"Yalla haris\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"shahs\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 195.273,
+    newBalance: 230.273
+  }
+}
+
+2024-02-13T11:08:32.960Z 2024-02-13T11:08:32.960Z	c4a01d91-203e-5993-9487-43d46fe1e137	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-13T11:08:33.007Z 2024-02-13T11:08:33.007Z	c4a01d91-203e-5993-9487-43d46fe1e137	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'eb6875d4-8663-4dc5-8838-1148a2425c13',
+  subscriptionBalance: 230.273,
+  paymentBalance: 11708.253
+}
+
+2024-02-13T11:08:33.027Z END RequestId: c4a01d91-203e-5993-9487-43d46fe1e137
+
+2024-02-13T11:08:33.027Z REPORT RequestId: c4a01d91-203e-5993-9487-43d46fe1e137	Duration: 439.16 ms	Billed Duration: 440 ms	Memory Size: 1024 MB	Max Memory Used: 101 MB	Init Duration: 688.12 ms	
+
+2024-02-13T11:08:31.899Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-13T11:08:32.588Z START RequestId: c4a01d91-203e-5993-9487-43d46fe1e137 Version: $LATEST
+
+2024-02-13T11:08:32.728Z 2024-02-13T11:08:32.728Z	c4a01d91-203e-5993-9487-43d46fe1e137	INFO	Processing message a1212497-877b-421d-9988-d49950e58248
+

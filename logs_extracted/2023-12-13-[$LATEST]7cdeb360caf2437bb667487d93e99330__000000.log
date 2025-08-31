@@ -1,0 +1,377 @@
+2023-12-13T11:20:50.519Z START RequestId: 9bbb752d-a8ff-5569-9a14-28de3d42d436 Version: $LATEST
+
+2023-12-13T11:20:50.673Z 2023-12-13T11:20:50.673Z	9bbb752d-a8ff-5569-9a14-28de3d42d436	INFO	Processing message 12272941-e65e-4584-8fb4-a79a009f16df
+
+2023-12-13T11:20:50.697Z 2023-12-13T11:20:50.697Z	9bbb752d-a8ff-5569-9a14-28de3d42d436	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHEG8KKSDNTXK1Y37MQ0TXW',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 2.2,
+    vat: 0.2,
+    oldBalance: 477.091,
+    newBalance: 475.091
+  }
+}
+
+2023-12-13T11:20:50.697Z 2023-12-13T11:20:50.697Z	9bbb752d-a8ff-5569-9a14-28de3d42d436	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:20:50.740Z 2023-12-13T11:20:50.740Z	9bbb752d-a8ff-5569-9a14-28de3d42d436	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 477.091,
+  paymentBalance: 894.091
+}
+
+2023-12-13T11:20:50.741Z {"_aws":{"Timestamp":1702466450741,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"MEDICAL_CONDITION"}
+
+2023-12-13T11:20:50.791Z END RequestId: 9bbb752d-a8ff-5569-9a14-28de3d42d436
+
+2023-12-13T11:20:50.791Z REPORT RequestId: 9bbb752d-a8ff-5569-9a14-28de3d42d436	Duration: 271.55 ms	Billed Duration: 272 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	
+XRAY TraceId: 1-65799392-efa32f86b981bb5e17bcbe15	SegmentId: 4aa4aaf1710fc623	Sampled: true	
+
+2023-12-13T11:23:23.703Z START RequestId: ed200fcf-dad2-5395-8d36-523c4c803f55 Version: $LATEST
+
+2023-12-13T11:23:23.836Z 2023-12-13T11:23:23.836Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message 146c73d8-e3d4-444f-a349-6a98cc370495
+
+2023-12-13T11:23:23.864Z 2023-12-13T11:23:23.864Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01GZHPNDDV7C73NEJTG6XRDAWM',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:23.864Z 2023-12-13T11:23:23.864Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.093Z 2023-12-13T11:23:24.093Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message 228c4eed-6598-4756-8c60-1d8c23a8cadc
+
+2023-12-13T11:23:24.098Z 2023-12-13T11:23:24.098Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01GZPVEZW87Q2PXD7A48FD1C8E',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 107,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1145
+  }
+}
+
+2023-12-13T11:23:24.098Z 2023-12-13T11:23:24.098Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.113Z 2023-12-13T11:23:24.113Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message 35e35405-9a88-4abe-9d66-fbc357b0d9da
+
+2023-12-13T11:23:24.119Z 2023-12-13T11:23:24.119Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01GZSDVGDA7JENCCKWV4V9626B',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.120Z 2023-12-13T11:23:24.120Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.133Z 2023-12-13T11:23:24.133Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message fd37db23-8f45-475c-b43f-dcbfd7e5d12e
+
+2023-12-13T11:23:24.138Z 2023-12-13T11:23:24.138Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H03QEQTXKHGX9P8ZAZ394P3E',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.138Z 2023-12-13T11:23:24.138Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.154Z 2023-12-13T11:23:24.154Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message 49dadcd1-b597-4309-a6b1-d1c92345adab
+
+2023-12-13T11:23:24.159Z 2023-12-13T11:23:24.159Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0E11GQWS9REJSSY864S7TYB',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.159Z 2023-12-13T11:23:24.159Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.173Z 2023-12-13T11:23:24.173Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Processing message 439aeacf-66aa-456a-816c-5eb908a9820d
+
+2023-12-13T11:23:24.179Z 2023-12-13T11:23:24.179Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0GKEG197T937E5CHXAD2YPJ',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.179Z 2023-12-13T11:23:24.179Z	ed200fcf-dad2-5395-8d36-523c4c803f55	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.191Z END RequestId: ed200fcf-dad2-5395-8d36-523c4c803f55
+
+2023-12-13T11:23:24.191Z REPORT RequestId: ed200fcf-dad2-5395-8d36-523c4c803f55	Duration: 488.73 ms	Billed Duration: 489 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	
+XRAY TraceId: 1-6579942b-ac940fdc10330c4a4401b494	SegmentId: 17b2dc3c20766096	Sampled: true	
+
+2023-12-13T11:23:24.432Z START RequestId: dc8fb575-4bc6-5f74-a0b8-e886dd89a384 Version: $LATEST
+
+2023-12-13T11:23:24.447Z 2023-12-13T11:23:24.447Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Processing message 2cf84bfe-2dd0-4d6e-b2f4-fc601bab2950
+
+2023-12-13T11:23:24.492Z 2023-12-13T11:23:24.492Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Start syncing the balance {
+  transaction: {
+    id: '01GZW07WV17K22ABQVP9MBB1VN',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.492Z 2023-12-13T11:23:24.492Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.505Z 2023-12-13T11:23:24.505Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Processing message f21860b5-b1d6-4a29-94e9-182265bfabfe
+
+2023-12-13T11:23:24.510Z 2023-12-13T11:23:24.510Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0MBPJS49QT53QAE0C0XF09F',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 614.25,
+    vat: 29.25,
+    oldBalance: 1252,
+    newBalance: 1837
+  }
+}
+
+2023-12-13T11:23:24.510Z 2023-12-13T11:23:24.510Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.526Z 2023-12-13T11:23:24.526Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Processing message ceed47e7-a6ef-47b4-b1a5-a967d369c6a3
+
+2023-12-13T11:23:24.530Z 2023-12-13T11:23:24.530Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0XFE45E7BAW7RNEQ7FGH24N',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.530Z 2023-12-13T11:23:24.530Z	dc8fb575-4bc6-5f74-a0b8-e886dd89a384	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.547Z END RequestId: dc8fb575-4bc6-5f74-a0b8-e886dd89a384
+
+2023-12-13T11:23:24.547Z REPORT RequestId: dc8fb575-4bc6-5f74-a0b8-e886dd89a384	Duration: 114.85 ms	Billed Duration: 115 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	
+XRAY TraceId: 1-6579942c-3938526c8a33019c7bd35c20	SegmentId: 6f09363761256ecb	Sampled: true	
+
+2023-12-13T11:23:24.596Z START RequestId: 71ad2448-a2cc-5728-88fd-79bb34870ed5 Version: $LATEST
+
+2023-12-13T11:23:24.623Z 2023-12-13T11:23:24.623Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 15bda7b0-b79b-478e-8dda-17b84e0db9d2
+
+2023-12-13T11:23:24.623Z 2023-12-13T11:23:24.623Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2023-12-13T11:23:24.623Z 2023-12-13T11:23:24.623Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message c525f1db-6aed-46ee-8bad-fe4be5bed9a8
+
+2023-12-13T11:23:24.628Z 2023-12-13T11:23:24.628Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01GZYJNRAZKSJCJJGV8MQE9D15',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.628Z 2023-12-13T11:23:24.628Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.642Z 2023-12-13T11:23:24.642Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message a359346f-a4b6-4b22-a4d6-8502e31e8a29
+
+2023-12-13T11:23:24.647Z 2023-12-13T11:23:24.647Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H02AWG1MK36P1S9KE094PBZQ',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 614.25,
+    vat: 29.25,
+    oldBalance: 1252,
+    newBalance: 1837
+  }
+}
+
+2023-12-13T11:23:24.647Z 2023-12-13T11:23:24.647Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.657Z 2023-12-13T11:23:24.657Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 01ae1e15-fa3a-4445-af9a-3a90257385a9
+
+2023-12-13T11:23:24.662Z 2023-12-13T11:23:24.662Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H08W8MY8CGDNQ9QP09PCYKGZ',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.662Z 2023-12-13T11:23:24.662Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.676Z 2023-12-13T11:23:24.676Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 7a997727-5c7c-4449-b6d4-cbdc537f1a98
+
+2023-12-13T11:23:24.681Z 2023-12-13T11:23:24.681Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0BEN1AV5HRA4NRS60G9GJEE',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 107,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1145
+  }
+}
+
+2023-12-13T11:23:24.681Z 2023-12-13T11:23:24.681Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.734Z 2023-12-13T11:23:24.734Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 96c31cf3-4b0e-4017-a7c5-ea0178bad4f2
+
+2023-12-13T11:23:24.739Z 2023-12-13T11:23:24.739Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0NR8289FD09TFN53K88FZ6D',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.739Z 2023-12-13T11:23:24.739Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.752Z 2023-12-13T11:23:24.752Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 42978f3e-b518-40e0-af02-a416436840ff
+
+2023-12-13T11:23:24.757Z 2023-12-13T11:23:24.757Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H0TX1FHABX4X8QB557JEEVH4',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 107,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1145
+  }
+}
+
+2023-12-13T11:23:24.757Z 2023-12-13T11:23:24.757Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.768Z 2023-12-13T11:23:24.768Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message acf73c30-9e52-45e4-b2a7-b820860f50cf
+
+2023-12-13T11:23:24.773Z 2023-12-13T11:23:24.773Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H101TW65SBZMB1ZH0YXY6P97',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.773Z 2023-12-13T11:23:24.773Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.785Z 2023-12-13T11:23:24.785Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message 31cdc839-d3e3-4ee5-aaff-931b45dddbab
+
+2023-12-13T11:23:24.790Z 2023-12-13T11:23:24.790Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01H12NBT68YAYKKS2KGG29376F',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 117,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 1135
+  }
+}
+
+2023-12-13T11:23:24.790Z 2023-12-13T11:23:24.790Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.815Z 2023-12-13T11:23:24.815Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Processing message ef8513dd-122c-49d4-b680-c3f26c51798b
+
+2023-12-13T11:23:24.820Z 2023-12-13T11:23:24.820Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHEMPA0GB1F94FZXB5TFCTZ',
+    userId: 'd4f9f25d-cda7-49fc-a9fd-126b455f6c81',
+    currency: 'AED',
+    amount: 1222,
+    vat: 0,
+    oldBalance: 1252,
+    newBalance: 2474
+  }
+}
+
+2023-12-13T11:23:24.820Z 2023-12-13T11:23:24.820Z	71ad2448-a2cc-5728-88fd-79bb34870ed5	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:23:24.836Z END RequestId: 71ad2448-a2cc-5728-88fd-79bb34870ed5
+
+2023-12-13T11:23:24.836Z REPORT RequestId: 71ad2448-a2cc-5728-88fd-79bb34870ed5	Duration: 240.36 ms	Billed Duration: 241 ms	Memory Size: 1024 MB	Max Memory Used: 111 MB	
+XRAY TraceId: 1-6579942c-9f34190c2b2758b4edd64dbb	SegmentId: 271459fc243c3fc2	Sampled: true	
+
+2023-12-13T11:15:15.887Z START RequestId: 01a47a8b-40a7-51a9-a27b-2778d4ca7032 Version: $LATEST
+
+2023-12-13T11:15:15.985Z 2023-12-13T11:15:15.985Z	01a47a8b-40a7-51a9-a27b-2778d4ca7032	INFO	Processing message 533a02fc-1321-43ee-a4bd-89b7aa71e060
+
+2023-12-13T11:15:16.028Z 2023-12-13T11:15:16.028Z	01a47a8b-40a7-51a9-a27b-2778d4ca7032	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHHE5ZJ2BAAJ9WWKMSS9ZBNW',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 1.1,
+    vat: 0.1,
+    oldBalance: 479.091,
+    newBalance: 478.091
+  }
+}
+
+2023-12-13T11:15:16.028Z 2023-12-13T11:15:16.028Z	01a47a8b-40a7-51a9-a27b-2778d4ca7032	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-13T11:15:16.080Z 2023-12-13T11:15:16.080Z	01a47a8b-40a7-51a9-a27b-2778d4ca7032	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 479.091,
+  paymentBalance: 896.091
+}
+
+2023-12-13T11:15:16.081Z {"_aws":{"Timestamp":1702466116081,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"PARTIAL_REFUND"}
+
+2023-12-13T11:15:16.122Z END RequestId: 01a47a8b-40a7-51a9-a27b-2778d4ca7032
+
+2023-12-13T11:15:16.122Z REPORT RequestId: 01a47a8b-40a7-51a9-a27b-2778d4ca7032	Duration: 236.32 ms	Billed Duration: 237 ms	Memory Size: 1024 MB	Max Memory Used: 108 MB	Init Duration: 870.91 ms	
+XRAY TraceId: 1-65799242-27837989a5d20811869d486f	SegmentId: 280e5de609c47e95	Sampled: true	
+
+2023-12-13T11:15:15.014Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+

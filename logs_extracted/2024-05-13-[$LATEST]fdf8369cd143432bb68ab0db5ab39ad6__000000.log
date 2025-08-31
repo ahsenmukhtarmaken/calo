@@ -1,0 +1,40 @@
+2024-05-13T09:29:45.199Z START RequestId: e7123851-1dd6-51c2-8725-66eac26cb0d0 Version: $LATEST
+
+2024-05-13T09:29:45.292Z 2024-05-13T09:29:45.292Z	e7123851-1dd6-51c2-8725-66eac26cb0d0	INFO	Processing message d357ded4-fca9-48d5-ace7-df78dfcb0132
+
+2024-05-13T09:29:45.309Z 2024-05-13T09:29:45.309Z	e7123851-1dd6-51c2-8725-66eac26cb0d0	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-13T09:29:45.310Z END RequestId: e7123851-1dd6-51c2-8725-66eac26cb0d0
+
+2024-05-13T09:29:45.310Z REPORT RequestId: e7123851-1dd6-51c2-8725-66eac26cb0d0	Duration: 111.79 ms	Billed Duration: 112 ms	Memory Size: 1024 MB	Max Memory Used: 126 MB	
+
+2024-05-13T09:24:36.248Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-13T09:24:37.258Z START RequestId: efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7 Version: $LATEST
+
+2024-05-13T09:24:37.410Z 2024-05-13T09:24:37.410Z	efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7	INFO	Processing message fca5d394-0797-47c8-a003-2dc8d7c18e33
+
+2024-05-13T09:24:37.464Z 2024-05-13T09:24:37.464Z	efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXRM999K54V47YA9RT0SMMMQ',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4863bf2e-4248-4eed-888e-2e6aa4372295',
+    paymentBalance: 50,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4863bf2e-4248-4eed-888e-2e6aa4372295","planType":"full","goal":"loseWeight","eventSessionId":"9a6c1612-1ce1-40e0-9a87-48f46608b7ae","walletSk":"a432dca8-47ce-41b0-a310-c1476dafff11","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-05-15","type":"userRenew","frequency":"weekly","subscriptionCost":50,"oldRemainingDays":0,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":10,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"weekly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":50,\\"startDate\\":\\"2024-05-15\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 0,
+    newBalance: 50
+  }
+}
+
+2024-05-13T09:24:37.612Z 2024-05-13T09:24:37.612Z	efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-13T09:24:37.652Z END RequestId: efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7
+
+2024-05-13T09:24:37.652Z REPORT RequestId: efa3f084-ae3a-5fbf-9e61-ae3f70bd60d7	Duration: 393.47 ms	Billed Duration: 394 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 1008.47 ms	
+

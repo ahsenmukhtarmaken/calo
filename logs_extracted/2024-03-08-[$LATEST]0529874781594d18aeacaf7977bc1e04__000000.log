@@ -1,0 +1,132 @@
+2024-03-08T11:43:20.779Z INIT_START Runtime Version: nodejs:20.v18	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2250774f98acc3954111984e0b9853cb801265eb866d3bef345707fcfb7af67c
+
+2024-03-08T11:43:21.777Z START RequestId: f42f6049-a3bb-5179-8ef2-3e2d5fb182a3 Version: $LATEST
+
+2024-03-08T11:43:21.947Z 2024-03-08T11:43:21.947Z	f42f6049-a3bb-5179-8ef2-3e2d5fb182a3	INFO	Processing message b1aa2617-0fab-460b-9fb0-fae84f63da74
+
+2024-03-08T11:43:22.031Z 2024-03-08T11:43:22.031Z	f42f6049-a3bb-5179-8ef2-3e2d5fb182a3	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HREXZWEFCH3E7R1V44YCZVQ3',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'OTHER',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    paymentBalance: 14230.005,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#95548cdd-9c30-4a34-8e13-6b526f0426da","walletSk":"4d6c2cf0-52b3-4f3f-94ae-eae0857e961e"}',
+    currency: 'BHD',
+    amount: 10000,
+    vat: 0,
+    oldBalance: 14.467,
+    newBalance: 10014.467
+  }
+}
+
+2024-03-08T11:43:22.151Z 2024-03-08T11:43:22.151Z	f42f6049-a3bb-5179-8ef2-3e2d5fb182a3	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-08T11:43:22.192Z 2024-03-08T11:43:22.192Z	f42f6049-a3bb-5179-8ef2-3e2d5fb182a3	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+  subscriptionBalance: 10014.467,
+  paymentBalance: 14230.005
+}
+
+2024-03-08T11:43:22.247Z END RequestId: f42f6049-a3bb-5179-8ef2-3e2d5fb182a3
+
+2024-03-08T11:43:22.247Z REPORT RequestId: f42f6049-a3bb-5179-8ef2-3e2d5fb182a3	Duration: 470.02 ms	Billed Duration: 471 ms	Memory Size: 1024 MB	Max Memory Used: 113 MB	Init Duration: 996.97 ms	
+
+2024-03-08T11:43:26.439Z START RequestId: a4a58f22-481e-5b8a-a0ba-d146b4085855 Version: $LATEST
+
+2024-03-08T11:43:26.467Z 2024-03-08T11:43:26.467Z	a4a58f22-481e-5b8a-a0ba-d146b4085855	INFO	Processing message e9432060-98e1-4aa3-bfc5-42417848ce72
+
+2024-03-08T11:43:26.480Z 2024-03-08T11:43:26.480Z	a4a58f22-481e-5b8a-a0ba-d146b4085855	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HREY02NT3XYZDEB5SF0TN9YB',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    paymentBalance: 14222.005,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#95548cdd-9c30-4a34-8e13-6b526f0426da","deliveryId":"f8946d40-80f0-4e34-bb33-08d4ac6f6047","walletSk":"f8946d40-80f0-4e34-bb33-08d4ac6f6047"}',
+    currency: 'BHD',
+    amount: 8,
+    vat: 0,
+    oldBalance: 10014.467,
+    newBalance: 10006.467
+  }
+}
+
+2024-03-08T11:43:26.543Z 2024-03-08T11:43:26.543Z	a4a58f22-481e-5b8a-a0ba-d146b4085855	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-08T11:43:26.557Z 2024-03-08T11:43:26.557Z	a4a58f22-481e-5b8a-a0ba-d146b4085855	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+  subscriptionBalance: 10006.467,
+  paymentBalance: 14222.005
+}
+
+2024-03-08T11:43:26.579Z END RequestId: a4a58f22-481e-5b8a-a0ba-d146b4085855
+
+2024-03-08T11:43:26.579Z REPORT RequestId: a4a58f22-481e-5b8a-a0ba-d146b4085855	Duration: 139.49 ms	Billed Duration: 140 ms	Memory Size: 1024 MB	Max Memory Used: 118 MB	
+
+2024-03-08T11:43:26.607Z START RequestId: 03ca1c01-d2bd-5ceb-8496-42652ea60f31 Version: $LATEST
+
+2024-03-08T11:43:26.632Z 2024-03-08T11:43:26.632Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	Processing message de60018d-6c07-456e-a373-1ce52ba24293
+
+2024-03-08T11:43:26.643Z 2024-03-08T11:43:26.643Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HREY02RSZ1X72ZVFHC7NVF6R',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    paymentBalance: 14218.505,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#95548cdd-9c30-4a34-8e13-6b526f0426da","deliveryId":"0ba87be3-40b5-4f12-afc0-1ff70c283332","walletSk":"0ba87be3-40b5-4f12-afc0-1ff70c283332"}',
+    currency: 'BHD',
+    amount: 3.5,
+    vat: 0,
+    oldBalance: 10006.467,
+    newBalance: 10002.967
+  }
+}
+
+2024-03-08T11:43:26.698Z 2024-03-08T11:43:26.698Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-08T11:43:26.711Z 2024-03-08T11:43:26.711Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+  subscriptionBalance: 10002.967,
+  paymentBalance: 14218.505
+}
+
+2024-03-08T11:43:26.727Z 2024-03-08T11:43:26.727Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	Processing message b30e275e-d69d-4ab8-8adc-bec6a71c4d3e
+
+2024-03-08T11:43:26.737Z 2024-03-08T11:43:26.737Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HREY02W769S3YNA09ABN4P78',
+    type: 'DEBIT',
+    source: 'MANUAL_DEDUCTION',
+    action: 'DELIVERY_DEDUCTION',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    paymentBalance: 14210.005,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#95548cdd-9c30-4a34-8e13-6b526f0426da","deliveryId":"b5d50a82-608d-4033-877b-8e68148464f5","walletSk":"b5d50a82-608d-4033-877b-8e68148464f5"}',
+    currency: 'BHD',
+    amount: 8.5,
+    vat: 0,
+    oldBalance: 10002.967,
+    newBalance: 9994.467
+  }
+}
+
+2024-03-08T11:43:26.791Z 2024-03-08T11:43:26.791Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-08T11:43:26.801Z 2024-03-08T11:43:26.801Z	03ca1c01-d2bd-5ceb-8496-42652ea60f31	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+  subscriptionBalance: 9994.467,
+  paymentBalance: 14210.005
+}
+
+2024-03-08T11:43:26.817Z END RequestId: 03ca1c01-d2bd-5ceb-8496-42652ea60f31
+
+2024-03-08T11:43:26.817Z REPORT RequestId: 03ca1c01-d2bd-5ceb-8496-42652ea60f31	Duration: 209.89 ms	Billed Duration: 210 ms	Memory Size: 1024 MB	Max Memory Used: 121 MB	
+

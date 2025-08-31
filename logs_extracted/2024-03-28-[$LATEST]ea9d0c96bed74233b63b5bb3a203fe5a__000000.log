@@ -1,0 +1,30 @@
+2024-03-28T17:41:44.151Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-28T17:41:45.172Z START RequestId: 407c0673-b704-5650-b816-580c190f671d Version: $LATEST
+
+2024-03-28T17:41:45.341Z 2024-03-28T17:41:45.341Z	407c0673-b704-5650-b816-580c190f671d	INFO	Processing message ed7624d0-6c73-4492-9046-61884de10651
+
+2024-03-28T17:41:45.389Z 2024-03-28T17:41:45.389Z	407c0673-b704-5650-b816-580c190f671d	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HT32EG2XQ4XY9E61VAG99NSK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '073d8401-e882-4dc0-a104-c212f6019ebd',
+    paymentBalance: 840,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#073d8401-e882-4dc0-a104-c212f6019ebd","planType":"businessLunch","goal":"lifeStyle","eventSessionId":"ed11836a-7fe8-4ff9-8b24-39fbebec2c48","walletSk":"67bb8f21-ed4f-4ccb-90a8-62bab782bc65","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-03-30","type":"userRenew","frequency":"monthly","subscriptionCost":840,"tier":"personalized","version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"businessLunch\\",\\"pricePerDay\\":42,\\"foodType\\":[\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":840,\\"startDate\\":\\"2024-03-30\\",\\"deliveryDays\\":[2,3,4,5,6]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 966,
+    vat: 126,
+    oldBalance: 0,
+    newBalance: 840
+  }
+}
+
+2024-03-28T17:41:45.494Z 2024-03-28T17:41:45.494Z	407c0673-b704-5650-b816-580c190f671d	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-28T17:41:45.538Z END RequestId: 407c0673-b704-5650-b816-580c190f671d
+
+2024-03-28T17:41:45.538Z REPORT RequestId: 407c0673-b704-5650-b816-580c190f671d	Duration: 366.28 ms	Billed Duration: 367 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 1020.12 ms	
+

@@ -1,0 +1,27 @@
+2023-12-12T09:31:08.917Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-12T09:31:09.519Z START RequestId: e519c1f4-28b9-571b-b184-9c0602ccb872 Version: $LATEST
+
+2023-12-12T09:31:09.522Z 2023-12-12T09:31:09.522Z	e519c1f4-28b9-571b-b184-9c0602ccb872	INFO	Processing message f1cbef48-d7b7-4d85-97e1-ce697d788120
+
+2023-12-12T09:31:09.523Z 2023-12-12T09:31:09.523Z	e519c1f4-28b9-571b-b184-9c0602ccb872	INFO	transaction {"id":"01HHENTP56Y261K1GPZ7EQH85K","type":"CREDIT","source":"PAYMENT","action":"PAY_PENDING_AMOUNT","amount":55,"vat":5,"userBalance":780,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","name":"Hahahahahamanajha","email":"a.hamed+haha@calo.app","phoneNumber":"+97332581698","brand":"CALO","kitchen":"BH001","invoiceId":"7c698572-e771-497e-917a-7e3f044ffdff","currency":"BHD","paymentMethod":"cc","paymentProvider":"TAP","notes":"Payment for Pay Pending Amount using cc","uniqueReferenceId":"chg_TS06A3120231230Mr8k1212255","updatePaymentBalance":true,"metadata":{"walletId":"wallet#daa2bf74-cf31-4552-9e85-acb48a7c3f90","eventSessionId":"0ab3e97f-ab31-4b8f-a3b8-af000996d8ab","walletSk":"522d0261-85ef-4b6a-8af0-b1985e3aa1d0","version2":true,"version":"syncBalanceSQS"},"actor":"system","createdAt":"2023-12-12T09:30:47.846Z"}
+
+2023-12-12T09:31:09.604Z 2023-12-12T09:31:09.604Z	e519c1f4-28b9-571b-b184-9c0602ccb872	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHENTP56Y261K1GPZ7EQH85K',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 313,
+    newBalance: 363
+  }
+}
+
+2023-12-12T09:31:09.687Z 2023-12-12T09:31:09.687Z	e519c1f4-28b9-571b-b184-9c0602ccb872	INFO	SubscriptionBalanceUpdated event published
+
+2023-12-12T09:31:09.721Z END RequestId: e519c1f4-28b9-571b-b184-9c0602ccb872
+
+2023-12-12T09:31:09.721Z REPORT RequestId: e519c1f4-28b9-571b-b184-9c0602ccb872	Duration: 203.63 ms	Billed Duration: 204 ms	Memory Size: 1024 MB	Max Memory Used: 96 MB	Init Duration: 599.79 ms	
+XRAY TraceId: 1-6578285c-0a90119829dee78773ace626	SegmentId: 235b19c85cded6be	Sampled: true	
+

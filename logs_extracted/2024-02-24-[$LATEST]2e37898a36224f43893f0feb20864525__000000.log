@@ -1,0 +1,40 @@
+2024-02-24T14:14:56.676Z START RequestId: 39bac496-0c70-5606-8c50-9ac5f06400bd Version: $LATEST
+
+2024-02-24T14:14:56.773Z 2024-02-24T14:14:56.773Z	39bac496-0c70-5606-8c50-9ac5f06400bd	INFO	Processing message 4994ab27-c99c-4b88-a2df-a37b76bfd681
+
+2024-02-24T14:14:56.804Z 2024-02-24T14:14:56.804Z	39bac496-0c70-5606-8c50-9ac5f06400bd	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQDQG50K4SA7K63G95VCXE4N',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'b7a68e0a-4751-4684-9a73-34b2458fb2ca',
+    paymentBalance: 180,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#b7a68e0a-4751-4684-9a73-34b2458fb2ca","walletSk":"dc2c7368-fc62-4f71-86ef-d47dd526b0db"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 170,
+    newBalance: 180
+  }
+}
+
+2024-02-24T14:14:56.902Z 2024-02-24T14:14:56.902Z	39bac496-0c70-5606-8c50-9ac5f06400bd	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-24T14:14:56.942Z END RequestId: 39bac496-0c70-5606-8c50-9ac5f06400bd
+
+2024-02-24T14:14:56.942Z REPORT RequestId: 39bac496-0c70-5606-8c50-9ac5f06400bd	Duration: 266.48 ms	Billed Duration: 267 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-02-24T14:14:21.606Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-24T14:14:22.885Z START RequestId: c268786b-cacd-56fb-aaa8-263831265804 Version: $LATEST
+
+2024-02-24T14:14:23.045Z 2024-02-24T14:14:23.045Z	c268786b-cacd-56fb-aaa8-263831265804	INFO	Processing message 1485635d-7b7d-4566-aef8-c6f1a696d080
+
+2024-02-24T14:14:23.046Z 2024-02-24T14:14:23.046Z	c268786b-cacd-56fb-aaa8-263831265804	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-24T14:14:23.052Z END RequestId: c268786b-cacd-56fb-aaa8-263831265804
+
+2024-02-24T14:14:23.052Z REPORT RequestId: c268786b-cacd-56fb-aaa8-263831265804	Duration: 167.06 ms	Billed Duration: 168 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1277.47 ms	
+

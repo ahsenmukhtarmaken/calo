@@ -1,0 +1,30 @@
+2024-05-12T07:27:05.969Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-12T07:27:07.001Z START RequestId: 6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4 Version: $LATEST
+
+2024-05-12T07:27:07.150Z 2024-05-12T07:27:07.150Z	6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4	INFO	Processing message 0361c732-6738-4b12-9767-6f386712db4e
+
+2024-05-12T07:27:07.215Z 2024-05-12T07:27:07.215Z	6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXNV5CSGJS6H3B0YJNF9EHT5',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: 'd9449968-8e69-4fbb-874b-0d2bc83db83c',
+    paymentBalance: 360,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#d9449968-8e69-4fbb-874b-0d2bc83db83c","planType":"full","goal":"loseWeight","eventSessionId":"bc315dbb-fadd-49e2-b3d4-61ca9850026a","walletSk":"3180831f-b6ef-46cc-ba64-45ae135041a9","deliveryTime":"morning","dietType":"balanced","renewalDate":"2024-05-16","type":"preRenew","frequency":"monthly","subscriptionCost":180,"oldRemainingDays":2,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"full\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":180,\\"startDate\\":\\"2024-05-16\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 198,
+    vat: 18,
+    oldBalance: 180,
+    newBalance: 360
+  }
+}
+
+2024-05-12T07:27:07.373Z 2024-05-12T07:27:07.373Z	6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-12T07:27:07.420Z END RequestId: 6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4
+
+2024-05-12T07:27:07.420Z REPORT RequestId: 6ef31d4b-a2d2-5d6b-89f0-43f1d3a49df4	Duration: 419.81 ms	Billed Duration: 420 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1029.11 ms	
+

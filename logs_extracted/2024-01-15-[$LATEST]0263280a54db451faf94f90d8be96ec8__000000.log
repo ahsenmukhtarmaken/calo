@@ -1,0 +1,69 @@
+2024-01-15T12:27:34.001Z START RequestId: 104f3c48-238f-5259-b172-6257056d5d32 Version: $LATEST
+
+2024-01-15T12:27:34.065Z 2024-01-15T12:27:34.065Z	104f3c48-238f-5259-b172-6257056d5d32	INFO	Processing message b1fbde1a-9bd7-446c-b22b-6b127ca24ee0
+
+2024-01-15T12:27:34.115Z 2024-01-15T12:27:34.115Z	104f3c48-238f-5259-b172-6257056d5d32	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HM6HES6MVMTCGKQYV1GE2HJ4',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'efa39ab8-1c40-404f-82d9-8ec2ac11f79d',
+    paymentBalance: 1800,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#efa39ab8-1c40-404f-82d9-8ec2ac11f79d","walletSk":"abfe2ed2-4a16-462c-bfe3-571bc0c9c1ab"}',
+    currency: 'SAR',
+    amount: 270,
+    vat: 0,
+    oldBalance: 1530,
+    newBalance: 1800
+  }
+}
+
+2024-01-15T12:27:34.247Z 2024-01-15T12:27:34.247Z	104f3c48-238f-5259-b172-6257056d5d32	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-15T12:27:34.283Z END RequestId: 104f3c48-238f-5259-b172-6257056d5d32
+
+2024-01-15T12:27:34.283Z REPORT RequestId: 104f3c48-238f-5259-b172-6257056d5d32	Duration: 281.58 ms	Billed Duration: 282 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	
+
+2024-01-15T12:31:42.994Z START RequestId: cec836f9-f8e4-503c-938d-68e6df3b2cfc Version: $LATEST
+
+2024-01-15T12:31:43.057Z 2024-01-15T12:31:43.057Z	cec836f9-f8e4-503c-938d-68e6df3b2cfc	INFO	Processing message 72eece9f-90e7-4b08-b714-b39e338a7694
+
+2024-01-15T12:31:43.106Z 2024-01-15T12:31:43.106Z	cec836f9-f8e4-503c-938d-68e6df3b2cfc	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HM6HPCJDNC4TVT5F2BZB0C8R',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'REFERRAL_REDEEM_DAYS',
+    userId: '07cb400f-39ca-4e9b-9267-1e6000e8dec1',
+    paymentBalance: 20,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#07cb400f-39ca-4e9b-9267-1e6000e8dec1","walletSk":"b6463217-857f-404f-939f-a73e5352001b"}',
+    currency: 'SAR',
+    amount: 20,
+    vat: 0,
+    oldBalance: 0,
+    newBalance: 20
+  }
+}
+
+2024-01-15T12:31:43.173Z 2024-01-15T12:31:43.173Z	cec836f9-f8e4-503c-938d-68e6df3b2cfc	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-15T12:31:43.438Z END RequestId: cec836f9-f8e4-503c-938d-68e6df3b2cfc
+
+2024-01-15T12:31:43.438Z REPORT RequestId: cec836f9-f8e4-503c-938d-68e6df3b2cfc	Duration: 443.54 ms	Billed Duration: 444 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	
+
+2024-01-15T12:27:25.460Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-15T12:27:26.185Z START RequestId: efe7af51-a2bc-5496-ab7c-f14e8462b4b6 Version: $LATEST
+
+2024-01-15T12:27:26.335Z 2024-01-15T12:27:26.335Z	efe7af51-a2bc-5496-ab7c-f14e8462b4b6	INFO	Processing message 81c23ab6-bc65-4d7c-8a42-10e71be5621b
+
+2024-01-15T12:27:26.336Z 2024-01-15T12:27:26.336Z	efe7af51-a2bc-5496-ab7c-f14e8462b4b6	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-15T12:27:26.351Z END RequestId: efe7af51-a2bc-5496-ab7c-f14e8462b4b6
+
+2024-01-15T12:27:26.351Z REPORT RequestId: efe7af51-a2bc-5496-ab7c-f14e8462b4b6	Duration: 166.94 ms	Billed Duration: 167 ms	Memory Size: 1024 MB	Max Memory Used: 103 MB	Init Duration: 720.12 ms	
+XRAY TraceId: 1-65a524ad-b6389a3e315fdc46bcc5590c	SegmentId: 5f2075cf55f405c0	Sampled: true	
+

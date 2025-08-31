@@ -1,0 +1,30 @@
+2024-02-15T14:31:34.847Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-15T14:31:35.597Z START RequestId: a3d8ea7e-4516-5e72-8980-b4366764b113 Version: $LATEST
+
+2024-02-15T14:31:35.730Z 2024-02-15T14:31:35.730Z	a3d8ea7e-4516-5e72-8980-b4366764b113	INFO	Processing message 182014ae-6832-4d3c-ae58-79667521ae6d
+
+2024-02-15T14:31:35.854Z 2024-02-15T14:31:35.854Z	a3d8ea7e-4516-5e72-8980-b4366764b113	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HPPJW3YQRJE8MQCVZD753F1B',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'ADD_DELIVERY_ADDONS',
+    userId: 'abf660cd-113f-4fe2-8fff-ad9e33e54df3',
+    paymentBalance: 1575,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#abf660cd-113f-4fe2-8fff-ad9e33e54df3","deliveryId":"6f7b2f68-ea70-4f1a-b601-b06435ebafbc","eventSessionId":"28860f0f-ad3c-4536-a0d4-09d7b46879a1","walletSk":"64f1ea6e-26a7-4a9f-854c-ba75674ad756","version2":true,"addons":"[{\\"id\\":\\"7614777c-11e8-41f4-b518-521529f60d2a\\",\\"quantity\\":1,\\"addonConfig\\":{\\"addonCategory\\":\\"GIFT_CARDS\\",\\"notificationInfo\\":{\\"receiver\\":\\"me\\",\\"deliveryInfo\\":{\\"deliveryType\\":\\"email\\",\\"email\\":\\"ma.alsalmo@gmail.com\\"}}}}]","source":"APP","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 38.5,
+    vat: 3.5,
+    oldBalance: 1540,
+    newBalance: 1575
+  }
+}
+
+2024-02-15T14:31:35.973Z 2024-02-15T14:31:35.973Z	a3d8ea7e-4516-5e72-8980-b4366764b113	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-15T14:31:36.059Z END RequestId: a3d8ea7e-4516-5e72-8980-b4366764b113
+
+2024-02-15T14:31:36.059Z REPORT RequestId: a3d8ea7e-4516-5e72-8980-b4366764b113	Duration: 461.48 ms	Billed Duration: 462 ms	Memory Size: 1024 MB	Max Memory Used: 106 MB	Init Duration: 748.82 ms	
+

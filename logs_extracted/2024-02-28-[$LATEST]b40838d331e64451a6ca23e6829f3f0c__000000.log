@@ -1,0 +1,30 @@
+2024-02-28T14:15:00.265Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-28T14:15:01.540Z START RequestId: a70bac7a-5656-53d3-a13d-f223144beaf8 Version: $LATEST
+
+2024-02-28T14:15:01.693Z 2024-02-28T14:15:01.693Z	a70bac7a-5656-53d3-a13d-f223144beaf8	INFO	Processing message e6e3edbe-d336-4fd6-a480-5719c40dbcfd
+
+2024-02-28T14:15:01.743Z 2024-02-28T14:15:01.743Z	a70bac7a-5656-53d3-a13d-f223144beaf8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQR133RYTDXSEYPNFHNYVMCE',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 499.955,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","planType":"full","goal":"gainWeight","eventSessionId":"2e097cfd-ca37-4195-aa89-10b47344b467","walletSk":"39d25a3c-077d-48b3-8d54-49bdb48ab396","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-04-15","type":"preRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":8,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-04-15\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"autoRenew\\":false,\\"currency\\":\\"BHD\\",\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-05-02\\",\\"pricePerDay\\":1.81818181818182,\\"startDate\\":\\"2024-04-05\\"}]"}',
+    currency: 'BHD',
+    amount: 216,
+    vat: 19.636,
+    oldBalance: 303.591,
+    newBalance: 499.955
+  }
+}
+
+2024-02-28T14:15:01.849Z 2024-02-28T14:15:01.849Z	a70bac7a-5656-53d3-a13d-f223144beaf8	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T14:15:01.894Z END RequestId: a70bac7a-5656-53d3-a13d-f223144beaf8
+
+2024-02-28T14:15:01.894Z REPORT RequestId: a70bac7a-5656-53d3-a13d-f223144beaf8	Duration: 353.82 ms	Billed Duration: 354 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	Init Duration: 1274.29 ms	
+

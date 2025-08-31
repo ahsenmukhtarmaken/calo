@@ -1,0 +1,40 @@
+2024-02-24T12:25:38.087Z START RequestId: 0dd9cb22-0954-596c-a3b4-9571eb3a1992 Version: $LATEST
+
+2024-02-24T12:25:38.182Z 2024-02-24T12:25:38.182Z	0dd9cb22-0954-596c-a3b4-9571eb3a1992	INFO	Processing message ef965972-f40b-4877-bf2f-b8efe558b46d
+
+2024-02-24T12:25:38.230Z 2024-02-24T12:25:38.230Z	0dd9cb22-0954-596c-a3b4-9571eb3a1992	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQDH804QS698KNAHBQXC7TEF',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: '6c8a1257-bfd0-450d-9067-7ea504e1e2b4',
+    paymentBalance: 180,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#6c8a1257-bfd0-450d-9067-7ea504e1e2b4","walletSk":"dd967699-b230-4e6f-b82d-4ef506d66006"}',
+    currency: 'BHD',
+    amount: 10,
+    vat: 0,
+    oldBalance: 170,
+    newBalance: 180
+  }
+}
+
+2024-02-24T12:25:38.318Z 2024-02-24T12:25:38.318Z	0dd9cb22-0954-596c-a3b4-9571eb3a1992	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-24T12:25:38.366Z END RequestId: 0dd9cb22-0954-596c-a3b4-9571eb3a1992
+
+2024-02-24T12:25:38.366Z REPORT RequestId: 0dd9cb22-0954-596c-a3b4-9571eb3a1992	Duration: 278.53 ms	Billed Duration: 279 ms	Memory Size: 1024 MB	Max Memory Used: 125 MB	
+
+2024-02-24T12:25:01.427Z INIT_START Runtime Version: nodejs:20.v15	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:379cd8c4d157c2e16f1b841486b613da2188da597609ef24d67497ad9c22a53e
+
+2024-02-24T12:25:02.642Z START RequestId: 61e23ce3-cc51-592d-a224-62b02e04e528 Version: $LATEST
+
+2024-02-24T12:25:02.783Z 2024-02-24T12:25:02.783Z	61e23ce3-cc51-592d-a224-62b02e04e528	INFO	Processing message ce1932ee-6aa3-4dd3-8523-f343605cdb8c
+
+2024-02-24T12:25:02.784Z 2024-02-24T12:25:02.784Z	61e23ce3-cc51-592d-a224-62b02e04e528	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-02-24T12:25:02.800Z END RequestId: 61e23ce3-cc51-592d-a224-62b02e04e528
+
+2024-02-24T12:25:02.800Z REPORT RequestId: 61e23ce3-cc51-592d-a224-62b02e04e528	Duration: 157.93 ms	Billed Duration: 158 ms	Memory Size: 1024 MB	Max Memory Used: 122 MB	Init Duration: 1213.31 ms	
+

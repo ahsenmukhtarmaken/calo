@@ -1,0 +1,32 @@
+2023-12-14T09:35:35.275Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-14T09:35:36.164Z START RequestId: 0b89fa36-9d82-5992-a0b5-a7c2530ce638 Version: $LATEST
+
+2023-12-14T09:35:36.282Z 2023-12-14T09:35:36.282Z	0b89fa36-9d82-5992-a0b5-a7c2530ce638	INFO	Processing message 5c88ec34-53d1-40c4-b968-e782dddb248a
+
+2023-12-14T09:35:36.327Z 2023-12-14T09:35:36.327Z	0b89fa36-9d82-5992-a0b5-a7c2530ce638	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHKTW878PY5NVT7Y5QT4PA16',
+    userId: 'cac838c5-a9e1-41b1-877e-2587cbea7b20',
+    currency: 'BHD',
+    amount: 1307.941,
+    vat: 118.904,
+    oldBalance: 10441.8929,
+    newBalance: 11630.929900000001
+  }
+}
+
+2023-12-14T09:35:36.327Z 2023-12-14T09:35:36.327Z	0b89fa36-9d82-5992-a0b5-a7c2530ce638	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-14T09:35:36.372Z 2023-12-14T09:35:36.372Z	0b89fa36-9d82-5992-a0b5-a7c2530ce638	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'cac838c5-a9e1-41b1-877e-2587cbea7b20',
+  subscriptionBalance: 10441.8929,
+  paymentBalance: 10441.893
+}
+
+2023-12-14T09:35:36.373Z {"_aws":{"Timestamp":1702546536372,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"cac838c5-a9e1-41b1-877e-2587cbea7b20","action":"PURCHASE_ADDON_SUBSCRIPTION"}
+
+2023-12-14T09:35:36.412Z END RequestId: 0b89fa36-9d82-5992-a0b5-a7c2530ce638
+
+2023-12-14T09:35:36.412Z REPORT RequestId: 0b89fa36-9d82-5992-a0b5-a7c2530ce638	Duration: 248.01 ms	Billed Duration: 249 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 887.94 ms	
+

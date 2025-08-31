@@ -1,0 +1,47 @@
+2023-12-12T11:28:12.575Z INIT_START Runtime Version: nodejs:14.v42	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:4cb686be08f980f530c1cbdeae970951c08b712057b80e8698cf4641214607d6
+
+2023-12-12T11:28:13.239Z START RequestId: 51e61a48-3ecb-56ab-bd02-47ba7b2e2482 Version: $LATEST
+
+2023-12-12T11:28:13.245Z 2023-12-12T11:28:13.245Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	INFO	Processing message 234c0c54-b7db-4ce8-b38e-40760579a1ab
+
+2023-12-12T11:28:13.312Z 2023-12-12T11:28:13.312Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HHEWH0NAQKZ4ZMFW6PM7K046',
+    userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+    currency: 'BHD',
+    amount: 22,
+    vat: 2,
+    oldBalance: 433,
+    newBalance: 453
+  }
+}
+
+2023-12-12T11:28:13.312Z 2023-12-12T11:28:13.312Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	INFO	Skipping the process, balance is already synced from other listeners
+
+2023-12-12T11:28:13.367Z 2023-12-12T11:28:13.367Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'daa2bf74-cf31-4552-9e85-acb48a7c3f90',
+  subscriptionBalance: 433,
+  paymentBalance: 850
+}
+
+2023-12-12T11:28:13.368Z 2023-12-12T11:28:13.368Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	INFO	Sending slack notification
+
+2023-12-12T11:28:13.368Z {"_aws":{"Timestamp":1702380493368,"CloudWatchMetrics":[{"Namespace":"apiService","Dimensions":[["service"]],"Metrics":[{"Name":"subBalanceDiscrapancy","Unit":"Count"}]}]},"service":"syncBalanceSQS","subBalanceDiscrapancy":1,"userId":"daa2bf74-cf31-4552-9e85-acb48a7c3f90","action":"PAY_PENDING_AMOUNT"}
+
+2023-12-12T11:28:13.369Z 2023-12-12T11:28:13.369Z	51e61a48-3ecb-56ab-bd02-47ba7b2e2482	INFO	Sending slack notification {
+  country: 'BH',
+  channel: 'subscription-service-alarms-dev',
+  kitchen: 'BH001',
+  brand: 'CALO',
+  suppress: false,
+  blocks: [
+    { type: 'section', text: [Object] },
+    { type: 'section', fields: [Array] },
+    { type: 'section', text: [Object] }
+  ]
+} arn:aws:sns:us-east-1:488923344249:calo-sns-dev-send-slack
+
+2023-12-12T11:28:13.407Z END RequestId: 51e61a48-3ecb-56ab-bd02-47ba7b2e2482
+
+2023-12-12T11:28:13.407Z REPORT RequestId: 51e61a48-3ecb-56ab-bd02-47ba7b2e2482	Duration: 168.80 ms	Billed Duration: 169 ms	Memory Size: 1024 MB	Max Memory Used: 95 MB	Init Duration: 662.09 ms	
+

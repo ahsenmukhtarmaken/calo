@@ -1,0 +1,36 @@
+2024-05-12T13:54:36.632Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-12T13:54:37.632Z START RequestId: 7c17120a-cc76-59fc-b53e-4cb0002f8459 Version: $LATEST
+
+2024-05-12T13:54:37.766Z 2024-05-12T13:54:37.766Z	7c17120a-cc76-59fc-b53e-4cb0002f8459	INFO	Processing message 98557a33-f20d-4bc5-bebc-c52a8e049e98
+
+2024-05-12T13:54:37.829Z 2024-05-12T13:54:37.829Z	7c17120a-cc76-59fc-b53e-4cb0002f8459	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXPHAZ43BMN4MFAVJXJKNWK6',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '1a9b77f5-4b26-410e-a367-75ecefaff3b3',
+    paymentBalance: 1313.5,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#1a9b77f5-4b26-410e-a367-75ecefaff3b3","planType":"custom","goal":"loseWeight","eventSessionId":"db518691-9639-4016-a2cc-169d21475953","walletSk":"1c7ae49f-f44c-44eb-93ab-2d6d41ad9322","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-05-14","type":"userRenew","frequency":"monthly","subscriptionCost":768,"oldRemainingDays":1,"version2":true,"addonCosts":"{}","nextPlan":"{\\"id\\":\\"custom\\",\\"pricePerDay\\":32,\\"foodType\\":[\\"breakfast\\",\\"breakfast\\",\\"breakfast\\",\\"breakfast\\",\\"breakfast\\",\\"snack\\",\\"snack\\",\\"snack\\",\\"snack\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\",\\"lunch\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":768,\\"startDate\\":\\"2024-05-14\\",\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4,5]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 842.6,
+    vat: 76.6,
+    oldBalance: 2,
+    newBalance: 768
+  }
+}
+
+2024-05-12T13:54:37.975Z 2024-05-12T13:54:37.975Z	7c17120a-cc76-59fc-b53e-4cb0002f8459	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-12T13:54:38.013Z 2024-05-12T13:54:38.013Z	7c17120a-cc76-59fc-b53e-4cb0002f8459	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1a9b77f5-4b26-410e-a367-75ecefaff3b3',
+  subscriptionBalance: 768,
+  paymentBalance: 1313.5
+}
+
+2024-05-12T13:54:38.035Z END RequestId: 7c17120a-cc76-59fc-b53e-4cb0002f8459
+
+2024-05-12T13:54:38.035Z REPORT RequestId: 7c17120a-cc76-59fc-b53e-4cb0002f8459	Duration: 402.91 ms	Billed Duration: 403 ms	Memory Size: 1024 MB	Max Memory Used: 119 MB	Init Duration: 999.04 ms	
+

@@ -1,0 +1,71 @@
+2024-01-25T23:46:19.437Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-25T23:46:20.155Z START RequestId: 3bf56328-b5ef-59c9-b98b-3d044117e457 Version: $LATEST
+
+2024-01-25T23:46:20.315Z 2024-01-25T23:46:20.315Z	3bf56328-b5ef-59c9-b98b-3d044117e457	INFO	Processing message 74ce08d9-1612-4daf-9b86-3003a2370773
+
+2024-01-25T23:46:20.362Z 2024-01-25T23:46:20.362Z	3bf56328-b5ef-59c9-b98b-3d044117e457	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HN1G8S7QKTSWJJRA856W0Z0B',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1644.61,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","country":"BH","couponDiscount":0,"eventSessionId":"d796d242-045a-40d7-af72-2b15d1fd1e9a","walletSk":"3c944a2f-9821-40f0-b2bf-c4b615a5f2b0","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"BEVERAGES\\",\\"endDate\\":\\"2024-02-21\\",\\"startDate\\":\\"2024-01-27\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"e8062346-faa2-400f-a070-a970fc4caab4","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 33,
+    vat: 3,
+    oldBalance: 99,
+    newBalance: 129
+  }
+}
+
+2024-01-25T23:46:20.467Z 2024-01-25T23:46:20.467Z	3bf56328-b5ef-59c9-b98b-3d044117e457	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-25T23:46:20.520Z 2024-01-25T23:46:20.520Z	3bf56328-b5ef-59c9-b98b-3d044117e457	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 129,
+  paymentBalance: 1644.61
+}
+
+2024-01-25T23:46:20.541Z END RequestId: 3bf56328-b5ef-59c9-b98b-3d044117e457
+
+2024-01-25T23:46:20.541Z REPORT RequestId: 3bf56328-b5ef-59c9-b98b-3d044117e457	Duration: 386.82 ms	Billed Duration: 387 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 714.79 ms	
+XRAY TraceId: 1-65b2f2ca-d94e6b036dd34170ffc2a577	SegmentId: 50c30e90759b3c6b	Sampled: true	
+
+2024-01-25T23:49:22.304Z START RequestId: 24d4fef8-1d03-52b4-b480-a0d4e8ac320c Version: $LATEST
+
+2024-01-25T23:49:22.450Z 2024-01-25T23:49:22.450Z	24d4fef8-1d03-52b4-b480-a0d4e8ac320c	INFO	Processing message 6e9b6d33-cbee-4c36-92c4-cd243031e0f2
+
+2024-01-25T23:49:22.482Z 2024-01-25T23:49:22.482Z	24d4fef8-1d03-52b4-b480-a0d4e8ac320c	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HN1GECTJGSTX6EVX3N00XDA1',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PURCHASE_ADDON_SUBSCRIPTION',
+    userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+    paymentBalance: 1682.792,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#e8062346-faa2-400f-a070-a970fc4caab4","country":"BH","couponDiscount":0,"eventSessionId":"fa908eff-1838-4149-9d8d-c9ae16f17e0c","walletSk":"94b44b87-8cd4-4c62-9c17-d79446651864","version2":true,"addonSubscriptions":"[{\\"autoRenew\\":true,\\"category\\":\\"SWEET_TOOTH\\",\\"endDate\\":\\"2024-02-28\\",\\"startDate\\":\\"2024-01-27\\",\\"pricePerDay\\":1.36363636363636,\\"currency\\":\\"BHD\\"}]","subscriptionId":"e8062346-faa2-400f-a070-a970fc4caab4","kitchen":"BH001"}',
+    currency: 'BHD',
+    amount: 42,
+    vat: 3.818,
+    oldBalance: 129,
+    newBalance: 167.182
+  }
+}
+
+2024-01-25T23:49:22.563Z 2024-01-25T23:49:22.563Z	24d4fef8-1d03-52b4-b480-a0d4e8ac320c	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-25T23:49:22.600Z 2024-01-25T23:49:22.600Z	24d4fef8-1d03-52b4-b480-a0d4e8ac320c	ERROR	Subscription balance and payment balance are not in sync {
+  userId: 'e8062346-faa2-400f-a070-a970fc4caab4',
+  subscriptionBalance: 167.182,
+  paymentBalance: 1682.792
+}
+
+2024-01-25T23:49:22.625Z END RequestId: 24d4fef8-1d03-52b4-b480-a0d4e8ac320c
+
+2024-01-25T23:49:22.625Z REPORT RequestId: 24d4fef8-1d03-52b4-b480-a0d4e8ac320c	Duration: 320.96 ms	Billed Duration: 321 ms	Memory Size: 1024 MB	Max Memory Used: 112 MB	
+

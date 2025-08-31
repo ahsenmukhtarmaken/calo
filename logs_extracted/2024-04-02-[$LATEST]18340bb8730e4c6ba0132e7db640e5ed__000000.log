@@ -1,0 +1,36 @@
+2024-04-02T14:45:05.047Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-02T14:45:06.125Z START RequestId: 0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9 Version: $LATEST
+
+2024-04-02T14:45:06.264Z 2024-04-02T14:45:06.264Z	0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9	INFO	Processing message 0e860518-5e7a-4cd9-8794-7be57b7ba9c2
+
+2024-04-02T14:45:06.322Z 2024-04-02T14:45:06.322Z	0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTFMAM6MS1Y0JT8C1VX73JM5',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+    paymentBalance: 1307.816,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#4ebacdb2-8ba4-43e6-8d49-838bca5247be","eventSessionId":"a4347f16-c4c9-46ca-beb2-fb257d04fd3c","walletSk":"f7502388-04a2-4c33-b791-65995e83ad3c","deliveryTime":"\\"morning\\"","renewalDate":"2024-04-04","type":"autoRenew","frequency":"weekly","subscriptionCost":50,"deliveryDays":"[0,1,2,3,4]","addonCosts":"{}","nextPlan":"{\\"tier\\":\\"personalized\\",\\"deliveryDays\\":[0,1,2,3,4],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"dietType\\":\\"chef-picks\\",\\"id\\":\\"full\\",\\"type\\":\\"DATE_RANGE\\",\\"pricePerDay\\":10,\\"planPrice\\":50,\\"startDate\\":\\"2024-04-04\\",\\"frequency\\":\\"weekly\\"}","dayAllowance":0,"addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 55,
+    vat: 5,
+    oldBalance: 0,
+    newBalance: 50
+  }
+}
+
+2024-04-02T14:45:06.433Z 2024-04-02T14:45:06.433Z	0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-02T14:45:06.469Z 2024-04-02T14:45:06.469Z	0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '4ebacdb2-8ba4-43e6-8d49-838bca5247be',
+  subscriptionBalance: 50,
+  paymentBalance: 1307.816
+}
+
+2024-04-02T14:45:06.491Z END RequestId: 0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9
+
+2024-04-02T14:45:06.492Z REPORT RequestId: 0b3053e4-93cc-5f8d-a9a7-0d628fd3bfc9	Duration: 366.67 ms	Billed Duration: 367 ms	Memory Size: 1024 MB	Max Memory Used: 115 MB	Init Duration: 1075.46 ms	
+

@@ -1,0 +1,40 @@
+2024-01-11T02:05:33.554Z START RequestId: ab1cbf02-504b-5145-b149-e11b1f516719 Version: $LATEST
+
+2024-01-11T02:05:33.675Z 2024-01-11T02:05:33.675Z	ab1cbf02-504b-5145-b149-e11b1f516719	INFO	Processing message 293a05e4-1dc3-4697-8f45-8514e7c9915a
+
+2024-01-11T02:05:33.722Z 2024-01-11T02:05:33.722Z	ab1cbf02-504b-5145-b149-e11b1f516719	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HKV48ZNJYG92C7JN41GNTK4Q',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'PAY_PENDING_AMOUNT',
+    userId: '91749485-15ab-4fd0-93af-e118e414ab9b',
+    paymentBalance: 170,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#91749485-15ab-4fd0-93af-e118e414ab9b","eventSessionId":"f3258aad-38bf-4927-8cd6-6046f1c9e31e","walletSk":"71d11e88-158d-4cf1-81c6-564bf4caa475","version2":true}',
+    currency: 'BHD',
+    amount: 11,
+    vat: 1,
+    oldBalance: 160,
+    newBalance: 170
+  }
+}
+
+2024-01-11T02:05:33.847Z 2024-01-11T02:05:33.847Z	ab1cbf02-504b-5145-b149-e11b1f516719	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-11T02:05:33.888Z END RequestId: ab1cbf02-504b-5145-b149-e11b1f516719
+
+2024-01-11T02:05:33.888Z REPORT RequestId: ab1cbf02-504b-5145-b149-e11b1f516719	Duration: 334.55 ms	Billed Duration: 335 ms	Memory Size: 1024 MB	Max Memory Used: 106 MB	
+
+2024-01-11T02:01:44.992Z INIT_START Runtime Version: nodejs:20.v13	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:6fb7e564fae3347add879359ec92013de1e84ce02488f36ec21448277c28707c
+
+2024-01-11T02:01:45.794Z START RequestId: 7a0a848a-3775-55c9-8209-da937948a1b8 Version: $LATEST
+
+2024-01-11T02:01:45.947Z 2024-01-11T02:01:45.947Z	7a0a848a-3775-55c9-8209-da937948a1b8	INFO	Processing message 5d07baf9-7b96-45a1-b9c5-867b32306402
+
+2024-01-11T02:01:45.948Z 2024-01-11T02:01:45.948Z	7a0a848a-3775-55c9-8209-da937948a1b8	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-11T02:01:45.952Z END RequestId: 7a0a848a-3775-55c9-8209-da937948a1b8
+
+2024-01-11T02:01:45.952Z REPORT RequestId: 7a0a848a-3775-55c9-8209-da937948a1b8	Duration: 157.92 ms	Billed Duration: 158 ms	Memory Size: 1024 MB	Max Memory Used: 105 MB	Init Duration: 800.38 ms	
+

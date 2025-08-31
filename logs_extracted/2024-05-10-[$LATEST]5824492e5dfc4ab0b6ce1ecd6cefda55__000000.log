@@ -1,0 +1,40 @@
+2024-05-10T17:51:15.718Z START RequestId: 8c025af9-6882-589f-82fe-044108420822 Version: $LATEST
+
+2024-05-10T17:51:15.876Z 2024-05-10T17:51:15.876Z	8c025af9-6882-589f-82fe-044108420822	INFO	Processing message e1335d59-10cd-420c-948b-de23569c5f9b
+
+2024-05-10T17:51:15.908Z 2024-05-10T17:51:15.908Z	8c025af9-6882-589f-82fe-044108420822	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HXHT2VPDZV54V9CE693P4RRK',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'CHANGE_PLAN',
+    userId: 'eef98ede-4f70-4c62-8b8b-00b2bcec2ce2',
+    paymentBalance: 252,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#eef98ede-4f70-4c62-8b8b-00b2bcec2ce2","eventSessionId":"30c26185-79f2-4d45-94f7-27217edf7f00","walletSk":"e5fcd5dc-e7c8-42ba-8614-a29d5df1b278","version2":true,"updateData":"{\\"paymentMethod\\":\\"cc\\",\\"useBalance\\":true,\\"startDate\\":\\"2024-05-12T17:50:01.010Z\\",\\"dietType\\":\\"weight-loss\\",\\"planType\\":\\"weightLossChallenge\\",\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"snack\\",\\"snack\\",\\"salad\\",\\"salad\\"],\\"frequency\\":\\"monthly\\",\\"deliveryDays\\":[0,1,2,3,4,5,6],\\"planTier\\":\\"personalized\\",\\"redirectUrl\\":\\"calo://WeightLossPersonalizedPlan?change-plan=true&eventSource=account&touchPoint=account%20screen&biometrics=%5Bobject%20Object%5D&plan=%5Bobject%20Object%5D&isWeightLossEligible=true\\"}","planObject":"{\\"id\\":\\"weightLossChallenge\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"lunch\\",\\"dinner\\",\\"salad\\",\\"salad\\",\\"snack\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"weight-loss\\"}","planPrice":252}',
+    currency: 'BHD',
+    amount: 79.2,
+    vat: 7.2,
+    oldBalance: 180,
+    newBalance: 252
+  }
+}
+
+2024-05-10T17:51:16.054Z 2024-05-10T17:51:16.054Z	8c025af9-6882-589f-82fe-044108420822	INFO	SubscriptionBalanceUpdated event published
+
+2024-05-10T17:51:16.109Z END RequestId: 8c025af9-6882-589f-82fe-044108420822
+
+2024-05-10T17:51:16.109Z REPORT RequestId: 8c025af9-6882-589f-82fe-044108420822	Duration: 391.04 ms	Billed Duration: 392 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+
+2024-05-10T17:46:51.083Z INIT_START Runtime Version: nodejs:20.v22	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:da57c20c4b965d5b75540f6865a35fc8030358e33ec44ecfed33e90901a27a72
+
+2024-05-10T17:46:52.220Z START RequestId: b134021a-6b65-5850-bb7a-5ca234dbfaac Version: $LATEST
+
+2024-05-10T17:46:52.395Z 2024-05-10T17:46:52.395Z	b134021a-6b65-5850-bb7a-5ca234dbfaac	INFO	Processing message febef4dc-ed2d-49e3-b6f0-5e06ea41a70d
+
+2024-05-10T17:46:52.396Z 2024-05-10T17:46:52.396Z	b134021a-6b65-5850-bb7a-5ca234dbfaac	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-05-10T17:46:52.400Z END RequestId: b134021a-6b65-5850-bb7a-5ca234dbfaac
+
+2024-05-10T17:46:52.400Z REPORT RequestId: b134021a-6b65-5850-bb7a-5ca234dbfaac	Duration: 179.86 ms	Billed Duration: 180 ms	Memory Size: 1024 MB	Max Memory Used: 117 MB	Init Duration: 1136.22 ms	
+

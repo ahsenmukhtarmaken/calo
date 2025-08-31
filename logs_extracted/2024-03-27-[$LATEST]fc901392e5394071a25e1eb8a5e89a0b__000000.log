@@ -1,0 +1,59 @@
+2024-03-27T08:49:49.091Z START RequestId: 0dc3a729-ac5f-54ec-9a7a-f95473827ba4 Version: $LATEST
+
+2024-03-27T08:49:49.208Z 2024-03-27T08:49:49.208Z	0dc3a729-ac5f-54ec-9a7a-f95473827ba4	INFO	Processing message f447ac8e-9972-4b60-a98b-320f154191fd
+
+2024-03-27T08:49:49.236Z 2024-03-27T08:49:49.236Z	0dc3a729-ac5f-54ec-9a7a-f95473827ba4	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSZHKT770T70P5QTTJP08FF6',
+    type: 'DEBIT',
+    source: 'REFUND',
+    action: 'LEAVING_THE_COUNTRY',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 93.321,
+    updatePaymentBalance: true,
+    metadata: undefined,
+    currency: 'BHD',
+    amount: 216,
+    vat: 19.636,
+    oldBalance: 289.685,
+    newBalance: 93.321
+  }
+}
+
+2024-03-27T08:49:49.318Z 2024-03-27T08:49:49.318Z	0dc3a729-ac5f-54ec-9a7a-f95473827ba4	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-27T08:49:49.354Z END RequestId: 0dc3a729-ac5f-54ec-9a7a-f95473827ba4
+
+2024-03-27T08:49:49.354Z REPORT RequestId: 0dc3a729-ac5f-54ec-9a7a-f95473827ba4	Duration: 263.51 ms	Billed Duration: 264 ms	Memory Size: 1024 MB	Max Memory Used: 124 MB	
+XRAY TraceId: 1-6603ddad-d04736fabd1bb19716ff9bde	SegmentId: 7dd6a5ca7cae091d	Sampled: true	
+
+2024-03-27T08:44:48.307Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-03-27T08:44:49.273Z START RequestId: aac2e9b6-7492-55d9-af6d-b7cbaa212de2 Version: $LATEST
+
+2024-03-27T08:44:49.403Z 2024-03-27T08:44:49.403Z	aac2e9b6-7492-55d9-af6d-b7cbaa212de2	INFO	Processing message 8c1ba764-bdc6-449c-bc67-2eb7e22ebd65
+
+2024-03-27T08:44:49.461Z 2024-03-27T08:44:49.461Z	aac2e9b6-7492-55d9-af6d-b7cbaa212de2	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HSZHAM4SJCHP2W1VYQ0H7K9K',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 289.685,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","planType":"custom","goal":"gainWeight","eventSessionId":"93a4f47d-ffc2-49df-bc5c-4fb027e8d10d","walletSk":"2a20c7d2-7c78-45d6-a229-0e3f0102fd66","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-03-31","type":"userRenew","frequency":"monthly","subscriptionCost":180,"tier":"personalized","version2":true,"addonCosts":"{\\"undefined\\":36.364}","nextPlan":"{\\"id\\":\\"custom\\",\\"pricePerDay\\":9,\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"frequency\\":\\"monthly\\",\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"planPrice\\":180,\\"startDate\\":\\"2024-03-31\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"longDescription\\":{\\"ar\\":\\"بوكسات مليانة بالأكلات اللذيذة لبطلك الصغيرتدور على اشتراك غداء صحي و ممتع و يغنيك عن الحوسه والتجهيز. في نفس الوقت؟ اشترك معانا في باقة كالو كيدز وبنضبطك!نقدم لك ولطفلك من عمر 3 إلى 7 سنوات وجبات  مُغذية ومتوازنة والأهم من كذا لذيذة ومَرحة. يحتوي كل بوكس على طبق رئيسي، قطع خضار وفواكه ، وحلى صحي.  .مصممة عشان تكون وجبة صغيرك مُتكاملة وغنية بالقيم الغذائية. ومو بس كذا! وقت الغداء صار يحمس أكثر لأن  وجباتنا توصلك بتصاميم مَرحة ومُمتعة تجذب الأطفال وتشجعهم على الأكل.وجبات كالو كيدز خالية تمامًا من المكسرات والمنكهات والألوان الصناعية، ونقدم لطفلك خيارات نباتية أيضًا.اختر من بين خيارات الإشتراكات سواءً اليومية أو الأسبوعية أو الشهرية وخلي وقت الغداء أفضل جزء من يوم طفلك!\\",\\"en\\":\\"Looking for a healthy, fun and hassle-free lunch-box? Calo Kids got you covered! We provide deliciously balanced meals for your little ones. Each box includes a main, fruits, veggies and a healthy dessert. Our daily themes make lunchtime super exciting! To add to that, the meals are completely nut-free!\\"},\\"name\\":{\\"ar\\":\\"كالو كيدز\\",\\"en\\":\\"Calo Kids\\"},\\"description\\":{\\"ar\\":\\"بوكس مليان بالأكل اللذيذ لبطلك الصغير\\",\\"en\\":\\"A box of goodness for your little ones.\\"},\\"id\\":\\"CALO_KIDS\\",\\"price\\":1.81818181818182,\\"status\\":\\"available\\",\\"priceWithVat\\":2,\\"pricePerDay\\":1.81818181818182}]"}',
+    currency: 'BHD',
+    amount: 238,
+    vat: 21.636,
+    oldBalance: 73.321,
+    newBalance: 289.685
+  }
+}
+
+2024-03-27T08:44:49.555Z 2024-03-27T08:44:49.555Z	aac2e9b6-7492-55d9-af6d-b7cbaa212de2	INFO	SubscriptionBalanceUpdated event published
+
+2024-03-27T08:44:49.591Z END RequestId: aac2e9b6-7492-55d9-af6d-b7cbaa212de2
+
+2024-03-27T08:44:49.592Z REPORT RequestId: aac2e9b6-7492-55d9-af6d-b7cbaa212de2	Duration: 318.90 ms	Billed Duration: 319 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 963.30 ms	
+

@@ -1,0 +1,40 @@
+2024-01-23T10:55:25.253Z START RequestId: 162cd6bb-f7ae-591e-9a45-88926affaff5 Version: $LATEST
+
+2024-01-23T10:55:25.319Z 2024-01-23T10:55:25.319Z	162cd6bb-f7ae-591e-9a45-88926affaff5	INFO	Processing message 4f1712de-fb29-4922-835a-d84f5be7b747
+
+2024-01-23T10:55:25.362Z 2024-01-23T10:55:25.362Z	162cd6bb-f7ae-591e-9a45-88926affaff5	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HMTZBT9QJGDY6X7JFHSB00JN',
+    type: 'CREDIT',
+    source: 'MANUAL_ADDITION',
+    action: 'CUSTOMERS_CALO_EXPERIMENTS',
+    userId: 'a72b531c-1fb0-46b5-bcc8-e28902c88861',
+    paymentBalance: 1800,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#a72b531c-1fb0-46b5-bcc8-e28902c88861","walletSk":"64b3def8-efad-4c08-8331-18df6a2c2c98"}',
+    currency: 'SAR',
+    amount: 270,
+    vat: 0,
+    oldBalance: 1530,
+    newBalance: 1800
+  }
+}
+
+2024-01-23T10:55:25.476Z 2024-01-23T10:55:25.476Z	162cd6bb-f7ae-591e-9a45-88926affaff5	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-23T10:55:25.515Z END RequestId: 162cd6bb-f7ae-591e-9a45-88926affaff5
+
+2024-01-23T10:55:25.515Z REPORT RequestId: 162cd6bb-f7ae-591e-9a45-88926affaff5	Duration: 262.62 ms	Billed Duration: 263 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	
+
+2024-01-23T10:55:14.982Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-23T10:55:15.727Z START RequestId: 95f0d8bf-c414-5511-84d3-8696595d73ba Version: $LATEST
+
+2024-01-23T10:55:15.880Z 2024-01-23T10:55:15.880Z	95f0d8bf-c414-5511-84d3-8696595d73ba	INFO	Processing message c1739049-6071-48bf-8020-605b4c2fbd5f
+
+2024-01-23T10:55:15.881Z 2024-01-23T10:55:15.881Z	95f0d8bf-c414-5511-84d3-8696595d73ba	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-23T10:55:15.889Z END RequestId: 95f0d8bf-c414-5511-84d3-8696595d73ba
+
+2024-01-23T10:55:15.890Z REPORT RequestId: 95f0d8bf-c414-5511-84d3-8696595d73ba	Duration: 162.59 ms	Billed Duration: 163 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 741.85 ms	
+

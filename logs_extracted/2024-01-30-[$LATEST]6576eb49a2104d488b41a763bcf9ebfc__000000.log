@@ -1,0 +1,36 @@
+2024-01-30T14:59:21.708Z START RequestId: c0671961-0cd0-5498-9bc8-47521c286bc8 Version: $LATEST
+
+2024-01-30T14:59:21.877Z 2024-01-30T14:59:21.877Z	c0671961-0cd0-5498-9bc8-47521c286bc8	INFO	Processing message fe9d0fb5-ac8c-4f8b-9eb6-40eabd05e57f
+
+2024-01-30T14:59:21.914Z 2024-01-30T14:59:21.914Z	c0671961-0cd0-5498-9bc8-47521c286bc8	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HNDE3F41KKART2X2MWFW3AZ6',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+    paymentBalance: 340,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#1b3be8bc-3813-4dff-b42c-43efbdcfc5ae","planType":"full","goal":"loseWeight","eventSessionId":"a49f4bef-adc6-403a-b222-f1c8af9a8953","walletSk":"90bd4b19-a6b6-48ef-ace6-e41db642738f","deliveryTime":"evening","dietType":"low-carb","renewalDate":"2024-02-01","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":9,\\"dietType\\":\\"low-carb\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-02-01\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'BHD',
+    amount: 198,
+    vat: 18,
+    oldBalance: 5,
+    newBalance: 185
+  }
+}
+
+2024-01-30T14:59:22.024Z 2024-01-30T14:59:22.024Z	c0671961-0cd0-5498-9bc8-47521c286bc8	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-30T14:59:22.073Z 2024-01-30T14:59:22.073Z	c0671961-0cd0-5498-9bc8-47521c286bc8	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '1b3be8bc-3813-4dff-b42c-43efbdcfc5ae',
+  subscriptionBalance: 185,
+  paymentBalance: 340
+}
+
+2024-01-30T14:59:22.096Z END RequestId: c0671961-0cd0-5498-9bc8-47521c286bc8
+
+2024-01-30T14:59:22.096Z REPORT RequestId: c0671961-0cd0-5498-9bc8-47521c286bc8	Duration: 387.29 ms	Billed Duration: 388 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	Init Duration: 788.74 ms	
+
+2024-01-30T14:59:20.918Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+

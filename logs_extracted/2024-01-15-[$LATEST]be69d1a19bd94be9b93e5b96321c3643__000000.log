@@ -1,0 +1,46 @@
+2024-01-15T07:06:11.306Z START RequestId: cf50668c-02a3-58b4-b066-3892d9395910 Version: $LATEST
+
+2024-01-15T07:06:11.371Z 2024-01-15T07:06:11.371Z	cf50668c-02a3-58b4-b066-3892d9395910	INFO	Processing message 4a4971a2-c44d-4d75-acdf-bf5991df2f2b
+
+2024-01-15T07:06:11.414Z 2024-01-15T07:06:11.414Z	cf50668c-02a3-58b4-b066-3892d9395910	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HM5Z2AD5TXCSCFY28TFTW5GH',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '52ebb322-696b-423b-bd79-2de604defbdd',
+    paymentBalance: 3973.01,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#52ebb322-696b-423b-bd79-2de604defbdd","planType":"skipBreakfast","goal":"maintainWeight","eventSessionId":"7293c54a-4af5-4fff-b27a-7c36f97623c4","walletSk":"9d6d31a5-7df7-49dc-a3de-685d32abd8b8","deliveryTime":"evening","dietType":"balanced","renewalDate":"2024-01-17","type":"userRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"skipBreakfast\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":70,\\"dietType\\":\\"balanced\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-01-17\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[]"}',
+    currency: 'SAR',
+    amount: 1610,
+    vat: 210,
+    oldBalance: 0,
+    newBalance: 1400
+  }
+}
+
+2024-01-15T07:06:11.516Z 2024-01-15T07:06:11.516Z	cf50668c-02a3-58b4-b066-3892d9395910	INFO	SubscriptionBalanceUpdated event published
+
+2024-01-15T07:06:11.564Z 2024-01-15T07:06:11.564Z	cf50668c-02a3-58b4-b066-3892d9395910	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '52ebb322-696b-423b-bd79-2de604defbdd',
+  subscriptionBalance: 1400,
+  paymentBalance: 3973.01
+}
+
+2024-01-15T07:06:11.583Z END RequestId: cf50668c-02a3-58b4-b066-3892d9395910
+
+2024-01-15T07:06:11.583Z REPORT RequestId: cf50668c-02a3-58b4-b066-3892d9395910	Duration: 276.82 ms	Billed Duration: 277 ms	Memory Size: 1024 MB	Max Memory Used: 104 MB	
+
+2024-01-15T07:05:00.896Z INIT_START Runtime Version: nodejs:20.v14	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:d4c968f0a85420c036d732975b0317307799fc7152619b3c4fb289f5d8e34f8a
+
+2024-01-15T07:05:01.642Z START RequestId: 80cef269-6079-569c-a0f0-ac77bb307738 Version: $LATEST
+
+2024-01-15T07:05:01.798Z 2024-01-15T07:05:01.798Z	80cef269-6079-569c-a0f0-ac77bb307738	INFO	Processing message c0bb0f07-6208-493a-a80d-2e6859e518d0
+
+2024-01-15T07:05:01.799Z 2024-01-15T07:05:01.799Z	80cef269-6079-569c-a0f0-ac77bb307738	INFO	Skipping the balance sync for create subscription, it will be synced from create subscription payment listener
+
+2024-01-15T07:05:01.818Z END RequestId: 80cef269-6079-569c-a0f0-ac77bb307738
+
+2024-01-15T07:05:01.818Z REPORT RequestId: 80cef269-6079-569c-a0f0-ac77bb307738	Duration: 176.07 ms	Billed Duration: 177 ms	Memory Size: 1024 MB	Max Memory Used: 102 MB	Init Duration: 744.24 ms	
+

@@ -1,0 +1,36 @@
+2024-04-01T07:57:48.465Z INIT_START Runtime Version: nodejs:20.v19	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:2d68d583b872accb8815f845161e9bbabc6ac3ed4d0ab8c23e75f8788cf5444a
+
+2024-04-01T07:57:49.457Z START RequestId: 334e9137-8b24-58cb-90ec-cfb3e0147d3e Version: $LATEST
+
+2024-04-01T07:57:49.607Z 2024-04-01T07:57:49.607Z	334e9137-8b24-58cb-90ec-cfb3e0147d3e	INFO	Processing message 849863de-691f-4bb5-afd3-ef46ba66ad9a
+
+2024-04-01T07:57:49.674Z 2024-04-01T07:57:49.674Z	334e9137-8b24-58cb-90ec-cfb3e0147d3e	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HTCAM53SYRH7HQ0WQG51T9GH',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'REPLACE_FOOD',
+    userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+    paymentBalance: 14063.323,
+    updatePaymentBalance: true,
+    metadata: '{"walletId":"wallet#95548cdd-9c30-4a34-8e13-6b526f0426da","deliveryId":"5dbad63c-257b-4e7a-a4dc-dc62067fdd93","eventSessionId":"e8c02ef1-3bd8-417a-8487-7c1222290113","walletSk":"5db28a94-d9a2-4a0e-9082-94843b365964","version2":true,"source":"{\\"id\\":\\"62b7f3f9-fb5d-49af-93dd-9f83e321ac82\\",\\"name\\":{\\"ar\\":\\"Raisin Cinnamon Bites\\",\\"en\\":\\"Raisin Cinnamon Bites\\"}}","target":"{\\"id\\":\\"f19a8a29-58e6-4ae7-82aa-f41d3e23b86b\\",\\"name\\":{\\"ar\\":\\"جوز بالشوكولاتة\\",\\"en\\":\\"Chocolate Walnuts\\"}}","API_VERSION_2":true}',
+    currency: 'BHD',
+    amount: 0.55,
+    vat: 0.05,
+    oldBalance: 9847.285,
+    newBalance: 9847.785
+  }
+}
+
+2024-04-01T07:57:49.777Z 2024-04-01T07:57:49.777Z	334e9137-8b24-58cb-90ec-cfb3e0147d3e	INFO	SubscriptionBalanceUpdated event published
+
+2024-04-01T07:57:49.810Z 2024-04-01T07:57:49.810Z	334e9137-8b24-58cb-90ec-cfb3e0147d3e	ERROR	Subscription balance and payment balance are not in sync {
+  userId: '95548cdd-9c30-4a34-8e13-6b526f0426da',
+  subscriptionBalance: 9847.785,
+  paymentBalance: 14063.323
+}
+
+2024-04-01T07:57:49.834Z END RequestId: 334e9137-8b24-58cb-90ec-cfb3e0147d3e
+
+2024-04-01T07:57:49.834Z REPORT RequestId: 334e9137-8b24-58cb-90ec-cfb3e0147d3e	Duration: 377.32 ms	Billed Duration: 378 ms	Memory Size: 1024 MB	Max Memory Used: 116 MB	Init Duration: 990.84 ms	
+

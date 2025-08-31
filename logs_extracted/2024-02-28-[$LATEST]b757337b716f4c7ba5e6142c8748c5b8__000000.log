@@ -1,0 +1,30 @@
+2024-02-28T13:09:18.890Z INIT_START Runtime Version: nodejs:20.v16	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e06356b9cc317b394b345659ca7fe94e5360e45227db179a224757608b8effe6
+
+2024-02-28T13:09:20.118Z START RequestId: 299ac7ca-db64-5170-a867-9993e9cea477 Version: $LATEST
+
+2024-02-28T13:09:20.259Z 2024-02-28T13:09:20.259Z	299ac7ca-db64-5170-a867-9993e9cea477	INFO	Processing message a4c87e2f-3b65-4b8f-9b66-0419d81f4c9a
+
+2024-02-28T13:09:20.354Z 2024-02-28T13:09:20.354Z	299ac7ca-db64-5170-a867-9993e9cea477	INFO	Start syncing the balance {
+  transaction: {
+    id: '01HQQXATT16R4K2M0T76TRGSY9',
+    type: 'CREDIT',
+    source: 'PAYMENT',
+    action: 'RENEW_SUBSCRIPTION',
+    userId: '8b293101-dfef-43ed-9095-ac05a1507d34',
+    paymentBalance: 303.591,
+    updatePaymentBalance: true,
+    metadata: '{"referralBalanceDiscount":0,"walletId":"wallet#8b293101-dfef-43ed-9095-ac05a1507d34","planType":"full","goal":"gainWeight","eventSessionId":"82f29aa3-5402-4f3c-a93e-5cda16861487","walletSk":"3f6fc26a-f034-4044-8fd0-15a322110f78","deliveryTime":"evening","dietType":"high-protein","renewalDate":"2024-04-05","type":"preRenew","frequency":"monthly","couponDiscount":0,"tier":"personalized","version2":true,"nextPlan":"{\\"id\\":\\"full\\",\\"frequency\\":\\"monthly\\",\\"extras\\":[],\\"foodType\\":[\\"breakfast\\",\\"dinner\\",\\"lunch\\",\\"snack\\"],\\"pricePerDay\\":9,\\"dietType\\":\\"high-protein\\",\\"type\\":\\"DATE_RANGE\\",\\"startDate\\":\\"2024-04-05\\",\\"deliveryDays\\":[0,1,2,3,4]}","addonSubscription":"[{\\"autoRenew\\":false,\\"currency\\":\\"BHD\\",\\"category\\":\\"CALO_KIDS\\",\\"endDate\\":\\"2024-03-12\\",\\"pricePerDay\\":1.81818181818182,\\"startDate\\":\\"2024-03-01\\"}]"}',
+    currency: 'BHD',
+    amount: 238,
+    vat: 21.636,
+    oldBalance: 87.227,
+    newBalance: 303.591
+  }
+}
+
+2024-02-28T13:09:20.458Z 2024-02-28T13:09:20.458Z	299ac7ca-db64-5170-a867-9993e9cea477	INFO	SubscriptionBalanceUpdated event published
+
+2024-02-28T13:09:20.506Z END RequestId: 299ac7ca-db64-5170-a867-9993e9cea477
+
+2024-02-28T13:09:20.506Z REPORT RequestId: 299ac7ca-db64-5170-a867-9993e9cea477	Duration: 387.28 ms	Billed Duration: 388 ms	Memory Size: 1024 MB	Max Memory Used: 127 MB	Init Duration: 1227.29 ms	
+
