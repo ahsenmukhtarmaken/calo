@@ -18,12 +18,21 @@ Code Running Guide:
 7. In CALO/logs folder the provided logs have been placed
 8. In CALO/logs_extracted folder the uncompressed log files are now placed.
 9. In CALO/reports all the reports have been generated.
+
     (1) First  report is overdrawn_transactions_report.csv which has all the overdrawn transactions.
+
     (2) Second report is overdrawn_daily.csv which has date level information available.
+
     (3) Third  report is overdrawn_weekly.csv which has week level information available.
+
     (4) Fourth report is overdrawb_monthly.csv which has month level information available.
+
     (5) Fifth  report is overdrawb_yearly.csv which has year level information available.
+
     (6) Sixth  report is to identify the bonus part listing all anomolies like Null balance or balance not being in sync with subscription or run time errors at POS.
 
 10. Once reports are generated run below command for automated testing:
 `docker run -it calodemo pytest -v`
+
+11. Locally python can be run to generate reports locally.
+12. You can directly use ./run_pipeline.sh as well to run whole pipeline in one go automatically.
