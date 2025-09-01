@@ -34,5 +34,10 @@ Code Running Guide:
 10. Once reports are generated run below command for automated testing:
 `docker run -it calodemo pytest -v`
 
-11. Locally python can be run to generate reports locally.
-12. You can directly use ./run_pipeline.sh as well to run whole pipeline in one go automatically.
+11. You can directly use ./run_pipeline.sh as well to run whole pipeline in one go automatically.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a6aa298-bc6a-45a0-bec4-0148e460059c" />
+
+12. Locally python can be run to generate reports locally.
+
+Code run:
+<img width="1920" height="1080" alt="CodeOutput" src="https://github.com/user-attachments/assets/9309b38d-1d07-4b82-8356-3c86daffc257" />
