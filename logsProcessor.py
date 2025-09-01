@@ -223,7 +223,7 @@ def main():
         csv_file.unlink()
     write_transactions_to_csv(extracted_dir, csv_file)
 
-    print("[DONE] Processing complete.")
+    print("[DONE] Processing complete, transactions.csv and logs_extracted folder generated.")
 
 if __name__ == "__main__":
     main()

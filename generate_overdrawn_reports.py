@@ -76,7 +76,7 @@ def main():
     )
     yearly.to_csv(os.path.join(reports_dir, "overdrawn_yearly.csv"), index=False)
 
-    print("[OK] Reports generated in:", reports_dir)
+    print("[OK] Reports generated in: /apps/", reports_dir)
 
 
 if __name__ == "__main__":
